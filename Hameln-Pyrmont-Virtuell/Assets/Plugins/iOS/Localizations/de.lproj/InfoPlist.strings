@@ -1,0 +1,6 @@
+"CFBundleDisplayName" = "Ha-Py Virtuell";
+"NSCameraUsageDescription" = "Der Zugriff auf die Kamera ist erforderlich, damit Du die Augmented-Reality-Funktion nutzen kannst.";
+"NSLocationWhenInUseUsageDescription" = "Bitte erlaube der App den Zugriff auf Deinen Standort, damit sie Dir Deine Position in der Karte anzeigen kann.";
+"NSPhotoLibraryAddUsageDescription" = "Der Zugriff auf die Fotobibliothek ist notwendig, um Fotos zu speichern.";
+"NSPhotoLibraryUsageDescription" = "Der Zugriff auf die Fotobibliothek ist notwendig, um Fotos zu speichern.";
+"NSUserTrackingUsageDescription" = "Deine Daten werden verwendet, um Absturzberichte und In-App-Aktivitäten zu sammeln, um die Funktionalitäten und die Benutzerinteraktion zu verbessern.";

@@ -1,0 +1,8185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10bc198b69dabf94db122f072bd0459e, type: 3}
+  m_Name: PL
+  m_EditorClassIdentifier: 
+  languageName: Polish
+  minCharactersToStartOfWord: 2
+  minCharactersToEndOfWord: 2
+  authors: "Hanna Ko\u0142odziejska, Bogus\u0142aw Jackowski, Marek Ry\u0107ko"
+  copyright: "Copyright (C) 1987-1995 Hanna Ko\u0142odziejska, Bogus\u0142aw Jackowski,
+    Marek Ry\u0107ko"
+  copyrightNotice: "Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files (the \u201CSoftware\u201D),
+    to deal in the Software without restriction, including without limitation the
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is furnished
+    to do so, subject to the following conditions:\r\n\r\nThe above copyright notice
+    and this permission notice shall be included in all copies or substantial portions
+    of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \u201CAS IS\u201D, WITHOUT WARRANTY
+    OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+    NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+    OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+    IN THE SOFTWARE."
+  licenseType: MIT
+  licenseURL: ' http://opensource.org/licenses/mit-license.php '
+  rootTree:
+    patterns:
+    - key: ".\u0107\u0107"
+      bytes: 00000008
+    - key: ".\u0107\u0142"
+      bytes: 00000008
+    - key: ".\u0107\u0144"
+      bytes: 00000008
+    - key: ".\u0107\u015B"
+      bytes: 00000008
+    - key: ".\u0107\u017A"
+      bytes: 00000008
+    - key: ".\u0107\u017C"
+      bytes: 00000008
+    - key: ".\u0107"
+      bytes: 000008
+    - key: ".\u0107b"
+      bytes: 00000008
+    - key: ".\u0107c"
+      bytes: 00000008
+    - key: ".\u0107d"
+      bytes: 00000008
+    - key: ".\u0107f"
+      bytes: 00000008
+    - key: ".\u0107g"
+      bytes: 00000008
+    - key: ".\u0107h"
+      bytes: 00000008
+    - key: ".\u0107j"
+      bytes: 00000008
+    - key: ".\u0107k"
+      bytes: 00000008
+    - key: ".\u0107l"
+      bytes: 00000008
+    - key: ".\u0107m"
+      bytes: 00000008
+    - key: ".\u0107n"
+      bytes: 00000008
+    - key: ".\u0107p"
+      bytes: 00000008
+    - key: ".\u0107r"
+      bytes: 00000008
+    - key: ".\u0107s"
+      bytes: 00000008
+    - key: ".\u0107t"
+      bytes: 00000008
+    - key: ".\u0107v"
+      bytes: 00000008
+    - key: ".\u0107w"
+      bytes: 00000008
+    - key: ".\u0107wier\u0107"
+      bytes: 0000000000000203
+    - key: ".\u0107x"
+      bytes: 00000008
+    - key: ".\u0107z"
+      bytes: 00000008
+    - key: ".\u0142\u0107"
+      bytes: 00000008
+    - key: ".\u0142\u0142"
+      bytes: 00000008
+    - key: ".\u0142\u0144"
+      bytes: 00000008
+    - key: ".\u0142\u015B"
+      bytes: 00000008
+    - key: ".\u0142\u017A"
+      bytes: 00000008
+    - key: ".\u0142\u017C"
+      bytes: 00000008
+    - key: ".\u0142"
+      bytes: 000008
+    - key: ".\u0142b"
+      bytes: 00000008
+    - key: ".\u0142c"
+      bytes: 00000008
+    - key: ".\u0142d"
+      bytes: 00000008
+    - key: ".\u0142f"
+      bytes: 00000008
+    - key: ".\u0142g"
+      bytes: 00000008
+    - key: ".\u0142h"
+      bytes: 00000008
+    - key: ".\u0142j"
+      bytes: 00000008
+    - key: ".\u0142k"
+      bytes: 00000008
+    - key: ".\u0142l"
+      bytes: 00000008
+    - key: ".\u0142m"
+      bytes: 00000008
+    - key: ".\u0142n"
+      bytes: 00000008
+    - key: ".\u0142p"
+      bytes: 00000008
+    - key: ".\u0142r"
+      bytes: 00000008
+    - key: ".\u0142s"
+      bytes: 00000008
+    - key: ".\u0142t"
+      bytes: 00000008
+    - key: ".\u0142v"
+      bytes: 00000008
+    - key: ".\u0142w"
+      bytes: 00000008
+    - key: ".\u0142x"
+      bytes: 00000008
+    - key: ".\u0142z"
+      bytes: 00000008
+    - key: ".\u0144\u0107"
+      bytes: 00000008
+    - key: ".\u0144\u0142"
+      bytes: 00000008
+    - key: ".\u0144\u0144"
+      bytes: 00000008
+    - key: ".\u0144\u015B"
+      bytes: 00000008
+    - key: ".\u0144\u017A"
+      bytes: 00000008
+    - key: ".\u0144\u017C"
+      bytes: 00000008
+    - key: ".\u0144"
+      bytes: 000008
+    - key: ".\u0144b"
+      bytes: 00000008
+    - key: ".\u0144c"
+      bytes: 00000008
+    - key: ".\u0144d"
+      bytes: 00000008
+    - key: ".\u0144f"
+      bytes: 00000008
+    - key: ".\u0144g"
+      bytes: 00000008
+    - key: ".\u0144h"
+      bytes: 00000008
+    - key: ".\u0144j"
+      bytes: 00000008
+    - key: ".\u0144k"
+      bytes: 00000008
+    - key: ".\u0144l"
+      bytes: 00000008
+    - key: ".\u0144m"
+      bytes: 00000008
+    - key: ".\u0144n"
+      bytes: 00000008
+    - key: ".\u0144p"
+      bytes: 00000008
+    - key: ".\u0144r"
+      bytes: 00000008
+    - key: ".\u0144s"
+      bytes: 00000008
+    - key: ".\u0144t"
+      bytes: 00000008
+    - key: ".\u0144v"
+      bytes: 00000008
+    - key: ".\u0144w"
+      bytes: 00000008
+    - key: ".\u0144x"
+      bytes: 00000008
+    - key: ".\u0144z"
+      bytes: 00000008
+    - key: ".\u015B\u0107"
+      bytes: 00000008
+    - key: ".\u015B\u0142"
+      bytes: 00000008
+    - key: ".\u015B\u0144"
+      bytes: 00000008
+    - key: ".\u015B\u015B"
+      bytes: 00000008
+    - key: ".\u015B\u017A"
+      bytes: 00000008
+    - key: ".\u015B\u017C"
+      bytes: 00000008
+    - key: ".\u015B"
+      bytes: 000008
+    - key: ".\u015Bb"
+      bytes: 00000008
+    - key: ".\u015Bc"
+      bytes: 00000008
+    - key: ".\u015Bd"
+      bytes: 00000008
+    - key: ".\u015Bf"
+      bytes: 00000008
+    - key: ".\u015Bg"
+      bytes: 00000008
+    - key: ".\u015Bh"
+      bytes: 00000008
+    - key: ".\u015Bj"
+      bytes: 00000008
+    - key: ".\u015Bk"
+      bytes: 00000008
+    - key: ".\u015Bl"
+      bytes: 00000008
+    - key: ".\u015Bm"
+      bytes: 00000008
+    - key: ".\u015Bn"
+      bytes: 00000008
+    - key: ".\u015Bp"
+      bytes: 00000008
+    - key: ".\u015Br\xF3d"
+      bytes: 000000000205
+    - key: ".\u015Br\xF3dr"
+      bytes: 00000000000002
+    - key: ".\u015Br"
+      bytes: 00000008
+    - key: ".\u015Bs"
+      bytes: 00000008
+    - key: ".\u015Bt"
+      bytes: 00000008
+    - key: ".\u015Bv"
+      bytes: 00000008
+    - key: ".\u015Bw"
+      bytes: 00000008
+    - key: ".\u015Bwiat\u0142ow"
+      bytes: 00000000000000000302
+    - key: ".\u015Bx"
+      bytes: 00000008
+    - key: ".\u015Bz"
+      bytes: 00000008
+    - key: ".\u017A\u0107"
+      bytes: 00000008
+    - key: ".\u017A\u0142"
+      bytes: 00000008
+    - key: ".\u017A\u0144"
+      bytes: 00000008
+    - key: ".\u017A\u015B"
+      bytes: 00000008
+    - key: ".\u017A\u017A"
+      bytes: 00000008
+    - key: ".\u017A\u017C"
+      bytes: 00000008
+    - key: ".\u017A"
+      bytes: 000008
+    - key: ".\u017Ab"
+      bytes: 00000008
+    - key: ".\u017Ac"
+      bytes: 00000008
+    - key: ".\u017Ad\u017A"
+      bytes: 0000000008
+    - key: ".\u017Ad"
+      bytes: 00000008
+    - key: ".\u017Af"
+      bytes: 00000008
+    - key: ".\u017Ag"
+      bytes: 00000008
+    - key: ".\u017Ah"
+      bytes: 00000008
+    - key: ".\u017Aj"
+      bytes: 00000008
+    - key: ".\u017Ak"
+      bytes: 00000008
+    - key: ".\u017Al"
+      bytes: 00000008
+    - key: ".\u017Am"
+      bytes: 00000008
+    - key: ".\u017An"
+      bytes: 00000008
+    - key: ".\u017Ap"
+      bytes: 00000008
+    - key: ".\u017Ar"
+      bytes: 00000008
+    - key: ".\u017As"
+      bytes: 00000008
+    - key: ".\u017At"
+      bytes: 00000008
+    - key: ".\u017Av"
+      bytes: 00000008
+    - key: ".\u017Aw"
+      bytes: 00000008
+    - key: ".\u017Ax"
+      bytes: 00000008
+    - key: ".\u017Az"
+      bytes: 00000008
+    - key: ".\u017C\u0107"
+      bytes: 00000008
+    - key: ".\u017C\u0142"
+      bytes: 00000008
+    - key: ".\u017C\u0144"
+      bytes: 00000008
+    - key: ".\u017C\u015B"
+      bytes: 00000008
+    - key: ".\u017C\u017A"
+      bytes: 00000008
+    - key: ".\u017C\u017C"
+      bytes: 00000008
+    - key: ".\u017C"
+      bytes: 000008
+    - key: ".\u017Cb"
+      bytes: 00000008
+    - key: ".\u017Cc"
+      bytes: 00000008
+    - key: ".\u017Cd"
+      bytes: 00000008
+    - key: ".\u017Cf"
+      bytes: 00000008
+    - key: ".\u017Cg"
+      bytes: 00000008
+    - key: ".\u017Ch"
+      bytes: 00000008
+    - key: ".\u017Cj"
+      bytes: 00000008
+    - key: ".\u017Ck"
+      bytes: 00000008
+    - key: ".\u017Cl"
+      bytes: 00000008
+    - key: ".\u017Cm"
+      bytes: 00000008
+    - key: ".\u017Cn"
+      bytes: 00000008
+    - key: ".\u017Cp"
+      bytes: 00000008
+    - key: ".\u017Cr"
+      bytes: 00000008
+    - key: ".\u017Cs"
+      bytes: 00000008
+    - key: ".\u017Ct"
+      bytes: 00000008
+    - key: ".\u017Cv"
+      bytes: 00000008
+    - key: ".\u017Cw"
+      bytes: 00000008
+    - key: ".\u017Cx"
+      bytes: 00000008
+    - key: ".\u017Cz"
+      bytes: 00000008
+    - key: .abst
+      bytes: 0000020203
+    - key: .ad
+      bytes: 00000203
+    - key: .ada
+      bytes: 00000004
+    - key: .ade
+      bytes: 00000004
+    - key: .adi
+      bytes: 00000004
+    - key: .ado
+      bytes: 00000004
+    - key: .adu
+      bytes: 00000004
+    - key: .ady
+      bytes: 00000004
+    - key: .adapt
+      bytes: 000000050000
+    - key: .adiu
+      bytes: 0000000500
+    - key: .adop
+      bytes: 0000000500
+    - key: .ador
+      bytes: 0000000500
+    - key: .aero
+      bytes: 0000000300
+    - key: .aeroa
+      bytes: 00000000000002
+    - key: .aeroe
+      bytes: 00000000000002
+    - key: .aeroi
+      bytes: 00000000000002
+    - key: .aeroo
+      bytes: 00000000000002
+    - key: .aerou
+      bytes: 00000000000002
+    - key: .antya
+      bytes: 00000000000002
+    - key: .antye
+      bytes: 00000000000002
+    - key: .antyi
+      bytes: 00000000000002
+    - key: .antyo
+      bytes: 00000000000002
+    - key: .antyu
+      bytes: 00000000000002
+    - key: ".arcy\u0142"
+      bytes: 00000000000302
+    - key: .arcyb
+      bytes: 00000000000302
+    - key: .arcybz
+      bytes: 0000000000030002
+    - key: .arcyk
+      bytes: 00000000000302
+    - key: .arcym
+      bytes: 00000000000302
+    - key: .arcya
+      bytes: 00000000000002
+    - key: .arcye
+      bytes: 00000000000002
+    - key: .arcyi
+      bytes: 00000000000002
+    - key: .arcyo
+      bytes: 00000000000002
+    - key: .arcyu
+      bytes: 00000000000002
+    - key: .aug
+      bytes: 0000000302
+    - key: .auk
+      bytes: 0000000302
+    - key: .aut
+      bytes: 0000000302
+    - key: .autoch
+      bytes: 0000000000030002
+    - key: .autoa
+      bytes: 00000000000002
+    - key: .autoe
+      bytes: 00000000000002
+    - key: .autoi
+      bytes: 00000000000002
+    - key: .autoo
+      bytes: 00000000000002
+    - key: .autotrans
+      bytes: 0000000000000000000203
+    - key: .autou
+      bytes: 00000000000002
+    - key: ".b\u0107"
+      bytes: 00000008
+    - key: ".b\u0142"
+      bytes: 00000008
+    - key: ".b\u0144"
+      bytes: 00000008
+    - key: ".b\u015B"
+      bytes: 00000008
+    - key: ".b\u017A"
+      bytes: 00000008
+    - key: ".b\u017C"
+      bytes: 00000008
+    - key: .b
+      bytes: 000008
+    - key: .bb
+      bytes: 00000008
+    - key: .bc
+      bytes: 00000008
+    - key: .bd
+      bytes: 00000008
+    - key: .bez
+      bytes: 0000000203
+    - key: .bezan
+      bytes: 000000030400
+    - key: .bezec
+      bytes: 000000030400
+    - key: .bezik
+      bytes: 000000030400
+    - key: .bezch
+      bytes: 00000000000002
+    - key: .bezm
+      bytes: 000000000002
+    - key: .bezo
+      bytes: 000000000002
+    - key: .bezobj
+      bytes: 00000000000201
+    - key: .bezw
+      bytes: 000000000002
+    - key: .bezzw
+      bytes: 00000000000002
+    - key: .bf
+      bytes: 00000008
+    - key: .bg
+      bytes: 00000008
+    - key: .bh
+      bytes: 00000008
+    - key: .bj
+      bytes: 00000008
+    - key: .bk
+      bytes: 00000008
+    - key: .bl
+      bytes: 00000008
+    - key: .bm
+      bytes: 00000008
+    - key: .bn
+      bytes: 00000008
+    - key: .bp
+      bytes: 00000008
+    - key: .br
+      bytes: 00000008
+    - key: .brz
+      bytes: 0000000008
+    - key: .bs
+      bytes: 00000008
+    - key: .bt
+      bytes: 00000008
+    - key: .bv
+      bytes: 00000008
+    - key: .bw
+      bytes: 00000008
+    - key: .bx
+      bytes: 00000008
+    - key: .bz
+      bytes: 00000008
+    - key: ".c\u0107"
+      bytes: 00000008
+    - key: ".c\u0142"
+      bytes: 00000008
+    - key: ".c\u0144"
+      bytes: 00000008
+    - key: ".c\u015B"
+      bytes: 00000008
+    - key: ".c\u017A"
+      bytes: 00000008
+    - key: ".c\u017C"
+      bytes: 00000008
+    - key: .c
+      bytes: 000008
+    - key: ".ca\u0142o\u015B"
+      bytes: 00000000000302
+    - key: ".ca\u0142ok"
+      bytes: 00000000000302
+    - key: .cb
+      bytes: 00000008
+    - key: .cc
+      bytes: 00000008
+    - key: .cd
+      bytes: 00000008
+    - key: .cf
+      bytes: 00000008
+    - key: .cg
+      bytes: 00000008
+    - key: .ch
+      bytes: 00000008
+    - key: .chrz
+      bytes: 000000000008
+    - key: .cienkow
+      bytes: 000000000000000302
+    - key: ".ciep\u0142okr"
+      bytes: 00000000000000030002
+    - key: .cj
+      bytes: 00000008
+    - key: .ck
+      bytes: 00000008
+    - key: .cl
+      bytes: 00000008
+    - key: .cm
+      bytes: 00000008
+    - key: .cn
+      bytes: 00000008
+    - key: .cp
+      bytes: 00000008
+    - key: .cr
+      bytes: 00000008
+    - key: .cs
+      bytes: 00000008
+    - key: .ct
+      bytes: 00000008
+    - key: .cv
+      bytes: 00000008
+    - key: .cw
+      bytes: 00000008
+    - key: .cx
+      bytes: 00000008
+    - key: .cz
+      bytes: 00000008
+    - key: .czarnok
+      bytes: 000000000000000302
+    - key: .czk
+      bytes: 0000000008
+    - key: .czterech
+      bytes: 00000000000000020003
+    - key: .czterechset
+      bytes: 00000000000000000000000203
+    - key: ".cztero\u015B"
+      bytes: 000000000000000302
+    - key: ".czw\xF3r"
+      bytes: 00000000000203
+    - key: ".czw\xF3r\u0105"
+      bytes: 00000000000304
+    - key: ".czw\xF3r\u0119"
+      bytes: 00000000000304
+    - key: ".czw\xF3ra"
+      bytes: 00000000000304
+    - key: ".czw\xF3re"
+      bytes: 00000000000304
+    - key: ".czw\xF3ro"
+      bytes: 00000000000304
+    - key: ".d\u0107"
+      bytes: 00000008
+    - key: ".d\u0142"
+      bytes: 00000008
+    - key: ".d\u0142ugotr"
+      bytes: 000000000000030002
+    - key: ".d\u0142ugow"
+      bytes: 0000000000000302
+    - key: ".d\u0144"
+      bytes: 00000008
+    - key: ".d\u015B"
+      bytes: 00000008
+    - key: ".d\u017A"
+      bytes: 00000008
+    - key: ".d\u017C"
+      bytes: 00000008
+    - key: .d
+      bytes: 000008
+    - key: .dalekow
+      bytes: 000000000000000302
+    - key: .db
+      bytes: 00000008
+    - key: .dc
+      bytes: 00000008
+    - key: .dd
+      bytes: 00000008
+    - key: .dez
+      bytes: 0000000203
+    - key: .dezabil
+      bytes: 0000000304030000
+    - key: .dezawu
+      bytes: 00000003040300
+    - key: .dezel
+      bytes: 000000030400
+    - key: .dezer
+      bytes: 000000030400
+    - key: .dezy
+      bytes: 0000000304
+    - key: .deza
+      bytes: 000000000002
+    - key: .dezo
+      bytes: 000000000002
+    - key: .df
+      bytes: 00000008
+    - key: .dg
+      bytes: 00000008
+    - key: .dh
+      bytes: 00000008
+    - key: .dj
+      bytes: 00000008
+    - key: .dk
+      bytes: 00000008
+    - key: .dl
+      bytes: 00000008
+    - key: .dm
+      bytes: 00000008
+    - key: .dn
+      bytes: 00000008
+    - key: ".do\u0107"
+      bytes: 0000000302
+    - key: ".do\u0142"
+      bytes: 0000000302
+    - key: ".do\u015B"
+      bytes: 0000000302
+    - key: ".do\u017A"
+      bytes: 0000000302
+    - key: ".do\u017C"
+      bytes: 0000000302
+    - key: .dob
+      bytes: 0000000302
+    - key: .doc
+      bytes: 0000000302
+    - key: .dod
+      bytes: 0000000302
+    - key: .dof
+      bytes: 0000000302
+    - key: .dog
+      bytes: 0000000302
+    - key: .doh
+      bytes: 0000000302
+    - key: .dok
+      bytes: 0000000302
+    - key: .dol
+      bytes: 0000000302
+    - key: .dom
+      bytes: 0000000302
+    - key: .dop
+      bytes: 0000000302
+    - key: .dor
+      bytes: 0000000302
+    - key: .dos
+      bytes: 0000000302
+    - key: .dot
+      bytes: 0000000302
+    - key: .dow
+      bytes: 0000000302
+    - key: .doz
+      bytes: 0000000302
+    - key: ".do\u0142k"
+      bytes: 0000000403
+    - key: .dokt
+      bytes: 0000000403
+    - key: .doln
+      bytes: 0000000403
+    - key: .domk
+      bytes: 0000000403
+    - key: .dors
+      bytes: 0000000403
+    - key: .dowc
+      bytes: 0000000403
+    - key: .domkn
+      bytes: 000000050402
+    - key: .dobr
+      bytes: 000000000002
+    - key: .dobrz
+      bytes: 00000000000002
+    - key: .doch
+      bytes: 000000000002
+    - key: .docz
+      bytes: 000000000002
+    - key: ".dod\u017A"
+      bytes: 000000000002
+    - key: ".dod\u017C"
+      bytes: 000000000002
+    - key: .dodz
+      bytes: 000000000002
+    - key: .dogrz
+      bytes: 00000000000002
+    - key: .dopch
+      bytes: 00000000000002
+    - key: .doprz
+      bytes: 00000000000002
+    - key: ".dor\u017C"
+      bytes: 000000000002
+    - key: .dorz
+      bytes: 000000000002
+    - key: .dosch
+      bytes: 00000000000002
+    - key: .dosm
+      bytes: 000000000002
+    - key: .dosz
+      bytes: 000000000002
+    - key: .dotk
+      bytes: 000000000002
+    - key: .dotr
+      bytes: 000000000002
+    - key: .dp
+      bytes: 00000008
+    - key: .dr
+      bytes: 00000008
+    - key: .drogow
+      bytes: 0000000000000302
+    - key: .drz
+      bytes: 0000000008
+    - key: .ds
+      bytes: 00000008
+    - key: .dt
+      bytes: 00000008
+    - key: .dv
+      bytes: 00000008
+    - key: ".dw\xF3j"
+      bytes: 000000000203
+    - key: ".dw\xF3j\u0105"
+      bytes: 000000000304
+    - key: ".dw\xF3j\u0119"
+      bytes: 000000000304
+    - key: ".dw\xF3ja"
+      bytes: 000000000304
+    - key: ".dw\xF3je"
+      bytes: 000000000304
+    - key: ".dw\xF3jo"
+      bytes: 000000000304
+    - key: .dw
+      bytes: 00000008
+    - key: .dx
+      bytes: 00000008
+    - key: .dys
+      bytes: 0000000203
+    - key: .dyz
+      bytes: 0000000203
+    - key: .dyse
+      bytes: 0000000304
+    - key: .dyso
+      bytes: 0000000304
+    - key: .dysta
+      bytes: 000000030400
+    - key: .dysy
+      bytes: 0000000304
+    - key: .dysz
+      bytes: 0000000300
+    - key: .dyze
+      bytes: 0000000304
+    - key: .dyzu
+      bytes: 000000000002
+    - key: .dz
+      bytes: 00000008
+    - key: ".dziesi\u0119cio\u015B"
+      bytes: 00000000000000000000000302
+    - key: ".dziewi\u0119\u0107set"
+      bytes: 00000000000000000000000203
+    - key: ".dziewi\u0119\u0107"
+      bytes: 00000000000000000203
+    - key: ".dziewi\u0119cio\u015B"
+      bytes: 00000000000000000000000302
+    - key: .eks
+      bytes: 0000020203
+    - key: .emeszet
+      bytes: 0000020302050002
+    - key: .esesma
+      bytes: 00000201020100
+    - key: .esha
+      bytes: 0000020100
+    - key: .est
+      bytes: 00000201
+    - key: .egoa
+      bytes: 000000000002
+    - key: .egoe
+      bytes: 000000000002
+    - key: .egoi
+      bytes: 000000000002
+    - key: .egoo
+      bytes: 000000000002
+    - key: .egou
+      bytes: 000000000002
+    - key: .eksy
+      bytes: 0000000004
+    - key: .elektroa
+      bytes: 00000000000000000002
+    - key: .elektroe
+      bytes: 00000000000000000002
+    - key: .elektroi
+      bytes: 00000000000000000002
+    - key: .elektroo
+      bytes: 00000000000000000002
+    - key: .elektrou
+      bytes: 00000000000000000002
+    - key: ".f\u0107"
+      bytes: 00000008
+    - key: ".f\u0142"
+      bytes: 00000008
+    - key: ".f\u0144"
+      bytes: 00000008
+    - key: ".f\u015B"
+      bytes: 00000008
+    - key: ".f\u017A"
+      bytes: 00000008
+    - key: ".f\u017C"
+      bytes: 00000008
+    - key: .f
+      bytes: 000008
+    - key: .fb
+      bytes: 00000008
+    - key: .fc
+      bytes: 00000008
+    - key: .fd
+      bytes: 00000008
+    - key: .ff
+      bytes: 00000008
+    - key: .fg
+      bytes: 00000008
+    - key: .fh
+      bytes: 00000008
+    - key: .fj
+      bytes: 00000008
+    - key: .fk
+      bytes: 00000008
+    - key: .fl
+      bytes: 00000008
+    - key: .fm
+      bytes: 00000008
+    - key: .fn
+      bytes: 00000008
+    - key: .fp
+      bytes: 00000008
+    - key: .fr
+      bytes: 00000008
+    - key: .fs
+      bytes: 00000008
+    - key: .ft
+      bytes: 00000008
+    - key: .fv
+      bytes: 00000008
+    - key: .fw
+      bytes: 00000008
+    - key: .fx
+      bytes: 00000008
+    - key: .fz
+      bytes: 00000008
+    - key: ".g\u0107"
+      bytes: 00000008
+    - key: ".g\u0142"
+      bytes: 00000008
+    - key: ".g\u0144"
+      bytes: 00000008
+    - key: ".g\u015B"
+      bytes: 00000008
+    - key: ".g\u017A"
+      bytes: 00000008
+    - key: ".g\u017C"
+      bytes: 00000008
+    - key: .g
+      bytes: 000008
+    - key: .gb
+      bytes: 00000008
+    - key: .gc
+      bytes: 00000008
+    - key: .gd
+      bytes: 00000008
+    - key: .geo
+      bytes: 0000000203
+    - key: .gf
+      bytes: 00000008
+    - key: .gg
+      bytes: 00000008
+    - key: .gh
+      bytes: 00000008
+    - key: .gj
+      bytes: 00000008
+    - key: .gk
+      bytes: 00000008
+    - key: .gl
+      bytes: 00000008
+    - key: .gm
+      bytes: 00000008
+    - key: .gn
+      bytes: 00000008
+    - key: .gou
+      bytes: 0000000203
+    - key: .gp
+      bytes: 00000008
+    - key: .gr
+      bytes: 00000008
+    - key: .grubow
+      bytes: 0000000000000302
+    - key: .grz
+      bytes: 0000000008
+    - key: .gs
+      bytes: 00000008
+    - key: .gt
+      bytes: 00000008
+    - key: .gv
+      bytes: 00000008
+    - key: .gw
+      bytes: 00000008
+    - key: .gx
+      bytes: 00000008
+    - key: .gz
+      bytes: 00000008
+    - key: ".h\u0107"
+      bytes: 00000008
+    - key: ".h\u0142"
+      bytes: 00000008
+    - key: ".h\u0144"
+      bytes: 00000008
+    - key: ".h\u015B"
+      bytes: 00000008
+    - key: ".h\u017A"
+      bytes: 00000008
+    - key: ".h\u017C"
+      bytes: 00000008
+    - key: .h
+      bytes: 000008
+    - key: .hb
+      bytes: 00000008
+    - key: .hc
+      bytes: 00000008
+    - key: .hd
+      bytes: 00000008
+    - key: .hf
+      bytes: 00000008
+    - key: .hg
+      bytes: 00000008
+    - key: .hh
+      bytes: 00000008
+    - key: .hiper
+      bytes: 00000000000203
+    - key: .hipero
+      bytes: 00000000000304
+    - key: .hipera
+      bytes: 0000000000000002
+    - key: .hipere
+      bytes: 0000000000000002
+    - key: .hj
+      bytes: 00000008
+    - key: .hk
+      bytes: 00000008
+    - key: .hl
+      bytes: 00000008
+    - key: .hm
+      bytes: 00000008
+    - key: .hn
+      bytes: 00000008
+    - key: .hp
+      bytes: 00000008
+    - key: .hr
+      bytes: 00000008
+    - key: .hs
+      bytes: 00000008
+    - key: .ht
+      bytes: 00000008
+    - key: .hv
+      bytes: 00000008
+    - key: .hw
+      bytes: 00000008
+    - key: .hx
+      bytes: 00000008
+    - key: .hz
+      bytes: 00000008
+    - key: .in
+      bytes: 00000203
+    - key: .isl
+      bytes: 00000203
+    - key: .inic
+      bytes: 0000030400
+    - key: .ino
+      bytes: 00000304
+    - key: .inu
+      bytes: 00000304
+    - key: .inok
+      bytes: 0000040502
+    - key: .inflan
+      bytes: 00000004030000
+    - key: .inow
+      bytes: 000000000302
+    - key: .izoa
+      bytes: 000000000002
+    - key: .izoe
+      bytes: 000000000002
+    - key: .izoi
+      bytes: 000000000002
+    - key: .izoo
+      bytes: 000000000002
+    - key: .izou
+      bytes: 000000000002
+    - key: ".j\u0107"
+      bytes: 00000008
+    - key: ".j\u0142"
+      bytes: 00000008
+    - key: ".j\u0144"
+      bytes: 00000008
+    - key: ".j\u015B"
+      bytes: 00000008
+    - key: ".j\u017A"
+      bytes: 00000008
+    - key: ".j\u017C"
+      bytes: 00000008
+    - key: .j
+      bytes: 000008
+    - key: ".jad\u0142ow"
+      bytes: 0000000000000302
+    - key: .jb
+      bytes: 00000008
+    - key: .jc
+      bytes: 00000008
+    - key: .jd
+      bytes: 00000008
+    - key: .jf
+      bytes: 00000008
+    - key: .jg
+      bytes: 00000008
+    - key: .jh
+      bytes: 00000008
+    - key: .jj
+      bytes: 00000008
+    - key: .jk
+      bytes: 00000008
+    - key: .jl
+      bytes: 00000008
+    - key: .jm
+      bytes: 00000008
+    - key: .jn
+      bytes: 00000008
+    - key: .jp
+      bytes: 00000008
+    - key: .jr
+      bytes: 00000008
+    - key: .js
+      bytes: 00000008
+    - key: .jt
+      bytes: 00000008
+    - key: .jv
+      bytes: 00000008
+    - key: .jw
+      bytes: 00000008
+    - key: .jx
+      bytes: 00000008
+    - key: .jz
+      bytes: 00000008
+    - key: ".k\u0107"
+      bytes: 00000008
+    - key: ".k\u0142"
+      bytes: 00000008
+    - key: ".k\u0144"
+      bytes: 00000008
+    - key: ".k\u015B"
+      bytes: 00000008
+    - key: ".k\u017A"
+      bytes: 00000008
+    - key: ".k\u017C"
+      bytes: 00000008
+    - key: .k
+      bytes: 000008
+    - key: .kb
+      bytes: 00000008
+    - key: .kc
+      bytes: 00000008
+    - key: .kd
+      bytes: 00000008
+    - key: .kf
+      bytes: 00000008
+    - key: .kg
+      bytes: 00000008
+    - key: .kh
+      bytes: 00000008
+    - key: .kilkuset
+      bytes: 00000000000000000203
+    - key: .kilkuseto
+      bytes: 0000000000000000000002
+    - key: .kj
+      bytes: 00000008
+    - key: .kk
+      bytes: 00000008
+    - key: .kl
+      bytes: 00000008
+    - key: .km
+      bytes: 00000008
+    - key: .kn
+      bytes: 00000008
+    - key: ".ko\u0142ow"
+      bytes: 00000000000302
+    - key: .kontr
+      bytes: 00000000020203
+    - key: .kontra
+      bytes: 00000000030004
+    - key: .kontre
+      bytes: 00000000030004
+    - key: .kontrol
+      bytes: 0000000003000403
+    - key: .kontrow
+      bytes: 0000000003000403
+    - key: .kontry
+      bytes: 00000000030004
+    - key: .kontragi
+      bytes: 000000000400050200
+    - key: .kontrase
+      bytes: 000000000400050200
+    - key: .kontrasy
+      bytes: 000000000400050200
+    - key: .kontrata
+      bytes: 000000000400050200
+    - key: .kontradm
+      bytes: 000000000400050000
+    - key: .kontrakc
+      bytes: 000000000400050000
+    - key: .kontralt
+      bytes: 000000000400050000
+    - key: .kontrarg
+      bytes: 000000000400050000
+    - key: .kontro
+      bytes: 0000000000000002
+    - key: .kontru
+      bytes: 0000000000000002
+    - key: .kp
+      bytes: 00000008
+    - key: ".kr\xF3tkotr"
+      bytes: 00000000000000030002
+    - key: ".kr\xF3tkow"
+      bytes: 000000000000000302
+    - key: .kr
+      bytes: 00000008
+    - key: ".kro\u0107"
+      bytes: 000000000203
+    - key: .krz
+      bytes: 0000000008
+    - key: .ks
+      bytes: 00000008
+    - key: .kt
+      bytes: 00000008
+    - key: .kv
+      bytes: 00000008
+    - key: .kw
+      bytes: 00000008
+    - key: .kx
+      bytes: 00000008
+    - key: .kz
+      bytes: 00000008
+    - key: ".l\u0107"
+      bytes: 00000008
+    - key: ".l\u0142"
+      bytes: 00000008
+    - key: ".l\u0144"
+      bytes: 00000008
+    - key: ".l\u015B"
+      bytes: 00000008
+    - key: ".l\u017A"
+      bytes: 00000008
+    - key: ".l\u017C"
+      bytes: 00000008
+    - key: .l
+      bytes: 000008
+    - key: .lb
+      bytes: 00000008
+    - key: .lc
+      bytes: 00000008
+    - key: .ld
+      bytes: 00000008
+    - key: .lf
+      bytes: 00000008
+    - key: .lg
+      bytes: 00000008
+    - key: .lh
+      bytes: 00000008
+    - key: .lj
+      bytes: 00000008
+    - key: .lk
+      bytes: 00000008
+    - key: .ll
+      bytes: 00000008
+    - key: .lm
+      bytes: 00000008
+    - key: .ln
+      bytes: 00000008
+    - key: .lp
+      bytes: 00000008
+    - key: .lr
+      bytes: 00000008
+    - key: .ls
+      bytes: 00000008
+    - key: .lt
+      bytes: 00000008
+    - key: .ludow
+      bytes: 00000000000302
+    - key: .lv
+      bytes: 00000008
+    - key: .lw
+      bytes: 00000008
+    - key: .lx
+      bytes: 00000008
+    - key: .lz
+      bytes: 00000008
+    - key: ".m\u0107"
+      bytes: 00000008
+    - key: ".m\u0142"
+      bytes: 00000008
+    - key: ".m\u0144"
+      bytes: 00000008
+    - key: ".m\u015B"
+      bytes: 00000008
+    - key: ".m\u017A"
+      bytes: 00000008
+    - key: ".m\u017C"
+      bytes: 00000008
+    - key: .m
+      bytes: 000008
+    - key: .mb
+      bytes: 00000008
+    - key: .mc
+      bytes: 00000008
+    - key: .md
+      bytes: 00000008
+    - key: .mf
+      bytes: 00000008
+    - key: .mg
+      bytes: 00000008
+    - key: .mh
+      bytes: 00000008
+    - key: .miliamp
+      bytes: 0000000000030000
+    - key: .mj
+      bytes: 00000008
+    - key: .mk
+      bytes: 00000008
+    - key: .ml
+      bytes: 00000008
+    - key: .mm
+      bytes: 00000008
+    - key: .mn
+      bytes: 00000008
+    - key: ".mo\u017Cnow"
+      bytes: 0000000000000302
+    - key: .mp
+      bytes: 00000008
+    - key: .mr
+      bytes: 00000008
+    - key: .ms
+      bytes: 00000008
+    - key: .mt
+      bytes: 00000008
+    - key: .mv
+      bytes: 00000008
+    - key: .mw
+      bytes: 00000008
+    - key: .mx
+      bytes: 00000008
+    - key: .mz
+      bytes: 00000008
+    - key: ".n\u0107"
+      bytes: 00000008
+    - key: ".n\u0142"
+      bytes: 00000008
+    - key: ".n\u0144"
+      bytes: 00000008
+    - key: ".n\u015B"
+      bytes: 00000008
+    - key: ".n\u017A"
+      bytes: 00000008
+    - key: ".n\u017C"
+      bytes: 00000008
+    - key: .n
+      bytes: 000008
+    - key: .nad
+      bytes: 0000000202
+    - key: .naj
+      bytes: 00000002
+    - key: ".na\u0107"
+      bytes: 0000000302
+    - key: ".na\u0142"
+      bytes: 0000000302
+    - key: ".na\u015B"
+      bytes: 0000000302
+    - key: ".na\u017A"
+      bytes: 0000000302
+    - key: ".na\u017C"
+      bytes: 0000000302
+    - key: .nab
+      bytes: 0000000302
+    - key: .nac
+      bytes: 0000000302
+    - key: ".nad\u0105"
+      bytes: 0000000300
+    - key: ".nad\u0119"
+      bytes: 0000000300
+    - key: ".nad\u017A"
+      bytes: 000000030002
+    - key: ".nad\u0142ub"
+      bytes: 00000003040000
+    - key: .nadir
+      bytes: 000000030400
+    - key: .nadmuch
+      bytes: 0000000304000000
+    - key: ".nadr\u0119cz"
+      bytes: 0000000304000000
+    - key: .nadrw
+      bytes: 000000030402
+    - key: .nadrepcz
+      bytes: 000000030400000000
+    - key: .nadrept
+      bytes: 0000000304000000
+    - key: .nadruk
+      bytes: 00000003040000
+    - key: .nadrz
+      bytes: 000000030400
+    - key: .nadworn
+      bytes: 0000000304000000
+    - key: .nadaj
+      bytes: 000000030000
+    - key: .nade
+      bytes: 0000000300
+    - key: .nado
+      bytes: 0000000300
+    - key: .nady
+      bytes: 0000000300
+    - key: .nadzi
+      bytes: 000000030000
+    - key: .naf
+      bytes: 0000000302
+    - key: .nag
+      bytes: 0000000302
+    - key: .nah
+      bytes: 0000000302
+    - key: ".naj\u0105"
+      bytes: 0000000300
+    - key: ".naj\u0119"
+      bytes: 0000000300
+    - key: .najazd
+      bytes: 00000003000000
+    - key: .naje
+      bytes: 0000000300
+    - key: .nak
+      bytes: 0000000302
+    - key: .nal
+      bytes: 0000000302
+    - key: .nam
+      bytes: 0000000302
+    - key: .nap
+      bytes: 0000000302
+    - key: .nar
+      bytes: 0000000302
+    - key: .nas
+      bytes: 0000000302
+    - key: .nat
+      bytes: 0000000302
+    - key: .nau
+      bytes: 0000000302
+    - key: .naw
+      bytes: 0000000302
+    - key: .naz
+      bytes: 0000000302
+    - key: ".nadob\u0142"
+      bytes: 00000004030202
+    - key: .nadobojcz
+      bytes: 00000004030200000000
+    - key: .nadobowi
+      bytes: 000000040302000000
+    - key: .nadobrot
+      bytes: 000000040302000000
+    - key: .nadodrz
+      bytes: 0000000403020000
+    - key: .nadokien
+      bytes: 000000040302000000
+    - key: .nadolbrz
+      bytes: 000000040300000000
+    - key: ".nadrz\u0105"
+      bytes: 00000004050000
+    - key: ".nadrz\u0119"
+      bytes: 00000004050000
+    - key: .nadrzecz
+      bytes: 000000040500000000
+    - key: .nadrzy
+      bytes: 00000004050000
+    - key: .nadziem
+      bytes: 0000000405000000
+    - key: .nafc
+      bytes: 0000000403
+    - key: .naft
+      bytes: 0000000403
+    - key: .najef
+      bytes: 000000040302
+    - key: .najeg
+      bytes: 000000040302
+    - key: .najeks
+      bytes: 00000004030202
+    - key: .najeko
+      bytes: 00000004030200
+    - key: .najen
+      bytes: 000000040302
+    - key: .najer
+      bytes: 000000040302
+    - key: .najes
+      bytes: 000000040302
+    - key: .najew
+      bytes: 000000040302
+    - key: .najemf
+      bytes: 00000004030000
+    - key: .najeu
+      bytes: 000000040300
+    - key: .narc
+      bytes: 0000000403
+    - key: .nard
+      bytes: 0000000403
+    - key: .nark
+      bytes: 0000000403
+    - key: .narr
+      bytes: 0000000403
+    - key: .nart
+      bytes: 0000000403
+    - key: .nabrz
+      bytes: 00000000000002
+    - key: .nach
+      bytes: 000000000002
+    - key: .nacz
+      bytes: 000000000002
+    - key: ".nad\u015Brodziem"
+      bytes: 000000000000000005000000
+    - key: ".nad\u0107"
+      bytes: 000000000302
+    - key: ".nad\u0142"
+      bytes: 000000000302
+    - key: ".nad\u015B"
+      bytes: 000000000302
+    - key: .nadb
+      bytes: 000000000302
+    - key: .nadc
+      bytes: 000000000302
+    - key: .nadd
+      bytes: 000000000302
+    - key: .nadetat
+      bytes: 0000000003020000
+    - key: .nadf
+      bytes: 000000000302
+    - key: .nadg
+      bytes: 000000000302
+    - key: .nadh
+      bytes: 000000000302
+    - key: .nadi
+      bytes: 000000000302
+    - key: .nadj
+      bytes: 000000000302
+    - key: .nadk
+      bytes: 000000000302
+    - key: .nadl
+      bytes: 000000000302
+    - key: .nadm
+      bytes: 000000000302
+    - key: .nadn
+      bytes: 000000000302
+    - key: .nadp
+      bytes: 000000000302
+    - key: .nadr
+      bytes: 000000000302
+    - key: .nads
+      bytes: 000000000302
+    - key: .nadt
+      bytes: 000000000302
+    - key: .nadu
+      bytes: 000000000302
+    - key: .nadw
+      bytes: 000000000302
+    - key: ".nad\u017C"
+      bytes: 000000000502
+    - key: ".nadz\xF3"
+      bytes: 000000000500
+    - key: .nadzmys
+      bytes: 0000000005020000
+    - key: .nadzo
+      bytes: 000000000500
+    - key: .nadzwycz
+      bytes: 000000000500000000
+    - key: .nadch
+      bytes: 00000000000002
+    - key: .nadcz
+      bytes: 00000000000002
+    - key: ".nadd\u017A"
+      bytes: 00000000000002
+    - key: ".nade\u0107"
+      bytes: 00000000000302
+    - key: ".nade\u0142"
+      bytes: 00000000000302
+    - key: ".nade\u015B"
+      bytes: 00000000000302
+    - key: ".nade\u017A"
+      bytes: 00000000000302
+    - key: ".nade\u017C"
+      bytes: 00000000000302
+    - key: .nadeb
+      bytes: 00000000000302
+    - key: .nadec
+      bytes: 00000000000302
+    - key: .naded
+      bytes: 00000000000302
+    - key: .nadef
+      bytes: 00000000000302
+    - key: .nadeg
+      bytes: 00000000000302
+    - key: .nadeh
+      bytes: 00000000000302
+    - key: .nadek
+      bytes: 00000000000302
+    - key: .nadel
+      bytes: 00000000000302
+    - key: .nadem
+      bytes: 00000000000302
+    - key: .nadep
+      bytes: 00000000000302
+    - key: .nader
+      bytes: 00000000000302
+    - key: .nades
+      bytes: 00000000000302
+    - key: .nadet
+      bytes: 00000000000302
+    - key: .nadew
+      bytes: 00000000000302
+    - key: .nadez
+      bytes: 00000000000302
+    - key: .nadepc
+      bytes: 00000000000403
+    - key: .nadepn
+      bytes: 00000000000403
+    - key: .nadept
+      bytes: 00000000000403
+    - key: .nadech
+      bytes: 0000000000000002
+    - key: .nadecz
+      bytes: 0000000000000002
+    - key: ".naded\u017A"
+      bytes: 0000000000000002
+    - key: ".naded\u017C"
+      bytes: 0000000000000002
+    - key: .nadedz
+      bytes: 0000000000000002
+    - key: ".nader\u017C"
+      bytes: 0000000000000002
+    - key: .naderz
+      bytes: 0000000000000002
+    - key: .nadesz
+      bytes: 0000000000000002
+    - key: .nadsz
+      bytes: 00000000000002
+    - key: .nadtr
+      bytes: 00000000000002
+    - key: .nadz
+      bytes: 000000000002
+    - key: .nagrz
+      bytes: 00000000000002
+    - key: ".naj\u0107"
+      bytes: 000000000302
+    - key: ".naj\u0142"
+      bytes: 000000000302
+    - key: ".naj\u015B"
+      bytes: 000000000302
+    - key: ".naj\u017A"
+      bytes: 000000000302
+    - key: ".naj\u017C"
+      bytes: 000000000302
+    - key: .najakt
+      bytes: 00000000030000
+    - key: .najau
+      bytes: 000000000300
+    - key: .najb
+      bytes: 000000000302
+    - key: .najc
+      bytes: 000000000302
+    - key: .najd
+      bytes: 000000000302
+    - key: .najf
+      bytes: 000000000302
+    - key: .najg
+      bytes: 000000000302
+    - key: .najh
+      bytes: 000000000302
+    - key: .naji
+      bytes: 000000000302
+    - key: .najk
+      bytes: 000000000302
+    - key: .najl
+      bytes: 000000000302
+    - key: .najm
+      bytes: 000000000302
+    - key: .najo
+      bytes: 000000000302
+    - key: ".najo\u0107"
+      bytes: 00000000030202
+    - key: ".najo\u0142"
+      bytes: 00000000030202
+    - key: ".najo\u015B"
+      bytes: 00000000030202
+    - key: ".najo\u017A"
+      bytes: 00000000030202
+    - key: ".najo\u017C"
+      bytes: 00000000030202
+    - key: .najob
+      bytes: 00000000030202
+    - key: .najoc
+      bytes: 00000000030202
+    - key: .najod
+      bytes: 00000000030202
+    - key: .najof
+      bytes: 00000000030202
+    - key: .najog
+      bytes: 00000000030202
+    - key: .najoh
+      bytes: 00000000030202
+    - key: .najok
+      bytes: 00000000030202
+    - key: .najol
+      bytes: 00000000030202
+    - key: .najom
+      bytes: 00000000030202
+    - key: .najop
+      bytes: 00000000030202
+    - key: .najor
+      bytes: 00000000030202
+    - key: .najos
+      bytes: 00000000030202
+    - key: .najot
+      bytes: 00000000030202
+    - key: .najow
+      bytes: 00000000030202
+    - key: .najoz
+      bytes: 00000000030202
+    - key: .najp
+      bytes: 000000000302
+    - key: .najr
+      bytes: 000000000302
+    - key: .najroz
+      bytes: 0000000003000203
+    - key: .najs
+      bytes: 000000000302
+    - key: .najt
+      bytes: 000000000302
+    - key: .naju
+      bytes: 000000000302
+    - key: .najw
+      bytes: 000000000302
+    - key: .najz
+      bytes: 000000000302
+    - key: .najbez
+      bytes: 0000000000000203
+    - key: .najbezw
+      bytes: 000000000000000002
+    - key: .najch
+      bytes: 00000000000002
+    - key: .najcz
+      bytes: 00000000000002
+    - key: ".najd\u017A"
+      bytes: 00000000000002
+    - key: ".najd\u017C"
+      bytes: 00000000000002
+    - key: ".najdo\u0107"
+      bytes: 0000000000000302
+    - key: ".najdo\u0142"
+      bytes: 0000000000000302
+    - key: ".najdo\u015B"
+      bytes: 0000000000000302
+    - key: ".najdo\u017A"
+      bytes: 0000000000000302
+    - key: ".najdo\u017C"
+      bytes: 0000000000000302
+    - key: .najdob
+      bytes: 0000000000000302
+    - key: .najdoc
+      bytes: 0000000000000302
+    - key: .najdod
+      bytes: 0000000000000302
+    - key: .najdof
+      bytes: 0000000000000302
+    - key: .najdog
+      bytes: 0000000000000302
+    - key: .najdoh
+      bytes: 0000000000000302
+    - key: .najdok
+      bytes: 0000000000000302
+    - key: .najdol
+      bytes: 0000000000000302
+    - key: .najdom
+      bytes: 0000000000000302
+    - key: .najdop
+      bytes: 0000000000000302
+    - key: .najdor
+      bytes: 0000000000000302
+    - key: .najdos
+      bytes: 0000000000000302
+    - key: .najdot
+      bytes: 0000000000000302
+    - key: .najdow
+      bytes: 0000000000000302
+    - key: .najdoz
+      bytes: 0000000000000302
+    - key: .najdoch
+      bytes: 000000000000000002
+    - key: .najdocz
+      bytes: 000000000000000002
+    - key: ".najdod\u017A"
+      bytes: 000000000000000002
+    - key: ".najdod\u017C"
+      bytes: 000000000000000002
+    - key: .najdodz
+      bytes: 000000000000000002
+    - key: .najdorz
+      bytes: 000000000000000002
+    - key: .najdosz
+      bytes: 000000000000000002
+    - key: .najdotk
+      bytes: 000000000000000002
+    - key: .najdz
+      bytes: 00000000000002
+    - key: .najkr
+      bytes: 00000000000002
+    - key: ".najob\u0107"
+      bytes: 0000000000000302
+    - key: ".najob\u0142"
+      bytes: 0000000000000302
+    - key: ".najob\u015B"
+      bytes: 0000000000000302
+    - key: ".najob\u017A"
+      bytes: 0000000000000302
+    - key: ".najob\u017C"
+      bytes: 0000000000000302
+    - key: .najobc
+      bytes: 0000000000000302
+    - key: .najobd
+      bytes: 0000000000000302
+    - key: .najobf
+      bytes: 0000000000000302
+    - key: .najobg
+      bytes: 0000000000000302
+    - key: .najobh
+      bytes: 0000000000000302
+    - key: .najobj
+      bytes: 0000000000000302
+    - key: .najobk
+      bytes: 0000000000000302
+    - key: .najobl
+      bytes: 0000000000000302
+    - key: .najobm
+      bytes: 0000000000000302
+    - key: .najobn
+      bytes: 0000000000000302
+    - key: .najobp
+      bytes: 0000000000000302
+    - key: .najobs
+      bytes: 0000000000000302
+    - key: .najobt
+      bytes: 0000000000000302
+    - key: .najobw
+      bytes: 0000000000000302
+    - key: .najobch
+      bytes: 000000000000000002
+    - key: .najobcz
+      bytes: 000000000000000002
+    - key: ".najobd\u017A"
+      bytes: 000000000000000002
+    - key: ".najobd\u017C"
+      bytes: 000000000000000002
+    - key: .najobdz
+      bytes: 000000000000000002
+    - key: .najobrz
+      bytes: 000000000000000002
+    - key: .najobsz
+      bytes: 000000000000000002
+    - key: .najoch
+      bytes: 0000000000000002
+    - key: .najocz
+      bytes: 0000000000000002
+    - key: ".najod\u017A"
+      bytes: 0000000000000002
+    - key: ".najod\u0107"
+      bytes: 0000000000000302
+    - key: ".najod\u015B"
+      bytes: 0000000000000302
+    - key: .najodc
+      bytes: 0000000000000302
+    - key: .najodd
+      bytes: 0000000000000302
+    - key: .najodf
+      bytes: 0000000000000302
+    - key: .najodg
+      bytes: 0000000000000302
+    - key: .najodh
+      bytes: 0000000000000302
+    - key: .najodj
+      bytes: 0000000000000302
+    - key: .najodk
+      bytes: 0000000000000302
+    - key: .najodl
+      bytes: 0000000000000302
+    - key: .najodm
+      bytes: 0000000000000302
+    - key: .najodn
+      bytes: 0000000000000302
+    - key: .najodp
+      bytes: 0000000000000302
+    - key: .najods
+      bytes: 0000000000000302
+    - key: .najodt
+      bytes: 0000000000000302
+    - key: .najodw
+      bytes: 0000000000000302
+    - key: ".najod\u017C"
+      bytes: 0000000000000502
+    - key: .najodch
+      bytes: 000000000000000002
+    - key: .najodcz
+      bytes: 000000000000000002
+    - key: ".najodd\u017A"
+      bytes: 000000000000000002
+    - key: ".najodd\u017C"
+      bytes: 000000000000000002
+    - key: .najoddz
+      bytes: 000000000000000002
+    - key: .najodsz
+      bytes: 000000000000000002
+    - key: .najodz
+      bytes: 0000000000000002
+    - key: .najorz
+      bytes: 0000000000000002
+    - key: .najosz
+      bytes: 0000000000000002
+    - key: .najrozu
+      bytes: 0000000000000304
+    - key: .najrz
+      bytes: 00000000000002
+    - key: .najsm
+      bytes: 00000000000002
+    - key: .najsz
+      bytes: 00000000000002
+    - key: .najtk
+      bytes: 00000000000002
+    - key: .najtr
+      bytes: 00000000000002
+    - key: .najucz
+      bytes: 0000000000000002
+    - key: .najzw
+      bytes: 00000000000002
+    - key: .nakr
+      bytes: 000000000002
+    - key: .napod
+      bytes: 00000000000202
+    - key: ".napo\u0107"
+      bytes: 00000000000302
+    - key: ".napo\u0142"
+      bytes: 00000000000302
+    - key: ".napo\u015B"
+      bytes: 00000000000302
+    - key: ".napo\u017A"
+      bytes: 00000000000302
+    - key: ".napo\u017C"
+      bytes: 00000000000302
+    - key: .napob
+      bytes: 00000000000302
+    - key: .napoc
+      bytes: 00000000000302
+    - key: .napof
+      bytes: 00000000000302
+    - key: .napog
+      bytes: 00000000000302
+    - key: .napoh
+      bytes: 00000000000302
+    - key: .napok
+      bytes: 00000000000302
+    - key: .napol
+      bytes: 00000000000302
+    - key: .napom
+      bytes: 00000000000302
+    - key: .napop
+      bytes: 00000000000302
+    - key: .napor
+      bytes: 00000000000302
+    - key: .napos
+      bytes: 00000000000302
+    - key: .napot
+      bytes: 00000000000302
+    - key: .napow
+      bytes: 00000000000302
+    - key: .napoz
+      bytes: 00000000000302
+    - key: .napomp
+      bytes: 00000000000403
+    - key: .napoch
+      bytes: 0000000000000002
+    - key: .napocz
+      bytes: 0000000000000002
+    - key: ".napod\u017A"
+      bytes: 0000000000000002
+    - key: ".napod\u017C"
+      bytes: 0000000000000002
+    - key: .napodd
+      bytes: 00000000000003
+    - key: .napomk
+      bytes: 0000000000000002
+    - key: .naporz
+      bytes: 0000000000000002
+    - key: .naposz
+      bytes: 0000000000000002
+    - key: .naprz
+      bytes: 00000000000002
+    - key: ".nar\u017C"
+      bytes: 000000000002
+    - key: .naroz
+      bytes: 00000000000203
+    - key: .narz
+      bytes: 000000000002
+    - key: .nasm
+      bytes: 000000000002
+    - key: .nasz
+      bytes: 000000000002
+    - key: .natch
+      bytes: 00000000000002
+    - key: .natk
+      bytes: 000000000002
+    - key: .nazm
+      bytes: 000000000302
+    - key: .nazw
+      bytes: 000000000002
+    - key: .nb
+      bytes: 00000008
+    - key: .nc
+      bytes: 00000008
+    - key: .nd
+      bytes: 00000008
+    - key: .neo
+      bytes: 0000000203
+    - key: .nf
+      bytes: 00000008
+    - key: .ng
+      bytes: 00000008
+    - key: .nh
+      bytes: 00000008
+    - key: ".nie\u0107"
+      bytes: 000000000302
+    - key: ".nie\u0142"
+      bytes: 000000000302
+    - key: ".nie\u015B"
+      bytes: 000000000302
+    - key: ".nie\u017A"
+      bytes: 000000000302
+    - key: ".nie\u017C"
+      bytes: 000000000302
+    - key: .nieb
+      bytes: 000000000302
+    - key: .niec
+      bytes: 000000000302
+    - key: .nied
+      bytes: 000000000302
+    - key: .nief
+      bytes: 000000000302
+    - key: .nieg
+      bytes: 000000000302
+    - key: .nieh
+      bytes: 000000000302
+    - key: .niek
+      bytes: 000000000302
+    - key: .niel
+      bytes: 000000000302
+    - key: .niem
+      bytes: 000000000302
+    - key: .niep
+      bytes: 000000000302
+    - key: .nier
+      bytes: 000000000302
+    - key: .nies
+      bytes: 000000000302
+    - key: .niet
+      bytes: 000000000302
+    - key: .nieu
+      bytes: 000000000302
+    - key: .niew
+      bytes: 000000000302
+    - key: .niez
+      bytes: 000000000302
+    - key: .niecc
+      bytes: 000000000403
+    - key: .nieck
+      bytes: 000000000403
+    - key: ".nied\u017A"
+      bytes: 00000000040003
+    - key: .niemc
+      bytes: 000000000403
+    - key: .niemk
+      bytes: 000000000403
+    - key: .niech
+      bytes: 00000000000002
+    - key: .niecz
+      bytes: 00000000000002
+    - key: ".nied\u017C"
+      bytes: 00000000000002
+    - key: ".niedo\u0107"
+      bytes: 0000000000000302
+    - key: ".niedo\u0142"
+      bytes: 0000000000000302
+    - key: ".niedo\u015B"
+      bytes: 0000000000000302
+    - key: ".niedo\u017A"
+      bytes: 0000000000000302
+    - key: ".niedo\u017C"
+      bytes: 0000000000000302
+    - key: .niedob
+      bytes: 0000000000000302
+    - key: .niedoc
+      bytes: 0000000000000302
+    - key: .niedod
+      bytes: 0000000000000302
+    - key: .niedof
+      bytes: 0000000000000302
+    - key: .niedog
+      bytes: 0000000000000302
+    - key: .niedoh
+      bytes: 0000000000000302
+    - key: .niedok
+      bytes: 0000000000000302
+    - key: .niedol
+      bytes: 0000000000000302
+    - key: .niedom
+      bytes: 0000000000000302
+    - key: .niedop
+      bytes: 0000000000000302
+    - key: .niedor
+      bytes: 0000000000000302
+    - key: .niedos
+      bytes: 0000000000000302
+    - key: .niedot
+      bytes: 0000000000000302
+    - key: .niedow
+      bytes: 0000000000000302
+    - key: .niedoz
+      bytes: 0000000000000302
+    - key: .niedobrz
+      bytes: 00000000000000000002
+    - key: .niedoch
+      bytes: 000000000000000002
+    - key: .niedocz
+      bytes: 000000000000000002
+    - key: ".niedod\u017A"
+      bytes: 000000000000000002
+    - key: ".niedod\u017C"
+      bytes: 000000000000000002
+    - key: .niedodz
+      bytes: 000000000000000002
+    - key: .niedokr
+      bytes: 000000000000000002
+    - key: .niedomk
+      bytes: 000000000000000002
+    - key: .niedopch
+      bytes: 00000000000000000002
+    - key: .niedorz
+      bytes: 000000000000000002
+    - key: .niedosz
+      bytes: 000000000000000002
+    - key: .niedotk
+      bytes: 000000000000000002
+    - key: .niedz
+      bytes: 00000000000002
+    - key: ".nieo\u0107"
+      bytes: 00000000000002
+    - key: ".nieo\u0142"
+      bytes: 00000000000002
+    - key: ".nieo\u015B"
+      bytes: 00000000000002
+    - key: ".nieo\u017A"
+      bytes: 00000000000002
+    - key: ".nieo\u017C"
+      bytes: 00000000000002
+    - key: .nieo
+      bytes: 000000000002
+    - key: .nieob
+      bytes: 00000000000002
+    - key: ".nieob\u0107"
+      bytes: 0000000000000302
+    - key: ".nieob\u015B"
+      bytes: 0000000000000302
+    - key: ".nieob\u017A"
+      bytes: 0000000000000302
+    - key: ".nieob\u017C"
+      bytes: 0000000000000302
+    - key: .nieobc
+      bytes: 0000000000000302
+    - key: .nieobd
+      bytes: 0000000000000302
+    - key: .nieobf
+      bytes: 0000000000000302
+    - key: .nieobg
+      bytes: 0000000000000302
+    - key: .nieobh
+      bytes: 0000000000000302
+    - key: .nieobj
+      bytes: 0000000000000302
+    - key: .nieobk
+      bytes: 0000000000000302
+    - key: .nieobm
+      bytes: 0000000000000302
+    - key: .nieobp
+      bytes: 0000000000000302
+    - key: .nieobs
+      bytes: 0000000000000302
+    - key: .nieobw
+      bytes: 0000000000000302
+    - key: .nieobch
+      bytes: 000000000000000002
+    - key: .nieobcz
+      bytes: 000000000000000002
+    - key: ".nieobd\u017A"
+      bytes: 000000000000000002
+    - key: ".nieobd\u017C"
+      bytes: 000000000000000002
+    - key: .nieobdz
+      bytes: 000000000000000002
+    - key: .nieobsz
+      bytes: 000000000000000002
+    - key: .nieoc
+      bytes: 00000000000002
+    - key: .nieoch
+      bytes: 0000000000000002
+    - key: .nieocz
+      bytes: 0000000000000002
+    - key: ".nieod\u017A"
+      bytes: 0000000000000002
+    - key: .nieod
+      bytes: 00000000000002
+    - key: ".nieod\u0107"
+      bytes: 0000000000000302
+    - key: ".nieod\u0142"
+      bytes: 0000000000000302
+    - key: ".nieod\u015B"
+      bytes: 0000000000000302
+    - key: .nieodc
+      bytes: 0000000000000302
+    - key: .nieodd
+      bytes: 0000000000000302
+    - key: .nieodf
+      bytes: 0000000000000302
+    - key: .nieodg
+      bytes: 0000000000000302
+    - key: .nieodh
+      bytes: 0000000000000302
+    - key: .nieodj
+      bytes: 0000000000000302
+    - key: .nieodk
+      bytes: 0000000000000302
+    - key: .nieodl
+      bytes: 0000000000000302
+    - key: .nieodn
+      bytes: 0000000000000302
+    - key: .nieodp
+      bytes: 0000000000000302
+    - key: .nieods
+      bytes: 0000000000000302
+    - key: .nieodt
+      bytes: 0000000000000302
+    - key: .nieodwr
+      bytes: 0000000000000300
+    - key: ".nieod\u017C"
+      bytes: 0000000000000502
+    - key: .nieodch
+      bytes: 000000000000000002
+    - key: .nieodcz
+      bytes: 000000000000000002
+    - key: ".nieodd\u017A"
+      bytes: 000000000000000002
+    - key: ".nieodd\u017C"
+      bytes: 000000000000000002
+    - key: .nieoddz
+      bytes: 000000000000000002
+    - key: .nieodsz
+      bytes: 000000000000000002
+    - key: .nieodw
+      bytes: 0000000000000002
+    - key: .nieodz
+      bytes: 0000000000000002
+    - key: .nieof
+      bytes: 00000000000002
+    - key: .nieog
+      bytes: 00000000000002
+    - key: .nieoh
+      bytes: 00000000000002
+    - key: .nieok
+      bytes: 00000000000002
+    - key: .nieol
+      bytes: 00000000000002
+    - key: .nieom
+      bytes: 00000000000002
+    - key: .nieop
+      bytes: 00000000000002
+    - key: .nieor
+      bytes: 00000000000002
+    - key: .nieorz
+      bytes: 0000000000000002
+    - key: .nieos
+      bytes: 00000000000002
+    - key: .nieosz
+      bytes: 0000000000000002
+    - key: .nieot
+      bytes: 00000000000002
+    - key: .nieow
+      bytes: 00000000000002
+    - key: .nieoz
+      bytes: 00000000000002
+    - key: .niepod
+      bytes: 0000000000000202
+    - key: ".niepo\u0107"
+      bytes: 0000000000000302
+    - key: ".niepo\u0142"
+      bytes: 0000000000000302
+    - key: ".niepo\u015B"
+      bytes: 0000000000000302
+    - key: ".niepo\u017A"
+      bytes: 0000000000000302
+    - key: ".niepo\u017C"
+      bytes: 0000000000000302
+    - key: .niepob
+      bytes: 0000000000000302
+    - key: .niepoc
+      bytes: 0000000000000302
+    - key: ".niepod\u017A"
+      bytes: 000000000000030002
+    - key: ".niepod\u0142u"
+      bytes: 000000000000030400
+    - key: .niepodmuch
+      bytes: 0000000000000304000000
+    - key: ".niepodr\u0119cz"
+      bytes: 0000000000000304000000
+    - key: ".niepodra\u017C"
+      bytes: 00000000000003040000
+    - key: .niepodrap
+      bytes: 00000000000003040000
+    - key: .niepodrepcz
+      bytes: 000000000000030400000000
+    - key: .niepodrept
+      bytes: 0000000000000304000000
+    - key: .niepodwaj
+      bytes: 00000000000003040000
+    - key: .niepodwoj
+      bytes: 00000000000003040000
+    - key: .niepodo
+      bytes: 0000000000000300
+    - key: .niepodu
+      bytes: 0000000000000300
+    - key: .niepodz
+      bytes: 000000000000030002
+    - key: .niepof
+      bytes: 0000000000000302
+    - key: .niepog
+      bytes: 0000000000000302
+    - key: .niepoh
+      bytes: 0000000000000302
+    - key: .niepok
+      bytes: 0000000000000302
+    - key: .niepol
+      bytes: 0000000000000302
+    - key: .niepom
+      bytes: 0000000000000302
+    - key: .niepop
+      bytes: 0000000000000302
+    - key: .niepor
+      bytes: 0000000000000302
+    - key: .niepos
+      bytes: 0000000000000302
+    - key: .niepot
+      bytes: 0000000000000302
+    - key: .niepow
+      bytes: 0000000000000302
+    - key: .niepoz
+      bytes: 0000000000000302
+    - key: .niepodochoc
+      bytes: 000000000000040302000000
+    - key: .niepodostrz
+      bytes: 000000000000040302000000
+    - key: .niepoch
+      bytes: 000000000000000002
+    - key: .niepocz
+      bytes: 000000000000000002
+    - key: ".niepod\u0107"
+      bytes: 000000000000000302
+    - key: ".niepod\u0142"
+      bytes: 000000000000000302
+    - key: ".niepod\u015B"
+      bytes: 000000000000000302
+    - key: .niepodb
+      bytes: 000000000000000302
+    - key: .niepodc
+      bytes: 000000000000000302
+    - key: .niepodd
+      bytes: 000000000000000302
+    - key: .niepodf
+      bytes: 000000000000000302
+    - key: .niepodg
+      bytes: 000000000000000302
+    - key: .niepodh
+      bytes: 000000000000000302
+    - key: .niepodj
+      bytes: 000000000000000302
+    - key: .niepodk
+      bytes: 000000000000000302
+    - key: .niepodl
+      bytes: 000000000000000302
+    - key: .niepodm
+      bytes: 000000000000000302
+    - key: .niepodn
+      bytes: 000000000000000302
+    - key: .niepodp
+      bytes: 000000000000000302
+    - key: .niepodr
+      bytes: 000000000000000302
+    - key: .niepods
+      bytes: 000000000000000302
+    - key: .niepodt
+      bytes: 000000000000000302
+    - key: .niepodw
+      bytes: 000000000000000302
+    - key: ".niepod\u017C"
+      bytes: 0000000000000005
+    - key: .niepodch
+      bytes: 00000000000000000002
+    - key: .niepodcz
+      bytes: 00000000000000000002
+    - key: ".niepodd\u017A"
+      bytes: 00000000000000000002
+    - key: ".niepodd\u017C"
+      bytes: 00000000000000000002
+    - key: .niepodsm
+      bytes: 00000000000000000002
+    - key: .niepodsz
+      bytes: 00000000000000000002
+    - key: .nieporz
+      bytes: 000000000000000002
+    - key: .nieposm
+      bytes: 000000000000000002
+    - key: .nieposz
+      bytes: 000000000000000002
+    - key: ".nieprze\u0142k"
+      bytes: 0000000000000000000002
+    - key: .nieprzed
+      bytes: 00000000000000000202
+    - key: ".nieprze\u0107"
+      bytes: 00000000000000000302
+    - key: ".nieprze\u0142"
+      bytes: 00000000000000000302
+    - key: ".nieprze\u015B"
+      bytes: 00000000000000000302
+    - key: ".nieprze\u017A"
+      bytes: 00000000000000000302
+    - key: ".nieprze\u017C"
+      bytes: 00000000000000000302
+    - key: .nieprzeb
+      bytes: 00000000000000000302
+    - key: .nieprzebrz
+      bytes: 000000000000000003000002
+    - key: .nieprzec
+      bytes: 00000000000000000302
+    - key: ".nieprzed\u017A"
+      bytes: 0000000000000000030002
+    - key: ".nieprzed\u0142u\u017C"
+      bytes: 000000000000000003040000
+    - key: .nieprzedmuch
+      bytes: 00000000000000000304000000
+    - key: .nieprzedramat
+      bytes: 0000000000000000030400000000
+    - key: .nieprzedruk
+      bytes: 000000000000000003040000
+    - key: .nieprzedryl
+      bytes: 000000000000000003040000
+    - key: .nieprzedrz
+      bytes: 000000000000000003040002
+    - key: .nieprzedum
+      bytes: 0000000000000000030400
+    - key: .nieprzedy
+      bytes: 00000000000000000300
+    - key: .nieprzedz
+      bytes: 0000000000000000030002
+    - key: .nieprzeeks
+      bytes: 000000000000000003020203
+    - key: .nieprzef
+      bytes: 00000000000000000302
+    - key: .nieprzeg
+      bytes: 00000000000000000302
+    - key: .nieprzeh
+      bytes: 00000000000000000302
+    - key: .nieprzek
+      bytes: 00000000000000000302
+    - key: .nieprzel
+      bytes: 00000000000000000302
+    - key: .nieprzem
+      bytes: 00000000000000000302
+    - key: .nieprzen
+      bytes: 00000000000000000302
+    - key: .nieprzep
+      bytes: 00000000000000000302
+    - key: .nieprzer
+      bytes: 00000000000000000302
+    - key: .nieprzes
+      bytes: 00000000000000000302
+    - key: .nieprzet
+      bytes: 00000000000000000302
+    - key: .nieprzew
+      bytes: 00000000000000000302
+    - key: .nieprzez
+      bytes: 00000000000000000302
+    - key: ".nieprzed\u0142u\u017Cyc"
+      bytes: 0000000000000000040500000000
+    - key: ".nieprzed\u017C"
+      bytes: 0000000000000000040502
+    - key: .nieprzedza
+      bytes: 0000000000000000040502
+    - key: .nieprzedzg
+      bytes: 000000000000000004050002
+    - key: .nieprzedzim
+      bytes: 000000000000000004050000
+    - key: .nieprzedzj
+      bytes: 0000000000000000040500
+    - key: .nieprzedzl
+      bytes: 0000000000000000040500
+    - key: .nieprzedzwr
+      bytes: 000000000000000004050002
+    - key: .nieprzedzwoj
+      bytes: 00000000000000000405000000
+    - key: .nieprzech
+      bytes: 0000000000000000000002
+    - key: .nieprzecz
+      bytes: 0000000000000000000002
+    - key: ".nieprzed\u0107"
+      bytes: 0000000000000000000302
+    - key: ".nieprzed\u0142"
+      bytes: 0000000000000000000302
+    - key: ".nieprzed\u015B"
+      bytes: 0000000000000000000302
+    - key: .nieprzedc
+      bytes: 0000000000000000000302
+    - key: .nieprzedd
+      bytes: 0000000000000000000302
+    - key: .nieprzedf
+      bytes: 0000000000000000000302
+    - key: .nieprzedg
+      bytes: 0000000000000000000302
+    - key: .nieprzedh
+      bytes: 0000000000000000000302
+    - key: .nieprzedi
+      bytes: 0000000000000000000302
+    - key: .nieprzedj
+      bytes: 0000000000000000000302
+    - key: .nieprzedk
+      bytes: 0000000000000000000302
+    - key: .nieprzedl
+      bytes: 0000000000000000000302
+    - key: .nieprzedm
+      bytes: 0000000000000000000302
+    - key: .nieprzedn
+      bytes: 0000000000000000000302
+    - key: .nieprzedp
+      bytes: 0000000000000000000302
+    - key: .nieprzedr
+      bytes: 0000000000000000000302
+    - key: .nieprzeds
+      bytes: 0000000000000000000302
+    - key: .nieprzedsz
+      bytes: 000000000000000000030002
+    - key: .nieprzedt
+      bytes: 0000000000000000000302
+    - key: .nieprzedu
+      bytes: 0000000000000000000302
+    - key: .nieprzedw
+      bytes: 0000000000000000000302
+    - key: .nieprzedch
+      bytes: 000000000000000000000002
+    - key: .nieprzedcz
+      bytes: 000000000000000000000002
+    - key: ".nieprzedd\u017A"
+      bytes: 000000000000000000000002
+    - key: ".nieprzedd\u017C"
+      bytes: 000000000000000000000002
+    - key: .nieprzeddz
+      bytes: 000000000000000000000002
+    - key: .nieprzegrz
+      bytes: 000000000000000000000002
+    - key: .nieprzekl
+      bytes: 0000000000000000000002
+    - key: .nieprzekr
+      bytes: 0000000000000000000002
+    - key: .nieprzepch
+      bytes: 000000000000000000000002
+    - key: ".nieprzer\u017C"
+      bytes: 0000000000000000000002
+    - key: .nieprzerz
+      bytes: 0000000000000000000002
+    - key: .nieprzesch
+      bytes: 000000000000000000000002
+    - key: .nieprzesm
+      bytes: 0000000000000000000002
+    - key: .nieprzesz
+      bytes: 0000000000000000000002
+    - key: .nieprzetk
+      bytes: 0000000000000000000002
+    - key: .nieprzetr
+      bytes: 0000000000000000000002
+    - key: .nieroz
+      bytes: 0000000000000203
+    - key: .nieroze
+      bytes: 0000000000000304
+    - key: .nierozu
+      bytes: 0000000000000304
+    - key: ".nieroz\u015B"
+      bytes: 000000000000000002
+    - key: .nierozbrz
+      bytes: 0000000000000000000002
+    - key: .nierozer
+      bytes: 00000000000000000302
+    - key: .nierozm
+      bytes: 000000000000000002
+    - key: .nieroztr
+      bytes: 00000000000000000002
+    - key: .nierz
+      bytes: 00000000000002
+    - key: .niesub
+      bytes: 0000000000000203
+    - key: .niesubie
+      bytes: 000000000000030400
+    - key: .niesz
+      bytes: 00000000000002
+    - key: .nietk
+      bytes: 00000000000002
+    - key: .nietr
+      bytes: 00000000000002
+    - key: .nieucz
+      bytes: 0000000000000002
+    - key: .nieuw
+      bytes: 00000000000002
+    - key: ".niewy\u0107"
+      bytes: 0000000000000302
+    - key: ".niewy\u0142"
+      bytes: 0000000000000302
+    - key: ".niewy\u015B"
+      bytes: 0000000000000302
+    - key: ".niewy\u017A"
+      bytes: 0000000000000302
+    - key: ".niewy\u017C"
+      bytes: 0000000000000302
+    - key: .niewyb
+      bytes: 0000000000000302
+    - key: .niewyc
+      bytes: 0000000000000302
+    - key: .niewyd
+      bytes: 0000000000000302
+    - key: .niewyf
+      bytes: 0000000000000302
+    - key: .niewyg
+      bytes: 0000000000000302
+    - key: .niewyh
+      bytes: 0000000000000302
+    - key: .niewyk
+      bytes: 0000000000000302
+    - key: .niewyl
+      bytes: 0000000000000302
+    - key: .niewym
+      bytes: 0000000000000302
+    - key: .niewyp
+      bytes: 0000000000000302
+    - key: .niewyr
+      bytes: 0000000000000302
+    - key: .niewys
+      bytes: 0000000000000302
+    - key: .niewyt
+      bytes: 0000000000000302
+    - key: .niewyw
+      bytes: 0000000000000302
+    - key: .niewyz
+      bytes: 0000000000000302
+    - key: .niewybrz
+      bytes: 00000000000000000002
+    - key: .niewych
+      bytes: 000000000000000002
+    - key: .niewycz
+      bytes: 000000000000000002
+    - key: ".niewyd\u017A"
+      bytes: 000000000000000002
+    - key: ".niewyd\u017C"
+      bytes: 000000000000000002
+    - key: .niewydz
+      bytes: 000000000000000002
+    - key: .niewyrz
+      bytes: 000000000000000002
+    - key: .niewysz
+      bytes: 000000000000000002
+    - key: .niewytk
+      bytes: 000000000000000002
+    - key: .niewytr
+      bytes: 000000000000000002
+    - key: .niezw
+      bytes: 00000000000002
+    - key: .nj
+      bytes: 00000008
+    - key: .nk
+      bytes: 00000008
+    - key: .nl
+      bytes: 00000008
+    - key: .nm
+      bytes: 00000008
+    - key: .nn
+      bytes: 00000008
+    - key: .np
+      bytes: 00000008
+    - key: .nr
+      bytes: 00000008
+    - key: .ns
+      bytes: 00000008
+    - key: .nt
+      bytes: 00000008
+    - key: .nv
+      bytes: 00000008
+    - key: .nw
+      bytes: 00000008
+    - key: .nx
+      bytes: 00000008
+    - key: .nz
+      bytes: 00000008
+    - key: ".o\u0107"
+      bytes: 00000002
+    - key: ".o\u015B"
+      bytes: 00000002
+    - key: ".o\u015Bmio\u015B"
+      bytes: 0000000000000302
+    - key: ".o\u017A"
+      bytes: 00000002
+    - key: ".o\u017C"
+      bytes: 00000002
+    - key: .ob
+      bytes: 00000202
+    - key: .od
+      bytes: 00000202
+    - key: ".otch\u0142"
+      bytes: 000002030000
+    - key: ".ob\u0142\u0105"
+      bytes: 0000030400
+    - key: ".ob\u0142\u0119"
+      bytes: 0000030400
+    - key: ".ob\u0142oc"
+      bytes: 000003040000
+    - key: .obluzg
+      bytes: 00000304000000
+    - key: ".obra\u0107"
+      bytes: 000003040000
+    - key: .obraso
+      bytes: 00000304000000
+    - key: ".obro\u0144"
+      bytes: 000003040000
+    - key: .obron
+      bytes: 000003040000
+    - key: ".obry\u017A"
+      bytes: 000003040000
+    - key: .obryz
+      bytes: 000003040000
+    - key: .obrz
+      bytes: 000003040002
+    - key: .obe
+      bytes: 00000300
+    - key: .obi
+      bytes: 00000300
+    - key: .odiu
+      bytes: 0000030400
+    - key: ".odr\u0119t"
+      bytes: 000003040000
+    - key: .odrap
+      bytes: 000003040000
+    - key: .odrobin
+      bytes: 0000030400000000
+    - key: .odrut
+      bytes: 000003040000
+    - key: .odrwi
+      bytes: 000003040000
+    - key: ".odrze\u0107"
+      bytes: 00000304000000
+    - key: .odrzw
+      bytes: 000003040000
+    - key: .odzia
+      bytes: 000003060000
+    - key: .odzie
+      bytes: 000003060000
+    - key: .ode
+      bytes: 00000300
+    - key: ".ol\u015Bn"
+      bytes: 0000030200
+    - key: ".ob\u0142ocz"
+      bytes: 00000405000000
+    - key: ".obrz\u0105"
+      bytes: 000004050000
+    - key: ".obrz\u0119d"
+      bytes: 00000405000000
+    - key: .obrzez
+      bytes: 00000405000000
+    - key: .obrzuc
+      bytes: 00000405000000
+    - key: .obrzut
+      bytes: 00000405000000
+    - key: .obrzyn
+      bytes: 00000405000000
+    - key: .odziar
+      bytes: 00000407000000
+    - key: .odziem
+      bytes: 00000407000000
+    - key: .oaz
+      bytes: 00000003
+    - key: ".ob\u0107"
+      bytes: 0000000302
+    - key: ".ob\u0142"
+      bytes: 0000000302
+    - key: ".ob\u015B"
+      bytes: 0000000302
+    - key: ".ob\u017A"
+      bytes: 0000000302
+    - key: ".ob\u017C"
+      bytes: 0000000302
+    - key: .obc
+      bytes: 0000000302
+    - key: .obd
+      bytes: 0000000302
+    - key: .obf
+      bytes: 0000000302
+    - key: .obg
+      bytes: 0000000302
+    - key: .obh
+      bytes: 0000000302
+    - key: .obj
+      bytes: 0000000302
+    - key: .obk
+      bytes: 0000000302
+    - key: .obl
+      bytes: 0000000302
+    - key: .obm
+      bytes: 0000000302
+    - key: .obn
+      bytes: 0000000302
+    - key: .obostrz
+      bytes: 0000000302000000
+    - key: .obp
+      bytes: 0000000302
+    - key: .obr
+      bytes: 00000003
+    - key: .obs
+      bytes: 0000000302
+    - key: .obt
+      bytes: 0000000302
+    - key: .obum
+      bytes: 000000030202
+    - key: .obw
+      bytes: 0000000302
+    - key: .obch
+      bytes: 000000000002
+    - key: .obcz
+      bytes: 000000000002
+    - key: ".obd\u017A"
+      bytes: 000000000002
+    - key: ".obd\u017C"
+      bytes: 000000000002
+    - key: .obdz
+      bytes: 000000000002
+    - key: ".obe\u0107"
+      bytes: 000000000302
+    - key: ".obe\u0142"
+      bytes: 000000000302
+    - key: ".obe\u015B"
+      bytes: 000000000302
+    - key: ".obe\u017A"
+      bytes: 000000000302
+    - key: ".obe\u017C"
+      bytes: 000000000302
+    - key: .obeb
+      bytes: 000000000302
+    - key: .obec
+      bytes: 000000000302
+    - key: .obed
+      bytes: 000000000302
+    - key: .obef
+      bytes: 000000000302
+    - key: .obeg
+      bytes: 000000000302
+    - key: .obeh
+      bytes: 000000000302
+    - key: .obek
+      bytes: 000000000302
+    - key: .obel
+      bytes: 000000000302
+    - key: .obem
+      bytes: 000000000302
+    - key: .obep
+      bytes: 000000000302
+    - key: .ober
+      bytes: 000000000302
+    - key: .obert
+      bytes: 000000000303
+    - key: .obes
+      bytes: 000000000302
+    - key: .obet
+      bytes: 000000000302
+    - key: .obew
+      bytes: 000000000302
+    - key: .obez
+      bytes: 000000000302
+    - key: .obecn
+      bytes: 000000000403
+    - key: .obezw
+      bytes: 000000000403
+    - key: .obech
+      bytes: 00000000000002
+    - key: .obecz
+      bytes: 00000000000002
+    - key: ".obed\u017A"
+      bytes: 00000000000002
+    - key: ".obed\u017C"
+      bytes: 00000000000002
+    - key: .obedz
+      bytes: 00000000000002
+    - key: ".ober\u017C"
+      bytes: 00000000000002
+    - key: .oberm
+      bytes: 000000000003
+    - key: .oberz
+      bytes: 00000000000002
+    - key: .obesch
+      bytes: 0000000000000002
+    - key: .obesz
+      bytes: 00000000000002
+    - key: .obetk
+      bytes: 00000000000002
+    - key: .obib
+      bytes: 000000000302
+    - key: .obsz
+      bytes: 000000000002
+    - key: .oc
+      bytes: 00000002
+    - key: .och
+      bytes: 0000000002
+    - key: .ochrz
+      bytes: 00000000000002
+    - key: .ocz
+      bytes: 0000000002
+    - key: ".od\u017A"
+      bytes: 0000000002
+    - key: ".od\u0107"
+      bytes: 0000000302
+    - key: ".od\u015B"
+      bytes: 0000000302
+    - key: .odau
+      bytes: 0000000300
+    - key: .odb
+      bytes: 0000000302
+    - key: .odc
+      bytes: 0000000302
+    - key: .odd
+      bytes: 0000000302
+    - key: .odf
+      bytes: 0000000302
+    - key: .odg
+      bytes: 0000000302
+    - key: .odh
+      bytes: 0000000302
+    - key: .odi
+      bytes: 0000000302
+    - key: .odizo
+      bytes: 000000030200
+    - key: .odj
+      bytes: 0000000302
+    - key: .odk
+      bytes: 0000000302
+    - key: .odl
+      bytes: 0000000302
+    - key: .odm
+      bytes: 0000000302
+    - key: .odn
+      bytes: 0000000302
+    - key: .odos
+      bytes: 0000000302
+    - key: .odp
+      bytes: 0000000302
+    - key: .odr
+      bytes: 0000000302
+    - key: .ods
+      bytes: 0000000302
+    - key: .odt
+      bytes: 0000000302
+    - key: .oducz
+      bytes: 000000030200
+    - key: .odum
+      bytes: 000000030202
+    - key: .odw
+      bytes: 0000000302
+    - key: ".od\u017C"
+      bytes: 0000000502
+    - key: .odz
+      bytes: 0000000502
+    - key: .odbez
+      bytes: 00000000000203
+    - key: .odch
+      bytes: 000000000002
+    - key: .odcz
+      bytes: 000000000002
+    - key: ".odd\u017A"
+      bytes: 000000000002
+    - key: ".odd\u017C"
+      bytes: 000000000002
+    - key: .oddz
+      bytes: 000000000002
+    - key: ".ode\u0107"
+      bytes: 000000000302
+    - key: ".ode\u0142"
+      bytes: 000000000302
+    - key: ".ode\u015B"
+      bytes: 000000000302
+    - key: ".ode\u017A"
+      bytes: 000000000302
+    - key: ".ode\u017C"
+      bytes: 000000000302
+    - key: .odeb
+      bytes: 000000000302
+    - key: .odec
+      bytes: 000000000302
+    - key: .oded
+      bytes: 000000000302
+    - key: .odef
+      bytes: 000000000302
+    - key: .odeg
+      bytes: 000000000302
+    - key: .odeh
+      bytes: 000000000302
+    - key: .odek
+      bytes: 000000000302
+    - key: .odel
+      bytes: 000000000302
+    - key: .odem
+      bytes: 000000000302
+    - key: .odemk
+      bytes: 00000000030002
+    - key: .odep
+      bytes: 000000000302
+    - key: .oder
+      bytes: 000000000302
+    - key: .odes
+      bytes: 000000000302
+    - key: .odet
+      bytes: 000000000302
+    - key: .odew
+      bytes: 000000000302
+    - key: .odez
+      bytes: 000000000302
+    - key: .odech
+      bytes: 00000000000002
+    - key: .odecz
+      bytes: 00000000000002
+    - key: ".oded\u017A"
+      bytes: 00000000000002
+    - key: ".oded\u017C"
+      bytes: 00000000000002
+    - key: .odedz
+      bytes: 00000000000002
+    - key: .odepch
+      bytes: 0000000000000002
+    - key: ".oder\u017C"
+      bytes: 00000000000002
+    - key: .oderz
+      bytes: 00000000000002
+    - key: .odesz
+      bytes: 00000000000002
+    - key: .odetch
+      bytes: 0000000000000002
+    - key: .odetk
+      bytes: 00000000000002
+    - key: .odkrz
+      bytes: 00000000000002
+    - key: .odrz
+      bytes: 000000000002
+    - key: .odsz
+      bytes: 000000000002
+    - key: .of
+      bytes: 00000002
+    - key: ".og\xF3lnok"
+      bytes: 000000000000000302
+    - key: .og
+      bytes: 00000002
+    - key: .ogniotr
+      bytes: 000000000000030002
+    - key: .oh
+      bytes: 00000002
+    - key: .ok
+      bytes: 00000002
+    - key: .okam
+      bytes: 000000000302
+    - key: .okr
+      bytes: 0000000002
+    - key: .oleo
+      bytes: 000000000203
+    - key: .om
+      bytes: 00000002
+    - key: .op
+      bytes: 00000002
+    - key: .opch
+      bytes: 000000000002
+    - key: ".or\u017C"
+      bytes: 0000000202
+    - key: ".ort\u0119"
+      bytes: 0000000200
+    - key: .orz
+      bytes: 0000000202
+    - key: .os
+      bytes: 00000002
+    - key: .osiem
+      bytes: 00000000000203
+    - key: .osiemset
+      bytes: 00000000000000000203
+    - key: .osz
+      bytes: 0000000002
+    - key: .ot
+      bytes: 00000002
+    - key: .ow
+      bytes: 00000002
+    - key: .oz
+      bytes: 00000002
+    - key: ".p\u0107"
+      bytes: 00000008
+    - key: ".p\u0142"
+      bytes: 00000008
+    - key: ".p\u0142askow"
+      bytes: 000000000000000302
+    - key: ".p\u0144"
+      bytes: 00000008
+    - key: ".p\xF3\u0142k"
+      bytes: 000000000002
+    - key: ".p\xF3\u0142kr"
+      bytes: 00000000000002
+    - key: ".p\xF3\u0142m"
+      bytes: 000000000002
+    - key: ".p\xF3\u0142o"
+      bytes: 000000000002
+    - key: ".p\xF3\u0142obr"
+      bytes: 00000000000003
+    - key: ".p\xF3\u0142omd"
+      bytes: 00000000000002
+    - key: ".p\xF3\u0142przymk"
+      bytes: 00000000000000000302
+    - key: ".p\xF3\u0142"
+      bytes: 0000000203
+    - key: ".p\xF3\u0142\u0105"
+      bytes: 0000000304
+    - key: ".p\xF3\u0142\u0119"
+      bytes: 0000000304
+    - key: ".p\xF3\u0142ecz"
+      bytes: 00000003040000
+    - key: ".p\xF3\u0142y"
+      bytes: 0000000304
+    - key: ".p\u015B"
+      bytes: 00000008
+    - key: ".p\u017A"
+      bytes: 00000008
+    - key: ".p\u017C"
+      bytes: 00000008
+    - key: .p
+      bytes: 000008
+    - key: .pb
+      bytes: 00000008
+    - key: .pc
+      bytes: 00000008
+    - key: .pch
+      bytes: 0000000008
+    - key: .pd
+      bytes: 00000008
+    - key: ".pe\u0142nokr"
+      bytes: 000000000000030002
+    - key: .per
+      bytes: 0000000203
+    - key: .peck
+      bytes: 0000000302
+    - key: .pere
+      bytes: 0000000304
+    - key: .peri
+      bytes: 0000000304
+    - key: .pero
+      bytes: 0000000304
+    - key: .peru
+      bytes: 0000000304
+    - key: .pery
+      bytes: 0000000304
+    - key: .perin
+      bytes: 000000040502
+    - key: .peesel
+      bytes: 00000000020002
+    - key: .pepeer
+      bytes: 00000000000002
+    - key: .pepees
+      bytes: 00000000000002
+    - key: .pezetpeer
+      bytes: 00000000000201000002
+    - key: .pf
+      bytes: 00000008
+    - key: .pg
+      bytes: 00000008
+    - key: .ph
+      bytes: 00000008
+    - key: ".pi\u0119\u0107set"
+      bytes: 000000000000000203
+    - key: ".pi\u0119\u0107"
+      bytes: 000000000203
+    - key: ".pi\u0119cio\u015B"
+      bytes: 000000000000000302
+    - key: .pierwow
+      bytes: 000000000000000302
+    - key: .pionow
+      bytes: 0000000000000302
+    - key: .pj
+      bytes: 00000008
+    - key: .pk
+      bytes: 00000008
+    - key: .pl
+      bytes: 00000008
+    - key: .pm
+      bytes: 00000008
+    - key: .pn
+      bytes: 00000008
+    - key: ".po\u0142k"
+      bytes: 000000000002
+    - key: .pod
+      bytes: 0000000202
+    - key: ".po\u0107"
+      bytes: 0000000302
+    - key: ".po\u0142"
+      bytes: 0000000302
+    - key: ".po\u015B"
+      bytes: 0000000302
+    - key: ".po\u017A"
+      bytes: 0000000302
+    - key: ".po\u017C"
+      bytes: 0000000302
+    - key: .pob
+      bytes: 0000000302
+    - key: .poc
+      bytes: 0000000302
+    - key: ".pod\u0105"
+      bytes: 0000000300
+    - key: ".pod\u0119"
+      bytes: 0000000300
+    - key: ".pod\u017A"
+      bytes: 000000030002
+    - key: ".pod\u0142u"
+      bytes: 000000030400
+    - key: .podmuch
+      bytes: 0000000304000000
+    - key: .podnaw
+      bytes: 00000003040000
+    - key: ".podr\u0119cz"
+      bytes: 0000000304000000
+    - key: ".podr\u0119tw"
+      bytes: 0000000304000000
+    - key: ".podr\xF3\u017C"
+      bytes: 00000003040000
+    - key: .podrwi
+      bytes: 00000003040200
+    - key: ".podra\u017C"
+      bytes: 00000003040000
+    - key: .podrap
+      bytes: 00000003040000
+    - key: .podrepcz
+      bytes: 000000030400000000
+    - key: .podrept
+      bytes: 0000000304000000
+    - key: ".podro\u017C"
+      bytes: 00000003040000
+    - key: ".podrob\xF3"
+      bytes: 0000000304000000
+    - key: .podroba
+      bytes: 0000000304000000
+    - key: .podrobo
+      bytes: 0000000304000000
+    - key: .podroby
+      bytes: 0000000304000000
+    - key: .podrocz
+      bytes: 0000000304000000
+    - key: .podruzg
+      bytes: 0000000304000000
+    - key: .podryg
+      bytes: 00000003040000
+    - key: .podrze
+      bytes: 00000003040000
+    - key: ".podw\xF3jn"
+      bytes: 0000000304000000
+    - key: ".podw\xF3r"
+      bytes: 00000003040000
+    - key: .podwaj
+      bytes: 00000003040000
+    - key: .podwoi
+      bytes: 00000003040000
+    - key: .podwoj
+      bytes: 00000003040000
+    - key: .podworz
+      bytes: 0000000304000000
+    - key: .poda
+      bytes: 0000000300
+    - key: .pode
+      bytes: 0000000300
+    - key: .podej
+      bytes: 000000030000
+    - key: .podiu
+      bytes: 000000030000
+    - key: .podo
+      bytes: 0000000300
+    - key: .podu
+      bytes: 0000000300
+    - key: .pody
+      bytes: 0000000300
+    - key: .podz
+      bytes: 000000030002
+    - key: .poeks
+      bytes: 00000003020203
+    - key: .pof
+      bytes: 0000000302
+    - key: .pog
+      bytes: 0000000302
+    - key: .poh
+      bytes: 0000000302
+    - key: .pok
+      bytes: 0000000302
+    - key: .pol
+      bytes: 0000000302
+    - key: .pom
+      bytes: 0000000302
+    - key: .pop
+      bytes: 0000000302
+    - key: ".por\u017C"
+      bytes: 0000000300
+    - key: .por
+      bytes: 0000000302
+    - key: .pos
+      bytes: 0000000302
+    - key: .pot
+      bytes: 0000000302
+    - key: .pow
+      bytes: 0000000302
+    - key: .poz
+      bytes: 0000000302
+    - key: ".po\u0144c"
+      bytes: 0000000403
+    - key: .poczd
+      bytes: 000000040003
+    - key: .poczt
+      bytes: 000000040003
+    - key: ".pod\xF3w"
+      bytes: 000000040300
+    - key: .podeks
+      bytes: 0000000403040203
+    - key: ".podob\xF3z"
+      bytes: 0000000403020000
+    - key: .podobiad
+      bytes: 000000040302000000
+    - key: .podobojcz
+      bytes: 00000004030200000000
+    - key: .podobraz
+      bytes: 000000040302000000
+    - key: .podochoc
+      bytes: 000000040302000000
+    - key: .pododm
+      bytes: 00000004030200
+    - key: .podof
+      bytes: 000000040302
+    - key: .podog
+      bytes: 000000040302
+    - key: .podokien
+      bytes: 000000040302000000
+    - key: .podokn
+      bytes: 00000004030200
+    - key: ".podokr\u0119g"
+      bytes: 000000040302000000
+    - key: .podokres
+      bytes: 000000040302000000
+    - key: .podopiecz
+      bytes: 00000004030200000000
+    - key: .podoryw
+      bytes: 0000000403020000
+    - key: .podosiniak
+      bytes: 0000000403020000000000
+    - key: .podostrz
+      bytes: 000000040302000000
+    - key: .podobsz
+      bytes: 0000000403000000
+    - key: .pododd
+      bytes: 00000004030000
+    - key: .podolbrz
+      bytes: 000000040300000000
+    - key: .poducz
+      bytes: 00000004030200
+    - key: .podudz
+      bytes: 00000004030200
+    - key: .podupa
+      bytes: 00000004030200
+    - key: .podural
+      bytes: 0000000403020000
+    - key: .podusta
+      bytes: 0000000403020000
+    - key: .poduszcz
+      bytes: 000000040302000000
+    - key: ".podr\u0119czn"
+      bytes: 000000040500000000
+    - key: .podzakr
+      bytes: 0000000405000000
+    - key: .podzam
+      bytes: 00000004050000
+    - key: .podzast
+      bytes: 0000000405000000
+    - key: .podzbi
+      bytes: 00000004050000
+    - key: .podze
+      bytes: 000000040500
+    - key: ".podzieleni\u0105"
+      bytes: 000000040500000000000000
+    - key: ".podzieleni\u0107"
+      bytes: 000000040500000000000000
+    - key: ".podzieleni\u0119"
+      bytes: 000000040500000000000000
+    - key: ".podzieleni\u0142"
+      bytes: 000000040500000000000000
+    - key: .podzielenic
+      bytes: 000000040500000000000000
+    - key: .podzielenien
+      bytes: 00000004050000000000000000
+    - key: .podzielenil
+      bytes: 000000040500000000000000
+    - key: .podzielenim
+      bytes: 000000040500000000000000
+    - key: .podzielenio
+      bytes: 000000040500000000000000
+    - key: .podzielenis
+      bytes: 000000040500000000000000
+    - key: .podziem
+      bytes: 0000000405000000
+    - key: .podziom
+      bytes: 0000000405000000
+    - key: .podzwr
+      bytes: 00000004050002
+    - key: .pols
+      bytes: 0000000403
+    - key: .pomp
+      bytes: 0000000403
+    - key: .porc
+      bytes: 0000000403
+    - key: .porf
+      bytes: 0000000403
+    - key: .porn
+      bytes: 0000000403
+    - key: .port
+      bytes: 0000000403
+    - key: .postd
+      bytes: 000000040003
+    - key: .postf
+      bytes: 000000040003
+    - key: .postg
+      bytes: 000000040003
+    - key: .posth
+      bytes: 000000040003
+    - key: .posti
+      bytes: 00000004000302
+    - key: .postk
+      bytes: 000000040003
+    - key: .postl
+      bytes: 000000040003
+    - key: .postm
+      bytes: 000000040003
+    - key: .postp
+      bytes: 000000040003
+    - key: .postrom
+      bytes: 0000000400030000
+    - key: .posts
+      bytes: 000000040003
+    - key: .poduszczyn
+      bytes: 0000000504000000000000
+    - key: ".port\u0119"
+      bytes: 000000050400
+    - key: .pobr
+      bytes: 000000000002
+    - key: .pobrz
+      bytes: 00000000000002
+    - key: .poch
+      bytes: 000000000002
+    - key: .pochrz
+      bytes: 0000000000000002
+    - key: .pocz
+      bytes: 000000000002
+    - key: ".pod\u0107"
+      bytes: 000000000302
+    - key: ".pod\u0142"
+      bytes: 000000000302
+    - key: ".pod\u015B"
+      bytes: 000000000302
+    - key: ".pod\u015Br\xF3d"
+      bytes: 000000000300000205
+    - key: .podalp
+      bytes: 00000000030000
+    - key: .podb
+      bytes: 000000000302
+    - key: .podc
+      bytes: 000000000302
+    - key: .podd
+      bytes: 000000000302
+    - key: .podf
+      bytes: 000000000302
+    - key: .podg
+      bytes: 000000000302
+    - key: .podh
+      bytes: 000000000302
+    - key: .podin
+      bytes: 000000000302
+    - key: .podj
+      bytes: 000000000302
+    - key: .podk
+      bytes: 000000000302
+    - key: .podl
+      bytes: 000000000302
+    - key: .podm
+      bytes: 000000000302
+    - key: .podn
+      bytes: 000000000302
+    - key: .podp
+      bytes: 000000000302
+    - key: .podr
+      bytes: 000000000302
+    - key: .pods
+      bytes: 000000000302
+    - key: .podt
+      bytes: 000000000302
+    - key: .podw
+      bytes: 000000000302
+    - key: ".pod\u017C"
+      bytes: 000000000502
+    - key: .podch
+      bytes: 00000000000002
+    - key: .podcz
+      bytes: 00000000000002
+    - key: ".podd\u017A"
+      bytes: 00000000000002
+    - key: ".podd\u017C"
+      bytes: 00000000000002
+    - key: ".pode\u0107"
+      bytes: 00000000000302
+    - key: ".pode\u0142"
+      bytes: 00000000000302
+    - key: ".pode\u015B"
+      bytes: 00000000000302
+    - key: ".pode\u017A"
+      bytes: 00000000000302
+    - key: ".pode\u017C"
+      bytes: 00000000000302
+    - key: .podeb
+      bytes: 00000000000302
+    - key: .podec
+      bytes: 00000000000302
+    - key: .poded
+      bytes: 00000000000302
+    - key: .podef
+      bytes: 00000000000302
+    - key: .podeg
+      bytes: 00000000000302
+    - key: .podeh
+      bytes: 00000000000302
+    - key: .podek
+      bytes: 00000000000302
+    - key: .podel
+      bytes: 00000000000302
+    - key: .podem
+      bytes: 00000000000302
+    - key: .podep
+      bytes: 00000000000302
+    - key: .poder
+      bytes: 00000000000302
+    - key: .podes
+      bytes: 00000000000302
+    - key: .podet
+      bytes: 00000000000302
+    - key: .podetk
+      bytes: 0000000000030002
+    - key: .podew
+      bytes: 00000000000302
+    - key: .podez
+      bytes: 00000000000302
+    - key: .podech
+      bytes: 0000000000000002
+    - key: .podecz
+      bytes: 0000000000000002
+    - key: ".poded\u017A"
+      bytes: 0000000000000002
+    - key: ".poded\u017C"
+      bytes: 0000000000000002
+    - key: .podedz
+      bytes: 0000000000000002
+    - key: .podepch
+      bytes: 000000000000000002
+    - key: ".poder\u017C"
+      bytes: 0000000000000002
+    - key: .poderz
+      bytes: 0000000000000002
+    - key: .podesch
+      bytes: 000000000000000002
+    - key: .podesz
+      bytes: 0000000000000002
+    - key: .podroz
+      bytes: 0000000000000203
+    - key: .podsm
+      bytes: 00000000000002
+    - key: .podsz
+      bytes: 00000000000002
+    - key: .pogrz
+      bytes: 00000000000002
+    - key: .pokl
+      bytes: 000000000002
+    - key: .pokr
+      bytes: 000000000002
+    - key: .pompk
+      bytes: 000000000400
+    - key: .pomk
+      bytes: 000000000002
+    - key: .ponad
+      bytes: 00000000000202
+    - key: ".pona\u0107"
+      bytes: 00000000000302
+    - key: ".pona\u0142"
+      bytes: 00000000000302
+    - key: ".pona\u015B"
+      bytes: 00000000000302
+    - key: ".pona\u017A"
+      bytes: 00000000000302
+    - key: ".pona\u017C"
+      bytes: 00000000000302
+    - key: .ponab
+      bytes: 00000000000302
+    - key: .ponac
+      bytes: 00000000000302
+    - key: .ponacz
+      bytes: 0000000000030002
+    - key: ".ponad\u017A"
+      bytes: 0000000000030002
+    - key: .ponado
+      bytes: 00000000000300
+    - key: .ponaf
+      bytes: 00000000000302
+    - key: .ponag
+      bytes: 00000000000302
+    - key: .ponah
+      bytes: 00000000000302
+    - key: .ponak
+      bytes: 00000000000302
+    - key: .ponal
+      bytes: 00000000000302
+    - key: .ponam
+      bytes: 00000000000302
+    - key: .ponap
+      bytes: 00000000000302
+    - key: .ponar
+      bytes: 00000000000302
+    - key: .ponas
+      bytes: 00000000000302
+    - key: .ponat
+      bytes: 00000000000302
+    - key: .ponaw
+      bytes: 00000000000302
+    - key: .ponaz
+      bytes: 00000000000302
+    - key: .ponaft
+      bytes: 00000000000403
+    - key: .ponabrz
+      bytes: 000000000000000002
+    - key: .ponach
+      bytes: 0000000000000002
+    - key: ".ponad\u0107"
+      bytes: 0000000000000302
+    - key: ".ponad\u015B"
+      bytes: 0000000000000302
+    - key: .ponadc
+      bytes: 0000000000000302
+    - key: .ponadch
+      bytes: 000000000000030002
+    - key: .ponadcz
+      bytes: 000000000000030002
+    - key: ".ponadd\u017A"
+      bytes: 000000000000030002
+    - key: .ponadf
+      bytes: 0000000000000302
+    - key: .ponadg
+      bytes: 0000000000000302
+    - key: .ponadh
+      bytes: 0000000000000302
+    - key: .ponadj
+      bytes: 0000000000000302
+    - key: .ponadk
+      bytes: 0000000000000302
+    - key: .ponadl
+      bytes: 0000000000000302
+    - key: .ponadp
+      bytes: 0000000000000302
+    - key: .ponads
+      bytes: 0000000000000302
+    - key: .ponadt
+      bytes: 0000000000000302
+    - key: .ponadz
+      bytes: 0000000000000002
+    - key: .ponarz
+      bytes: 0000000000000002
+    - key: .ponasm
+      bytes: 0000000000000002
+    - key: .ponasz
+      bytes: 0000000000000002
+    - key: .ponazm
+      bytes: 0000000000000302
+    - key: .ponazw
+      bytes: 0000000000000002
+    - key: .poniek
+      bytes: 0000000000000302
+    - key: .poniew
+      bytes: 0000000000000302
+    - key: .popch
+      bytes: 00000000000002
+    - key: .popow
+      bytes: 00000000000302
+    - key: .poprz
+      bytes: 00000000000002
+    - key: .portw
+      bytes: 000000000401
+    - key: .portf
+      bytes: 000000000400
+    - key: .portm
+      bytes: 000000000400
+    - key: .poroz
+      bytes: 00000000000203
+    - key: .porozu
+      bytes: 00000000000304
+    - key: .porz
+      bytes: 000000000002
+    - key: .posch
+      bytes: 00000000000002
+    - key: .posm
+      bytes: 000000000002
+    - key: .posz
+      bytes: 000000000002
+    - key: .potk
+      bytes: 000000000002
+    - key: .potr
+      bytes: 000000000002
+    - key: .pozm
+      bytes: 000000000402
+    - key: .pozau
+      bytes: 00000000000302
+    - key: .pozw
+      bytes: 000000000002
+    - key: .pp
+      bytes: 00000008
+    - key: .pr
+      bytes: 00000008
+    - key: .pras
+      bytes: 000000000302
+    - key: .prawnu
+      bytes: 00000000030200
+    - key: .prawz
+      bytes: 000000000302
+    - key: .praprawnu
+      bytes: 00000000000000030200
+    - key: .predyspo
+      bytes: 000000000000020300
+    - key: .prz
+      bytes: 0000000008
+    - key: ".prze\u0142k"
+      bytes: 0000000000000002
+    - key: .przed
+      bytes: 00000000000202
+    - key: ".prze\u0107"
+      bytes: 00000000000302
+    - key: ".prze\u0142"
+      bytes: 00000000000302
+    - key: ".prze\u015B"
+      bytes: 00000000000302
+    - key: ".prze\u017A"
+      bytes: 00000000000302
+    - key: ".prze\u017C"
+      bytes: 00000000000302
+    - key: .przeb
+      bytes: 00000000000302
+    - key: .przec
+      bytes: 00000000000302
+    - key: ".przed\u0105"
+      bytes: 00000000000300
+    - key: ".przed\u0119"
+      bytes: 00000000000300
+    - key: ".przed\u017A"
+      bytes: 0000000000030002
+    - key: ".przed\u0142u\u017C"
+      bytes: 000000000003040000
+    - key: .przedmuch
+      bytes: 00000000000304000000
+    - key: .przedobr
+      bytes: 000000000003040300
+    - key: .przedost
+      bytes: 000000000003040300
+    - key: .przedozo
+      bytes: 000000000003040300
+    - key: .przedramat
+      bytes: 0000000000030400000000
+    - key: .przedruk
+      bytes: 000000000003040000
+    - key: .przedryl
+      bytes: 000000000003040000
+    - key: .przedrz
+      bytes: 000000000003040002
+    - key: .przedum
+      bytes: 0000000000030400
+    - key: .przedy
+      bytes: 00000000000300
+    - key: .przedz
+      bytes: 0000000000030002
+    - key: .przeeks
+      bytes: 000000000003020203
+    - key: .przef
+      bytes: 00000000000302
+    - key: .przeg
+      bytes: 00000000000302
+    - key: .przeh
+      bytes: 00000000000302
+    - key: .przek
+      bytes: 00000000000302
+    - key: .przel
+      bytes: 00000000000302
+    - key: .przem
+      bytes: 00000000000302
+    - key: .przen
+      bytes: 00000000000302
+    - key: .przep
+      bytes: 00000000000302
+    - key: .przer
+      bytes: 00000000000302
+    - key: .przes
+      bytes: 00000000000302
+    - key: .przet
+      bytes: 00000000000302
+    - key: .przeu
+      bytes: 00000000000302
+    - key: .przew
+      bytes: 00000000000302
+    - key: .przez
+      bytes: 00000000000302
+    - key: ".przed\u0142u\u017Cyc"
+      bytes: 0000000000040500000000
+    - key: ".przed\u017C"
+      bytes: 0000000000040502
+    - key: .przedostat
+      bytes: 0000000000040504000000
+    - key: .przedza
+      bytes: 0000000000040500
+    - key: .przedzg
+      bytes: 000000000004050002
+    - key: .przedzim
+      bytes: 000000000004050000
+    - key: .przedzj
+      bytes: 0000000000040500
+    - key: .przedzl
+      bytes: 0000000000040500
+    - key: .przedzwr
+      bytes: 000000000004050002
+    - key: .przedzwoj
+      bytes: 00000000000405000000
+    - key: .przebr
+      bytes: 0000000000000002
+    - key: .przebrz
+      bytes: 000000000000000002
+    - key: .przech
+      bytes: 0000000000000002
+    - key: .przechrz
+      bytes: 00000000000000000002
+    - key: .przeciw
+      bytes: 000000000000000203
+    - key: .przeciwie
+      bytes: 00000000000000030400
+    - key: .przeciwa
+      bytes: 00000000000000000002
+    - key: .przeciww
+      bytes: 00000000000000000002
+    - key: .przecz
+      bytes: 0000000000000002
+    - key: ".przed\u0107"
+      bytes: 0000000000000302
+    - key: ".przed\u0142"
+      bytes: 0000000000000302
+    - key: ".przed\u015B"
+      bytes: 0000000000000302
+    - key: .przedagon
+      bytes: 00000000000003020000
+    - key: .przedakc
+      bytes: 000000000000030200
+    - key: .przedalp
+      bytes: 000000000000030000
+    - key: .przedb
+      bytes: 0000000000000302
+    - key: .przedc
+      bytes: 0000000000000302
+    - key: .przedd
+      bytes: 0000000000000302
+    - key: .przedegz
+      bytes: 000000000000030200
+    - key: .przedemer
+      bytes: 00000000000003020000
+    - key: .przedf
+      bytes: 0000000000000302
+    - key: .przedg
+      bytes: 0000000000000302
+    - key: .przedh
+      bytes: 0000000000000302
+    - key: .przedi
+      bytes: 0000000000000302
+    - key: .przedj
+      bytes: 0000000000000302
+    - key: .przedk
+      bytes: 0000000000000302
+    - key: .przedl
+      bytes: 0000000000000302
+    - key: .przedm
+      bytes: 0000000000000302
+    - key: .przedn
+      bytes: 0000000000000302
+    - key: .przedo
+      bytes: 0000000000000302
+    - key: .przedp
+      bytes: 0000000000000302
+    - key: .przedr
+      bytes: 0000000000000302
+    - key: .przeds
+      bytes: 0000000000000302
+    - key: ".przedsi\u0119w"
+      bytes: 0000000000000300000302
+    - key: .przedsz
+      bytes: 000000000000030002
+    - key: .przedt
+      bytes: 0000000000000302
+    - key: .przedu
+      bytes: 0000000000000302
+    - key: .przedw
+      bytes: 0000000000000302
+    - key: .przedch
+      bytes: 000000000000000002
+    - key: .przedcz
+      bytes: 000000000000000002
+    - key: ".przedd\u017A"
+      bytes: 000000000000000002
+    - key: ".przedd\u017C"
+      bytes: 000000000000000002
+    - key: .przeddz
+      bytes: 000000000000000002
+    - key: .przedgrz
+      bytes: 00000000000000000002
+    - key: .przedysku
+      bytes: 00000000000000020300
+    - key: .przegrz
+      bytes: 000000000000000002
+    - key: .przekl
+      bytes: 0000000000000002
+    - key: .przekr
+      bytes: 0000000000000002
+    - key: .przemk
+      bytes: 0000000000000002
+    - key: .przepch
+      bytes: 000000000000000002
+    - key: ".przer\u017C"
+      bytes: 0000000000000002
+    - key: .przerz
+      bytes: 0000000000000002
+    - key: .przesch
+      bytes: 000000000000000002
+    - key: .przesm
+      bytes: 0000000000000002
+    - key: .przesz
+      bytes: 0000000000000002
+    - key: .przetk
+      bytes: 0000000000000002
+    - key: .przetr
+      bytes: 0000000000000002
+    - key: .przetrans
+      bytes: 0000000000000000000203
+    - key: ".przy\u0107"
+      bytes: 00000000000302
+    - key: ".przy\u0142"
+      bytes: 00000000000302
+    - key: ".przy\u015B"
+      bytes: 00000000000302
+    - key: ".przy\u017A"
+      bytes: 00000000000302
+    - key: ".przy\u017C"
+      bytes: 00000000000302
+    - key: .przyb
+      bytes: 00000000000302
+    - key: .przyc
+      bytes: 00000000000302
+    - key: .przyd
+      bytes: 00000000000302
+    - key: .przyf
+      bytes: 00000000000302
+    - key: .przyg
+      bytes: 00000000000302
+    - key: .przyh
+      bytes: 00000000000302
+    - key: .przyk
+      bytes: 00000000000302
+    - key: .przyl
+      bytes: 00000000000302
+    - key: .przym
+      bytes: 00000000000302
+    - key: .przyp
+      bytes: 00000000000302
+    - key: .przyr
+      bytes: 00000000000302
+    - key: .przys
+      bytes: 00000000000302
+    - key: .przyt
+      bytes: 00000000000302
+    - key: .przyw
+      bytes: 00000000000302
+    - key: .przyz
+      bytes: 00000000000302
+    - key: .przybr
+      bytes: 0000000000000002
+    - key: .przych
+      bytes: 0000000000000002
+    - key: .przycz
+      bytes: 0000000000000002
+    - key: ".przyd\u017A"
+      bytes: 0000000000000002
+    - key: ".przyd\u017C"
+      bytes: 0000000000000002
+    - key: .przydz
+      bytes: 0000000000000002
+    - key: .przygrz
+      bytes: 000000000000000002
+    - key: .przymk
+      bytes: 0000000000000002
+    - key: .przyoz
+      bytes: 0000000000000002
+    - key: .przypch
+      bytes: 000000000000000002
+    - key: ".przyr\u017C"
+      bytes: 0000000000000002
+    - key: .przyrz
+      bytes: 0000000000000002
+    - key: .przysch
+      bytes: 000000000000000002
+    - key: .przysz
+      bytes: 0000000000000002
+    - key: .przytk
+      bytes: 0000000000000002
+    - key: .ps
+      bytes: 00000008
+    - key: .pt
+      bytes: 00000008
+    - key: .pv
+      bytes: 00000008
+    - key: .pw
+      bytes: 00000008
+    - key: .px
+      bytes: 00000008
+    - key: .pz
+      bytes: 00000008
+    - key: ".r\u0107"
+      bytes: 00000008
+    - key: ".r\u0142"
+      bytes: 00000008
+    - key: ".r\u0144"
+      bytes: 00000008
+    - key: ".r\u015B"
+      bytes: 00000008
+    - key: ".r\u017A"
+      bytes: 00000008
+    - key: ".r\u017C"
+      bytes: 00000008
+    - key: .r
+      bytes: 000008
+    - key: .rb
+      bytes: 00000008
+    - key: .rc
+      bytes: 00000008
+    - key: .rd
+      bytes: 00000008
+    - key: .retrans
+      bytes: 000000000000000203
+    - key: .rf
+      bytes: 00000008
+    - key: .rg
+      bytes: 00000008
+    - key: .rh
+      bytes: 00000008
+    - key: .rj
+      bytes: 00000008
+    - key: .rk
+      bytes: 00000008
+    - key: .rl
+      bytes: 00000008
+    - key: .rm
+      bytes: 00000008
+    - key: .rn
+      bytes: 00000008
+    - key: .roz
+      bytes: 0000000203
+    - key: .roza
+      bytes: 0000000304
+    - key: .roze
+      bytes: 0000000304
+    - key: ".roze\u0107"
+      bytes: 00000003040302
+    - key: ".roze\u0142"
+      bytes: 00000003040302
+    - key: ".roze\u015B"
+      bytes: 00000003040302
+    - key: ".roze\u017A"
+      bytes: 00000003040302
+    - key: ".roze\u017C"
+      bytes: 00000003040302
+    - key: .rozeb
+      bytes: 00000003040302
+    - key: .rozec
+      bytes: 00000003040302
+    - key: .rozed
+      bytes: 00000003040302
+    - key: .rozef
+      bytes: 00000003040302
+    - key: .rozeg
+      bytes: 00000003040302
+    - key: .rozeh
+      bytes: 00000003040302
+    - key: .rozek
+      bytes: 00000003040302
+    - key: .rozel
+      bytes: 00000003040302
+    - key: .rozem
+      bytes: 00000003040302
+    - key: .rozep
+      bytes: 00000003040302
+    - key: .rozer
+      bytes: 00000003040302
+    - key: .rozes
+      bytes: 00000003040302
+    - key: .rozet
+      bytes: 00000003040302
+    - key: .rozew
+      bytes: 00000003040302
+    - key: .rozez
+      bytes: 00000003040302
+    - key: .rozej
+      bytes: 000000030400
+    - key: .rozu
+      bytes: 0000000304
+    - key: .rozagi
+      bytes: 00000004050200
+    - key: .rozanie
+      bytes: 0000000405020000
+    - key: .rozemo
+      bytes: 00000004050200
+    - key: .rozegz
+      bytes: 00000004050403
+    - key: .rozent
+      bytes: 00000004050403
+    - key: ".roz\u015B"
+      bytes: 000000000002
+    - key: .rozbrz
+      bytes: 0000000000000002
+    - key: .rozd
+      bytes: 000000000002
+    - key: .rozech
+      bytes: 0000000000000002
+    - key: .rozecz
+      bytes: 0000000000000002
+    - key: ".rozed\u017A"
+      bytes: 0000000000000002
+    - key: ".rozed\u017C"
+      bytes: 0000000000000002
+    - key: .rozedz
+      bytes: 0000000000000002
+    - key: .rozepch
+      bytes: 000000000000000002
+    - key: ".rozer\u017C"
+      bytes: 0000000000000002
+    - key: .rozerz
+      bytes: 0000000000000002
+    - key: .rozesch
+      bytes: 000000000000000002
+    - key: .rozesz
+      bytes: 0000000000000002
+    - key: .rozi
+      bytes: 000000000002
+    - key: .rozm
+      bytes: 000000000002
+    - key: .rozo
+      bytes: 000000000002
+    - key: .rozpow
+      bytes: 0000000000000302
+    - key: .rozt
+      bytes: 000000000002
+    - key: .roztr
+      bytes: 00000000000002
+    - key: .rozw
+      bytes: 000000000002
+    - key: .rp
+      bytes: 00000008
+    - key: .rr
+      bytes: 00000008
+    - key: .rs
+      bytes: 00000008
+    - key: .rt
+      bytes: 00000008
+    - key: .rv
+      bytes: 00000008
+    - key: .rw
+      bytes: 00000008
+    - key: .rx
+      bytes: 00000008
+    - key: .rz
+      bytes: 00000008
+    - key: ".s\u0107"
+      bytes: 00000008
+    - key: ".s\u0142"
+      bytes: 00000008
+    - key: ".s\u0144"
+      bytes: 00000008
+    - key: ".s\u015B"
+      bytes: 00000008
+    - key: ".s\u017A"
+      bytes: 00000008
+    - key: ".s\u017C"
+      bytes: 00000008
+    - key: .s
+      bytes: 000008
+    - key: .samoch
+      bytes: 0000000000030002
+    - key: .samok
+      bytes: 00000000000302
+    - key: .samop
+      bytes: 00000000000302
+    - key: .samow
+      bytes: 00000000000302
+    - key: .samoroz
+      bytes: 000000000000000203
+    - key: .sb
+      bytes: 00000008
+    - key: .sc
+      bytes: 00000008
+    - key: .sch
+      bytes: 0000000008
+    - key: .sd
+      bytes: 00000008
+    - key: .sf
+      bytes: 00000008
+    - key: .sg
+      bytes: 00000008
+    - key: .sh
+      bytes: 00000008
+    - key: .siedem
+      bytes: 0000000000000203
+    - key: .siedemset
+      bytes: 0000000000000000000203
+    - key: ".siedmio\u015B"
+      bytes: 00000000000000000302
+    - key: .sj
+      bytes: 00000008
+    - key: ".sk\u0105d\u017Ce"
+      bytes: 00000000020500
+    - key: .sk
+      bytes: 00000008
+    - key: .skl
+      bytes: 0000000008
+    - key: .skr
+      bytes: 0000000008
+    - key: .sl
+      bytes: 00000008
+    - key: .sm
+      bytes: 00000008
+    - key: .sn
+      bytes: 00000008
+    - key: .sobow
+      bytes: 00000000000302
+    - key: ".sp\xF3\u0142"
+      bytes: 000000000203
+    - key: .sp
+      bytes: 00000008
+    - key: .spod
+      bytes: 000000000202
+    - key: ".spo\u0107"
+      bytes: 000000000302
+    - key: ".spo\u0142"
+      bytes: 000000000302
+    - key: ".spo\u015B"
+      bytes: 000000000302
+    - key: ".spo\u017A"
+      bytes: 000000000302
+    - key: ".spo\u017C"
+      bytes: 000000000302
+    - key: .spob
+      bytes: 000000000302
+    - key: .spoc
+      bytes: 000000000302
+    - key: .spodz
+      bytes: 00000000030002
+    - key: .spof
+      bytes: 000000000302
+    - key: .spog
+      bytes: 000000000302
+    - key: .spoh
+      bytes: 000000000302
+    - key: .spok
+      bytes: 000000000302
+    - key: .spol
+      bytes: 000000000302
+    - key: .spom
+      bytes: 000000000302
+    - key: .spop
+      bytes: 000000000302
+    - key: .spor
+      bytes: 000000000302
+    - key: .spos
+      bytes: 000000000302
+    - key: .spot
+      bytes: 000000000302
+    - key: .spow
+      bytes: 000000000302
+    - key: .spoz
+      bytes: 000000000302
+    - key: .sporn
+      bytes: 000000000403
+    - key: .sport
+      bytes: 000000000403
+    - key: .spoch
+      bytes: 00000000000002
+    - key: .spocz
+      bytes: 00000000000002
+    - key: ".spod\u017A"
+      bytes: 00000000000002
+    - key: ".spod\u017C"
+      bytes: 00000000000002
+    - key: .spodd
+      bytes: 000000000003
+    - key: .sporz
+      bytes: 00000000000002
+    - key: .sposz
+      bytes: 00000000000002
+    - key: .sr
+      bytes: 00000008
+    - key: .ss
+      bytes: 00000008
+    - key: .st
+      bytes: 00000008
+    - key: .stereo
+      bytes: 0000000000000203
+    - key: .stereoa
+      bytes: 000000000000000002
+    - key: .stereoe
+      bytes: 000000000000000002
+    - key: .stereoi
+      bytes: 000000000000000002
+    - key: .stereoo
+      bytes: 000000000000000002
+    - key: .stereou
+      bytes: 000000000000000002
+    - key: .sub
+      bytes: 0000000203
+    - key: .subie
+      bytes: 000000030400
+    - key: .subotn
+      bytes: 00000003040000
+    - key: .super
+      bytes: 00000000000203
+    - key: .superat
+      bytes: 0000000000030400
+    - key: .superio
+      bytes: 0000000000030400
+    - key: .superatr
+      bytes: 000000000004050200
+    - key: .superzb
+      bytes: 0000000000000502
+    - key: .supere
+      bytes: 0000000000000002
+    - key: .superodrzut
+      bytes: 000000000000000201000000
+    - key: .sv
+      bytes: 00000008
+    - key: .sw
+      bytes: 00000008
+    - key: .sx
+      bytes: 00000008
+    - key: .sz
+      bytes: 00000008
+    - key: ".sze\u015B\u0107set"
+      bytes: 00000000000000000203
+    - key: ".sze\u015Bcio\u015B"
+      bytes: 00000000000000000302
+    - key: ".sze\u015B\u0107"
+      bytes: 00000000020203
+    - key: .szes
+      bytes: 000000000203
+    - key: ".t\u0107"
+      bytes: 00000008
+    - key: ".t\u0142"
+      bytes: 00000008
+    - key: ".t\u0144"
+      bytes: 00000008
+    - key: ".t\u015B"
+      bytes: 00000008
+    - key: ".t\u017A"
+      bytes: 00000008
+    - key: ".t\u017C"
+      bytes: 00000008
+    - key: .t
+      bytes: 000008
+    - key: .tao
+      bytes: 0000000203
+    - key: .tarzan
+      bytes: 00000002070000
+    - key: .tb
+      bytes: 00000008
+    - key: .tc
+      bytes: 00000008
+    - key: .tch
+      bytes: 0000000008
+    - key: .td
+      bytes: 00000008
+    - key: .teo
+      bytes: 0000000203
+    - key: .tf
+      bytes: 00000008
+    - key: .tg
+      bytes: 00000008
+    - key: .th
+      bytes: 00000008
+    - key: .tj
+      bytes: 00000008
+    - key: .tk
+      bytes: 00000008
+    - key: .tl
+      bytes: 00000008
+    - key: .tm
+      bytes: 00000008
+    - key: .tn
+      bytes: 00000008
+    - key: .toa
+      bytes: 0000000003
+    - key: .tp
+      bytes: 00000008
+    - key: ".tr\xF3j"
+      bytes: 000000000203
+    - key: ".tr\xF3j\u0105"
+      bytes: 000000000304
+    - key: ".tr\xF3j\u0119"
+      bytes: 000000000304
+    - key: ".tr\xF3jecz"
+      bytes: 0000000003040000
+    - key: .tr
+      bytes: 00000008
+    - key: .trans
+      bytes: 00000000000203
+    - key: .transe
+      bytes: 00000000000304
+    - key: .transie
+      bytes: 0000000000030400
+    - key: .transy
+      bytes: 00000000000304
+    - key: .transz
+      bytes: 00000000000300
+    - key: .transeu
+      bytes: 0000000000040500
+    - key: .transa
+      bytes: 0000000000000002
+    - key: .transo
+      bytes: 0000000000000002
+    - key: .trz
+      bytes: 0000000008
+    - key: .trzech
+      bytes: 0000000000020003
+    - key: .trzechset
+      bytes: 0000000000000000000203
+    - key: .ts
+      bytes: 00000008
+    - key: .tt
+      bytes: 00000008
+    - key: .tv
+      bytes: 00000008
+    - key: .tw
+      bytes: 00000008
+    - key: .tx
+      bytes: 00000008
+    - key: ".tysi\u0105c"
+      bytes: 0000000000000203
+    - key: ".tysi\u0105ca"
+      bytes: 0000000000000304
+    - key: ".tysi\u0105ce"
+      bytes: 0000000000000304
+    - key: ".tysi\u0105cz"
+      bytes: 0000000000000300
+    - key: ".tysi\u0105cz\u0142"
+      bytes: 000000000000040500
+    - key: .tz
+      bytes: 00000008
+    - key: ".u\u0107"
+      bytes: 00000002
+    - key: ".u\u015B"
+      bytes: 00000002
+    - key: ".u\u0142"
+      bytes: 00000302
+    - key: ".u\u017A"
+      bytes: 00000302
+    - key: ".u\u017C"
+      bytes: 00000302
+    - key: .ub
+      bytes: 00000302
+    - key: .uc
+      bytes: 00000302
+    - key: .ud
+      bytes: 00000302
+    - key: .uf
+      bytes: 00000302
+    - key: .ug
+      bytes: 00000302
+    - key: .uh
+      bytes: 00000302
+    - key: .uk
+      bytes: 00000302
+    - key: .ul
+      bytes: 00000302
+    - key: .um
+      bytes: 00000302
+    - key: .un
+      bytes: 00000302
+    - key: .up
+      bytes: 00000302
+    - key: .ur
+      bytes: 00000302
+    - key: .us
+      bytes: 00000302
+    - key: .ut
+      bytes: 00000302
+    - key: .uw
+      bytes: 00000302
+    - key: .uz
+      bytes: 00000302
+    - key: .udk
+      bytes: 00000403
+    - key: .ufn
+      bytes: 00000403
+    - key: .uklej
+      bytes: 000004030000
+    - key: .uls
+      bytes: 00000403
+    - key: .ult
+      bytes: 00000403
+    - key: .umbr
+      bytes: 0000040300
+    - key: .unc
+      bytes: 00000403
+    - key: .und
+      bytes: 00000403
+    - key: .upps
+      bytes: 0000040302
+    - key: .urs
+      bytes: 00000403
+    - key: .ustn
+      bytes: 0000040003
+    - key: .ustc
+      bytes: 0000040000
+    - key: .ustk
+      bytes: 0000040000
+    - key: .uzbe
+      bytes: 0000040300
+    - key: .ubez
+      bytes: 000000000203
+    - key: .ubezw
+      bytes: 00000000000002
+    - key: .ubr
+      bytes: 0000000002
+    - key: .uch
+      bytes: 0000000002
+    - key: .ucz
+      bytes: 0000000002
+    - key: ".ud\u017A"
+      bytes: 0000000002
+    - key: ".ud\u017C"
+      bytes: 0000000002
+    - key: .udz
+      bytes: 0000000002
+    - key: .ukr
+      bytes: 0000000002
+    - key: .umk
+      bytes: 0000000002
+    - key: .upch
+      bytes: 000000000002
+    - key: .upod
+      bytes: 000000000202
+    - key: ".upo\u0107"
+      bytes: 000000000302
+    - key: ".upo\u0142"
+      bytes: 000000000302
+    - key: ".upo\u015B"
+      bytes: 000000000302
+    - key: ".upo\u017A"
+      bytes: 000000000302
+    - key: ".upo\u017C"
+      bytes: 000000000302
+    - key: .upob
+      bytes: 000000000302
+    - key: .upoc
+      bytes: 000000000302
+    - key: .upoda
+      bytes: 000000000300
+    - key: .upof
+      bytes: 000000000302
+    - key: .upog
+      bytes: 000000000302
+    - key: .upoh
+      bytes: 000000000302
+    - key: .upok
+      bytes: 000000000302
+    - key: .upol
+      bytes: 000000000302
+    - key: .upom
+      bytes: 000000000302
+    - key: .upop
+      bytes: 000000000302
+    - key: .upor
+      bytes: 000000000302
+    - key: .upos
+      bytes: 000000000302
+    - key: .upot
+      bytes: 000000000302
+    - key: .upow
+      bytes: 000000000302
+    - key: .upoz
+      bytes: 000000000302
+    - key: .upoch
+      bytes: 00000000000002
+    - key: .upocz
+      bytes: 00000000000002
+    - key: ".upod\u017A"
+      bytes: 00000000000002
+    - key: ".upod\u017C"
+      bytes: 00000000000002
+    - key: .upodd
+      bytes: 000000000003
+    - key: .uporz
+      bytes: 00000000000002
+    - key: .uposz
+      bytes: 00000000000002
+    - key: ".ur\u017C"
+      bytes: 0000000002
+    - key: .uroz
+      bytes: 000000000203
+    - key: .urz
+      bytes: 0000000002
+    - key: .usch
+      bytes: 000000000002
+    - key: .usz
+      bytes: 0000000002
+    - key: .utk
+      bytes: 0000000002
+    - key: .utr
+      bytes: 0000000002
+    - key: .uzew
+      bytes: 000000000302
+    - key: ".v\u0107"
+      bytes: 00000008
+    - key: ".v\u0142"
+      bytes: 00000008
+    - key: ".v\u0144"
+      bytes: 00000008
+    - key: ".v\u015B"
+      bytes: 00000008
+    - key: ".v\u017A"
+      bytes: 00000008
+    - key: ".v\u017C"
+      bytes: 00000008
+    - key: .v
+      bytes: 000008
+    - key: .vb
+      bytes: 00000008
+    - key: .vc
+      bytes: 00000008
+    - key: .vd
+      bytes: 00000008
+    - key: .vf
+      bytes: 00000008
+    - key: .vg
+      bytes: 00000008
+    - key: .vh
+      bytes: 00000008
+    - key: .vj
+      bytes: 00000008
+    - key: .vk
+      bytes: 00000008
+    - key: .vl
+      bytes: 00000008
+    - key: .vm
+      bytes: 00000008
+    - key: .vn
+      bytes: 00000008
+    - key: .vp
+      bytes: 00000008
+    - key: .vr
+      bytes: 00000008
+    - key: .vs
+      bytes: 00000008
+    - key: .vt
+      bytes: 00000008
+    - key: .vv
+      bytes: 00000008
+    - key: .vw
+      bytes: 00000008
+    - key: .vx
+      bytes: 00000008
+    - key: .vz
+      bytes: 00000008
+    - key: ".w\u0107"
+      bytes: 00000008
+    - key: ".w\u0142"
+      bytes: 00000008
+    - key: ".w\u0144"
+      bytes: 00000008
+    - key: ".w\u015B"
+      bytes: 00000008
+    - key: ".w\u017A"
+      bytes: 00000008
+    - key: ".w\u017C"
+      bytes: 00000008
+    - key: .w
+      bytes: 000008
+    - key: .wb
+      bytes: 00000008
+    - key: .wc
+      bytes: 00000008
+    - key: .wd
+      bytes: 00000008
+    - key: ".we\u0107"
+      bytes: 0000000302
+    - key: ".we\u0142"
+      bytes: 0000000302
+    - key: ".we\u015B"
+      bytes: 0000000302
+    - key: ".we\u017C"
+      bytes: 0000000302
+    - key: .web
+      bytes: 0000000302
+    - key: .wec
+      bytes: 0000000302
+    - key: .wed
+      bytes: 0000000302
+    - key: .wef
+      bytes: 0000000302
+    - key: .weg
+      bytes: 0000000302
+    - key: .weh
+      bytes: 0000000302
+    - key: .wek
+      bytes: 0000000302
+    - key: .wel
+      bytes: 0000000302
+    - key: .wem
+      bytes: 0000000302
+    - key: .wen
+      bytes: 0000000302
+    - key: .wep
+      bytes: 0000000302
+    - key: .wer
+      bytes: 0000000302
+    - key: .wes
+      bytes: 0000000302
+    - key: .wet
+      bytes: 0000000302
+    - key: .wew
+      bytes: 0000000302
+    - key: .wez
+      bytes: 0000000302
+    - key: ".we\u0142n"
+      bytes: 0000000403
+    - key: .wekt
+      bytes: 0000000403
+    - key: .welw
+      bytes: 0000000403
+    - key: .wend
+      bytes: 0000000403
+    - key: .went
+      bytes: 0000000403
+    - key: .werb
+      bytes: 0000000403
+    - key: .werd
+      bytes: 0000000403
+    - key: .wern
+      bytes: 0000000403
+    - key: .wers
+      bytes: 0000000403
+    - key: .wert
+      bytes: 0000000403
+    - key: .wesprz
+      bytes: 00000004030000
+    - key: .westch
+      bytes: 0000000403000002
+    - key: .wezbr
+      bytes: 000000040300
+    - key: ".wezg\u0142"
+      bytes: 000000040300
+    - key: .wech
+      bytes: 000000000002
+    - key: .wecz
+      bytes: 000000000002
+    - key: ".wed\u017A"
+      bytes: 000000000002
+    - key: ".wed\u017C"
+      bytes: 000000000002
+    - key: .wedz
+      bytes: 000000000002
+    - key: .wemk
+      bytes: 000000000002
+    - key: .wepch
+      bytes: 00000000000002
+    - key: .werz
+      bytes: 000000000002
+    - key: .wesz
+      bytes: 000000000002
+    - key: .wetk
+      bytes: 000000000002
+    - key: ".wewn\u0105trz"
+      bytes: 00000000000002000003
+    - key: .wf
+      bytes: 00000008
+    - key: .wg
+      bytes: 00000008
+    - key: .wh
+      bytes: 00000008
+    - key: ".wielo\u015B"
+      bytes: 0000000000000302
+    - key: .wielod
+      bytes: 0000000000000302
+    - key: .wielok
+      bytes: 0000000000000302
+    - key: .wieluset
+      bytes: 00000000000000000203
+    - key: .wilczom
+      bytes: 000000000000000302
+    - key: .wj
+      bytes: 00000008
+    - key: .wk
+      bytes: 00000008
+    - key: .wl
+      bytes: 00000008
+    - key: .wm
+      bytes: 00000008
+    - key: .wn
+      bytes: 00000008
+    - key: .wniebow
+      bytes: 000000000000000302
+    - key: .wodow
+      bytes: 00000000000302
+    - key: .wp
+      bytes: 00000008
+    - key: .wr
+      bytes: 00000008
+    - key: .ws
+      bytes: 00000008
+    - key: ".wsp\xF3\u0142i"
+      bytes: 0000000000000002
+    - key: ".wsp\xF3\u0142obw"
+      bytes: 000000000000000203
+    - key: ".wsp\xF3\u0142u"
+      bytes: 0000000000000002
+    - key: ".wsp\xF3\u0142w"
+      bytes: 0000000000000002
+    - key: ".wsp\xF3\u0142"
+      bytes: 00000000000203
+    - key: .wszech
+      bytes: 0000000000020003
+    - key: .wszecho
+      bytes: 000000000000000002
+    - key: .wszechw
+      bytes: 000000000000000002
+    - key: .wt
+      bytes: 00000008
+    - key: .wv
+      bytes: 00000008
+    - key: .ww
+      bytes: 00000008
+    - key: .wx
+      bytes: 00000008
+    - key: ".wy\u0107"
+      bytes: 0000000302
+    - key: ".wy\u0142"
+      bytes: 0000000302
+    - key: ".wy\u015B"
+      bytes: 0000000302
+    - key: ".wy\u017A"
+      bytes: 0000000302
+    - key: ".wy\u017C"
+      bytes: 0000000302
+    - key: .wyb
+      bytes: 0000000302
+    - key: .wyc
+      bytes: 0000000302
+    - key: .wyd
+      bytes: 0000000302
+    - key: .wyf
+      bytes: 0000000302
+    - key: .wyg
+      bytes: 0000000302
+    - key: .wyh
+      bytes: 0000000302
+    - key: .wyk
+      bytes: 0000000302
+    - key: .wyl
+      bytes: 0000000302
+    - key: .wym
+      bytes: 0000000302
+    - key: .wyodr
+      bytes: 000000030203
+    - key: .wyp
+      bytes: 0000000302
+    - key: .wyr
+      bytes: 0000000302
+    - key: .wys
+      bytes: 0000000302
+    - key: .wyt
+      bytes: 0000000302
+    - key: .wyw
+      bytes: 0000000302
+    - key: .wyz
+      bytes: 0000000302
+    - key: ".wy\u017Csz"
+      bytes: 000000040300
+    - key: .wyczha
+      bytes: 00000004000300
+    - key: .wybr
+      bytes: 000000000002
+    - key: .wybrz
+      bytes: 00000000000002
+    - key: .wych
+      bytes: 000000000002
+    - key: .wycz
+      bytes: 000000000002
+    - key: ".wyd\u017A"
+      bytes: 000000000002
+    - key: ".wyd\u017C"
+      bytes: 000000000002
+    - key: .wydr
+      bytes: 000000000002
+    - key: .wydz
+      bytes: 000000000002
+    - key: .wyeks
+      bytes: 00000000020203
+    - key: .wygrz
+      bytes: 00000000000002
+    - key: .wyizo
+      bytes: 000000000200
+    - key: .wykl
+      bytes: 000000000002
+    - key: .wykr
+      bytes: 000000000002
+    - key: .wykrz
+      bytes: 00000000000002
+    - key: .wymk
+      bytes: 000000000002
+    - key: .wypch
+      bytes: 00000000000002
+    - key: .wyprz
+      bytes: 00000000000002
+    - key: ".wyr\u017C"
+      bytes: 000000000002
+    - key: .wyrz
+      bytes: 000000000002
+    - key: .wysch
+      bytes: 00000000000002
+    - key: .wysm
+      bytes: 000000000002
+    - key: .wysz
+      bytes: 000000000002
+    - key: .wytch
+      bytes: 00000000000002
+    - key: .wytk
+      bytes: 000000000002
+    - key: .wytr
+      bytes: 000000000002
+    - key: .wz
+      bytes: 00000008
+    - key: ".x\u0107"
+      bytes: 00000008
+    - key: ".x\u0142"
+      bytes: 00000008
+    - key: ".x\u0144"
+      bytes: 00000008
+    - key: ".x\u015B"
+      bytes: 00000008
+    - key: ".x\u017A"
+      bytes: 00000008
+    - key: ".x\u017C"
+      bytes: 00000008
+    - key: .x
+      bytes: 000008
+    - key: .xb
+      bytes: 00000008
+    - key: .xc
+      bytes: 00000008
+    - key: .xd
+      bytes: 00000008
+    - key: .xf
+      bytes: 00000008
+    - key: .xg
+      bytes: 00000008
+    - key: .xh
+      bytes: 00000008
+    - key: .xj
+      bytes: 00000008
+    - key: .xk
+      bytes: 00000008
+    - key: .xl
+      bytes: 00000008
+    - key: .xm
+      bytes: 00000008
+    - key: .xn
+      bytes: 00000008
+    - key: .xp
+      bytes: 00000008
+    - key: .xr
+      bytes: 00000008
+    - key: .xs
+      bytes: 00000008
+    - key: .xt
+      bytes: 00000008
+    - key: .xv
+      bytes: 00000008
+    - key: .xw
+      bytes: 00000008
+    - key: .xx
+      bytes: 00000008
+    - key: .xz
+      bytes: 00000008
+    - key: ".z\u0107"
+      bytes: 00000008
+    - key: ".z\u0142"
+      bytes: 00000008
+    - key: ".z\u0142ow"
+      bytes: 000000000302
+    - key: ".z\u0144"
+      bytes: 00000008
+    - key: ".z\u015B"
+      bytes: 00000008
+    - key: ".z\u017A"
+      bytes: 00000008
+    - key: ".z\u017C"
+      bytes: 00000008
+    - key: .z
+      bytes: 000008
+    - key: ".za\u0107"
+      bytes: 0000000302
+    - key: ".za\u0142"
+      bytes: 0000000302
+    - key: ".za\u015B"
+      bytes: 0000000302
+    - key: ".za\u017A"
+      bytes: 0000000302
+    - key: ".za\u017C"
+      bytes: 0000000302
+    - key: .zab
+      bytes: 0000000302
+    - key: .zac
+      bytes: 0000000302
+    - key: .zad
+      bytes: 0000000302
+    - key: .zaf
+      bytes: 0000000302
+    - key: .zag
+      bytes: 0000000302
+    - key: .zah
+      bytes: 0000000302
+    - key: .zak
+      bytes: 0000000302
+    - key: .zal
+      bytes: 0000000302
+    - key: .zam
+      bytes: 0000000302
+    - key: .zaobr
+      bytes: 000000030203
+    - key: .zaobs
+      bytes: 000000030203
+    - key: .zap
+      bytes: 0000000302
+    - key: .zar
+      bytes: 0000000302
+    - key: .zas
+      bytes: 0000000302
+    - key: .zat
+      bytes: 0000000302
+    - key: .zau
+      bytes: 0000000302
+    - key: .zaw
+      bytes: 0000000302
+    - key: .zaz
+      bytes: 0000000302
+    - key: .zakt
+      bytes: 0000000403
+    - key: .zalg
+      bytes: 0000000403
+    - key: .zalk
+      bytes: 0000000403
+    - key: .zalt
+      bytes: 0000000403
+    - key: .zamk
+      bytes: 0000000403
+    - key: .zarch
+      bytes: 000000040300
+    - key: .zauto
+      bytes: 000000040000
+    - key: .zamkn
+      bytes: 000000050402
+    - key: .zabr
+      bytes: 000000000002
+    - key: .zabrz
+      bytes: 00000000000002
+    - key: .zach
+      bytes: 000000000002
+    - key: .zacz
+      bytes: 000000000002
+    - key: ".zad\u017A"
+      bytes: 000000000002
+    - key: ".zad\u017C"
+      bytes: 000000000002
+    - key: ".zado\u015B\u0107u"
+      bytes: 000000000000000004
+    - key: ".zado\u015B\u0107"
+      bytes: 0000000000020003
+    - key: .zadr
+      bytes: 000000000002
+    - key: .zadyspo
+      bytes: 0000000000020300
+    - key: .zadz
+      bytes: 000000000002
+    - key: .zagrz
+      bytes: 00000000000002
+    - key: .zain
+      bytes: 000000000203
+    - key: .zaizo
+      bytes: 000000000200
+    - key: .zainic
+      bytes: 00000000000400
+    - key: .zakl
+      bytes: 000000000002
+    - key: .zakr
+      bytes: 000000000002
+    - key: .zakrz
+      bytes: 00000000000002
+    - key: .zanied
+      bytes: 0000000000000302
+    - key: ".zar\u017C"
+      bytes: 000000000002
+    - key: .zarz
+      bytes: 000000000002
+    - key: .zasch
+      bytes: 00000000000002
+    - key: .zasm
+      bytes: 000000000002
+    - key: .zasz
+      bytes: 000000000002
+    - key: .zatk
+      bytes: 000000000002
+    - key: .zatr
+      bytes: 000000000002
+    - key: .zb
+      bytes: 00000008
+    - key: .zc
+      bytes: 00000008
+    - key: .zd
+      bytes: 00000008
+    - key: .zdez
+      bytes: 000000000203
+    - key: .zdezawu
+      bytes: 0000000003040000
+    - key: .zdezel
+      bytes: 00000000030400
+    - key: .zdezer
+      bytes: 00000000030400
+    - key: .zdezy
+      bytes: 000000000304
+    - key: .zdyskont
+      bytes: 000000000203000000
+    - key: .zdyskred
+      bytes: 000000000203000000
+    - key: .zdyskwal
+      bytes: 000000000203000000
+    - key: ".ze\u0107"
+      bytes: 0000000302
+    - key: ".ze\u0142"
+      bytes: 0000000302
+    - key: ".ze\u015B"
+      bytes: 0000000302
+    - key: ".ze\u017A"
+      bytes: 0000000302
+    - key: ".ze\u017C"
+      bytes: 0000000302
+    - key: .zeb
+      bytes: 0000000302
+    - key: .zec
+      bytes: 0000000302
+    - key: .zed
+      bytes: 0000000302
+    - key: .zef
+      bytes: 0000000302
+    - key: .zeg
+      bytes: 0000000302
+    - key: .zeh
+      bytes: 0000000302
+    - key: .zek
+      bytes: 0000000302
+    - key: .zel
+      bytes: 0000000302
+    - key: .zem
+      bytes: 0000000302
+    - key: .zep
+      bytes: 0000000302
+    - key: .zer
+      bytes: 0000000302
+    - key: .zes
+      bytes: 0000000302
+    - key: .zet
+      bytes: 0000000302
+    - key: .zetk
+      bytes: 000000030002
+    - key: .zew
+      bytes: 0000000302
+    - key: .zez
+      bytes: 0000000302
+    - key: .zerk
+      bytes: 0000000403
+    - key: .zetemes
+      bytes: 0000000403020102
+    - key: .zetesel
+      bytes: 0000000403020102
+    - key: .zetemp
+      bytes: 00000004030000
+    - key: .zethap
+      bytes: 00000004030000
+    - key: .zech
+      bytes: 000000000002
+    - key: .zecz
+      bytes: 000000000002
+    - key: ".zed\u017A"
+      bytes: 000000000002
+    - key: ".zed\u017C"
+      bytes: 000000000002
+    - key: .zedz
+      bytes: 000000000002
+    - key: .zekl
+      bytes: 000000000002
+    - key: .zepch
+      bytes: 00000000000002
+    - key: ".zer\u017C"
+      bytes: 000000000002
+    - key: .zerz
+      bytes: 000000000002
+    - key: .zesch
+      bytes: 00000000000002
+    - key: .zesm
+      bytes: 000000000004
+    - key: .zesz
+      bytes: 000000000002
+    - key: .zf
+      bytes: 00000008
+    - key: .zg
+      bytes: 00000008
+    - key: .zh
+      bytes: 00000008
+    - key: .zimnokr
+      bytes: 000000000000030002
+    - key: .zj
+      bytes: 00000008
+    - key: .zk
+      bytes: 00000008
+    - key: .zl
+      bytes: 00000008
+    - key: .zm
+      bytes: 00000008
+    - key: .zmartwych
+      bytes: 0000000000000000020003
+    - key: .zmartwychw
+      bytes: 000000000000000000000002
+    - key: .zn
+      bytes: 00000008
+    - key: ".znie\u0107"
+      bytes: 00000000000302
+    - key: ".znie\u0142"
+      bytes: 00000000000302
+    - key: ".znie\u0144"
+      bytes: 00000000000302
+    - key: ".znie\u015B"
+      bytes: 00000000000302
+    - key: ".znie\u017A"
+      bytes: 00000000000302
+    - key: ".znie\u017C"
+      bytes: 00000000000302
+    - key: .znieb
+      bytes: 00000000000302
+    - key: .zniec
+      bytes: 00000000000302
+    - key: .znied
+      bytes: 00000000000302
+    - key: .znief
+      bytes: 00000000000302
+    - key: .znieg
+      bytes: 00000000000302
+    - key: .znieh
+      bytes: 00000000000302
+    - key: .zniek
+      bytes: 00000000000302
+    - key: .zniel
+      bytes: 00000000000302
+    - key: .zniem
+      bytes: 00000000000302
+    - key: .znien
+      bytes: 00000000000302
+    - key: .zniep
+      bytes: 00000000000302
+    - key: .znier
+      bytes: 00000000000302
+    - key: .znies
+      bytes: 00000000000302
+    - key: .zniet
+      bytes: 00000000000302
+    - key: .zniew
+      bytes: 00000000000302
+    - key: .zniez
+      bytes: 00000000000302
+    - key: ".znied\u017A"
+      bytes: 0000000000040003
+    - key: .zniemc
+      bytes: 00000000000403
+    - key: .zniech
+      bytes: 0000000000000002
+    - key: .zniecz
+      bytes: 0000000000000002
+    - key: ".znied\u017C"
+      bytes: 0000000000000002
+    - key: .zniedz
+      bytes: 0000000000000002
+    - key: .znierz
+      bytes: 0000000000000002
+    - key: .zniesz
+      bytes: 0000000000000002
+    - key: .zoo
+      bytes: 0000000203
+    - key: .zp
+      bytes: 00000008
+    - key: .zr
+      bytes: 00000008
+    - key: .zroz
+      bytes: 000000000203
+    - key: .zrozu
+      bytes: 000000000304
+    - key: .zs
+      bytes: 00000008
+    - key: .zt
+      bytes: 00000008
+    - key: .zv
+      bytes: 00000008
+    - key: .zw
+      bytes: 00000008
+    - key: .zx
+      bytes: 00000008
+    - key: .zz
+      bytes: 00000008
+    - key: "\u0105"
+      bytes: 0001
+    - key: "\u0119"
+      bytes: 0001
+    - key: "\xF3"
+      bytes: 0001
+    - key: "\xF3wcz"
+      bytes: 00040300
+    - key: "\u015Bc"
+      bytes: 0001
+    - key: "\u017Ad\u017A"
+      bytes: 000200
+    - key: "\u015Bci"
+      bytes: 010200
+    - key: "\u0107\u0144"
+      bytes: 0201
+    - key: "\u0107\u015B"
+      bytes: 0201
+    - key: "\u0107\u017A"
+      bytes: 0201
+    - key: "\u0107\u017C"
+      bytes: 0201
+    - key: "\u0107b"
+      bytes: 0201
+    - key: "\u0107c"
+      bytes: 0201
+    - key: "\u0107d"
+      bytes: 0201
+    - key: "\u0107f"
+      bytes: 0201
+    - key: "\u0107g"
+      bytes: 0201
+    - key: "\u0107k"
+      bytes: 0201
+    - key: "\u0107m"
+      bytes: 0201
+    - key: "\u0107n"
+      bytes: 0201
+    - key: "\u0107p"
+      bytes: 0201
+    - key: "\u0107s"
+      bytes: 0201
+    - key: "\u0107t"
+      bytes: 0201
+    - key: "\u0107z"
+      bytes: 0201
+    - key: "\u0142\u0107"
+      bytes: 0201
+    - key: "\u0142\u0144"
+      bytes: 0201
+    - key: "\u0142\u015B"
+      bytes: 0201
+    - key: "\u0142\u017A"
+      bytes: 0201
+    - key: "\u0142\u017C"
+      bytes: 0201
+    - key: "\u0142b"
+      bytes: 0201
+    - key: "\u0142c"
+      bytes: 0201
+    - key: "\u0142d"
+      bytes: 0201
+    - key: "\u0142f"
+      bytes: 0201
+    - key: "\u0142g"
+      bytes: 0201
+    - key: "\u0142h"
+      bytes: 0201
+    - key: "\u0142j"
+      bytes: 0201
+    - key: "\u0142k"
+      bytes: 0201
+    - key: "\u0142l"
+      bytes: 0201
+    - key: "\u0142m"
+      bytes: 0201
+    - key: "\u0142n"
+      bytes: 0201
+    - key: "\u0142p"
+      bytes: 0201
+    - key: "\u0142r"
+      bytes: 0201
+    - key: "\u0142s"
+      bytes: 0201
+    - key: "\u0142t"
+      bytes: 0201
+    - key: "\u0142w"
+      bytes: 0201
+    - key: "\u0142z"
+      bytes: 0201
+    - key: "\u0144\u0107"
+      bytes: 0201
+    - key: "\u0144\u0142"
+      bytes: 0201
+    - key: "\u0144\u0144"
+      bytes: 0201
+    - key: "\u0144\u015B"
+      bytes: 0201
+    - key: "\u0144\u017A"
+      bytes: 0201
+    - key: "\u0144\u017C"
+      bytes: 0201
+    - key: "\u0144b"
+      bytes: 0201
+    - key: "\u0144c"
+      bytes: 0201
+    - key: "\u0144d"
+      bytes: 0201
+    - key: "\u0144f"
+      bytes: 0201
+    - key: "\u0144g"
+      bytes: 0201
+    - key: "\u0144h"
+      bytes: 0201
+    - key: "\u0144j"
+      bytes: 0201
+    - key: "\u0144k"
+      bytes: 0201
+    - key: "\u0144l"
+      bytes: 0201
+    - key: "\u0144m"
+      bytes: 0201
+    - key: "\u0144n"
+      bytes: 0201
+    - key: "\u0144p"
+      bytes: 0201
+    - key: "\u0144r"
+      bytes: 0201
+    - key: "\u0144s"
+      bytes: 0201
+    - key: "\u0144t"
+      bytes: 0201
+    - key: "\u0144w"
+      bytes: 0201
+    - key: "\u0144z"
+      bytes: 0201
+    - key: "\u015B\u0107c"
+      bytes: 020000
+    - key: "\u015B\u015B"
+      bytes: 0201
+    - key: "\u015B\u017A"
+      bytes: 0201
+    - key: "\u015B\u017C"
+      bytes: 0201
+    - key: "\u015Bb"
+      bytes: 0201
+    - key: "\u015Bd"
+      bytes: 0201
+    - key: "\u015Bf"
+      bytes: 0201
+    - key: "\u015Bg"
+      bytes: 0201
+    - key: "\u015Bk"
+      bytes: 0201
+    - key: "\u015Bp"
+      bytes: 0201
+    - key: "\u015Bs"
+      bytes: 0201
+    - key: "\u015Bt"
+      bytes: 0201
+    - key: "\u015Bz"
+      bytes: 0201
+    - key: "\u015Blm"
+      bytes: 020000
+    - key: "\u015Bln"
+      bytes: 020000
+    - key: "\u017A\u0107"
+      bytes: 0201
+    - key: "\u017A\u015B"
+      bytes: 0201
+    - key: "\u017A\u017C"
+      bytes: 0201
+    - key: "\u017Ab"
+      bytes: 0201
+    - key: "\u017Ac"
+      bytes: 0201
+    - key: "\u017Ad"
+      bytes: 0201
+    - key: "\u017Af"
+      bytes: 0201
+    - key: "\u017Ag"
+      bytes: 0201
+    - key: "\u017Ak"
+      bytes: 0201
+    - key: "\u017Al"
+      bytes: 0201
+    - key: "\u017Am"
+      bytes: 0201
+    - key: "\u017An"
+      bytes: 0201
+    - key: "\u017Ap"
+      bytes: 0201
+    - key: "\u017As"
+      bytes: 0201
+    - key: "\u017At"
+      bytes: 0201
+    - key: "\u017Aw"
+      bytes: 0201
+    - key: "\u017Az"
+      bytes: 0201
+    - key: "\u017C\u0107"
+      bytes: 0201
+    - key: "\u017C\u0142"
+      bytes: 0201
+    - key: "\u017C\u0144"
+      bytes: 0201
+    - key: "\u017C\u015B"
+      bytes: 0201
+    - key: "\u017C\u017A"
+      bytes: 0201
+    - key: "\u017Cb"
+      bytes: 0201
+    - key: "\u017Cc"
+      bytes: 0201
+    - key: "\u017Cd"
+      bytes: 0201
+    - key: "\u017Cf"
+      bytes: 0201
+    - key: "\u017Cg"
+      bytes: 0201
+    - key: "\u017Cj"
+      bytes: 0201
+    - key: "\u017Ck"
+      bytes: 0201
+    - key: "\u017Cl"
+      bytes: 0201
+    - key: "\u017Cm"
+      bytes: 0201
+    - key: "\u017Cn"
+      bytes: 0201
+    - key: "\u017Cp"
+      bytes: 0201
+    - key: "\u017Cr"
+      bytes: 0201
+    - key: "\u017Cs"
+      bytes: 0201
+    - key: "\u017Ct"
+      bytes: 0201
+    - key: "\u017Cw"
+      bytes: 0201
+    - key: "\u017Cz"
+      bytes: 0201
+    - key: "b\u0142k"
+      bytes: 020000
+    - key: "b\u0107"
+      bytes: 0201
+    - key: "b\u0144"
+      bytes: 0201
+    - key: "b\u015B"
+      bytes: 0201
+    - key: "b\u017A"
+      bytes: 0201
+    - key: "b\u017C"
+      bytes: 0201
+    - key: bc
+      bytes: 0201
+    - key: bd
+      bytes: 0201
+    - key: bf
+      bytes: 0201
+    - key: bg
+      bytes: 0201
+    - key: bk
+      bytes: 0201
+    - key: bm
+      bytes: 0201
+    - key: bn
+      bytes: 0201
+    - key: bp
+      bytes: 0201
+    - key: bs
+      bytes: 0201
+    - key: bt
+      bytes: 0201
+    - key: bz
+      bytes: 0201
+    - key: brn
+      bytes: 020000
+    - key: "c\u0107"
+      bytes: 0201
+    - key: "c\u0144"
+      bytes: 0201
+    - key: "c\u015B"
+      bytes: 0201
+    - key: "c\u017A"
+      bytes: 0201
+    - key: "c\u017C"
+      bytes: 0201
+    - key: cb
+      bytes: 0201
+    - key: cd
+      bytes: 0201
+    - key: cf
+      bytes: 0201
+    - key: cg
+      bytes: 0201
+    - key: ck
+      bytes: 0201
+    - key: cl
+      bytes: 0201
+    - key: cm
+      bytes: 0201
+    - key: cn
+      bytes: 0201
+    - key: cp
+      bytes: 0201
+    - key: cs
+      bytes: 0201
+    - key: ct
+      bytes: 0201
+    - key: "ch\u0107"
+      bytes: 020001
+    - key: "ch\u0144"
+      bytes: 020001
+    - key: "ch\u015B"
+      bytes: 020001
+    - key: "ch\u017A"
+      bytes: 020001
+    - key: "ch\u017C"
+      bytes: 020001
+    - key: chb
+      bytes: 020001
+    - key: chc
+      bytes: 020001
+    - key: chd
+      bytes: 020001
+    - key: chf
+      bytes: 020001
+    - key: chg
+      bytes: 020001
+    - key: chk
+      bytes: 020001
+    - key: chm
+      bytes: 020001
+    - key: chn
+      bytes: 020001
+    - key: chp
+      bytes: 020001
+    - key: chs
+      bytes: 020001
+    - key: cht
+      bytes: 020001
+    - key: chz
+      bytes: 020001
+    - key: "cz\u0107"
+      bytes: 020001
+    - key: "cz\u0144"
+      bytes: 020001
+    - key: "cz\u015B"
+      bytes: 020001
+    - key: "cz\u017A"
+      bytes: 020001
+    - key: "cz\u017C"
+      bytes: 020001
+    - key: czb
+      bytes: 020001
+    - key: czc
+      bytes: 020001
+    - key: czd
+      bytes: 020001
+    - key: czf
+      bytes: 020001
+    - key: czg
+      bytes: 020001
+    - key: czk
+      bytes: 020001
+    - key: czl
+      bytes: 020001
+    - key: czm
+      bytes: 020001
+    - key: czn
+      bytes: 020001
+    - key: czp
+      bytes: 020001
+    - key: czs
+      bytes: 020001
+    - key: czt
+      bytes: 020001
+    - key: czz
+      bytes: 020001
+    - key: "d\u0142b"
+      bytes: 020000
+    - key: "d\u0142sz"
+      bytes: 02000000
+    - key: "d\u017A\u0107"
+      bytes: 020001
+    - key: "d\u017A\u0144"
+      bytes: 020001
+    - key: "d\u017A\u015B"
+      bytes: 020001
+    - key: "d\u017A\u017A"
+      bytes: 020001
+    - key: "d\u017A\u017C"
+      bytes: 020001
+    - key: "d\u017Ab"
+      bytes: 020001
+    - key: "d\u017Ac"
+      bytes: 020001
+    - key: "d\u017Ad"
+      bytes: 020001
+    - key: "d\u017Af"
+      bytes: 020001
+    - key: "d\u017Ag"
+      bytes: 020001
+    - key: "d\u017Ak"
+      bytes: 020001
+    - key: "d\u017Am"
+      bytes: 020001
+    - key: "d\u017An"
+      bytes: 020001
+    - key: "d\u017Ap"
+      bytes: 020001
+    - key: "d\u017As"
+      bytes: 020001
+    - key: "d\u017At"
+      bytes: 020001
+    - key: "d\u017Az"
+      bytes: 020001
+    - key: "d\u017C\u0107"
+      bytes: 020001
+    - key: "d\u017C\u0144"
+      bytes: 020001
+    - key: "d\u017C\u015B"
+      bytes: 020001
+    - key: "d\u017C\u017A"
+      bytes: 020001
+    - key: "d\u017C\u017C"
+      bytes: 020001
+    - key: "d\u017Cb"
+      bytes: 020001
+    - key: "d\u017Cc"
+      bytes: 020001
+    - key: "d\u017Cd"
+      bytes: 020001
+    - key: "d\u017Cf"
+      bytes: 020001
+    - key: "d\u017Cg"
+      bytes: 020001
+    - key: "d\u017Ck"
+      bytes: 020001
+    - key: "d\u017Cm"
+      bytes: 020001
+    - key: "d\u017Cn"
+      bytes: 020001
+    - key: "d\u017Cp"
+      bytes: 020001
+    - key: "d\u017Cs"
+      bytes: 020001
+    - key: "d\u017Ct"
+      bytes: 020001
+    - key: "d\u017Cz"
+      bytes: 020001
+    - key: "d\u0107"
+      bytes: 0201
+    - key: "d\u0144"
+      bytes: 0201
+    - key: "d\u015B"
+      bytes: 0201
+    - key: db
+      bytes: 0201
+    - key: dc
+      bytes: 0201
+    - key: df
+      bytes: 0201
+    - key: dg
+      bytes: 0201
+    - key: dk
+      bytes: 0201
+    - key: dm
+      bytes: 0201
+    - key: dn
+      bytes: 0201
+    - key: dp
+      bytes: 0201
+    - key: ds
+      bytes: 0201
+    - key: dt
+      bytes: 0201
+    - key: drn
+      bytes: 020000
+    - key: "dz\u0107"
+      bytes: 020001
+    - key: "dz\u0144"
+      bytes: 020001
+    - key: "dz\u015B"
+      bytes: 020001
+    - key: "dz\u017A"
+      bytes: 020001
+    - key: "dz\u017C"
+      bytes: 020001
+    - key: dzb
+      bytes: 020001
+    - key: dzc
+      bytes: 020001
+    - key: dzd
+      bytes: 020001
+    - key: dzf
+      bytes: 020001
+    - key: dzg
+      bytes: 020001
+    - key: dzk
+      bytes: 020001
+    - key: dzl
+      bytes: 020001
+    - key: dzm
+      bytes: 020001
+    - key: dzn
+      bytes: 020001
+    - key: dzp
+      bytes: 020001
+    - key: dzs
+      bytes: 020001
+    - key: dzt
+      bytes: 020001
+    - key: dzz
+      bytes: 020001
+    - key: fc
+      bytes: 0201
+    - key: fk
+      bytes: 0201
+    - key: fm
+      bytes: 0201
+    - key: fn
+      bytes: 0201
+    - key: "g\u0142b"
+      bytes: 020000
+    - key: "g\u0107"
+      bytes: 0201
+    - key: "g\u0144"
+      bytes: 0201
+    - key: "g\u015B"
+      bytes: 0201
+    - key: "g\u017A"
+      bytes: 0201
+    - key: "g\u017C"
+      bytes: 0201
+    - key: gb
+      bytes: 0201
+    - key: gc
+      bytes: 0201
+    - key: gd
+      bytes: 0201
+    - key: gf
+      bytes: 0201
+    - key: gk
+      bytes: 0201
+    - key: gm
+      bytes: 0201
+    - key: gp
+      bytes: 0201
+    - key: gs
+      bytes: 0201
+    - key: gt
+      bytes: 0201
+    - key: gz
+      bytes: 0201
+    - key: "h\u0107"
+      bytes: 0201
+    - key: "h\u0142"
+      bytes: 0201
+    - key: "h\u0144"
+      bytes: 0201
+    - key: "h\u015B"
+      bytes: 0201
+    - key: "h\u017A"
+      bytes: 0201
+    - key: "h\u017C"
+      bytes: 0201
+    - key: hb
+      bytes: 0201
+    - key: hc
+      bytes: 0201
+    - key: hd
+      bytes: 0201
+    - key: hf
+      bytes: 0201
+    - key: hg
+      bytes: 0201
+    - key: hj
+      bytes: 0201
+    - key: hk
+      bytes: 0201
+    - key: hl
+      bytes: 0201
+    - key: hm
+      bytes: 0201
+    - key: hn
+      bytes: 0201
+    - key: hp
+      bytes: 0201
+    - key: hr
+      bytes: 0201
+    - key: hs
+      bytes: 0201
+    - key: ht
+      bytes: 0201
+    - key: hw
+      bytes: 0201
+    - key: hz
+      bytes: 0201
+    - key: "j\u0107"
+      bytes: 0201
+    - key: "j\u0142"
+      bytes: 0201
+    - key: "j\u0144"
+      bytes: 0201
+    - key: "j\u015B"
+      bytes: 0201
+    - key: "j\u017A"
+      bytes: 0201
+    - key: "j\u017C"
+      bytes: 0201
+    - key: jb
+      bytes: 0201
+    - key: jc
+      bytes: 0201
+    - key: jd
+      bytes: 0201
+    - key: jf
+      bytes: 0201
+    - key: jg
+      bytes: 0201
+    - key: jh
+      bytes: 0201
+    - key: jk
+      bytes: 0201
+    - key: jl
+      bytes: 0201
+    - key: jm
+      bytes: 0201
+    - key: jn
+      bytes: 0201
+    - key: jp
+      bytes: 0201
+    - key: jr
+      bytes: 0201
+    - key: js
+      bytes: 0201
+    - key: jt
+      bytes: 0201
+    - key: jw
+      bytes: 0201
+    - key: jz
+      bytes: 0201
+    - key: "k\u0142b"
+      bytes: 020000
+    - key: "k\u0107"
+      bytes: 0201
+    - key: "k\u0144"
+      bytes: 0201
+    - key: "k\u015B"
+      bytes: 0201
+    - key: "k\u017A"
+      bytes: 0201
+    - key: "k\u017C"
+      bytes: 0201
+    - key: kb
+      bytes: 0201
+    - key: kc
+      bytes: 0201
+    - key: kd
+      bytes: 0201
+    - key: kf
+      bytes: 0201
+    - key: kg
+      bytes: 0201
+    - key: km
+      bytes: 0201
+    - key: kn
+      bytes: 0201
+    - key: kp
+      bytes: 0201
+    - key: ks
+      bytes: 0201
+    - key: ksz
+      bytes: 020100
+    - key: kt
+      bytes: 0201
+    - key: kz
+      bytes: 0201
+    - key: "l\u0107"
+      bytes: 0201
+    - key: "l\u0142"
+      bytes: 0201
+    - key: "l\u0144"
+      bytes: 0201
+    - key: "l\u015B"
+      bytes: 0201
+    - key: "l\u017A"
+      bytes: 0201
+    - key: "l\u017C"
+      bytes: 0201
+    - key: lb
+      bytes: 0201
+    - key: lc
+      bytes: 0201
+    - key: ld
+      bytes: 0201
+    - key: lf
+      bytes: 0201
+    - key: lg
+      bytes: 0201
+    - key: lh
+      bytes: 0201
+    - key: lj
+      bytes: 0201
+    - key: lk
+      bytes: 0201
+    - key: lm
+      bytes: 0201
+    - key: ln
+      bytes: 0201
+    - key: lp
+      bytes: 0201
+    - key: lr
+      bytes: 0201
+    - key: ls
+      bytes: 0201
+    - key: lt
+      bytes: 0201
+    - key: lw
+      bytes: 0201
+    - key: lz
+      bytes: 0201
+    - key: "m\u0107"
+      bytes: 0201
+    - key: "m\u0142"
+      bytes: 0201
+    - key: "m\u0144"
+      bytes: 0201
+    - key: "m\u015B"
+      bytes: 0201
+    - key: "m\u017A"
+      bytes: 0201
+    - key: "m\u017C"
+      bytes: 0201
+    - key: mb
+      bytes: 0201
+    - key: mc
+      bytes: 0201
+    - key: md
+      bytes: 0201
+    - key: mf
+      bytes: 0201
+    - key: mg
+      bytes: 0201
+    - key: mh
+      bytes: 0201
+    - key: mj
+      bytes: 0201
+    - key: mk
+      bytes: 0201
+    - key: ml
+      bytes: 0201
+    - key: mn
+      bytes: 0201
+    - key: mp
+      bytes: 0201
+    - key: mr
+      bytes: 0201
+    - key: ms
+      bytes: 0201
+    - key: mt
+      bytes: 0201
+    - key: mw
+      bytes: 0201
+    - key: mz
+      bytes: 0201
+    - key: "n\u0107"
+      bytes: 0201
+    - key: "n\u0142"
+      bytes: 0201
+    - key: "n\u0144"
+      bytes: 0201
+    - key: "n\u015B"
+      bytes: 0201
+    - key: "n\u017A"
+      bytes: 0201
+    - key: "n\u017C"
+      bytes: 0201
+    - key: nb
+      bytes: 0201
+    - key: nc
+      bytes: 0201
+    - key: nd
+      bytes: 0201
+    - key: nf
+      bytes: 0201
+    - key: ng
+      bytes: 0201
+    - key: nh
+      bytes: 0201
+    - key: nj
+      bytes: 0201
+    - key: nk
+      bytes: 0201
+    - key: nl
+      bytes: 0201
+    - key: nm
+      bytes: 0201
+    - key: np
+      bytes: 0201
+    - key: nr
+      bytes: 0201
+    - key: ns
+      bytes: 0201
+    - key: nt
+      bytes: 0201
+    - key: nw
+      bytes: 0201
+    - key: nz
+      bytes: 0201
+    - key: ntn
+      bytes: 020000
+    - key: "p\u0107"
+      bytes: 0201
+    - key: "p\u0144"
+      bytes: 0201
+    - key: "p\u015B"
+      bytes: 0201
+    - key: "p\u017A"
+      bytes: 0201
+    - key: "p\u017C"
+      bytes: 0201
+    - key: pb
+      bytes: 0201
+    - key: pc
+      bytes: 0201
+    - key: pd
+      bytes: 0201
+    - key: pf
+      bytes: 0201
+    - key: pg
+      bytes: 0201
+    - key: pk
+      bytes: 0201
+    - key: pm
+      bytes: 0201
+    - key: pn
+      bytes: 0201
+    - key: ps
+      bytes: 0201
+    - key: psz
+      bytes: 020100
+    - key: pt
+      bytes: 0201
+    - key: pz
+      bytes: 0201
+    - key: pln
+      bytes: 020000
+    - key: "r\u0107"
+      bytes: 0201
+    - key: "r\u0142"
+      bytes: 0201
+    - key: "r\u0144"
+      bytes: 0201
+    - key: "r\u015B"
+      bytes: 0201
+    - key: "r\u017A"
+      bytes: 0201
+    - key: "r\u017C"
+      bytes: 0201
+    - key: rb
+      bytes: 0201
+    - key: rc
+      bytes: 0201
+    - key: rd
+      bytes: 0201
+    - key: rf
+      bytes: 0201
+    - key: rg
+      bytes: 0201
+    - key: rh
+      bytes: 0201
+    - key: rj
+      bytes: 0201
+    - key: rk
+      bytes: 0201
+    - key: rl
+      bytes: 0201
+    - key: rm
+      bytes: 0201
+    - key: rn
+      bytes: 0201
+    - key: rp
+      bytes: 0201
+    - key: rs
+      bytes: 0201
+    - key: rt
+      bytes: 0201
+    - key: rw
+      bytes: 0201
+    - key: "rz\u0107"
+      bytes: 020001
+    - key: "rz\u0142"
+      bytes: 020001
+    - key: "rz\u0144"
+      bytes: 020001
+    - key: "rz\u015B"
+      bytes: 020001
+    - key: "rz\u017A"
+      bytes: 020001
+    - key: "rz\u017C"
+      bytes: 020001
+    - key: rzb
+      bytes: 020001
+    - key: rzc
+      bytes: 020001
+    - key: rzd
+      bytes: 020001
+    - key: rzf
+      bytes: 020001
+    - key: rzg
+      bytes: 020001
+    - key: rzh
+      bytes: 020001
+    - key: rzj
+      bytes: 020001
+    - key: rzk
+      bytes: 020001
+    - key: rzl
+      bytes: 020001
+    - key: rzm
+      bytes: 020001
+    - key: rzn
+      bytes: 020001
+    - key: rzp
+      bytes: 020001
+    - key: rzr
+      bytes: 020001
+    - key: rzs
+      bytes: 020001
+    - key: rzt
+      bytes: 020001
+    - key: rzw
+      bytes: 020001
+    - key: "s\u0142b"
+      bytes: 020000
+    - key: "s\u017A"
+      bytes: 0201
+    - key: "s\u017C"
+      bytes: 0201
+    - key: sb
+      bytes: 0201
+    - key: sd
+      bytes: 0201
+    - key: sf
+      bytes: 0201
+    - key: sg
+      bytes: 0201
+    - key: ss
+      bytes: 0201
+    - key: snk
+      bytes: 020000
+    - key: stk
+      bytes: 020000
+    - key: stn
+      bytes: 020000
+    - key: stsz
+      bytes: 02000000
+    - key: "sz\u0107"
+      bytes: 020001
+    - key: "sz\u015B"
+      bytes: 020001
+    - key: szc
+      bytes: 020001
+    - key: szf
+      bytes: 020001
+    - key: szk
+      bytes: 020001
+    - key: szl
+      bytes: 020001
+    - key: szm
+      bytes: 020001
+    - key: szn
+      bytes: 020001
+    - key: szp
+      bytes: 020001
+    - key: szs
+      bytes: 020001
+    - key: szt
+      bytes: 020001
+    - key: szw
+      bytes: 020001
+    - key: szz
+      bytes: 020001
+    - key: szln
+      bytes: 02000000
+    - key: "t\u0107"
+      bytes: 0201
+    - key: "t\u0144"
+      bytes: 0201
+    - key: "t\u015B"
+      bytes: 0201
+    - key: "t\u017A"
+      bytes: 0201
+    - key: "t\u017C"
+      bytes: 0201
+    - key: tb
+      bytes: 0201
+    - key: tc
+      bytes: 0201
+    - key: td
+      bytes: 0201
+    - key: tf
+      bytes: 0201
+    - key: tg
+      bytes: 0201
+    - key: tk
+      bytes: 0201
+    - key: tm
+      bytes: 0201
+    - key: tn
+      bytes: 0201
+    - key: tp
+      bytes: 0201
+    - key: ts
+      bytes: 0201
+    - key: tz
+      bytes: 0201
+    - key: tln
+      bytes: 020000
+    - key: trk
+      bytes: 020000
+    - key: trzn
+      bytes: 02000000
+    - key: "w\u0107"
+      bytes: 0201
+    - key: "w\u0142"
+      bytes: 0201
+    - key: "w\u0144"
+      bytes: 0201
+    - key: "w\u015B"
+      bytes: 0201
+    - key: "w\u017A"
+      bytes: 0201
+    - key: "w\u017C"
+      bytes: 0201
+    - key: wb
+      bytes: 0201
+    - key: wc
+      bytes: 0201
+    - key: wd
+      bytes: 0201
+    - key: wf
+      bytes: 0201
+    - key: wg
+      bytes: 0201
+    - key: wj
+      bytes: 0201
+    - key: wk
+      bytes: 0201
+    - key: wl
+      bytes: 0201
+    - key: wm
+      bytes: 0201
+    - key: wn
+      bytes: 0201
+    - key: wp
+      bytes: 0201
+    - key: wr
+      bytes: 0201
+    - key: ws
+      bytes: 0201
+    - key: wt
+      bytes: 0201
+    - key: wz
+      bytes: 0201
+    - key: "z\u0107"
+      bytes: 0201
+    - key: "z\u015B"
+      bytes: 0201
+    - key: zc
+      bytes: 0201
+    - key: zd
+      bytes: 0201
+    - key: zf
+      bytes: 0201
+    - key: zk
+      bytes: 0201
+    - key: zp
+      bytes: 0201
+    - key: zs
+      bytes: 0201
+    - key: zt
+      bytes: 0201
+    - key: zdk
+      bytes: 020000
+    - key: zdn
+      bytes: 020000
+    - key: dniow
+      bytes: 0302000000
+    - key: kszt
+      bytes: 03020002
+    - key: mkn
+      bytes: 030202
+    - key: mnest
+      bytes: 0302000000
+    - key: mnezj
+      bytes: 0302000000
+    - key: mskn
+      bytes: 03020002
+    - key: pneu
+      bytes: 03020000
+    - key: "w\u0142ad"
+      bytes: 03020000
+    - key: "w\u0142os"
+      bytes: 03020000
+    - key: wczas
+      bytes: 0302000000
+    - key: "\u0107\u0107"
+      bytes: 0403
+    - key: "\u0142\u0142"
+      bytes: 0403
+    - key: "\u017A\u017A"
+      bytes: 0403
+    - key: "\u017C\u017C"
+      bytes: 0403
+    - key: bb
+      bytes: 0403
+    - key: cc
+      bytes: 0403
+    - key: dd
+      bytes: 0403
+    - key: ff
+      bytes: 0403
+    - key: gg
+      bytes: 0403
+    - key: hh
+      bytes: 0403
+    - key: jj
+      bytes: 0403
+    - key: kk
+      bytes: 0403
+    - key: ll
+      bytes: 0403
+    - key: mm
+      bytes: 0403
+    - key: nn
+      bytes: 0403
+    - key: pp
+      bytes: 0403
+    - key: rr
+      bytes: 0403
+    - key: tt
+      bytes: 0403
+    - key: ww
+      bytes: 0403
+    - key: zz
+      bytes: 0403
+    - key: "\u0107."
+      bytes: 0800
+    - key: "\u0107\u0107."
+      bytes: 080000
+    - key: "\u0107\u0142."
+      bytes: 080000
+    - key: "\u0107\u0144."
+      bytes: 080000
+    - key: "\u0107\u015B."
+      bytes: 080000
+    - key: "\u0107\u017A."
+      bytes: 080000
+    - key: "\u0107\u017C."
+      bytes: 080000
+    - key: "\u0107b."
+      bytes: 080000
+    - key: "\u0107c."
+      bytes: 080000
+    - key: "\u0107d."
+      bytes: 080000
+    - key: "\u0107f."
+      bytes: 080000
+    - key: "\u0107g."
+      bytes: 080000
+    - key: "\u0107h."
+      bytes: 080000
+    - key: "\u0107j."
+      bytes: 080000
+    - key: "\u0107k."
+      bytes: 080000
+    - key: "\u0107l."
+      bytes: 080000
+    - key: "\u0107m."
+      bytes: 080000
+    - key: "\u0107n."
+      bytes: 080000
+    - key: "\u0107p."
+      bytes: 080000
+    - key: "\u0107r."
+      bytes: 080000
+    - key: "\u0107s."
+      bytes: 080000
+    - key: "\u0107t."
+      bytes: 080000
+    - key: "\u0107v."
+      bytes: 080000
+    - key: "\u0107w."
+      bytes: 080000
+    - key: "\u0107x."
+      bytes: 080000
+    - key: "\u0107z."
+      bytes: 080000
+    - key: "\u0142."
+      bytes: 0800
+    - key: "\u0142\u0107."
+      bytes: 080000
+    - key: "\u0142\u0142."
+      bytes: 080000
+    - key: "\u0142\u0144."
+      bytes: 080000
+    - key: "\u0142\u015B."
+      bytes: 080000
+    - key: "\u0142\u017A."
+      bytes: 080000
+    - key: "\u0142\u017C."
+      bytes: 080000
+    - key: "\u0142b."
+      bytes: 080000
+    - key: "\u0142c."
+      bytes: 080000
+    - key: "\u0142d."
+      bytes: 080000
+    - key: "\u0142f."
+      bytes: 080000
+    - key: "\u0142g."
+      bytes: 080000
+    - key: "\u0142h."
+      bytes: 080000
+    - key: "\u0142j."
+      bytes: 080000
+    - key: "\u0142k."
+      bytes: 080000
+    - key: "\u0142l."
+      bytes: 080000
+    - key: "\u0142m."
+      bytes: 080000
+    - key: "\u0142n."
+      bytes: 080000
+    - key: "\u0142p."
+      bytes: 080000
+    - key: "\u0142r."
+      bytes: 080000
+    - key: "\u0142s."
+      bytes: 080000
+    - key: "\u0142t."
+      bytes: 080000
+    - key: "\u0142v."
+      bytes: 080000
+    - key: "\u0142w."
+      bytes: 080000
+    - key: "\u0142x."
+      bytes: 080000
+    - key: "\u0142z."
+      bytes: 080000
+    - key: "\u0144."
+      bytes: 0800
+    - key: "\u0144\u0107."
+      bytes: 080000
+    - key: "\u0144\u0142."
+      bytes: 080000
+    - key: "\u0144\u0144."
+      bytes: 080000
+    - key: "\u0144\u015B."
+      bytes: 080000
+    - key: "\u0144\u017A."
+      bytes: 080000
+    - key: "\u0144\u017C."
+      bytes: 080000
+    - key: "\u0144b."
+      bytes: 080000
+    - key: "\u0144c."
+      bytes: 080000
+    - key: "\u0144d."
+      bytes: 080000
+    - key: "\u0144f."
+      bytes: 080000
+    - key: "\u0144g."
+      bytes: 080000
+    - key: "\u0144h."
+      bytes: 080000
+    - key: "\u0144j."
+      bytes: 080000
+    - key: "\u0144k."
+      bytes: 080000
+    - key: "\u0144l."
+      bytes: 080000
+    - key: "\u0144m."
+      bytes: 080000
+    - key: "\u0144n."
+      bytes: 080000
+    - key: "\u0144p."
+      bytes: 080000
+    - key: "\u0144r."
+      bytes: 080000
+    - key: "\u0144s."
+      bytes: 080000
+    - key: "\u0144t."
+      bytes: 080000
+    - key: "\u0144v."
+      bytes: 080000
+    - key: "\u0144w."
+      bytes: 080000
+    - key: "\u0144x."
+      bytes: 080000
+    - key: "\u0144z."
+      bytes: 080000
+    - key: "\u015B."
+      bytes: 0800
+    - key: "\u015B\u0107."
+      bytes: 080000
+    - key: "\u015B\u0142."
+      bytes: 080000
+    - key: "\u015B\u0144."
+      bytes: 080000
+    - key: "\u015B\u015B."
+      bytes: 080000
+    - key: "\u015B\u017A."
+      bytes: 080000
+    - key: "\u015B\u017C."
+      bytes: 080000
+    - key: "\u015Bb."
+      bytes: 080000
+    - key: "\u015Bc."
+      bytes: 080000
+    - key: "\u015Bd."
+      bytes: 080000
+    - key: "\u015Bf."
+      bytes: 080000
+    - key: "\u015Bg."
+      bytes: 080000
+    - key: "\u015Bh."
+      bytes: 080000
+    - key: "\u015Bj."
+      bytes: 080000
+    - key: "\u015Bk."
+      bytes: 080000
+    - key: "\u015Bl."
+      bytes: 080000
+    - key: "\u015Bm."
+      bytes: 080000
+    - key: "\u015Bn."
+      bytes: 080000
+    - key: "\u015Bp."
+      bytes: 080000
+    - key: "\u015Br."
+      bytes: 080000
+    - key: "\u015Bs."
+      bytes: 080000
+    - key: "\u015Bt."
+      bytes: 080000
+    - key: "\u015Bv."
+      bytes: 080000
+    - key: "\u015Bw."
+      bytes: 080000
+    - key: "\u015Bx."
+      bytes: 080000
+    - key: "\u015Bz."
+      bytes: 080000
+    - key: "\u017A."
+      bytes: 0800
+    - key: "\u017A\u0107."
+      bytes: 080000
+    - key: "\u017A\u0142."
+      bytes: 080000
+    - key: "\u017A\u0144."
+      bytes: 080000
+    - key: "\u017A\u015B."
+      bytes: 080000
+    - key: "\u017A\u017A."
+      bytes: 080000
+    - key: "\u017A\u017C."
+      bytes: 080000
+    - key: "\u017Ab."
+      bytes: 080000
+    - key: "\u017Ac."
+      bytes: 080000
+    - key: "\u017Ad."
+      bytes: 080000
+    - key: "\u017Af."
+      bytes: 080000
+    - key: "\u017Ag."
+      bytes: 080000
+    - key: "\u017Ah."
+      bytes: 080000
+    - key: "\u017Aj."
+      bytes: 080000
+    - key: "\u017Ak."
+      bytes: 080000
+    - key: "\u017Al."
+      bytes: 080000
+    - key: "\u017Am."
+      bytes: 080000
+    - key: "\u017An."
+      bytes: 080000
+    - key: "\u017Ap."
+      bytes: 080000
+    - key: "\u017Ar."
+      bytes: 080000
+    - key: "\u017As."
+      bytes: 080000
+    - key: "\u017At."
+      bytes: 080000
+    - key: "\u017Av."
+      bytes: 080000
+    - key: "\u017Aw."
+      bytes: 080000
+    - key: "\u017Ax."
+      bytes: 080000
+    - key: "\u017Az."
+      bytes: 080000
+    - key: "\u017C."
+      bytes: 0800
+    - key: "\u017C\u0107."
+      bytes: 080000
+    - key: "\u017C\u0142."
+      bytes: 080000
+    - key: "\u017C\u0144."
+      bytes: 080000
+    - key: "\u017C\u015B."
+      bytes: 080000
+    - key: "\u017C\u017A."
+      bytes: 080000
+    - key: "\u017C\u017C."
+      bytes: 080000
+    - key: "\u017Cb."
+      bytes: 080000
+    - key: "\u017Cc."
+      bytes: 080000
+    - key: "\u017Cd."
+      bytes: 080000
+    - key: "\u017Cf."
+      bytes: 080000
+    - key: "\u017Cg."
+      bytes: 080000
+    - key: "\u017Ch."
+      bytes: 080000
+    - key: "\u017Cj."
+      bytes: 080000
+    - key: "\u017Ck."
+      bytes: 080000
+    - key: "\u017Cl."
+      bytes: 080000
+    - key: "\u017Cm."
+      bytes: 080000
+    - key: "\u017Cn."
+      bytes: 080000
+    - key: "\u017Cp."
+      bytes: 080000
+    - key: "\u017Cr."
+      bytes: 080000
+    - key: "\u017Cs."
+      bytes: 080000
+    - key: "\u017Ct."
+      bytes: 080000
+    - key: "\u017Cv."
+      bytes: 080000
+    - key: "\u017Cw."
+      bytes: 080000
+    - key: "\u017Cx."
+      bytes: 080000
+    - key: "\u017Cz."
+      bytes: 080000
+    - key: b.
+      bytes: 0800
+    - key: "b\u0107."
+      bytes: 080000
+    - key: "b\u0142."
+      bytes: 080000
+    - key: "b\u0144."
+      bytes: 080000
+    - key: "b\u015B."
+      bytes: 080000
+    - key: "b\u017A."
+      bytes: 080000
+    - key: "b\u017C."
+      bytes: 080000
+    - key: bb.
+      bytes: 080000
+    - key: bc.
+      bytes: 080000
+    - key: bd.
+      bytes: 080000
+    - key: bf.
+      bytes: 080000
+    - key: bg.
+      bytes: 080000
+    - key: bh.
+      bytes: 080000
+    - key: bj.
+      bytes: 080000
+    - key: bk.
+      bytes: 080000
+    - key: bl.
+      bytes: 080000
+    - key: bm.
+      bytes: 080000
+    - key: bn.
+      bytes: 080000
+    - key: bp.
+      bytes: 080000
+    - key: br.
+      bytes: 080000
+    - key: brz.
+      bytes: 08000000
+    - key: bs.
+      bytes: 080000
+    - key: bt.
+      bytes: 080000
+    - key: bv.
+      bytes: 080000
+    - key: bw.
+      bytes: 080000
+    - key: bx.
+      bytes: 080000
+    - key: bz.
+      bytes: 080000
+    - key: c.
+      bytes: 0800
+    - key: "c\u0107."
+      bytes: 080000
+    - key: "c\u0142."
+      bytes: 080000
+    - key: "c\u0144."
+      bytes: 080000
+    - key: "c\u015B."
+      bytes: 080000
+    - key: "c\u017A."
+      bytes: 080000
+    - key: "c\u017C."
+      bytes: 080000
+    - key: cb.
+      bytes: 080000
+    - key: cc.
+      bytes: 080000
+    - key: cd.
+      bytes: 080000
+    - key: cf.
+      bytes: 080000
+    - key: cg.
+      bytes: 080000
+    - key: ch.
+      bytes: 080000
+    - key: "ch\u0142."
+      bytes: 08000000
+    - key: chrz.
+      bytes: 0800000000
+    - key: chw.
+      bytes: 08000000
+    - key: cj.
+      bytes: 080000
+    - key: ck.
+      bytes: 080000
+    - key: cl.
+      bytes: 080000
+    - key: cm.
+      bytes: 080000
+    - key: cn.
+      bytes: 080000
+    - key: cp.
+      bytes: 080000
+    - key: cr.
+      bytes: 080000
+    - key: cs.
+      bytes: 080000
+    - key: ct.
+      bytes: 080000
+    - key: cv.
+      bytes: 080000
+    - key: cw.
+      bytes: 080000
+    - key: cx.
+      bytes: 080000
+    - key: cz.
+      bytes: 080000
+    - key: czt.
+      bytes: 08000000
+    - key: d.
+      bytes: 0800
+    - key: "d\u0107."
+      bytes: 080000
+    - key: "d\u0142."
+      bytes: 080000
+    - key: "d\u0144."
+      bytes: 080000
+    - key: "d\u015B."
+      bytes: 080000
+    - key: "d\u017A."
+      bytes: 080000
+    - key: "d\u017C."
+      bytes: 080000
+    - key: db.
+      bytes: 080000
+    - key: dc.
+      bytes: 080000
+    - key: dd.
+      bytes: 080000
+    - key: df.
+      bytes: 080000
+    - key: dg.
+      bytes: 080000
+    - key: dh.
+      bytes: 080000
+    - key: dj.
+      bytes: 080000
+    - key: dk.
+      bytes: 080000
+    - key: dl.
+      bytes: 080000
+    - key: dm.
+      bytes: 080000
+    - key: dn.
+      bytes: 080000
+    - key: dp.
+      bytes: 080000
+    - key: dr.
+      bytes: 080000
+    - key: drz.
+      bytes: 08000000
+    - key: ds.
+      bytes: 080000
+    - key: dt.
+      bytes: 080000
+    - key: dv.
+      bytes: 080000
+    - key: dw.
+      bytes: 080000
+    - key: dx.
+      bytes: 080000
+    - key: dz.
+      bytes: 080000
+    - key: f.
+      bytes: 0800
+    - key: "f\u0107."
+      bytes: 080000
+    - key: "f\u0142."
+      bytes: 080000
+    - key: "f\u0144."
+      bytes: 080000
+    - key: "f\u015B."
+      bytes: 080000
+    - key: "f\u017A."
+      bytes: 080000
+    - key: "f\u017C."
+      bytes: 080000
+    - key: fb.
+      bytes: 080000
+    - key: fc.
+      bytes: 080000
+    - key: fd.
+      bytes: 080000
+    - key: ff.
+      bytes: 080000
+    - key: fg.
+      bytes: 080000
+    - key: fh.
+      bytes: 080000
+    - key: fj.
+      bytes: 080000
+    - key: fk.
+      bytes: 080000
+    - key: fl.
+      bytes: 080000
+    - key: fm.
+      bytes: 080000
+    - key: fn.
+      bytes: 080000
+    - key: fp.
+      bytes: 080000
+    - key: fr.
+      bytes: 080000
+    - key: fs.
+      bytes: 080000
+    - key: ft.
+      bytes: 080000
+    - key: fv.
+      bytes: 080000
+    - key: fw.
+      bytes: 080000
+    - key: fx.
+      bytes: 080000
+    - key: fz.
+      bytes: 080000
+    - key: g.
+      bytes: 0800
+    - key: "g\u0107."
+      bytes: 080000
+    - key: "g\u0142."
+      bytes: 080000
+    - key: "g\u0144."
+      bytes: 080000
+    - key: "g\u015B."
+      bytes: 080000
+    - key: "g\u017A."
+      bytes: 080000
+    - key: "g\u017C."
+      bytes: 080000
+    - key: gb.
+      bytes: 080000
+    - key: gc.
+      bytes: 080000
+    - key: gd.
+      bytes: 080000
+    - key: gf.
+      bytes: 080000
+    - key: gg.
+      bytes: 080000
+    - key: gh.
+      bytes: 080000
+    - key: gj.
+      bytes: 080000
+    - key: gk.
+      bytes: 080000
+    - key: gl.
+      bytes: 080000
+    - key: gm.
+      bytes: 080000
+    - key: gn.
+      bytes: 080000
+    - key: gp.
+      bytes: 080000
+    - key: gr.
+      bytes: 080000
+    - key: gs.
+      bytes: 080000
+    - key: gt.
+      bytes: 080000
+    - key: gv.
+      bytes: 080000
+    - key: gw.
+      bytes: 080000
+    - key: gx.
+      bytes: 080000
+    - key: gz.
+      bytes: 080000
+    - key: h.
+      bytes: 0800
+    - key: "h\u0107."
+      bytes: 080000
+    - key: "h\u0142."
+      bytes: 080000
+    - key: "h\u0144."
+      bytes: 080000
+    - key: "h\u015B."
+      bytes: 080000
+    - key: "h\u017A."
+      bytes: 080000
+    - key: "h\u017C."
+      bytes: 080000
+    - key: hb.
+      bytes: 080000
+    - key: hc.
+      bytes: 080000
+    - key: hd.
+      bytes: 080000
+    - key: hf.
+      bytes: 080000
+    - key: hg.
+      bytes: 080000
+    - key: hh.
+      bytes: 080000
+    - key: hj.
+      bytes: 080000
+    - key: hk.
+      bytes: 080000
+    - key: hl.
+      bytes: 080000
+    - key: hm.
+      bytes: 080000
+    - key: hn.
+      bytes: 080000
+    - key: hp.
+      bytes: 080000
+    - key: hr.
+      bytes: 080000
+    - key: hs.
+      bytes: 080000
+    - key: ht.
+      bytes: 080000
+    - key: hv.
+      bytes: 080000
+    - key: hw.
+      bytes: 080000
+    - key: hx.
+      bytes: 080000
+    - key: hz.
+      bytes: 080000
+    - key: j.
+      bytes: 0800
+    - key: "j\u0107."
+      bytes: 080000
+    - key: "j\u0142."
+      bytes: 080000
+    - key: "j\u0144."
+      bytes: 080000
+    - key: "j\u015B."
+      bytes: 080000
+    - key: "j\u017A."
+      bytes: 080000
+    - key: "j\u017C."
+      bytes: 080000
+    - key: jb.
+      bytes: 080000
+    - key: jc.
+      bytes: 080000
+    - key: jd.
+      bytes: 080000
+    - key: jf.
+      bytes: 080000
+    - key: jg.
+      bytes: 080000
+    - key: jh.
+      bytes: 080000
+    - key: jj.
+      bytes: 080000
+    - key: jk.
+      bytes: 080000
+    - key: jl.
+      bytes: 080000
+    - key: jm.
+      bytes: 080000
+    - key: jn.
+      bytes: 080000
+    - key: jp.
+      bytes: 080000
+    - key: jr.
+      bytes: 080000
+    - key: js.
+      bytes: 080000
+    - key: jt.
+      bytes: 080000
+    - key: jv.
+      bytes: 080000
+    - key: jw.
+      bytes: 080000
+    - key: jx.
+      bytes: 080000
+    - key: jz.
+      bytes: 080000
+    - key: k.
+      bytes: 0800
+    - key: "k\u0107."
+      bytes: 080000
+    - key: "k\u0142."
+      bytes: 080000
+    - key: "k\u0144."
+      bytes: 080000
+    - key: "k\u015B."
+      bytes: 080000
+    - key: "k\u017A."
+      bytes: 080000
+    - key: "k\u017C."
+      bytes: 080000
+    - key: kb.
+      bytes: 080000
+    - key: kc.
+      bytes: 080000
+    - key: kd.
+      bytes: 080000
+    - key: kf.
+      bytes: 080000
+    - key: kg.
+      bytes: 080000
+    - key: kh.
+      bytes: 080000
+    - key: kj.
+      bytes: 080000
+    - key: kk.
+      bytes: 080000
+    - key: kl.
+      bytes: 080000
+    - key: km.
+      bytes: 080000
+    - key: kn.
+      bytes: 080000
+    - key: kp.
+      bytes: 080000
+    - key: kr.
+      bytes: 080000
+    - key: ks.
+      bytes: 080000
+    - key: kst.
+      bytes: 08000000
+    - key: kt.
+      bytes: 080000
+    - key: kv.
+      bytes: 080000
+    - key: kw.
+      bytes: 080000
+    - key: kx.
+      bytes: 080000
+    - key: kz.
+      bytes: 080000
+    - key: l.
+      bytes: 0800
+    - key: "l\u0107."
+      bytes: 080000
+    - key: "l\u0142."
+      bytes: 080000
+    - key: "l\u0144."
+      bytes: 080000
+    - key: "l\u015B."
+      bytes: 080000
+    - key: "l\u017A."
+      bytes: 080000
+    - key: "l\u017C."
+      bytes: 080000
+    - key: lb.
+      bytes: 080000
+    - key: lc.
+      bytes: 080000
+    - key: ld.
+      bytes: 080000
+    - key: lf.
+      bytes: 080000
+    - key: lg.
+      bytes: 080000
+    - key: lh.
+      bytes: 080000
+    - key: lj.
+      bytes: 080000
+    - key: lk.
+      bytes: 080000
+    - key: ll.
+      bytes: 080000
+    - key: lm.
+      bytes: 080000
+    - key: ln.
+      bytes: 080000
+    - key: lp.
+      bytes: 080000
+    - key: lr.
+      bytes: 080000
+    - key: ls.
+      bytes: 080000
+    - key: lt.
+      bytes: 080000
+    - key: lv.
+      bytes: 080000
+    - key: lw.
+      bytes: 080000
+    - key: lx.
+      bytes: 080000
+    - key: lz.
+      bytes: 080000
+    - key: m.
+      bytes: 0800
+    - key: "m\u0107."
+      bytes: 080000
+    - key: "m\u0142."
+      bytes: 080000
+    - key: "m\u0144."
+      bytes: 080000
+    - key: "m\u015B."
+      bytes: 080000
+    - key: "m\u017A."
+      bytes: 080000
+    - key: "m\u017C."
+      bytes: 080000
+    - key: mb.
+      bytes: 080000
+    - key: mc.
+      bytes: 080000
+    - key: md.
+      bytes: 080000
+    - key: mf.
+      bytes: 080000
+    - key: mg.
+      bytes: 080000
+    - key: mh.
+      bytes: 080000
+    - key: mj.
+      bytes: 080000
+    - key: mk.
+      bytes: 080000
+    - key: ml.
+      bytes: 080000
+    - key: mm.
+      bytes: 080000
+    - key: mn.
+      bytes: 080000
+    - key: mp.
+      bytes: 080000
+    - key: mr.
+      bytes: 080000
+    - key: ms.
+      bytes: 080000
+    - key: mst.
+      bytes: 08000000
+    - key: mt.
+      bytes: 080000
+    - key: mv.
+      bytes: 080000
+    - key: mw.
+      bytes: 080000
+    - key: mx.
+      bytes: 080000
+    - key: mz.
+      bytes: 080000
+    - key: n.
+      bytes: 0800
+    - key: "n\u0107."
+      bytes: 080000
+    - key: "n\u0142."
+      bytes: 080000
+    - key: "n\u0144."
+      bytes: 080000
+    - key: "n\u015B."
+      bytes: 080000
+    - key: "n\u017A."
+      bytes: 080000
+    - key: "n\u017C."
+      bytes: 080000
+    - key: nb.
+      bytes: 080000
+    - key: nc.
+      bytes: 080000
+    - key: nd.
+      bytes: 080000
+    - key: nf.
+      bytes: 080000
+    - key: ng.
+      bytes: 080000
+    - key: nh.
+      bytes: 080000
+    - key: nj.
+      bytes: 080000
+    - key: nk.
+      bytes: 080000
+    - key: nl.
+      bytes: 080000
+    - key: nm.
+      bytes: 080000
+    - key: nn.
+      bytes: 080000
+    - key: np.
+      bytes: 080000
+    - key: nr.
+      bytes: 080000
+    - key: ns.
+      bytes: 080000
+    - key: nt.
+      bytes: 080000
+    - key: nv.
+      bytes: 080000
+    - key: nw.
+      bytes: 080000
+    - key: nx.
+      bytes: 080000
+    - key: nz.
+      bytes: 080000
+    - key: p.
+      bytes: 0800
+    - key: "p\u0107."
+      bytes: 080000
+    - key: "p\u0142."
+      bytes: 080000
+    - key: "p\u0144."
+      bytes: 080000
+    - key: "p\u015B."
+      bytes: 080000
+    - key: "p\u017A."
+      bytes: 080000
+    - key: "p\u017C."
+      bytes: 080000
+    - key: pb.
+      bytes: 080000
+    - key: pc.
+      bytes: 080000
+    - key: pd.
+      bytes: 080000
+    - key: pf.
+      bytes: 080000
+    - key: pg.
+      bytes: 080000
+    - key: ph.
+      bytes: 080000
+    - key: pj.
+      bytes: 080000
+    - key: pk.
+      bytes: 080000
+    - key: pl.
+      bytes: 080000
+    - key: pm.
+      bytes: 080000
+    - key: pn.
+      bytes: 080000
+    - key: pp.
+      bytes: 080000
+    - key: pr.
+      bytes: 080000
+    - key: prz.
+      bytes: 08000000
+    - key: ps.
+      bytes: 080000
+    - key: pt.
+      bytes: 080000
+    - key: pv.
+      bytes: 080000
+    - key: pw.
+      bytes: 080000
+    - key: px.
+      bytes: 080000
+    - key: pz.
+      bytes: 080000
+    - key: r.
+      bytes: 0800
+    - key: "r\u0107."
+      bytes: 080000
+    - key: "r\u0142."
+      bytes: 080000
+    - key: "r\u0144."
+      bytes: 080000
+    - key: "r\u015B."
+      bytes: 080000
+    - key: "r\u017A."
+      bytes: 080000
+    - key: "r\u017C."
+      bytes: 080000
+    - key: rb.
+      bytes: 080000
+    - key: rc.
+      bytes: 080000
+    - key: rd.
+      bytes: 080000
+    - key: rf.
+      bytes: 080000
+    - key: rg.
+      bytes: 080000
+    - key: rh.
+      bytes: 080000
+    - key: rj.
+      bytes: 080000
+    - key: rk.
+      bytes: 080000
+    - key: rl.
+      bytes: 080000
+    - key: rm.
+      bytes: 080000
+    - key: rn.
+      bytes: 080000
+    - key: rp.
+      bytes: 080000
+    - key: rr.
+      bytes: 080000
+    - key: rs.
+      bytes: 080000
+    - key: rsz.
+      bytes: 08000000
+    - key: rt.
+      bytes: 080000
+    - key: rv.
+      bytes: 080000
+    - key: rw.
+      bytes: 080000
+    - key: rx.
+      bytes: 080000
+    - key: rz.
+      bytes: 080000
+    - key: "rz\u0142."
+      bytes: 08000000
+    - key: s.
+      bytes: 0800
+    - key: "s\u0107."
+      bytes: 080000
+    - key: "s\u0142."
+      bytes: 080000
+    - key: "s\u0144."
+      bytes: 080000
+    - key: "s\u015B."
+      bytes: 080000
+    - key: "s\u017A."
+      bytes: 080000
+    - key: "s\u017C."
+      bytes: 080000
+    - key: sb.
+      bytes: 080000
+    - key: sc.
+      bytes: 080000
+    - key: sch.
+      bytes: 08000000
+    - key: sd.
+      bytes: 080000
+    - key: sf.
+      bytes: 080000
+    - key: sg.
+      bytes: 080000
+    - key: sh.
+      bytes: 080000
+    - key: sj.
+      bytes: 080000
+    - key: sk.
+      bytes: 080000
+    - key: skrz.
+      bytes: 0800000000
+    - key: sl.
+      bytes: 080000
+    - key: sm.
+      bytes: 080000
+    - key: sn.
+      bytes: 080000
+    - key: sp.
+      bytes: 080000
+    - key: sr.
+      bytes: 080000
+    - key: ss.
+      bytes: 080000
+    - key: st.
+      bytes: 080000
+    - key: str.
+      bytes: 08000000
+    - key: strz.
+      bytes: 0800000000
+    - key: stw.
+      bytes: 08000000
+    - key: sv.
+      bytes: 080000
+    - key: sw.
+      bytes: 080000
+    - key: sx.
+      bytes: 080000
+    - key: sz.
+      bytes: 080000
+    - key: szcz.
+      bytes: 0800000000
+    - key: szczb.
+      bytes: 080000000000
+    - key: szk.
+      bytes: 08000000
+    - key: szn.
+      bytes: 08000000
+    - key: szt.
+      bytes: 08000000
+    - key: sztr.
+      bytes: 0800000000
+    - key: t.
+      bytes: 0800
+    - key: "t\u0107."
+      bytes: 080000
+    - key: "t\u0142."
+      bytes: 080000
+    - key: "t\u0144."
+      bytes: 080000
+    - key: "t\u015B."
+      bytes: 080000
+    - key: "t\u017A."
+      bytes: 080000
+    - key: "t\u017C."
+      bytes: 080000
+    - key: tb.
+      bytes: 080000
+    - key: tc.
+      bytes: 080000
+    - key: td.
+      bytes: 080000
+    - key: tf.
+      bytes: 080000
+    - key: tg.
+      bytes: 080000
+    - key: th.
+      bytes: 080000
+    - key: tj.
+      bytes: 080000
+    - key: tk.
+      bytes: 080000
+    - key: tl.
+      bytes: 080000
+    - key: tm.
+      bytes: 080000
+    - key: tn.
+      bytes: 080000
+    - key: tp.
+      bytes: 080000
+    - key: tr.
+      bytes: 080000
+    - key: trz.
+      bytes: 08000000
+    - key: ts.
+      bytes: 080000
+    - key: tt.
+      bytes: 080000
+    - key: tv.
+      bytes: 080000
+    - key: tw.
+      bytes: 080000
+    - key: tx.
+      bytes: 080000
+    - key: tz.
+      bytes: 080000
+    - key: v.
+      bytes: 0800
+    - key: "v\u0107."
+      bytes: 080000
+    - key: "v\u0142."
+      bytes: 080000
+    - key: "v\u0144."
+      bytes: 080000
+    - key: "v\u015B."
+      bytes: 080000
+    - key: "v\u017A."
+      bytes: 080000
+    - key: "v\u017C."
+      bytes: 080000
+    - key: vb.
+      bytes: 080000
+    - key: vc.
+      bytes: 080000
+    - key: vd.
+      bytes: 080000
+    - key: vf.
+      bytes: 080000
+    - key: vg.
+      bytes: 080000
+    - key: vh.
+      bytes: 080000
+    - key: vj.
+      bytes: 080000
+    - key: vk.
+      bytes: 080000
+    - key: vl.
+      bytes: 080000
+    - key: vm.
+      bytes: 080000
+    - key: vn.
+      bytes: 080000
+    - key: vp.
+      bytes: 080000
+    - key: vr.
+      bytes: 080000
+    - key: vs.
+      bytes: 080000
+    - key: vt.
+      bytes: 080000
+    - key: vv.
+      bytes: 080000
+    - key: vw.
+      bytes: 080000
+    - key: vx.
+      bytes: 080000
+    - key: vz.
+      bytes: 080000
+    - key: w.
+      bytes: 0800
+    - key: "w\u0107."
+      bytes: 080000
+    - key: "w\u0142."
+      bytes: 080000
+    - key: "w\u0144."
+      bytes: 080000
+    - key: "w\u015B."
+      bytes: 080000
+    - key: "w\u017A."
+      bytes: 080000
+    - key: "w\u017C."
+      bytes: 080000
+    - key: wb.
+      bytes: 080000
+    - key: wc.
+      bytes: 080000
+    - key: wd.
+      bytes: 080000
+    - key: wf.
+      bytes: 080000
+    - key: wg.
+      bytes: 080000
+    - key: wh.
+      bytes: 080000
+    - key: wj.
+      bytes: 080000
+    - key: wk.
+      bytes: 080000
+    - key: wl.
+      bytes: 080000
+    - key: wm.
+      bytes: 080000
+    - key: wn.
+      bytes: 080000
+    - key: wp.
+      bytes: 080000
+    - key: wr.
+      bytes: 080000
+    - key: ws.
+      bytes: 080000
+    - key: wt.
+      bytes: 080000
+    - key: wv.
+      bytes: 080000
+    - key: ww.
+      bytes: 080000
+    - key: wx.
+      bytes: 080000
+    - key: wz.
+      bytes: 080000
+    - key: x.
+      bytes: 0800
+    - key: "x\u0107."
+      bytes: 080000
+    - key: "x\u0142."
+      bytes: 080000
+    - key: "x\u0144."
+      bytes: 080000
+    - key: "x\u015B."
+      bytes: 080000
+    - key: "x\u017A."
+      bytes: 080000
+    - key: "x\u017C."
+      bytes: 080000
+    - key: xb.
+      bytes: 080000
+    - key: xc.
+      bytes: 080000
+    - key: xd.
+      bytes: 080000
+    - key: xf.
+      bytes: 080000
+    - key: xg.
+      bytes: 080000
+    - key: xh.
+      bytes: 080000
+    - key: xj.
+      bytes: 080000
+    - key: xk.
+      bytes: 080000
+    - key: xl.
+      bytes: 080000
+    - key: xm.
+      bytes: 080000
+    - key: xn.
+      bytes: 080000
+    - key: xp.
+      bytes: 080000
+    - key: xr.
+      bytes: 080000
+    - key: xs.
+      bytes: 080000
+    - key: xt.
+      bytes: 080000
+    - key: xv.
+      bytes: 080000
+    - key: xw.
+      bytes: 080000
+    - key: xx.
+      bytes: 080000
+    - key: xz.
+      bytes: 080000
+    - key: z.
+      bytes: 0800
+    - key: "z\u0107."
+      bytes: 080000
+    - key: "z\u0142."
+      bytes: 080000
+    - key: "z\u0144."
+      bytes: 080000
+    - key: "z\u015B."
+      bytes: 080000
+    - key: "z\u017A."
+      bytes: 080000
+    - key: "z\u017C."
+      bytes: 080000
+    - key: zb.
+      bytes: 080000
+    - key: zc.
+      bytes: 080000
+    - key: zd.
+      bytes: 080000
+    - key: zdr.
+      bytes: 08000000
+    - key: zdrz.
+      bytes: 0800000000
+    - key: zf.
+      bytes: 080000
+    - key: zg.
+      bytes: 080000
+    - key: zh.
+      bytes: 080000
+    - key: zj.
+      bytes: 080000
+    - key: zk.
+      bytes: 080000
+    - key: zl.
+      bytes: 080000
+    - key: zm.
+      bytes: 080000
+    - key: zn.
+      bytes: 080000
+    - key: zp.
+      bytes: 080000
+    - key: zr.
+      bytes: 080000
+    - key: zs.
+      bytes: 080000
+    - key: zt.
+      bytes: 080000
+    - key: zv.
+      bytes: 080000
+    - key: zw.
+      bytes: 080000
+    - key: zx.
+      bytes: 080000
+    - key: zz.
+      bytes: 080000
+    - key: a
+      bytes: 0001
+    - key: au
+      bytes: 0002
+    - key: ay
+      bytes: 0002
+    - key: aa
+      bytes: 000002
+    - key: ae
+      bytes: 000002
+    - key: ai
+      bytes: 000002
+    - key: ao
+      bytes: 000002
+    - key: beeth
+      bytes: 0000020000
+    - key: befsz
+      bytes: 000002030002
+    - key: bekhend
+      bytes: 00000201000000
+    - key: binoku
+      bytes: 000002030200
+    - key: biszkop
+      bytes: 00000200030000
+    - key: biznesm
+      bytes: 00000203000203
+    - key: biznes
+      bytes: 000002030000
+    - key: birmingham
+      bytes: 00000000000002010000
+    - key: blokhauz
+      bytes: 0000000201000000
+    - key: bosma
+      bytes: 0000020300
+    - key: brd
+      bytes: 000002
+    - key: broadway
+      bytes: 0000000202030000
+    - key: buszme
+      bytes: 000002000300
+    - key: bukszpan
+      bytes: 0000000200030000
+    - key: businessm
+      bytes: 000000000000020003
+    - key: business
+      bytes: 0000000000000002
+    - key: ch
+      bytes: 0004
+    - key: cz
+      bytes: 0004
+    - key: caldwell
+      bytes: 0000000201000000
+    - key: "ch\u0142"
+      bytes: 000002
+    - key: chj
+      bytes: 000002
+    - key: chl
+      bytes: 000002
+    - key: chr
+      bytes: 000002
+    - key: chw
+      bytes: 000002
+    - key: chust
+      bytes: 0000000001
+    - key: curzon
+      bytes: 000002070000
+    - key: "d\u017C\u0142"
+      bytes: 000002
+    - key: "d\u017Cj"
+      bytes: 000002
+    - key: "d\u017Cl"
+      bytes: 000002
+    - key: "d\u017Cr"
+      bytes: 000002
+    - key: "d\u017Cw"
+      bytes: 000002
+    - key: "d\u017Cezb"
+      bytes: 0000000403
+    - key: "d\u017Cezm"
+      bytes: 0000000403
+    - key: "d\u017A"
+      bytes: 0004
+    - key: "d\u017C"
+      bytes: 0004
+    - key: dz
+      bytes: 0004
+    - key: deutschland
+      bytes: 0000000004000003000000
+    - key: drzw
+      bytes: 00000002
+    - key: duszpast
+      bytes: 0000020003000000
+    - key: e
+      bytes: 0001
+    - key: erzac
+      bytes: 0002050000
+    - key: eu
+      bytes: 0002
+    - key: ey
+      bytes: 0002
+    - key: eusz
+      bytes: 00030200
+    - key: ea
+      bytes: 000002
+    - key: ee
+      bytes: 000002
+    - key: ei
+      bytes: 000002
+    - key: eo
+      bytes: 000002
+    - key: fisharm
+      bytes: 00000203000000
+    - key: fiszbin
+      bytes: 00000200030000
+    - key: fokst
+      bytes: 0000020203
+    - key: forzac
+      bytes: 000002050000
+    - key: folklor
+      bytes: 00000002010000
+    - key: fosfazot
+      bytes: 0000000201020000
+    - key: gadget
+      bytes: 000003020000
+    - key: gadopta
+      bytes: 00000000030200
+    - key: golfs
+      bytes: 0000000203
+    - key: golfsz
+      bytes: 00000000000002
+    - key: grandilo
+      bytes: 0000000002010000
+    - key: grotr
+      bytes: 0000000403
+    - key: hiszp
+      bytes: 0000020003
+    - key: huczw
+      bytes: 0000020001
+    - key: huxley
+      bytes: 000002030000
+    - key: i
+      bytes: 0001
+    - key: "i\u0105"
+      bytes: 0002
+    - key: "i\u0119"
+      bytes: 0002
+    - key: "i\xF3"
+      bytes: 0002
+    - key: ia
+      bytes: 0002
+    - key: ie
+      bytes: 0002
+    - key: ii
+      bytes: 0002
+    - key: io
+      bytes: 0002
+    - key: iu
+      bytes: 0002
+    - key: iy
+      bytes: 0002
+    - key: innsbruck
+      bytes: 000004000000000000
+    - key: insbruc
+      bytes: 00000400000000
+    - key: "jt\u0142"
+      bytes: 000201
+    - key: jtr
+      bytes: 000201
+    - key: jazzb
+      bytes: 0000040403
+    - key: jazzm
+      bytes: 0000040403
+    - key: karlskron
+      bytes: 000000000201000000
+    - key: karlsruhe
+      bytes: 000000000201000000
+    - key: kirchhoff
+      bytes: 000000020000000000
+    - key: kongresm
+      bytes: 0000000000000203
+    - key: ledw
+      bytes: 00000001
+    - key: luftwaffe
+      bytes: 000002000300000000
+    - key: luksfer
+      bytes: 00000200010000
+    - key: lyo
+      bytes: 000002
+    - key: "marz\u0142"
+      bytes: 0000020500
+    - key: marzl
+      bytes: 0000020500
+    - key: marzn
+      bytes: 0000020500
+    - key: miszmasz
+      bytes: 0000020001000000
+    - key: "mierz\u0142"
+      bytes: 000000020500
+    - key: mierzi
+      bytes: 000000020500
+    - key: montreal
+      bytes: 0000000203000000
+    - key: mozaik
+      bytes: 000000000203
+    - key: murzasichl
+      bytes: 00000207000000000003
+    - key: "na\u0142kows"
+      bytes: 00000403000000
+    - key: narv
+      bytes: 00000403
+    - key: o
+      bytes: 0001
+    - key: oy
+      bytes: 0002
+    - key: oa
+      bytes: 000002
+    - key: ochmistrz
+      bytes: 000000030000000000
+    - key: oe
+      bytes: 000002
+    - key: offset
+      bytes: 000002030000
+    - key: oi
+      bytes: 000002
+    - key: oo
+      bytes: 000002
+    - key: ou
+      bytes: 000002
+    - key: panamer
+      bytes: 00000203020000
+    - key: pascal
+      bytes: 000002030000
+    - key: pasch
+      bytes: 0000020300
+    - key: "po\u0142udni"
+      bytes: 00000000030200
+    - key: podnieprz
+      bytes: 000003040000000000
+    - key: "pomn\u0105"
+      bytes: 0000030200
+    - key: "pomn\u0119"
+      bytes: 0000030200
+    - key: pomni
+      bytes: 0000030200
+    - key: portsmouth
+      bytes: 00000400020300020000
+    - key: portland
+      bytes: 0000040003000000
+    - key: poliet
+      bytes: 000000000302
+    - key: poliure
+      bytes: 00000000030200
+    - key: powszedni
+      bytes: 000000000000030200
+    - key: prchal
+      bytes: 000002000000
+    - key: preszpa
+      bytes: 00000002000300
+    - key: rz
+      bytes: 0004
+    - key: roentgen
+      bytes: 0000020300020000
+    - key: rokrocz
+      bytes: 00000203000000
+    - key: rostock
+      bytes: 00000203000302
+    - key: sz
+      bytes: 0004
+    - key: setle
+      bytes: 0000020300
+    - key: skorzoner
+      bytes: 000000020500000000
+    - key: smr
+      bytes: 000002
+    - key: sowiz
+      bytes: 000000000302
+    - key: synopt
+      bytes: 000002030000
+    - key: system
+      bytes: 000002010000
+    - key: "szasz\u0142y"
+      bytes: 00000002000100
+    - key: szezlong
+      bytes: 0000000201000000
+    - key: "sze\u015B\u0107"
+      bytes: 0000000400
+    - key: sztokholm
+      bytes: 000000000201000000
+    - key: szynkwas
+      bytes: 0000000002010000
+    - key: toyot
+      bytes: 0000030203
+    - key: turboodrzut
+      bytes: 0000000000000203000000
+    - key: tygodni
+      bytes: 00000000030200
+    - key: u
+      bytes: 0001
+    - key: uy
+      bytes: 0002
+    - key: ua
+      bytes: 000002
+    - key: ue
+      bytes: 000002
+    - key: ui
+      bytes: 000002
+    - key: uo
+      bytes: 000002
+    - key: uu
+      bytes: 000002
+    - key: volks
+      bytes: 000002000203
+    - key: weekend
+      bytes: 00000202010000
+    - key: westf
+      bytes: 0000040003
+    - key: westm
+      bytes: 0000040003
+    - key: y
+      bytes: 0001
+    - key: ya
+      bytes: 000002
+    - key: ye
+      bytes: 000002
+    - key: yi
+      bytes: 000002
+    - key: yo
+      bytes: 000002
+    - key: yu
+      bytes: 000002
+    - key: zepp
+      bytes: 00000403
+    exceptions:
+    - key: bezach
+      bytes: 080809080808
+    - key: bezami
+      bytes: 080809080808
+    - key: bynajmniej
+      bytes: 08080908080908080808
+    - key: gdzieniegdzie
+      bytes: 08080808080908080908080808
+    - key: inaczej
+      bytes: 08080809080808
+    - key: nadal
+      bytes: 0808090808
+    - key: nigdy
+      bytes: 0808090808
+    - key: nigdzie
+      bytes: 08080908080808
+    - key: "niech\u017Ce"
+      bytes: 08080808080908
+    - key: niechby
+      bytes: 08080808080908
+    - key: owszem
+      bytes: 080809080808
+    - key: "p\xF3\u0142ach"
+      bytes: 080809080808
+    - key: "p\xF3\u0142ami"
+      bytes: 080809080808
+    - key: "p\xF3\u0142ek"
+      bytes: 0808090808
+    - key: "pod\xF3wczas"
+      bytes: 080808090809080808
+    - key: przynajmniej
+      bytes: 080808080908080908080808
+    - key: "sk\u0105din\u0105d"
+      bytes: 0808080809080808
+    - key: "tr\xF3jach"
+      bytes: 08080809080808
+    - key: "tr\xF3jami"
+      bytes: 08080809080808
+    - key: "tr\xF3jek"
+      bytes: 080808090808

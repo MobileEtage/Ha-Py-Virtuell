@@ -1,0 +1,63 @@
+[{
+	"id": "quiz1",
+	"imageURL": "https:\/\/stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2023-01\/sample_1920x1080_1.png",
+	"tutorialTitle": {
+		"def": "Quiz 1",
+		"de": "Quiz 1",
+		"en": "Quiz 1"
+	},
+	"tutorialDescription": {
+		"def": "\u003Cp\u003EQuiz-Beschreibung 1\u003C\/p\u003E",
+		"de": "\u003Cp\u003EQuiz-Beschreibung 1\u003C\/p\u003E",
+		"en": "\u003Cp\u003EQuiz description 1\u003C\/p\u003E"
+	},
+	"questions": [{
+		"question": {
+			"def": "Frage 1",
+			"de": "Frage 1",
+			"en": "Question 1"
+		},
+		"answers": [{
+			"def": "Korrekte Antwort",
+			"de": "Korrekte Antwort",
+			"en": "Correct answer"
+		}, {
+			"def": "Falsche Antwort 1",
+			"de": "Falsche Antwort 1",
+			"en": "Wrong answer 1"
+		}, {
+			"def": "Falsche Antwort 2",
+			"de": "Falsche Antwort 2",
+			"en": "Wrong answer 2"
+		}, {
+			"def": "Falsche Antwort 3",
+			"de": "Falsche Antwort 3",
+			"en": "Wrong answer 3"
+		}],
+		"description": {
+			"def": "\u003Cp\u003EBeschreibung 1\u003C\/p\u003E",
+			"de": "\u003Cp\u003EBeschreibung 1\u003C\/p\u003E",
+			"en": "\u003Cp\u003EDescription 1\u003C\/p\u003E"
+		}
+	}, {
+		"question": {
+			"def": "Frage 2",
+			"de": "Frage 2",
+			"en": "Question 2"
+		},
+		"answers": [{
+			"def": "Korrekte Antwort ",
+			"de": "Korrekte Antwort",
+			"en": "Correct answer"
+		}, {
+			"def": "Falsche Antwort",
+			"de": "Falsche Antwort",
+			"en": "Wrong answer"
+		}],
+		"description": {
+			"def": "\u003Cp\u003EBeschreibung Frage 2\u003C\/p\u003E",
+			"de": "\u003Cp\u003EBeschreibung Frage 2\u003C\/p\u003E",
+			"en": "\u003Cp\u003EDescription question 2\u003C\/p\u003E"
+		}
+	}]
+}]

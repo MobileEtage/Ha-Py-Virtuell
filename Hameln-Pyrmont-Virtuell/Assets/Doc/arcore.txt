@@ -1,0 +1,16 @@
+
+### Set ARCore Requirement ###
+Params --> supportAllAndroidDevices
+
+if true --> PermissionController will check if the device supports ARCore once in "CheckARFoundationSupportedCoroutine"
+and set --> PlayerPrefs.SetInt("ARFoundationSupported", isSupported?1:0);
+
+On certain app functions we check if ARCore is supported
+--> PermissionController.IsARFoundationSupported
+
+For example:
+ARMenuController --> InitMenu --> only enable AR-Button if the function does not use ARCore
+ARMenuController --> OpenStationFeatureCoroutine "guide" --> only show Guide video in AR if ARCore supported, otherwise show video only fullscreen
+MapController --> ContinueWithoutMarker, avoid start scan and immediate call OnMarkerTracked to start Guide video or show InfoSite
+TutorialController --> InitTutorialCoroutine --> Disable scan tutorial if ARCore not supported
+

@@ -1,0 +1,176 @@
+[
+	{
+        "id": "glasmacher",
+        "title": {
+            "de": "Willkommen"
+        },
+        "titleOverview": {
+            "de": "Willkommen"
+        },
+		"latitude": 52.167844,
+        "longitude": 9.438546,
+        "latitude_v1": 52.167831,
+        "longitude_v1": 9.438482,
+        "mapNumber": "Start",
+        "imageURL": "",
+        "imageMapURL": "",
+		"image": "_Images/avatarGuide",
+        "imageMap": "_Images/avatarGuide",
+        "features": [
+			{
+                "id": "avatarGuide",
+				"audioURL-Locked": "https://app-etagen.die-etagen.de/Stadtrundgang/Hameln/speech_ritter.mp3",
+				"audio": "audios/speech_ritter"
+            },
+            {
+                "id": "info",
+                "title": {
+                    "de": "Der virtuelle Glasmacher"
+                },
+                "description": {
+                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                }
+            }
+        ]
+    },
+    {
+        "id": "glashuette1",
+		"marker":["glashuette1"],
+        "title": {
+            "de": "Der Rauchgaskegel"
+        },
+        "titleOverview": {
+            "de": "Der Rauchgaskegel"
+        },
+        "latitude": 52.167763,
+        "longitude": 9.439194,
+        "mapNumber": "01",
+        "imageURL": "",
+        "imageMapURL": "",
+        "image": "_Images/Rauchgaskegel",
+        "imageMap": "_Images/glashuette-location",
+        "features": [
+            {
+                "id": "glashuette1"
+            },
+            {
+                "id": "info",
+                "title": {
+                    "de": "Der Rauchgaskegel"
+                },
+                "description": {
+                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                }
+            },
+            {
+               "id": "panorama",
+				"url": "https://app-etagen.die-etagen.de/Stadtrundgang/Hameln/360_Grad_4096_2048_750KB.jpg"
+            }
+        ]
+    },
+    {
+        "id": "glashuette2",
+		"marker":["glashuette2"],
+        "title": {
+            "de": "Fokus Schürgang Nord"
+        },
+        "titleOverview": {
+            "de": "Fokus Schürgang Nord"
+        },
+        "latitude": 52.167871,
+        "longitude": 9.439361,
+        "mapNumber": "02",
+        "imageURL": "",
+        "imageMapURL": "",
+        "image": "_Images/Rauchgaskegel",
+        "imageMap": "_Images/glashuette-location",
+        "features": [
+            {
+                "id": "glashuette2"
+            },
+            {
+                "id": "info",
+                "title": {
+                    "de": "Fokus Schürgang Nord"
+                },
+                "description": {
+                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                }
+            },
+            {
+               "id": "panorama",
+				"url": "https://app-etagen.die-etagen.de/Stadtrundgang/Hameln/360_Grad_4096_2048_750KB.jpg"
+            }
+        ]
+    },
+    {
+        "id": "glashuette3",
+		"marker":["glashuette3"],
+        "title": {
+            "de": "Fokus Anbau"
+        },
+        "titleOverview": {
+            "de": "Fokus Anbau"
+        },
+        "latitude": 52.167827,
+        "longitude": 9.439404,
+        "mapNumber": "03",
+        "imageURL": "",
+        "imageMapURL": "",
+        "image": "_Images/Rauchgaskegel",
+        "imageMap": "_Images/glashuette-location",
+        "features": [
+            {
+                "id": "glashuette3"
+            },
+            {
+                "id": "info",
+                "title": {
+                    "de": "Fokus Anbau"
+                },
+                "description": {
+                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                }
+            },
+            {
+               "id": "panorama",
+				"url": "https://app-etagen.die-etagen.de/Stadtrundgang/Hameln/360_Grad_4096_2048_750KB.jpg"
+            }
+        ]
+    },
+    {
+        "id": "glashuette4",
+		"marker":["glashuette4"],
+        "title": {
+            "de": "Fokus Schürgang Ost"
+        },
+        "titleOverview": {
+            "de": "Fokus Schürgang Ost"
+        },
+        "latitude": 52.167666,
+        "longitude": 9.439639,
+        "mapNumber": "04",
+        "imageURL": "",
+        "imageMapURL": "",
+        "image": "_Images/Rauchgaskegel",
+        "imageMap": "_Images/glashuette-location",
+        "features": [
+            {
+                "id": "glashuette4"
+            },
+            {
+                "id": "info",
+                "title": {
+					"de": "Fokus Schürgang Ost"
+                },
+                "description": {
+                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                }
+            },
+            {
+               "id": "panorama",
+				"url": "https://app-etagen.die-etagen.de/Stadtrundgang/Hameln/360_Grad_4096_2048_750KB.jpg"
+            }
+        ]
+    }
+]

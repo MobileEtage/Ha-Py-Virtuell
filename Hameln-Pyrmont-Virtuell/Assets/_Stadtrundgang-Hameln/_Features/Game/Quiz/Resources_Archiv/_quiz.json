@@ -1,0 +1,85 @@
+[{
+	"id": "quiz1",
+	"imageURL": "https:\/\/app-cms.melle.info\/sites\/melle\/files\/2023-02\/windmuehle_1675848623.png",
+	"tutorialTitle": {
+		"de": "Wie viel weisst du\\n\u00fcber die Stadt Melle?",
+		"en": "Wie viel weisst du\\n\u00fcber die Stadt Melle?"
+	},
+	"tutorialDescription": {
+		"de": "Teste Dein Wissen und beantworte in 3 Runden verschiedene Fragen zum Thema Stadt Melle.",
+		"en": "Teste Dein Wissen und beantworte in 3 Runden verschiedene Fragen zum Thema Stadt Melle."
+	},
+	"questions": [{
+		"question": {
+			"def": "Wann wurde die Westhoyeler Windm\u00fchle gebaut?",
+			"de": "Wann wurde die Westhoyeler Windm\u00fchle gebaut?",
+			"en": "Wann wurde die Westhoyeler Windm\u00fchle gebaut?"
+		},
+		"answers": [{
+			"de": "1870",
+			"en": "1870"
+		}, {
+			"de": "2000",
+			"en": "2000"
+		}, {
+			"de": "1836",
+			"en": "1836"
+		}, {
+			"de": "1903",
+			"en": "1903"
+		}],
+		"description": {
+			"def": "Die Westhoyeler Windm\u00fchle wurde 1870 erbaut.",
+			"de": "Die Westhoyeler Windm\u00fchle wurde 1870 erbaut.",
+			"en": "Die Westhoyeler Windm\u00fchle wurde 1870 erbaut."
+		}
+	}, {
+		"question": {
+			"def": "Welche Pilzart ist f\u00fcr das Absterben geschw\u00e4chter B\u00e4ume verantwortlich?",
+			"de": "Welche Pilzart ist f\u00fcr das Absterben geschw\u00e4chter B\u00e4ume verantwortlich?",
+			"en": "Welche Pilzart ist f\u00fcr das Absterben geschw\u00e4chter B\u00e4ume verantwortlich?"
+		},
+		"answers": [{
+			"de": "Parasiten",
+			"en": "Parasiten"
+		}, {
+			"de": "Partnerpilze",
+			"en": "Partnerpilze"
+		}, {
+			"de": "Zersetzerpilze",
+			"en": "Zersetzerpilze"
+		}, {
+			"de": "Schimmelpilz",
+			"en": "Schimmelpilz"
+		}],
+		"description": {
+			"def": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+			"de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+			"en": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+		}
+	}, {
+		"question": {
+			"def": "Wie nennt man die Vernetzung der Baum- und Pilzwurzeln im Waldboden noch?",
+			"de": "Wie nennt man die Vernetzung der Baum- und Pilzwurzeln im Waldboden noch?",
+			"en": "Wie nennt man die Vernetzung der Baum- und Pilzwurzeln im Waldboden noch?"
+		},
+		"answers": [{
+			"de": "Wood-Wide-Web",
+			"en": "Wood-Wide-Web"
+		}, {
+			"de": "World-Wide-Web",
+			"en": "World-Wide-Web"
+		}, {
+			"de": "Water-Wood-Web",
+			"en": "Water-Wood-Web"
+		}, {
+			"de": "World-Wood-Water",
+			"en": "World-Wood-Water"
+		}],
+		"description": {
+			"def": "Ispum lorem dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+			"de": "Ispum lorem dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.",
+			"en": "Ispum lorem dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum."
+		}
+	}]
+}]

@@ -1,0 +1,64 @@
+{
+    "marker": [
+        {
+            "id": "glashuette1",
+            "objectOffset-v1": [
+                "11.51",
+                "0",
+                "0"
+            ],
+            "objectOffset": [
+                "-1,035278",
+                "0,4981879",
+                "14,14162"
+            ],
+            "objectRotation": "347,8714",
+            "height": "0,1785746"
+        },
+        {
+            "id": "glashuette2",
+            "objectOffset-v1": [
+                "6.46",
+                "0",
+                "-10.73"
+            ],
+            "objectOffset": [
+                "-0,1905114",
+                "-1,045976",
+                "20,90901"
+            ],
+            "objectRotation": "177,1618",
+            "height": "3,12298"
+        },
+        {
+            "id": "glashuette3",
+            "objectOffset-v1": [
+                "-0.51",
+                "0",
+                "-17.32"
+            ],
+            "objectOffset": [
+                "3,423277",
+                "1,058028",
+                "17,69125"
+            ],
+            "objectRotation": "172,8818",
+            "height": "1,241702"
+        },
+        {
+            "id": "glashuette4",
+            "objectOffset-v1": [
+                "-3.25",
+                "0",
+                "-20.35"
+            ],
+            "objectOffset": [
+                "-2,181064",
+                "-0,1015038",
+                "19,7723"
+            ],
+            "objectRotation": "14,70563",
+            "height": "2,741728"
+        }
+    ]
+}

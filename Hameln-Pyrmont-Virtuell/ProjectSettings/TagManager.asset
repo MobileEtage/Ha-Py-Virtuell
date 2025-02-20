@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - VolumeCollider
+  - Placeable
+  - ARPlane
+  - ARPoint
+  - Ground
+  - StagBeetle
+  - Location
+  - CO2
+  - Water
+  - Light
+  - Metaball_liquid
+  - LeafPart
+  - Weasel
+  - Branch
+  - SongElement
+  - RhythmicObject
+  - ScrollListCamera
+  - Teleport
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - Hidden
+  - Plane
+  - ARPlane
+  - Map
+  - Model
+  - Location
+  - Panorama
+  - Gallery
+  - Audio
+  - Webcam
+  - Pigeon
+  - Scan
+  - CustomMap
+  - ScanBackground
+  - Postkarte
+  - Postprocessing
+  - Avatar
+  - Coal
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

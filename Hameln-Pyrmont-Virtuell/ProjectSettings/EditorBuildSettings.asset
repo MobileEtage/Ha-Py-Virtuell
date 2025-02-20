@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/Intro.unity
+    guid: 074dbf106788c1743a6d065c0d675eae
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/Main.unity
+    guid: a25cc12dfaf935447ac489afd8f3ed12
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/_Sites/DownloadContentSite.unity
+    guid: 2d306c08b891c0d4184ab20ef1aa1d55
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/_Sites/PrivacySite.unity
+    guid: 0878783046cf0bf4aa9b67fa54938b55
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/_Sites/ImprintSite.unity
+    guid: b5208e4649f55a04499295f8687f8042
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/_Sites/TutorialSite.unity
+    guid: 0bcbc137972e3b4429a54664d3355256
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/_Sites/FeedbackSite.unity
+    guid: a74864504b8508746b198cc28d55a157
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/_Features/QuizSite.unity
+    guid: f6275181c7169d346a8654eb5142c2e5
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/_Features/DalliKlickSite.unity
+    guid: 8a8aa45aea8965144a13816a4867c879
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/_Features/PanoramaSite.unity
+    guid: da4df868f7154424792214880f74c8dd
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/_Features/AudioSite.unity
+    guid: fdcc39cbfebfb384aae71264fd4efa4f
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/_Features/GuideVideoSite.unity
+    guid: 3e8388411498a964b9908703d8af57b6
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/Scenes/_Features/VideoFeatureSite.unity
+    guid: 400b9a405530bd7479c3a78f535e9947
+  - enabled: 1
+    path: Assets/_Stadtrundgang-Hameln/_Features/Avatar/ARAvatarSite.unity
+    guid: f6481c6511c52434ba28282ae8bf49ae
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 79a361d9813d7ee4082f05567174e28b,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 1e44a5631e6b378458fe51045c1e480b,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 302e9f36808117f4184b07b05ca5bb47,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f5a9fc2e7e0768f49988e708cc410882,
+      type: 2}

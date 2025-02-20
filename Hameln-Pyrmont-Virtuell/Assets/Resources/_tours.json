@@ -1,0 +1,21 @@
+[{
+	"id": "Glashuette",
+	"imageURL-Locked": "https://app-etagen.die-etagen.de/Stadtrundgang/Hameln/Rauchgaskegel.png",
+	"image": "_Images/Rauchgaskegel",
+	"imageOverview": "_Images/Rauchgaskegel-Overview",
+	"title": {
+		"de": "Ehemalige Glashütte"
+	},
+	"title2": {
+		"de": "in Klein Süntel"
+	},
+	"subTitle": {
+		"de": "Herzlich willkommen!"
+	},
+	"description": {
+		"de": "Diese Tour führt dich durch die\nhistorische Glashütte in Klein Süntel.\nZwei Arten der Nutzung sind möglich:\n<b>mit QR-Codes und ortsunabhängig.</b>"
+	},
+	"distance": "1,0 km",
+	"duration": "ca. 0.75 h",
+	"stations": ["glasmacher", "glashuette1", "glashuette2", "glashuette3", "glashuette4"]
+}]

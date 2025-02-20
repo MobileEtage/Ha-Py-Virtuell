@@ -1,0 +1,59 @@
+
+
+------------------------------
+
+Custom params per App
+
+------------------------------
+
+--> Script Params
+
+--- Map ---
+Adjust Access Token for Mapbox, Menu: Mapbox-->Setup
+https://account.mapbox.com/access-tokens/
+
+
+
+--- Prefabs ---
+Resources/UI/_Buttons
+Resources/Background
+Resources/UI/TourListPrefab
+MapStationFilterPrefab_
+
+
+--- Resources ---
+_stations
+_tours
+_dalliKlick
+_quiz
+
+
+
+--- Misc ---
+Intro Scene custom (Splashscreen)
+DownloadContentSite custom images
+TutorialSite custom Texts and images
+PrivacySite custom texts
+ImprintSite custom texts
+Icon
+Appname
+
+
+Main Scene
+- OffCanvasMenu
+
+
+ServerBackendController
+- URLs
+
+
+--- Firebase ---
+Bundle ID
+google-services
+GoogleService-Info
+
+
+
+
+
+------------------------------

@@ -1,0 +1,19 @@
+{
+	"steps": [{
+			"image": "dummy",
+			"title": "Lorem ipsum dolor sit amet",
+			"description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. ",
+			"backFunction": "dashboard"
+		},
+		{
+			"image": "dummy",
+			"title": "Lorem ipsum dolor",
+			"description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore"
+		},
+		{
+			"image": "dummy",
+			"title": "So funktioniert AR",
+			"description": "Scanne einen QR-Code-Marker und schaue dir die analogen und digitalen Kunstwerke an."
+		}
+	]
+}

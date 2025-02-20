@@ -1,0 +1,77 @@
+[{
+	"id": "dalliKlick1",
+	"title": {
+		"def": "Test: Dalli-Klick1",
+		"de": "Test: Dalli-Klick 1",
+		"en": "Test: Dalli-Klick 1"
+	},
+	"description": {
+		"def": "\u003Cp\u003EDalli Klick 1 Beschreibung\u003C\/p\u003E",
+		"de": "\u003Cp\u003EDalli Klick 1 Beschreibung\u003C\/p\u003E",
+		"en": "\u003Cp\u003EDalli Klick 1 Description\u003C\/p\u003E"
+	},
+	"question": {
+		"def": "Dalli Klick 1 Frage",
+		"de": "Dalli Klick 1 Frage",
+		"en": "Dalli Klick 1 question"
+	},
+	"answers": [{
+		"name": {
+			"def": "Korrekte Antwort",
+			"de": "Korrekte Antwort",
+			"en": "Correct answer"
+		}
+	}, {
+		"name": {
+			"def": "Falsche Antwort 1",
+			"de": "Falsche Antwort 1",
+			"en": "Wrong answer 1"
+		}
+	}, {
+		"name": {
+			"def": "Falsche Antwort 2",
+			"de": "Falsche Antwort 2",
+			"en": "Wrong answer 2"
+		}
+	}],
+	"imageURL": "https:\/\/stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2023-01\/sample_1920x1080.png",
+	"imageSolutionURL": "https:\/\/stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2023-01\/sample_1920x1080_0.png"
+}, {
+	"id": "dalliKlick2",
+	"title": {
+		"def": "Titel Dalli Klick 2",
+		"de": "Titel Dalli Klick 2",
+		"en": "Title Dalli Klick 2"
+	},
+	"description": {
+		"def": "\u003Cp\u003EDalli Klick 2\u003C\/p\u003E",
+		"de": "\u003Cp\u003EDalli Klick 2\u003C\/p\u003E",
+		"en": "\u003Cp\u003EDalli Klick 2\u003C\/p\u003E"
+	},
+	"question": {
+		"def": "Frage Dalli Klick 2",
+		"de": "Frage Dalli Klick 2",
+		"en": "Question Dalli Klick 2"
+	},
+	"answers": [{
+		"name": {
+			"def": "Korrekte Antwort",
+			"de": "Korrekte Antwort",
+			"en": "Correct answer"
+		}
+	}, {
+		"name": {
+			"def": "Falsche Antwort 1",
+			"de": "Falsche Antwort 1",
+			"en": "Wrong answer 1"
+		}
+	}, {
+		"name": {
+			"def": "Falsche Antwort 2",
+			"de": "Falsche Antwort 2",
+			"en": "Wrong answer 2"
+		}
+	}],
+	"imageURL": "https:\/\/stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2023-01\/sample_7680x4320.png",
+	"imageSolutionURL": "https:\/\/stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2023-01\/sample_7680x4320_0.png"
+}]

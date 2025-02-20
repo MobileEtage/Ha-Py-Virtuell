@@ -1,0 +1,2328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10bc198b69dabf94db122f072bd0459e, type: 3}
+  m_Name: FR
+  m_EditorClassIdentifier: 
+  languageName: French
+  minCharactersToStartOfWord: 2
+  minCharactersToEndOfWord: 2
+  authors: Daniel Flipo, Bernard Gaulle, 2016 Arthur Reutenauer
+  copyright: Copyright (C) 1994-2002 Daniel Flipo, Bernard Gaulle, 2016 Arthur Reutenauer
+  copyrightNotice: "Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files (the \u201CSoftware\u201D),
+    to deal in the Software without restriction, including without limitation the
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is furnished
+    to do so, subject to the following conditions:\r\n\r\nThe above copyright notice
+    and this permission notice shall be included in all copies or substantial portions
+    of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \u201CAS IS\u201D, WITHOUT WARRANTY
+    OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+    NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+    OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+    IN THE SOFTWARE."
+  licenseType: MIT
+  licenseURL: ' http://opensource.org/licenses/mit-license.php '
+  rootTree:
+    patterns:
+    - key: ''''
+      bytes: 0202
+    - key: .a
+      bytes: 000004
+    - key: '''a'
+      bytes: 000004
+    - key: ".\xE2"
+      bytes: 000004
+    - key: "'\xE2"
+      bytes: 000004
+    - key: abh
+      bytes: 000002
+    - key: ".abr\xE9a"
+      bytes: 000000030000
+    - key: "'abr\xE9a"
+      bytes: 000000030000
+    - key: adh
+      bytes: 000002
+    - key: "a\xE8dre"
+      bytes: 0001020000
+    - key: .aesch
+      bytes: 000000030400
+    - key: '''aesch'
+      bytes: 000000030400
+    - key: alcool
+      bytes: 010000000000
+    - key: '''alcool'
+      bytes: 00020000000000
+    - key: alalgi
+      bytes: 000201000000
+    - key: .aminoac
+      bytes: 0000000000000102
+    - key: '''aminoac'
+      bytes: 0000000000000102
+    - key: .anastr
+      bytes: 00000000030400
+    - key: '''anastr'
+      bytes: 00000000030400
+    - key: "anesth\xE9si"
+      bytes: 010200000000000000
+    - key: "'anesth\xE9si"
+      bytes: 00020200000000000000
+    - key: .antia
+      bytes: 00000000000102
+    - key: '''antia'
+      bytes: 00000000000102
+    - key: .antie
+      bytes: 00000000000102
+    - key: '''antie'
+      bytes: 00000000000102
+    - key: ".anti\xE9"
+      bytes: 00000000000102
+    - key: .antienne
+      bytes: 000000000002000000
+    - key: '''antienne'
+      bytes: 000000000002000000
+    - key: "'anti\xE9"
+      bytes: 00000000000102
+    - key: .antis
+      bytes: 00000000000102
+    - key: '''antis'
+      bytes: 00000000000102
+    - key: .aposta
+      bytes: 00000000020300
+    - key: '''aposta'
+      bytes: 00000000020300
+    - key: apostr
+      bytes: 000000020300
+    - key: "archi\xE9pis"
+      bytes: 000000000001020000
+    - key: .asta
+      bytes: 0000000200
+    - key: '''asta'
+      bytes: 0000000200
+    - key: astro
+      bytes: 0002030000
+    - key: ba
+      bytes: 0100
+    - key: "b\xE2"
+      bytes: 0100
+    - key: .baisemain
+      bytes: 00000000020003000000
+    - key: be
+      bytes: 0100
+    - key: "b\xE9"
+      bytes: 0100
+    - key: "b\xE8"
+      bytes: 0100
+    - key: "b\xEA"
+      bytes: 0100
+    - key: be.
+      bytes: 040000
+    - key: bes.
+      bytes: 04000000
+    - key: bent.
+      bytes: 0200000000
+    - key: bi
+      bytes: 0100
+    - key: "b\xEE"
+      bytes: 0100
+    - key: .biac
+      bytes: 0000000102
+    - key: .biat
+      bytes: 0000000102
+    - key: .biau
+      bytes: 0000000100
+    - key: .bioa
+      bytes: 000000000102
+    - key: .bisa
+      bytes: 000000020102
+    - key: .biu
+      bytes: 0000000102
+    - key: bl
+      bytes: 0102
+    - key: ble.
+      bytes: 04000000
+    - key: bles.
+      bytes: 0400000000
+    - key: blent.
+      bytes: 020000000000
+    - key: bo
+      bytes: 0100
+    - key: "b\xF4"
+      bytes: 0100
+    - key: br
+      bytes: 0102
+    - key: bre.
+      bytes: 04000000
+    - key: bres.
+      bytes: 0400000000
+    - key: brent.
+      bytes: 020000000000
+    - key: bu
+      bytes: 0100
+    - key: "b\xFB"
+      bytes: 0100
+    - key: by
+      bytes: 0100
+    - key: "\xE7"
+      bytes: 01
+    - key: ca
+      bytes: 0100
+    - key: "c\xE2"
+      bytes: 0100
+    - key: caout
+      bytes: 000003000302
+    - key: ce
+      bytes: 0100
+    - key: "c\xE9"
+      bytes: 0100
+    - key: "c\xE8"
+      bytes: 0100
+    - key: "c\xEA"
+      bytes: 0100
+    - key: ce.
+      bytes: 040000
+    - key: ces.
+      bytes: 04000000
+    - key: cent.
+      bytes: 0200000000
+    - key: jacent.
+      bytes: 00000300000000
+    - key: accent.
+      bytes: 00000300000000
+    - key: "\xE9cent."
+      bytes: 000300000000
+    - key: munificent.
+      bytes: 0000000000000300000000
+    - key: "r\xE9ticent."
+      bytes: 000000000300000000
+    - key: privatdocent.
+      bytes: 00000000000000000300000000
+    - key: innocent.
+      bytes: 000000000300000000
+    - key: escent.
+      bytes: 00000300000000
+    - key: acquiescent.
+      bytes: 000000000000000400000000
+    - key: iscent.
+      bytes: 00000300000000
+    - key: immiscent.
+      bytes: 00000000000400000000
+    - key: .ch
+      bytes: 00000004
+    - key: ch
+      bytes: 0102
+    - key: ch.
+      bytes: 040000
+    - key: chb
+      bytes: 020000
+    - key: che.
+      bytes: 04000000
+    - key: ches.
+      bytes: 0400000000
+    - key: chent.
+      bytes: 020000000000
+    - key: ".ch\xE8vrefeuille"
+      bytes: 0000000002000003000000000000
+    - key: chg
+      bytes: 020000
+    - key: chl
+      bytes: 000002
+    - key: chle.
+      bytes: 0400000000
+    - key: chles.
+      bytes: 040000000000
+    - key: chlorac
+      bytes: 00000000020302
+    - key: "chlor\xE9t"
+      bytes: 00000000020302
+    - key: chm
+      bytes: 020000
+    - key: chn
+      bytes: 020000
+    - key: chp
+      bytes: 020000
+    - key: chr
+      bytes: 000002
+    - key: chre.
+      bytes: 0400000000
+    - key: chres.
+      bytes: 040000000000
+    - key: chs
+      bytes: 020000
+    - key: cht
+      bytes: 020000
+    - key: chw
+      bytes: 020000
+    - key: ci
+      bytes: 0100
+    - key: "c\xEE"
+      bytes: 0100
+    - key: .cisalp
+      bytes: 00000002010000
+    - key: ck
+      bytes: 0102
+    - key: ck.
+      bytes: 040000
+    - key: ckb
+      bytes: 020000
+    - key: cke.
+      bytes: 04000000
+    - key: ckes.
+      bytes: 0400000000
+    - key: ckent.
+      bytes: 020000000000
+    - key: ckf
+      bytes: 020000
+    - key: ckg
+      bytes: 020000
+    - key: ckh
+      bytes: 020003
+    - key: ckp
+      bytes: 020000
+    - key: cks
+      bytes: 020000
+    - key: ckt
+      bytes: 020000
+    - key: cl
+      bytes: 0102
+    - key: cle.
+      bytes: 04000000
+    - key: cles.
+      bytes: 0400000000
+    - key: clent.
+      bytes: 020000000000
+    - key: co
+      bytes: 0100
+    - key: "c\xF4"
+      bytes: 0100
+    - key: coacc
+      bytes: 0000010000
+    - key: coacq
+      bytes: 0000010000
+    - key: coad
+      bytes: 00000102
+    - key: coap
+      bytes: 00000100
+    - key: coar
+      bytes: 00000100
+    - key: coassoc
+      bytes: 00000100000000
+    - key: coassur
+      bytes: 00000100000000
+    - key: coau
+      bytes: 00000100
+    - key: coax
+      bytes: 00000100
+    - key: "c\u0153"
+      bytes: 0100
+    - key: "co\xE9"
+      bytes: 00000102
+    - key: coef
+      bytes: 00000100
+    - key: coen
+      bytes: 00000100
+    - key: coex
+      bytes: 00000100
+    - key: .con
+      bytes: 0000000004
+    - key: .cons
+      bytes: 000000000004
+    - key: .contresc
+      bytes: 000000000000000102
+    - key: ".contrema\xEEtre"
+      bytes: 00000000000000030000000000
+    - key: conurb
+      bytes: 000002000000
+    - key: .coo
+      bytes: 0000000102
+    - key: .coolie
+      bytes: 00000002030000
+    - key: cr
+      bytes: 0102
+    - key: cre.
+      bytes: 04000000
+    - key: cres.
+      bytes: 0400000000
+    - key: crent.
+      bytes: 020000000000
+    - key: cu
+      bytes: 0100
+    - key: "c\xFB"
+      bytes: 0100
+    - key: cy
+      bytes: 0100
+    - key: .cul
+      bytes: 0000000004
+    - key: d'
+      bytes: 0100
+    - key: da
+      bytes: 0100
+    - key: "d\xE2"
+      bytes: 0100
+    - key: .dacryoa
+      bytes: 000000000000000102
+    - key: ddh
+      bytes: 000102
+    - key: de
+      bytes: 0100
+    - key: "d\xE9"
+      bytes: 0100
+    - key: "d\xE8"
+      bytes: 0100
+    - key: "d\xEA"
+      bytes: 0100
+    - key: de.
+      bytes: 040000
+    - key: des.
+      bytes: 04000000
+    - key: dent.
+      bytes: 0200000000
+    - key: "d\xE9cadent."
+      bytes: 000000000300000000
+    - key: "\xE9dent."
+      bytes: 000300000000
+    - key: ccident.
+      bytes: 0000000300000000
+    - key: incident.
+      bytes: 000000000300000000
+    - key: confident.
+      bytes: 00000000000300000000
+    - key: trident.
+      bytes: 0000000300000000
+    - key: dissident.
+      bytes: 00000000000300000000
+    - key: chiendent.
+      bytes: 00000000000300000000
+    - key: .ardent.
+      bytes: 0000000300000000
+    - key: impudent.
+      bytes: 000000000300000000
+    - key: prudent.
+      bytes: 0000000300000000
+    - key: ".d\xE9a"
+      bytes: 0000000102
+    - key: ".d\xE9io"
+      bytes: 0000000100
+    - key: ".d\xE9o"
+      bytes: 0000000102
+    - key: ".d\xE9s"
+      bytes: 00000002
+    - key: ".d\xE9sacr"
+      bytes: 00000003020300
+    - key: ".d\xE9sam"
+      bytes: 000000000203
+    - key: ".d\xE9satell"
+      bytes: 000000030203000000
+    - key: ".d\xE9sastr"
+      bytes: 0000000302000000
+    - key: ".d\xE9sc"
+      bytes: 0000000302
+    - key: ".d\xE9s\xE9"
+      bytes: 000000020102
+    - key: ".d\xE9s\xE9gr"
+      bytes: 00000003020300
+    - key: ".d\xE9sensib"
+      bytes: 000000030200000000
+    - key: ".d\xE9sert"
+      bytes: 00000003020000
+    - key: ".d\xE9sexu"
+      bytes: 00000003020000
+    - key: ".d\xE9si"
+      bytes: 000000020102
+    - key: ".d\xE9sid"
+      bytes: 000000030203
+    - key: ".d\xE9sign"
+      bytes: 00000003020300
+    - key: ".d\xE9sili"
+      bytes: 00000003020300
+    - key: ".d\xE9sinen"
+      bytes: 0000000302030000
+    - key: ".d\xE9sinvo"
+      bytes: 0000000302000000
+    - key: ".d\xE9sir"
+      bytes: 000000030203
+    - key: ".d\xE9sist"
+      bytes: 00000003020000
+    - key: ".d\xE9sod\xE9"
+      bytes: 00000003020300
+    - key: ".d\xE9s\u0153"
+      bytes: 0000000201
+    - key: ".d\xE9sol"
+      bytes: 000000030203
+    - key: ".d\xE9sopil"
+      bytes: 0000000302030000
+    - key: ".d\xE9sorm"
+      bytes: 00000003020000
+    - key: ".d\xE9sorp"
+      bytes: 00000003020000
+    - key: ".d\xE9soufr"
+      bytes: 0000000302000000
+    - key: ".d\xE9sp"
+      bytes: 0000000302
+    - key: ".d\xE9st"
+      bytes: 0000000302
+    - key: ".d\xE9sun"
+      bytes: 000000020102
+    - key: dhal
+      bytes: 03020000
+    - key: dhoud
+      bytes: 0302000000
+    - key: di
+      bytes: 0100
+    - key: "d\xEE"
+      bytes: 0100
+    - key: discop
+      bytes: 000002030000
+    - key: ".diac\xE9"
+      bytes: 000000010200
+    - key: .diacid
+      bytes: 00000001020000
+    - key: .diald
+      bytes: 000000010000
+    - key: .diami
+      bytes: 000000010200
+    - key: .diatom
+      bytes: 00000001020000
+    - key: .dien
+      bytes: 0000000102
+    - key: .dish
+      bytes: 0000000203
+    - key: dlent.
+      bytes: 020000000000
+    - key: do
+      bytes: 0100
+    - key: "d\xF4"
+      bytes: 0100
+    - key: dr
+      bytes: 0102
+    - key: dre.
+      bytes: 04000000
+    - key: dres.
+      bytes: 0400000000
+    - key: drent.
+      bytes: 020000000000
+    - key: ds
+      bytes: 000102
+    - key: du
+      bytes: 0100
+    - key: "d\xFB"
+      bytes: 0100
+    - key: dy
+      bytes: 0100
+    - key: .dys
+      bytes: 0000000203
+    - key: .dysa
+      bytes: 000000020102
+    - key: .dysi
+      bytes: 000000020102
+    - key: .dyso
+      bytes: 000000020102
+    - key: .dysu
+      bytes: 000000020102
+    - key: .e
+      bytes: 000004
+    - key: '''e'
+      bytes: 000004
+    - key: ".\xEA"
+      bytes: 000004
+    - key: "'\xEA"
+      bytes: 000004
+    - key: ".\xE9"
+      bytes: 000004
+    - key: "'\xE9"
+      bytes: 000004
+    - key: ".\xE8"
+      bytes: 000004
+    - key: "'\xE8"
+      bytes: 000004
+    - key: "\xE9dhi"
+      bytes: 00000200
+    - key: "\xE9drie"
+      bytes: 0102000000
+    - key: "\xE9drique"
+      bytes: 01020000000000
+    - key: "\xE9lectr"
+      bytes: 010200000000
+    - key: "\xE9l\xE9ment"
+      bytes: 01020000000000
+    - key: .ena
+      bytes: 0000000102
+    - key: '''ena'
+      bytes: 0000000102
+    - key: "\xE9nerg"
+      bytes: 0102000000
+    - key: enivr
+      bytes: 0002010200
+    - key: .eno
+      bytes: 0000000102
+    - key: '''eno'
+      bytes: 0000000102
+    - key: "\xE9piscop"
+      bytes: 00000002030000
+    - key: "\xE9piscope"
+      bytes: 0000000304000000
+    - key: escop
+      bytes: 0002030000
+    - key: .eura
+      bytes: 000000020102
+    - key: '''eura'
+      bytes: 000000020102
+    - key: eustat
+      bytes: 000001020000
+    - key: extra
+      bytes: 000000000001
+    - key: extrac
+      bytes: 000000000002
+    - key: extrai
+      bytes: 000000000002
+    - key: fa
+      bytes: 0100
+    - key: "f\xE2"
+      bytes: 0100
+    - key: fe
+      bytes: 0100
+    - key: "f\xE9"
+      bytes: 0100
+    - key: "f\xE8"
+      bytes: 0100
+    - key: "f\xEA"
+      bytes: 0100
+    - key: fe.
+      bytes: 040000
+    - key: fes.
+      bytes: 04000000
+    - key: fent.
+      bytes: 0200000000
+    - key: fi
+      bytes: 0100
+    - key: "f\xEE"
+      bytes: 0100
+    - key: fl
+      bytes: 0102
+    - key: fle.
+      bytes: 04000000
+    - key: fles.
+      bytes: 0400000000
+    - key: flent.
+      bytes: 020000000000
+    - key: fo
+      bytes: 0100
+    - key: "f\xF4"
+      bytes: 0100
+    - key: fr
+      bytes: 0102
+    - key: fre.
+      bytes: 04000000
+    - key: fres.
+      bytes: 0400000000
+    - key: frent.
+      bytes: 020000000000
+    - key: fs
+      bytes: 000102
+    - key: fu
+      bytes: 0100
+    - key: "f\xFB"
+      bytes: 0100
+    - key: fy
+      bytes: 0100
+    - key: ga
+      bytes: 0100
+    - key: "g\xE2"
+      bytes: 0100
+    - key: ge
+      bytes: 0100
+    - key: "g\xE9"
+      bytes: 0100
+    - key: "g\xE8"
+      bytes: 0100
+    - key: "g\xEA"
+      bytes: 0100
+    - key: ge.
+      bytes: 040000
+    - key: ges.
+      bytes: 04000000
+    - key: gent.
+      bytes: 0200000000
+    - key: "r\xE9gent."
+      bytes: 00000300000000
+    - key: entregent.
+      bytes: 00000000000300000000
+    - key: indigent.
+      bytes: 000000000300000000
+    - key: diligent.
+      bytes: 000000000300000000
+    - key: intelligent.
+      bytes: 000000000000000300000000
+    - key: indulgent.
+      bytes: 00000000000300000000
+    - key: tangent.
+      bytes: 0000000300000000
+    - key: ringent.
+      bytes: 0000000300000000
+    - key: contingent.
+      bytes: 0000000000000300000000
+    - key: .argent.
+      bytes: 0000000300000000
+    - key: '''argent.'
+      bytes: 0000000300000000
+    - key: sergent.
+      bytes: 0000000300000000
+    - key: tergent.
+      bytes: 0000000300000000
+    - key: "r\xE9surgent."
+      bytes: 00000000000300000000
+    - key: gha
+      bytes: 010200
+    - key: ghe
+      bytes: 010200
+    - key: ghi
+      bytes: 010200
+    - key: gho
+      bytes: 010200
+    - key: ghy
+      bytes: 010200
+    - key: gi
+      bytes: 0100
+    - key: "g\xEE"
+      bytes: 0100
+    - key: gl
+      bytes: 0102
+    - key: gle.
+      bytes: 04000000
+    - key: gles.
+      bytes: 0400000000
+    - key: glent.
+      bytes: 020000000000
+    - key: gn
+      bytes: 0102
+    - key: '''agnat'
+      bytes: 000002030000
+    - key: .agnat
+      bytes: 000002030000
+    - key: agnos
+      bytes: 0002030000
+    - key: cogniti
+      bytes: 00000203000000
+    - key: "'ign\xE9"
+      bytes: 0000020300
+    - key: ".ign\xE9"
+      bytes: 0000020300
+    - key: '''igni'
+      bytes: 0000020300
+    - key: .igni
+      bytes: 0000020300
+    - key: .magnicide
+      bytes: 00000002030000000000
+    - key: .magnificat
+      bytes: 0000000203000000000000
+    - key: .magnum
+      bytes: 00000002030000
+    - key: ognomoni
+      bytes: 0002030000000000
+    - key: ognosi
+      bytes: 000203000000
+    - key: .prognath
+      bytes: 000000000203000000
+    - key: pugnable
+      bytes: 0000020300000000
+    - key: pugnac
+      bytes: 000002030000
+    - key: .stagn
+      bytes: 000000000203
+    - key: .syngnath
+      bytes: 000000000203000000
+    - key: wagn
+      bytes: 00000203
+    - key: gne.
+      bytes: 04000000
+    - key: gnes.
+      bytes: 0400000000
+    - key: gnent.
+      bytes: 020000000000
+    - key: go
+      bytes: 0100
+    - key: "g\xF4"
+      bytes: 0100
+    - key: gr
+      bytes: 0102
+    - key: gre.
+      bytes: 04000000
+    - key: gres.
+      bytes: 0400000000
+    - key: grent.
+      bytes: 020000000000
+    - key: gu
+      bytes: 0100
+    - key: "g\xFB"
+      bytes: 0100
+    - key: gs
+      bytes: 000102
+    - key: gue.
+      bytes: 04000000
+    - key: gues.
+      bytes: 0400000000
+    - key: guent.
+      bytes: 020000000000
+    - key: .onguent.
+      bytes: 000000030000000000
+    - key: '''onguent.'
+      bytes: 000000030000000000
+    - key: gy
+      bytes: 0100
+    - key: ha
+      bytes: 0100
+    - key: "h\xE2"
+      bytes: 0100
+    - key: he
+      bytes: 0100
+    - key: "h\xE9"
+      bytes: 0100
+    - key: "h\xE8"
+      bytes: 0100
+    - key: "h\xEA"
+      bytes: 0100
+    - key: "h\xE9mi\xE9"
+      bytes: 0000000001
+    - key: "h\xE9mopt"
+      bytes: 000000000102
+    - key: he.
+      bytes: 040000
+    - key: hes.
+      bytes: 04000000
+    - key: hi
+      bytes: 0100
+    - key: "h\xEE"
+      bytes: 0100
+    - key: ho
+      bytes: 0100
+    - key: "h\xF4"
+      bytes: 0100
+    - key: hu
+      bytes: 0100
+    - key: "h\xFB"
+      bytes: 0100
+    - key: hy
+      bytes: 0100
+    - key: hypera
+      bytes: 00000000000002
+    - key: hypere
+      bytes: 00000000000002
+    - key: "hyper\xE9"
+      bytes: 00000000000002
+    - key: hyperi
+      bytes: 00000000000002
+    - key: hypero
+      bytes: 00000000000002
+    - key: hypers
+      bytes: 00000000000002
+    - key: hyper
+      bytes: 000000000401
+    - key: hyperu
+      bytes: 00000000000002
+    - key: hypoa
+      bytes: 000000000102
+    - key: hypoe
+      bytes: 000000000102
+    - key: "hypo\xE9"
+      bytes: 000000000102
+    - key: hypoi
+      bytes: 000000000102
+    - key: hypoo
+      bytes: 000000000102
+    - key: hypos
+      bytes: 000000000102
+    - key: hypou
+      bytes: 000000000102
+    - key: .i
+      bytes: 000004
+    - key: '''i'
+      bytes: 000004
+    - key: ".\xEE"
+      bytes: 000004
+    - key: "'\xEE"
+      bytes: 000004
+    - key: ialgi
+      bytes: 0001000000
+    - key: iarthr
+      bytes: 000100000000
+    - key: "i\xE8dre"
+      bytes: 0001020000
+    - key: ill
+      bytes: 000002
+    - key: cill
+      bytes: 00000003
+    - key: rcill
+      bytes: 0000000004
+    - key: ucill
+      bytes: 0000000004
+    - key: vacill
+      bytes: 000000000004
+    - key: gill
+      bytes: 00000003
+    - key: hill
+      bytes: 00000003
+    - key: lill
+      bytes: 00000003
+    - key: llion
+      bytes: 0003000000
+    - key: mill
+      bytes: 00000003
+    - key: millet
+      bytes: 000000040000
+    - key: "\xE9mill"
+      bytes: 0000000004
+    - key: semill
+      bytes: 000000000004
+    - key: rmill
+      bytes: 0000000004
+    - key: armill
+      bytes: 000000000005
+    - key: capill
+      bytes: 000000000003
+    - key: papilla
+      bytes: 00000000000300
+    - key: papille
+      bytes: 00000000000300
+    - key: papilli
+      bytes: 00000000000300
+    - key: papillom
+      bytes: 0000000000030000
+    - key: pupill
+      bytes: 000000000003
+    - key: pirill
+      bytes: 000000000003
+    - key: thrill
+      bytes: 000000000003
+    - key: cyrill
+      bytes: 000000000003
+    - key: ibrill
+      bytes: 000000000003
+    - key: pusill
+      bytes: 000000000003
+    - key: .still
+      bytes: 000000000003
+    - key: distill
+      bytes: 00000000000003
+    - key: instill
+      bytes: 00000000000003
+    - key: fritill
+      bytes: 00000000000003
+    - key: boutill
+      bytes: 00000000000003
+    - key: vanillin
+      bytes: 0000000000030000
+    - key: vanillis
+      bytes: 0000000000030000
+    - key: vill
+      bytes: 00000003
+    - key: avill
+      bytes: 0000000004
+    - key: chevill
+      bytes: 00000000000004
+    - key: uevill
+      bytes: 000000000004
+    - key: uvill
+      bytes: 0000000004
+    - key: xill
+      bytes: 00000003
+    - key: informat
+      bytes: 0100000000000000
+    - key: '''informat'
+      bytes: 000200000000000000
+    - key: .ina
+      bytes: 0000000102
+    - key: '''ina'
+      bytes: 0000000102
+    - key: .inanit
+      bytes: 00000002030000
+    - key: '''inanit'
+      bytes: 00000002030000
+    - key: .inaugur
+      bytes: 0000000200000000
+    - key: '''inaugur'
+      bytes: 0000000200000000
+    - key: .ine
+      bytes: 0000000102
+    - key: '''ine'
+      bytes: 0000000102
+    - key: ".in\xE9"
+      bytes: 0000000102
+    - key: "'in\xE9"
+      bytes: 0000000102
+    - key: .ineffab
+      bytes: 0000000200000000
+    - key: '''ineffab'
+      bytes: 0000000200000000
+    - key: ".in\xE9lucta"
+      bytes: 000000020300000000
+    - key: "'in\xE9lucta"
+      bytes: 000000020300000000
+    - key: ".in\xE9narra"
+      bytes: 000000020300000000
+    - key: "'in\xE9narra"
+      bytes: 000000020300000000
+    - key: .inept
+      bytes: 000000020000
+    - key: '''inept'
+      bytes: 000000020000
+    - key: .iner
+      bytes: 0000000200
+    - key: '''iner'
+      bytes: 0000000200
+    - key: .inexora
+      bytes: 0000000200000000
+    - key: '''inexora'
+      bytes: 0000000200000000
+    - key: .ini
+      bytes: 0000000102
+    - key: '''ini'
+      bytes: 0000000102
+    - key: .inimiti
+      bytes: 0000000203000000
+    - key: '''inimiti'
+      bytes: 0000000203000000
+    - key: .iniq
+      bytes: 0000000203
+    - key: '''iniq'
+      bytes: 0000000203
+    - key: .init
+      bytes: 0000000203
+    - key: '''init'
+      bytes: 0000000203
+    - key: .ino
+      bytes: 0000000102
+    - key: '''ino'
+      bytes: 0000000102
+    - key: .inocul
+      bytes: 00000002030000
+    - key: '''inocul'
+      bytes: 00000002030000
+    - key: .inond
+      bytes: 000000020000
+    - key: '''inond'
+      bytes: 000000020000
+    - key: .instab
+      bytes: 00000001020000
+    - key: '''instab'
+      bytes: 00000001020000
+    - key: '''inter'
+      bytes: 00000000000403
+    - key: .intera
+      bytes: 0000000000000002
+    - key: '''intera'
+      bytes: 0000000000000002
+    - key: .intere
+      bytes: 0000000000000002
+    - key: '''intere'
+      bytes: 0000000000000002
+    - key: ".inter\xE9"
+      bytes: 0000000000000002
+    - key: "'inter\xE9"
+      bytes: 0000000000000002
+    - key: .interi
+      bytes: 0000000000000002
+    - key: '''interi'
+      bytes: 0000000000000002
+    - key: .intero
+      bytes: 0000000000000002
+    - key: '''intero'
+      bytes: 0000000000000002
+    - key: .inter
+      bytes: 00000000000403
+    - key: .interu
+      bytes: 0000000000000002
+    - key: '''interu'
+      bytes: 0000000000000002
+    - key: .inters
+      bytes: 0000000000000002
+    - key: '''inters'
+      bytes: 0000000000000002
+    - key: .inu
+      bytes: 0000000102
+    - key: '''inu'
+      bytes: 0000000102
+    - key: .inuit
+      bytes: 000000020000
+    - key: '''inuit'
+      bytes: 000000020000
+    - key: .inul
+      bytes: 0000000203
+    - key: '''inul'
+      bytes: 0000000203
+    - key: ioact
+      bytes: 0000010200
+    - key: ioxy
+      bytes: 00010000
+    - key: istat
+      bytes: 0001020000
+    - key: j
+      bytes: 01
+    - key: jk
+      bytes: 0200
+    - key: je.
+      bytes: 040000
+    - key: jes.
+      bytes: 04000000
+    - key: jent.
+      bytes: 0200000000
+    - key: ka
+      bytes: 0100
+    - key: "k\xE2"
+      bytes: 0100
+    - key: ke
+      bytes: 0100
+    - key: "k\xE9"
+      bytes: 0100
+    - key: "k\xE8"
+      bytes: 0100
+    - key: "k\xEA"
+      bytes: 0100
+    - key: ke.
+      bytes: 040000
+    - key: kes.
+      bytes: 04000000
+    - key: kent.
+      bytes: 0200000000
+    - key: kh
+      bytes: 0102
+    - key: kh.
+      bytes: 040000
+    - key: .kh
+      bytes: 00000004
+    - key: ki
+      bytes: 0100
+    - key: "k\xEE"
+      bytes: 0100
+    - key: ko
+      bytes: 0100
+    - key: "k\xF4"
+      bytes: 0100
+    - key: kr
+      bytes: 0102
+    - key: ku
+      bytes: 0100
+    - key: "k\xFB"
+      bytes: 0100
+    - key: ky
+      bytes: 0100
+    - key: la
+      bytes: 0100
+    - key: "l\xE2"
+      bytes: 0100
+    - key: "l\xE0"
+      bytes: 0100
+    - key: lawre
+      bytes: 0000020300
+    - key: le
+      bytes: 0100
+    - key: "l\xE9"
+      bytes: 0100
+    - key: "l\xE8"
+      bytes: 0100
+    - key: "l\xEA"
+      bytes: 0100
+    - key: le.
+      bytes: 040000
+    - key: les.
+      bytes: 04000000
+    - key: lent.
+      bytes: 0200000000
+    - key: .talent.
+      bytes: 0000000300000000
+    - key: ivalent.
+      bytes: 0000000300000000
+    - key: "\xE9quivalent."
+      bytes: 0000000000000400000000
+    - key: monovalent.
+      bytes: 0000000000000300000000
+    - key: polyvalent.
+      bytes: 0000000000000300000000
+    - key: relent.
+      bytes: 00000300000000
+    - key: .dolent.
+      bytes: 0000000300000000
+    - key: indolent.
+      bytes: 000000000300000000
+    - key: insolent.
+      bytes: 000000000300000000
+    - key: turbulent.
+      bytes: 00000000000300000000
+    - key: succulent.
+      bytes: 00000000000300000000
+    - key: "f\xE9culent."
+      bytes: 000000000300000000
+    - key: truculent.
+      bytes: 00000000000300000000
+    - key: opulent.
+      bytes: 0000000300000000
+    - key: corpulent.
+      bytes: 00000000000300000000
+    - key: rulent.
+      bytes: 00000300000000
+    - key: sporulent.
+      bytes: 00000000000400000000
+    - key: li
+      bytes: 0100
+    - key: "l\xEE"
+      bytes: 0100
+    - key: lo
+      bytes: 0100
+    - key: "l\xF4"
+      bytes: 0100
+    - key: lst
+      bytes: 000102
+    - key: lu
+      bytes: 0100
+    - key: "l\xFB"
+      bytes: 0100
+    - key: ly
+      bytes: 0100
+    - key: ma
+      bytes: 0100
+    - key: "m\xE2"
+      bytes: 0100
+    - key: .mack
+      bytes: 0000000203
+    - key: .macrosc
+      bytes: 0000000000000102
+    - key: .maladres
+      bytes: 000000020102000000
+    - key: .maladro
+      bytes: 0000000201020000
+    - key: ".malais\xE9"
+      bytes: 0000000201000000
+    - key: .malap
+      bytes: 000000020100
+    - key: .malav
+      bytes: 000000020102
+    - key: .malen
+      bytes: 000000020100
+    - key: .malint
+      bytes: 00000002010000
+    - key: .maloc
+      bytes: 000000020100
+    - key: .malod
+      bytes: 000000020102
+    - key: .marx
+      bytes: 0000000201
+    - key: me
+      bytes: 0100
+    - key: "m\xE9"
+      bytes: 0100
+    - key: "m\xE8"
+      bytes: 0100
+    - key: "m\xEA"
+      bytes: 0100
+    - key: ".m\xE9goh"
+      bytes: 000000020100
+    - key: ".m\xE9sa"
+      bytes: 0000000200
+    - key: ".m\xE9san"
+      bytes: 000000030000
+    - key: ".m\xE9ses"
+      bytes: 000000020100
+    - key: ".m\xE9si"
+      bytes: 0000000201
+    - key: ".m\xE9sus"
+      bytes: 000000020102
+    - key: ".m\xE9tasta"
+      bytes: 0000000000010200
+    - key: me.
+      bytes: 040000
+    - key: mes.
+      bytes: 04000000
+    - key: "\xE2ment."
+      bytes: 000200000000
+    - key: dament.
+      bytes: 00000200000000
+    - key: fament.
+      bytes: 00000200000000
+    - key: amalgament.
+      bytes: 0000000000000200000000
+    - key: clament.
+      bytes: 0000000200000000
+    - key: rament.
+      bytes: 00000200000000
+    - key: "temp\xE9rament."
+      bytes: 000000000000000300000000
+    - key: tament.
+      bytes: 00000200000000
+    - key: testament.
+      bytes: 00000000000300000000
+    - key: quament.
+      bytes: 0000000200000000
+    - key: "\xE8ment."
+      bytes: 000200000000
+    - key: "car\xEAment."
+      bytes: 000000000200000000
+    - key: diaphragment.
+      bytes: 00000000000000000200000000
+    - key: rythment.
+      bytes: 000000000200000000
+    - key: aiment.
+      bytes: 00000200000000
+    - key: raiment.
+      bytes: 0000000300000000
+    - key: "ab\xEEment."
+      bytes: 0000000200000000
+    - key: "\xE9ciment."
+      bytes: 0000000200000000
+    - key: vidiment.
+      bytes: 000000000200000000
+    - key: subliment.
+      bytes: 00000000000200000000
+    - key: "\xE9liment."
+      bytes: 0000000200000000
+    - key: reliment.
+      bytes: 000000000200000000
+    - key: miment.
+      bytes: 00000200000000
+    - key: animent.
+      bytes: 0000000200000000
+    - key: veniment.
+      bytes: 000000000200000000
+    - key: riment.
+      bytes: 00000200000000
+    - key: "d\xE9triment."
+      bytes: 00000000000300000000
+    - key: nutriment.
+      bytes: 00000000000300000000
+    - key: intiment.
+      bytes: 000000000200000000
+    - key: estiment.
+      bytes: 000000000200000000
+    - key: lment.
+      bytes: 000200000000
+    - key: flamment.
+      bytes: 000000000200000000
+    - key: gramment.
+      bytes: 000000000200000000
+    - key: .gemment.
+      bytes: 000000000200000000
+    - key: omment.
+      bytes: 00000200000000
+    - key: .comment.
+      bytes: 000000000300000000
+    - key: "\xF4ment."
+      bytes: 000200000000
+    - key: slaloment.
+      bytes: 00000000000200000000
+    - key: chroment.
+      bytes: 000000000200000000
+    - key: toment.
+      bytes: 00000200000000
+    - key: arment.
+      bytes: 00000200000000
+    - key: .sarment.
+      bytes: 000000000300000000
+    - key: erment.
+      bytes: 00000200000000
+    - key: antiferment.
+      bytes: 000000000000000300000000
+    - key: .serment.
+      bytes: 000000000300000000
+    - key: firment.
+      bytes: 0000000200000000
+    - key: orment.
+      bytes: 00000200000000
+    - key: asment.
+      bytes: 00000200000000
+    - key: aument.
+      bytes: 00000200000000
+    - key: "\xE9cument."
+      bytes: 0000000200000000
+    - key: fument.
+      bytes: 00000200000000
+    - key: hument.
+      bytes: 00000200000000
+    - key: fichument.
+      bytes: 00000000000300000000
+    - key: llument.
+      bytes: 0000000200000000
+    - key: plument.
+      bytes: 0000000200000000
+    - key: boument.
+      bytes: 0000000200000000
+    - key: brument.
+      bytes: 0000000200000000
+    - key: sument.
+      bytes: 00000200000000
+    - key: tument.
+      bytes: 00000200000000
+    - key: mi
+      bytes: 0100
+    - key: "m\xEE"
+      bytes: 0100
+    - key: .milliam
+      bytes: 0000000000000100
+    - key: "mn\xE9mo"
+      bytes: 0102000000
+    - key: "mn\xE8s"
+      bytes: 01020000
+    - key: "mn\xE9si"
+      bytes: 0102000000
+    - key: mo
+      bytes: 0100
+    - key: "m\xF4"
+      bytes: 0100
+    - key: "m\u0153"
+      bytes: 0100
+    - key: .monoa
+      bytes: 00000000000102
+    - key: .monoe
+      bytes: 00000000000102
+    - key: ".mono\xE9"
+      bytes: 00000000000102
+    - key: .monoi
+      bytes: 00000000000102
+    - key: ".mono\xEFd\xE9"
+      bytes: 0000000000010200
+    - key: .monoo
+      bytes: 00000000000102
+    - key: .monou
+      bytes: 00000000000102
+    - key: .monos
+      bytes: 00000000000102
+    - key: "montr\xE9al"
+      bytes: 0000000203000000
+    - key: ms
+      bytes: 000102
+    - key: mu
+      bytes: 0100
+    - key: "m\xFB"
+      bytes: 0100
+    - key: my
+      bytes: 0100
+    - key: "moyen\xE2g"
+      bytes: 00000000020102
+    - key: na
+      bytes: 0100
+    - key: "n\xE2"
+      bytes: 0100
+    - key: ne
+      bytes: 0100
+    - key: "n\xE9"
+      bytes: 0100
+    - key: "n\xE8"
+      bytes: 0100
+    - key: "n\xEA"
+      bytes: 0100
+    - key: ne.
+      bytes: 040000
+    - key: nes.
+      bytes: 04000000
+    - key: nent.
+      bytes: 0200000000
+    - key: "r\xE9manent."
+      bytes: 000000000300000000
+    - key: immanent.
+      bytes: 000000000300000000
+    - key: permanent.
+      bytes: 00000000000300000000
+    - key: ".\xE9minent."
+      bytes: 000000000300000000
+    - key: "pr\xE9\xE9minent."
+      bytes: 0000000000000300000000
+    - key: "pro\xE9minent."
+      bytes: 0000000000000300000000
+    - key: "sur\xE9minent."
+      bytes: 0000000000000300000000
+    - key: imminent.
+      bytes: 000000000300000000
+    - key: continent.
+      bytes: 00000000000300000000
+    - key: pertinent.
+      bytes: 00000000000300000000
+    - key: abstinent.
+      bytes: 00000000000300000000
+    - key: ni
+      bytes: 0100
+    - key: "n\xEE"
+      bytes: 0100
+    - key: no
+      bytes: 0100
+    - key: "n\xF4"
+      bytes: 0100
+    - key: "n\u0153"
+      bytes: 0100
+    - key: .nonobs
+      bytes: 00000002010000
+    - key: nu
+      bytes: 0100
+    - key: "n\xFB"
+      bytes: 0100
+    - key: nsat.
+      bytes: 0003020000
+    - key: nsats.
+      bytes: 000302000000
+    - key: nx
+      bytes: 0001
+    - key: ny
+      bytes: 0100
+    - key: .o
+      bytes: 000004
+    - key: '''o'
+      bytes: 000004
+    - key: "'\xF4"
+      bytes: 000004
+    - key: ".\xF4"
+      bytes: 000004
+    - key: oblong
+      bytes: 000203000000
+    - key: octet
+      bytes: 0100000000
+    - key: '''octet'
+      bytes: 000200000000
+    - key: odl
+      bytes: 000102
+    - key: "o\xE8dre"
+      bytes: 0001020000
+    - key: oioni
+      bytes: 0001000000
+    - key: ombuds
+      bytes: 00000000000203
+    - key: omnis
+      bytes: 000000000102
+    - key: ostas
+      bytes: 0001020000
+    - key: ostat
+      bytes: 0001020000
+    - key: "ost\xE9ro"
+      bytes: 000102000000
+    - key: ostim
+      bytes: 0001020000
+    - key: ostom
+      bytes: 0001020000
+    - key: ostrad
+      bytes: 000102000000
+    - key: ostratu
+      bytes: 00010200000000
+    - key: ostriction
+      bytes: 00010200000000000000
+    - key: .ouaou
+      bytes: 000000000100
+    - key: '''ouaou'
+      bytes: 000000000100
+    - key: .ovisc
+      bytes: 000000000102
+    - key: '''ovisc'
+      bytes: 000000000102
+    - key: oxya
+      bytes: 0000000102
+    - key: pa
+      bytes: 0100
+    - key: "p\xE2"
+      bytes: 0100
+    - key: "pal\xE9o\xE9"
+      bytes: 00000000000102
+    - key: .panaf
+      bytes: 000000020102
+    - key: ".panam\xE9"
+      bytes: 00000002010200
+    - key: .panara
+      bytes: 00000002010200
+    - key: .panis
+      bytes: 000000020100
+    - key: .panoph
+      bytes: 00000002010200
+    - key: .panopt
+      bytes: 00000002010000
+    - key: .parache
+      bytes: 0000000201020000
+    - key: ".parach\xE8"
+      bytes: 0000000201020000
+    - key: .paras
+      bytes: 00000000000102
+    - key: ".parh\xE9"
+      bytes: 000000020300
+    - key: pe
+      bytes: 0100
+    - key: "p\xE9"
+      bytes: 0100
+    - key: "p\xE8"
+      bytes: 0100
+    - key: "p\xEA"
+      bytes: 0100
+    - key: pe.
+      bytes: 040000
+    - key: pes.
+      bytes: 04000000
+    - key: pent.
+      bytes: 0200000000
+    - key: repent.
+      bytes: 00000300000000
+    - key: .arpent.
+      bytes: 0000000300000000
+    - key: '''arpent.'
+      bytes: 0000000300000000
+    - key: serpent.
+      bytes: 0000000300000000
+    - key: .penta
+      bytes: 000000000200
+    - key: perh
+      bytes: 00000003
+    - key: "p\xE9nul"
+      bytes: 0000020000
+    - key: .per
+      bytes: 00000004
+    - key: .pera
+      bytes: 000000000102
+    - key: .pere
+      bytes: 000000000102
+    - key: ".per\xE9"
+      bytes: 000000000102
+    - key: .peri
+      bytes: 000000000102
+    - key: .pero
+      bytes: 000000000102
+    - key: .peru
+      bytes: 000000000102
+    - key: "p\xE9r\xE9q"
+      bytes: 0000010202
+    - key: ".p\xE9rios"
+      bytes: 00000000000100
+    - key: ".p\xE9ris"
+      bytes: 00000000000102
+    - key: ".p\xE9riss"
+      bytes: 00000000000203
+    - key: ".p\xE9rista"
+      bytes: 0000000000020300
+    - key: ".p\xE9riu"
+      bytes: 00000000000102
+    - key: ph
+      bytes: 0102
+    - key: .ph
+      bytes: 00000004
+    - key: ph.
+      bytes: 040000
+    - key: .phalanst
+      bytes: 000000000000000302
+    - key: phe.
+      bytes: 04000000
+    - key: phes.
+      bytes: 0400000000
+    - key: phent.
+      bytes: 020000000000
+    - key: phl
+      bytes: 000002
+    - key: phle.
+      bytes: 0400000000
+    - key: phles.
+      bytes: 040000000000
+    - key: phn
+      bytes: 020000
+    - key: photos
+      bytes: 00000000000102
+    - key: phr
+      bytes: 000002
+    - key: phre.
+      bytes: 0400000000
+    - key: phres.
+      bytes: 040000000000
+    - key: phs
+      bytes: 020000
+    - key: pht
+      bytes: 020000
+    - key: "phtal\xE9"
+      bytes: 030002000000
+    - key: phtis
+      bytes: 0300020000
+    - key: pi
+      bytes: 0100
+    - key: "p\xEE"
+      bytes: 0100
+    - key: pl
+      bytes: 0102
+    - key: ple.
+      bytes: 04000000
+    - key: ples.
+      bytes: 0400000000
+    - key: plent.
+      bytes: 020000000000
+    - key: .pluria
+      bytes: 00000000000001
+    - key: "pn\xE9"
+      bytes: 010200
+    - key: pneu
+      bytes: 01020000
+    - key: po
+      bytes: 0100
+    - key: "p\xF4"
+      bytes: 0100
+    - key: poastre
+      bytes: 00000100000000
+    - key: polya
+      bytes: 000000000102
+    - key: polye
+      bytes: 000000000102
+    - key: "poly\xE9"
+      bytes: 000000000102
+    - key: "poly\xE8"
+      bytes: 000000000102
+    - key: polyi
+      bytes: 000000000102
+    - key: polyo
+      bytes: 000000000102
+    - key: polys
+      bytes: 000000000102
+    - key: polyu
+      bytes: 000000000102
+    - key: .pontet
+      bytes: 00000000020000
+    - key: .posth
+      bytes: 000000000203
+    - key: .postin
+      bytes: 00000000020100
+    - key: .posto
+      bytes: 00000000020102
+    - key: .postr
+      bytes: 000000000203
+    - key: .posts
+      bytes: 00000000000102
+    - key: pr
+      bytes: 0102
+    - key: pre.
+      bytes: 04000000
+    - key: pres.
+      bytes: 0400000000
+    - key: prent.
+      bytes: 020000000000
+    - key: ".pr\xE9a"
+      bytes: 000000000102
+    - key: ".pr\xE9ala"
+      bytes: 00000000020300
+    - key: ".pr\xE9au"
+      bytes: 000000000200
+    - key: ".pr\xE9\xE9"
+      bytes: 000000000102
+    - key: ".pr\xE9e"
+      bytes: 000000000102
+    - key: ".pr\xE9i"
+      bytes: 000000000102
+    - key: ".pr\xE9o"
+      bytes: 000000000102
+    - key: ".pr\xE9u"
+      bytes: 000000000102
+    - key: ".pr\xE9s"
+      bytes: 000000000102
+    - key: ".pro\xE9"
+      bytes: 000000000102
+    - key: ".prosc\xE9"
+      bytes: 00000000010200
+    - key: prostat
+      bytes: 00000002030000
+    - key: .proudh
+      bytes: 00000000000302
+    - key: psych
+      bytes: 0102000000
+    - key: .psychoan
+      bytes: 000000000000000102
+    - key: "pt\xE8r"
+      bytes: 01020000
+    - key: "pt\xE9r"
+      bytes: 01020000
+    - key: pu
+      bytes: 0100
+    - key: .puddl
+      bytes: 000000000102
+    - key: "p\xFB"
+      bytes: 0100
+    - key: py
+      bytes: 0100
+    - key: q
+      bytes: 01
+    - key: que.
+      bytes: 04000000
+    - key: ques.
+      bytes: 0400000000
+    - key: quent.
+      bytes: 020000000000
+    - key: "\xE9quent."
+      bytes: 00030000000000
+    - key: "\xE9loquent."
+      bytes: 000000030000000000
+    - key: grandiloquent.
+      bytes: 0000000000000000030000000000
+    - key: ra
+      bytes: 0100
+    - key: "r\xE2"
+      bytes: 0100
+    - key: radioa
+      bytes: 00000000000102
+    - key: re
+      bytes: 0100
+    - key: "r\xE9"
+      bytes: 0100
+    - key: "r\xE8"
+      bytes: 0100
+    - key: "r\xEA"
+      bytes: 0100
+    - key: ".r\xE9a"
+      bytes: 0000000102
+    - key: ".r\xE9ale"
+      bytes: 000000020300
+    - key: ".r\xE9alis"
+      bytes: 00000002030000
+    - key: ".r\xE9alit"
+      bytes: 00000002030000
+    - key: ".r\xE9aux"
+      bytes: 000000020000
+    - key: ".r\xE9\xE9"
+      bytes: 0000000102
+    - key: ".r\xE9e"
+      bytes: 0000000102
+    - key: ".r\xE9el"
+      bytes: 0000000200
+    - key: ".r\xE9er"
+      bytes: 0000000200
+    - key: ".r\xE9\xE8r"
+      bytes: 0000000200
+    - key: ".r\xE9i"
+      bytes: 0000000102
+    - key: ".r\xE9ifi"
+      bytes: 000000020300
+    - key: ".r\xE9o"
+      bytes: 0000000102
+    - key: .res
+      bytes: 0000000102
+    - key: .rescap
+      bytes: 00000002030000
+    - key: .rescisi
+      bytes: 0000000203000000
+    - key: .resciso
+      bytes: 0000000203000000
+    - key: .rescou
+      bytes: 00000002030000
+    - key: .rescri
+      bytes: 00000002030000
+    - key: .respect
+      bytes: 0000000203000000
+    - key: .respir
+      bytes: 00000002030000
+    - key: .resplend
+      bytes: 000000020300000000
+    - key: .respons
+      bytes: 0000000203000000
+    - key: .resquil
+      bytes: 0000000203000000
+    - key: .ress
+      bytes: 0000000203
+    - key: .rest
+      bytes: 0000000203
+    - key: .restab
+      bytes: 00000003040000
+    - key: .restag
+      bytes: 00000003040000
+    - key: .restand
+      bytes: 0000000304000000
+    - key: .restat
+      bytes: 00000003040000
+    - key: ".rest\xE9n"
+      bytes: 00000003040000
+    - key: ".rest\xE9r"
+      bytes: 00000003040000
+    - key: .restim
+      bytes: 00000003040000
+    - key: .restip
+      bytes: 00000003040000
+    - key: .restoc
+      bytes: 00000003040000
+    - key: .restop
+      bytes: 00000003040000
+    - key: .restr
+      bytes: 000000030400
+    - key: .restrein
+      bytes: 000000040500000000
+    - key: .restrict
+      bytes: 000000040500000000
+    - key: .restrin
+      bytes: 0000000405000000
+    - key: .restu
+      bytes: 000000030400
+    - key: .resty
+      bytes: 000000030400
+    - key: ".r\xE9u"
+      bytes: 0000000002
+    - key: ".r\xE9uss"
+      bytes: 000000020000
+    - key: ".r\xE9troa"
+      bytes: 0000000000000102
+    - key: re.
+      bytes: 040000
+    - key: res.
+      bytes: 04000000
+    - key: rent.
+      bytes: 0200000000
+    - key: .parent.
+      bytes: 0000000300000000
+    - key: apparent.
+      bytes: 000000000300000000
+    - key: transparent.
+      bytes: 000000000000000300000000
+    - key: "\xE9rent."
+      bytes: 000300000000
+    - key: torrent.
+      bytes: 0000000300000000
+    - key: current.
+      bytes: 0000000300000000
+    - key: rh
+      bytes: 0102
+    - key: rhe.
+      bytes: 04000000
+    - key: rhes.
+      bytes: 0400000000
+    - key: rheur
+      bytes: 0203000000
+    - key: rhydr
+      bytes: 0203000000
+    - key: ri
+      bytes: 0100
+    - key: "r\xEE"
+      bytes: 0100
+    - key: ro
+      bytes: 0100
+    - key: "r\xF4"
+      bytes: 0100
+    - key: ru
+      bytes: 0100
+    - key: "r\xFB"
+      bytes: 0100
+    - key: ry
+      bytes: 0100
+    - key: sa
+      bytes: 0100
+    - key: "s\xE2"
+      bytes: 0100
+    - key: .sch
+      bytes: 0000000004
+    - key: scaph
+      bytes: 0102000000
+    - key: "scl\xE9r"
+      bytes: 0102000000
+    - key: scop
+      bytes: 01020000
+    - key: sch
+      bytes: 010200
+    - key: esch
+      bytes: 00020300
+    - key: "isch\xE9"
+      bytes: 0002030000
+    - key: ischia
+      bytes: 000203000000
+    - key: ischio
+      bytes: 000203000000
+    - key: sch.
+      bytes: 04000000
+    - key: sche.
+      bytes: 0400000000
+    - key: sches.
+      bytes: 040000000000
+    - key: schs
+      bytes: 02000000
+    - key: se
+      bytes: 0100
+    - key: "s\xE9"
+      bytes: 0100
+    - key: "s\xE8"
+      bytes: 0100
+    - key: "s\xEA"
+      bytes: 0100
+    - key: sesquia
+      bytes: 0000000000000102
+    - key: se.
+      bytes: 040000
+    - key: ses.
+      bytes: 04000000
+    - key: sent.
+      bytes: 0200000000
+    - key: absent.
+      bytes: 00000300000000
+    - key: "pr\xE9sent."
+      bytes: 0000000300000000
+    - key: .ressent.
+      bytes: 000000000300000000
+    - key: .seule
+      bytes: 000000000200
+    - key: .sh
+      bytes: 00000004
+    - key: sh
+      bytes: 0102
+    - key: sh.
+      bytes: 040000
+    - key: she.
+      bytes: 04000000
+    - key: shes.
+      bytes: 0400000000
+    - key: shent.
+      bytes: 020000000000
+    - key: shm
+      bytes: 020000
+    - key: shom
+      bytes: 02030000
+    - key: shr
+      bytes: 020000
+    - key: shs
+      bytes: 020000
+    - key: si
+      bytes: 0100
+    - key: "s\xEE"
+      bytes: 0100
+    - key: slav
+      bytes: 01020000
+    - key: slov
+      bytes: 01020000
+    - key: so
+      bytes: 0100
+    - key: "s\xF4"
+      bytes: 0100
+    - key: "s\u0153"
+      bytes: 0100
+    - key: spatia
+      bytes: 010200000000
+    - key: sperm
+      bytes: 0102000000
+    - key: spor
+      bytes: 01020000
+    - key: "sph\xE8r"
+      bytes: 0102000000
+    - key: "sph\xE9r"
+      bytes: 0102000000
+    - key: spiel
+      bytes: 0102000000
+    - key: spiros
+      bytes: 010200000000
+    - key: standard
+      bytes: 0102000000000000
+    - key: stein
+      bytes: 0102000000
+    - key: "st\xE9r\xE9os"
+      bytes: 0000000000000102
+    - key: stigm
+      bytes: 0102000000
+    - key: stock
+      bytes: 0102000000
+    - key: stomos
+      bytes: 010200000000
+    - key: stroph
+      bytes: 010200000000
+    - key: structu
+      bytes: 01020000000000
+    - key: style
+      bytes: 0102000000
+    - key: su
+      bytes: 0100
+    - key: "s\xFB"
+      bytes: 0100
+    - key: .suba
+      bytes: 000000020102
+    - key: .subalt
+      bytes: 00000003020000
+    - key: ".sub\xE9"
+      bytes: 000000020102
+    - key: ".sub\xE9r"
+      bytes: 000000030203
+    - key: .subin
+      bytes: 000000020100
+    - key: .sublimin
+      bytes: 000000020300000000
+    - key: .sublin
+      bytes: 00000002030000
+    - key: .sublu
+      bytes: 000000020300
+    - key: subs
+      bytes: 0000000102
+    - key: .subur
+      bytes: 000000020100
+    - key: supero
+      bytes: 00000000000002
+    - key: super
+      bytes: 000000000401
+    - key: supers
+      bytes: 00000000000002
+    - key: .sura
+      bytes: 000000020102
+    - key: surah
+      bytes: 0000030200
+    - key: .surat
+      bytes: 000000030203
+    - key: .sure
+      bytes: 000000020102
+    - key: .sureau
+      bytes: 00000003020000
+    - key: .surell
+      bytes: 00000003020000
+    - key: .suret
+      bytes: 000000030200
+    - key: ".sur\xE9"
+      bytes: 000000020102
+    - key: .surh
+      bytes: 0000000203
+    - key: .surim
+      bytes: 000000020102
+    - key: .surinf
+      bytes: 00000002010000
+    - key: .surint
+      bytes: 00000002010000
+    - key: .surof
+      bytes: 000000020100
+    - key: .surox
+      bytes: 000000020100
+    - key: sy
+      bytes: 0100
+    - key: ta
+      bytes: 0100
+    - key: "t\xE2"
+      bytes: 0100
+    - key: "t\xE0"
+      bytes: 0100
+    - key: tachya
+      bytes: 00000000000102
+    - key: tchint
+      bytes: 00000000000302
+    - key: te
+      bytes: 0100
+    - key: "t\xE9"
+      bytes: 0100
+    - key: "t\xE8"
+      bytes: 0100
+    - key: "t\xEA"
+      bytes: 0100
+    - key: "t\xE9l\xE9e"
+      bytes: 000000000102
+    - key: "t\xE9l\xE9i"
+      bytes: 000000000102
+    - key: "t\xE9l\xE9ob"
+      bytes: 000000000102
+    - key: "t\xE9l\xE9op"
+      bytes: 000000000102
+    - key: "t\xE9l\xE9s"
+      bytes: 000000000102
+    - key: te.
+      bytes: 040000
+    - key: tes.
+      bytes: 04000000
+    - key: tent.
+      bytes: 0200000000
+    - key: .latent.
+      bytes: 0000000300000000
+    - key: .patent.
+      bytes: 0000000300000000
+    - key: "comp\xE9tent."
+      bytes: 00000000000300000000
+    - key: "\xE9nitent."
+      bytes: 0000000300000000
+    - key: "m\xE9content."
+      bytes: 00000000000300000000
+    - key: omnipotent.
+      bytes: 0000000000000300000000
+    - key: ventripotent.
+      bytes: 00000000000000000300000000
+    - key: "\xE9quipotent."
+      bytes: 0000000000000300000000
+    - key: impotent.
+      bytes: 000000000300000000
+    - key: mittent.
+      bytes: 0000000300000000
+    - key: .th
+      bytes: 00000004
+    - key: th
+      bytes: 0102
+    - key: th.
+      bytes: 040000
+    - key: the.
+      bytes: 04000000
+    - key: thes.
+      bytes: 0400000000
+    - key: thermos
+      bytes: 0000000000000102
+    - key: theur
+      bytes: 0203000000
+    - key: thl
+      bytes: 020000
+    - key: thm
+      bytes: 020000
+    - key: thn
+      bytes: 020000
+    - key: thr
+      bytes: 000002
+    - key: thre.
+      bytes: 0400000000
+    - key: thres.
+      bytes: 040000000000
+    - key: ths
+      bytes: 020000
+    - key: ti
+      bytes: 0100
+    - key: "t\xEE"
+      bytes: 0100
+    - key: to
+      bytes: 0100
+    - key: "t\xF4"
+      bytes: 0100
+    - key: tr
+      bytes: 0102
+    - key: transa
+      bytes: 00000000020102
+    - key: transact
+      bytes: 0000000003020000
+    - key: transats
+      bytes: 0000000003020000
+    - key: transh
+      bytes: 000000000203
+    - key: transo
+      bytes: 00000000020102
+    - key: transp
+      bytes: 000000000203
+    - key: transu
+      bytes: 00000000020102
+    - key: tre.
+      bytes: 04000000
+    - key: tres.
+      bytes: 0400000000
+    - key: trent.
+      bytes: 020000000000
+    - key: .triac
+      bytes: 000000000102
+    - key: .trian
+      bytes: 000000000102
+    - key: .triat
+      bytes: 000000000102
+    - key: .trion
+      bytes: 000000000102
+    - key: ttl
+      bytes: 000102
+    - key: tu
+      bytes: 0100
+    - key: "t\xFB"
+      bytes: 0100
+    - key: tungs
+      bytes: 000000000203
+    - key: ty
+      bytes: 0100
+    - key: .u
+      bytes: 000004
+    - key: '''u'
+      bytes: 000004
+    - key: ".\xFB"
+      bytes: 000004
+    - key: "'\xFB"
+      bytes: 000004
+    - key: uniov
+      bytes: 0000000102
+    - key: uniax
+      bytes: 0000000102
+    - key: ustr
+      bytes: 00020300
+    - key: va
+      bytes: 0100
+    - key: "v\xE2"
+      bytes: 0100
+    - key: ve
+      bytes: 0100
+    - key: "v\xE9"
+      bytes: 0100
+    - key: "v\xE8"
+      bytes: 0100
+    - key: "v\xEA"
+      bytes: 0100
+    - key: "v\xE9loski"
+      bytes: 00000000010200
+    - key: ve.
+      bytes: 040000
+    - key: ves.
+      bytes: 04000000
+    - key: vent.
+      bytes: 0200000000
+    - key: connivent.
+      bytes: 00000000000300000000
+    - key: .souvent.
+      bytes: 000000000300000000
+    - key: vi
+      bytes: 0100
+    - key: "v\xEE"
+      bytes: 0100
+    - key: vo
+      bytes: 0100
+    - key: "v\xF4"
+      bytes: 0100
+    - key: voltamp
+      bytes: 00000002010000
+    - key: vr
+      bytes: 0102
+    - key: vre.
+      bytes: 04000000
+    - key: vres.
+      bytes: 0400000000
+    - key: vrent.
+      bytes: 020000000000
+    - key: vu
+      bytes: 0100
+    - key: "v\xFB"
+      bytes: 0100
+    - key: vy
+      bytes: 0100
+    - key: wa
+      bytes: 0100
+    - key: we
+      bytes: 0100
+    - key: we.
+      bytes: 040000
+    - key: wes.
+      bytes: 04000000
+    - key: went.
+      bytes: 0200000000
+    - key: wi
+      bytes: 0100
+    - key: wo
+      bytes: 0100
+    - key: wu
+      bytes: 0100
+    - key: wr
+      bytes: 0102
+    - key: xent.
+      bytes: 0200000000
+    - key: .y
+      bytes: 000004
+    - key: '''y'
+      bytes: 000004
+    - key: yasth
+      bytes: 0001000000
+    - key: ystom
+      bytes: 0001020000
+    - key: yalgi
+      bytes: 0001000000
+    - key: za
+      bytes: 0100
+    - key: ze
+      bytes: 0100
+    - key: "z\xE9"
+      bytes: 0100
+    - key: "z\xE8"
+      bytes: 0100
+    - key: ze.
+      bytes: 040000
+    - key: zes.
+      bytes: 04000000
+    - key: zent.
+      bytes: 0200000000
+    - key: privatdozent.
+      bytes: 00000000000000000300000000
+    - key: zi
+      bytes: 0100
+    - key: zo
+      bytes: 0100
+    - key: zu
+      bytes: 0100
+    - key: zy
+      bytes: 0100
+    exceptions: []

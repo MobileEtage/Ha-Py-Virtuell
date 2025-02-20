@@ -1,0 +1,33 @@
+{
+	"Basistexte": [{
+		"def": "Basistexte",
+		"de": "Basistexte"
+	},{
+		"def": "Weiter",
+		"de": "Weiter",
+		"en": "Continue"
+	},{
+		"def": "Ja",
+		"de": "Ja",
+		"en": "Yes"
+	},{
+		"def": "Nein",
+		"de": "Nein",
+		"en": "No"
+	},{
+		"def": "Einrichtungen Betrieb",
+		"de": "Einrichtungen Betrieb",
+		"en": "Facilities / Services",
+		"nl": "Voorzieningen"
+	},{
+		"def": "Verleih",
+		"de": "Verleih",
+		"en": "Rental",
+		"nl": "Verhuur"
+	},{
+		"def": "Wellness",
+		"de": "Wellness",
+		"en": "Wellness",
+		"nl": "Wellness"
+	}]
+}

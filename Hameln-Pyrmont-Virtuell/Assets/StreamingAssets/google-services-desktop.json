@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1044928325502",
+    "project_id": "stadtrundgang-hameln",
+    "storage_bucket": "stadtrundgang-hameln.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044928325502:android:9f7d2a08fba791b122f52f",
+        "android_client_info": {
+          "package_name": "de.dieetagen.StadtrundgangHameln"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwoLn4fQYxaRZpebcRIkTm6HfKw6OjWFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

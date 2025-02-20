@@ -1,0 +1,592 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using TMPro;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.Video;
+using SimpleJSON;
+using UnityEngine.XR.ARFoundation;
+
+public class FaceTrackingController : MonoBehaviour
+{
+    public ARFaceManager faceManager;
+    public ARFace face;
+    public GameObject helmetRoot;
+    public List<GameObject> helmets = new List<GameObject>();
+    public List<GameObject> helmetButtons = new List<GameObject>();
+
+    [Space(10)]
+
+    public bool testEnabled = false;
+    public enum CameraARType { BackFacingAR, BackFacingScreen, FrontFacing, FrontFacingARFoundation, None }
+    public CameraARType cameraARType = CameraARType.BackFacingAR;
+    public CameraARType cameraARTypeBackFacing = CameraARType.BackFacingAR;
+    private bool shouldScan = false;
+
+    [Space(10)]
+
+    public Image infoImage;
+    public TextMeshProUGUI infoTitle;
+    public TextMeshProUGUI infoDescription;
+    public GameObject tutorialUI;
+    public GameObject arUI;
+    public GameObject switchCameraUI;
+
+    [Space(10)]
+
+    public GameObject screenObjectRoot;
+    public GameObject screenObject;
+    public GameObject arObjectRoot;
+
+    [Space(10)]
+
+    public GameObject mainCamera;
+    public GameObject testHelperObjects;
+
+    private Vector3 hitOffset = Vector3.zero;
+    private bool placementEnabled = false;
+    private bool isMovingARObject = false;
+    private bool isLoading = false;
+
+    private bool placementInfoARShowed = false;
+    private bool placementInfoSelfieShowed = false;
+    private bool showInfoOnlyOnce = true;
+
+    public static FaceTrackingController instance;
+    void Awake()
+    {
+        instance = this;
+    }
+
+    void Start()
+    {
+        if (ARController.instance == null)
+        {
+            if (testEnabled) { testHelperObjects.SetActive(true); }
+            GameObject toolsController = new GameObject("ToolsController");
+            toolsController.AddComponent<ToolsController>();
+            placementEnabled = true;
+
+            StartCoroutine(InitCoroutine());
+        }
+    }
+
+    private void OnEnable()
+    {
+        faceManager.facesChanged += FacesChanged;
+    }
+
+    private void OnDisable()
+    {
+        faceManager.facesChanged -= FacesChanged;
+    }
+
+    public void FacesChanged(ARFacesChangedEventArgs args)
+    {
+        print("FacesChanged");
+
+        if (args.updated != null)
+        {
+            print("FacesChanged args.updated not null");
+            if (args.updated.Count <= 0) { helmetRoot.SetActive(false); print("FacesChanged args.updated.Count == 0"); }
+            else
+            {
+                helmetRoot.SetActive(false); print("FacesChanged args.updated.Count " + args.updated.Count);
+                helmetRoot.SetActive(true);
+
+                face = args.updated[0];
+                helmetRoot.transform.position = face.transform.position;
+                helmetRoot.transform.eulerAngles = face.transform.eulerAngles;
+            }
+        }
+        else
+        {
+            print("FacesChanged args.updated null");
+        }
+    }
+
+    public void ActivateHelemt(int index)
+    {
+        for (int i = 0; i < helmets.Count; i++){ helmets[i].SetActive(false); }
+        if(index >= 0 && index < helmets.Count) { helmets[index].SetActive(true); }
+        for (int i = 0; i < helmetButtons.Count; i++) { helmetButtons[i].GetComponent<Image>().enabled = false; }
+        if (index >= 0 && index < helmetButtons.Count) { helmetButtons[index].GetComponent<Image>().enabled = true; }
+    }
+
+    void LateUpdate()
+    {
+        if (SiteController.instance != null && SiteController.instance.currentSite != null && SiteController.instance.currentSite.siteID != "FaceTrackingSite") return;
+
+        if (arUI.activeInHierarchy)
+        {
+            if (VideoCaptureController.instance != null && PhotoCaptureController.instance != null)
+            {
+                if (VideoCaptureController.instance.previewUI.activeInHierarchy || PhotoCaptureController.instance.previewUI.activeInHierarchy)
+                {
+                    
+                }
+                else
+                {
+                    
+                }
+            }
+        }
+
+        //HandlePlacement();
+    }
+
+    public void HandlePlacement()
+    {
+        //if (!placementEnabled) return;
+        if (cameraARType != CameraARType.BackFacingAR) { MoveObjectOnScreen(); }
+        else { MoveARObject(); }
+    }
+
+    public void MoveObjectOnScreen()
+    {
+        if (Input.touchCount >= 2) { isMovingARObject = false; return; }
+        if (PhotoCaptureController.instance != null && PhotoCaptureController.instance.photoPreviewImage.gameObject.activeInHierarchy) { return; }
+
+        screenObjectRoot.transform.position = mainCamera.transform.position;
+        screenObjectRoot.transform.eulerAngles = mainCamera.transform.eulerAngles;
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            RaycastHit[] hits;
+            Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+            hits = Physics.RaycastAll(ray, 100);
+
+            for (int i = 0; i < hits.Length; i++)
+            {
+                if (hits[i].transform.gameObject == screenObject)
+                {
+                    hitOffset = hits[i].point - screenObject.transform.position;
+                    isMovingARObject = true;
+                    break;
+                }
+            }
+        }
+        else if (isMovingARObject && Input.GetMouseButton(0))
+        {
+            Vector3 mousePosition = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 2.0f);
+            Vector3 pos = mainCamera.GetComponent<Camera>().ScreenToWorldPoint(mousePosition);
+            screenObject.transform.position = pos - hitOffset;
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            isMovingARObject = false;
+        }
+    }
+
+    public void MoveARObject()
+    {
+        if (Input.touchCount >= 2) { isMovingARObject = false; return; }
+
+        if (Input.GetMouseButtonDown(0) && !ToolsController.instance.IsPointerOverUIObject())
+        {
+            RaycastHit[] hits;
+            Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+            hits = Physics.RaycastAll(ray, 100);
+
+            for (int i = 0; i < hits.Length; i++)
+            {
+                if (hits[i].transform == arObjectRoot.transform.GetChild(0))
+                {
+                    hitOffset = hits[i].point - arObjectRoot.transform.position;
+                    isMovingARObject = true;
+                    break;
+                }
+            }
+
+            // Start drag object delayed, because maybe we also want to scale it with two fingers
+            //StopCoroutine("EnableMoveARObjectCoroutine");
+            //StartCoroutine("EnableMoveARObjectCoroutine");
+        }
+        else if (isMovingARObject && Input.GetMouseButton(0))
+        {
+            Vector2 touchPosition = ToolsController.instance.GetTouchPosition();
+            Vector3 hitPosition = mainCamera.transform.position + mainCamera.transform.forward * 2;
+
+            bool hitGround = false;
+            if (ARController.instance != null && ARController.instance.RaycastHit(touchPosition, out hitPosition))
+            {
+                hitGround = true;
+            }
+            else
+            {
+
+#if UNITY_EDITOR
+
+                Ray ray = mainCamera.GetComponent<Camera>().ScreenPointToRay(touchPosition);
+                RaycastHit[] hits;
+                hits = Physics.RaycastAll(ray, 100);
+
+                for (int i = 0; i < hits.Length; i++)
+                {
+                    if (hits[i].transform.CompareTag("ARPlane"))
+                    {
+                        hitPosition = hits[i].point;
+                        hitGround = true;
+                        break;
+                    }
+                }
+#endif
+
+                if (!hitGround)
+                {
+                    Ray rayTemp = mainCamera.GetComponent<Camera>().ScreenPointToRay(Input.mousePosition);
+                    hitPosition = rayTemp.origin + rayTemp.direction * 2.0f;
+                }
+            }
+
+            //arObject.transform.position = hitPosition - hitOffset;
+            arObjectRoot.transform.position = hitPosition;
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            StopCoroutine("EnableMoveARObjectCoroutine");
+            isMovingARObject = false;
+        }
+    }
+
+    public IEnumerator EnableMoveARObjectCoroutine()
+    {
+        yield return new WaitForSeconds(0.15f);
+        isMovingARObject = true;
+    }
+
+    public IEnumerator InitCoroutine()
+    {
+        yield return null;
+
+        if (StationController.instance != null)
+        {
+            // Start site params
+            JSONNode featureData = StationController.instance.GetStationFeature("ar");
+            if (featureData != null && featureData["infoTitle"] != null) { infoTitle.text = LanguageController.GetTranslationFromNode(featureData["infoTitle"]); }
+            else { 
+                //infoTitle.text = LanguageController.GetTranslation("Mache ein Foto mit unserem Stadtführer"); 
+            }
+            if (featureData != null && featureData["infoDescription"] != null) { infoDescription.text = LanguageController.GetTranslationFromNode(featureData["infoDescription"]); }
+            else { 
+                //infoDescription.text = LanguageController.GetTranslation("Hier kannst Du ein Foto mit unserem Stadtführer machen."); 
+            }
+
+            // Image
+            if (featureData != null && featureData["infoImage"] != null && featureData["infoImage"].Value != "")
+            {
+                ToolsController.instance.ApplyOnlineImage(infoImage, featureData["infoImage"].Value, true);
+            }
+            else
+            {
+                Sprite sprite = Resources.Load<Sprite>("UI/Sprites/selfie");
+                infoImage.sprite = sprite;
+                infoImage.preserveAspect = true;
+            }
+        }
+
+        if (ARController.instance != null)
+        {
+            mainCamera = ARController.instance.mainCamera;
+            if (WebcamController.instance != null) { WebcamController.instance.webcamContent.GetComponentInChildren<Canvas>(true).worldCamera = mainCamera.GetComponent<Camera>(); }
+        }
+
+        tutorialUI.SetActive(true);
+        arUI.SetActive(false);
+    }
+
+    public void StartAR()
+    {
+        if (isLoading) return;
+        isLoading = true;
+        StartCoroutine("StartARCoroutine");
+    }
+
+    public IEnumerator StartARCoroutine()
+    {
+        if (cameraARType == CameraARType.BackFacingAR)
+        {
+            bool hasPermission = true;
+            if (PermissionController.instance != null) { yield return StartCoroutine(PermissionController.instance.ValidatePermissionsCameraCoroutine("arFeature", (bool success) => { hasPermission = success; })); }
+            if (!hasPermission) { isLoading = false; yield break; }
+        }
+
+        screenObjectRoot.SetActive(false);
+        arObjectRoot.SetActive(false);
+
+        if (InfoController.instance != null) { InfoController.instance.loadingCircle.SetActive(true); }
+        yield return new WaitForSeconds(0.25f);
+
+        if (cameraARType == CameraARType.BackFacingAR) { yield return StartCoroutine(InitBackFacingARCoroutine()); }
+        else if (cameraARType == CameraARType.BackFacingScreen) { yield return StartCoroutine(InitBackFacingScreenCoroutine()); }
+        else if (cameraARType == CameraARType.FrontFacing) { yield return StartCoroutine(InitFrontFacingCoroutine()); }
+        else if (cameraARType == CameraARType.FrontFacingARFoundation) { yield return StartCoroutine(InitFrontFacingARFoundationCoroutine()); }
+        else if (cameraARType == CameraARType.None) { yield return StartCoroutine(InitWithoutARControllerCoroutine()); }
+
+        if (InfoController.instance != null)
+        {
+            if (cameraARType == CameraARType.BackFacingAR && !placementInfoARShowed && PlayerPrefs.GetInt("guideInfoARShowed", 0) != 1)
+            {
+                yield return new WaitForSeconds(0.25f);
+                InfoController.instance.ShowMessage("PLATZIERUNG", LanguageController.move_guide_desc, EnablePlacement);
+                placementInfoARShowed = true;
+                if (showInfoOnlyOnce) { PlayerPrefs.SetInt("guideInfoARShowed", 1); }
+            }
+            else if (cameraARType == CameraARType.FrontFacing && !placementInfoSelfieShowed && PlayerPrefs.GetInt("guideInfoSelfieShowed", 0) != 1)
+            {
+                yield return new WaitForSeconds(0.25f);
+                InfoController.instance.ShowMessage("PLATZIERUNG", LanguageController.move_scale_guide_desc, EnablePlacement);
+                placementInfoSelfieShowed = true;
+                if (showInfoOnlyOnce) { PlayerPrefs.SetInt("guideInfoSelfieShowed", 1); }
+            }
+        }
+
+        isLoading = false;
+    }
+
+    public IEnumerator InitBackFacingARCoroutine()
+    {
+        if (ARController.instance != null && !ARController.instance.arSession.enabled)
+        {
+            ARController.instance.InitARFoundation();
+            yield return new WaitForSeconds(0.5f);
+        }
+
+        tutorialUI.SetActive(false);
+        switchCameraUI.SetActive(false);
+
+        if (shouldScan)
+        {
+            if (InfoController.instance != null) { InfoController.instance.loadingCircle.SetActive(false); }
+            if (ScanController.instance != null) { yield return StartCoroutine(ScanController.instance.EnableScanCoroutine()); }
+            yield return new WaitForSeconds(2.0f);
+        }
+        else { yield return new WaitForSeconds(1.5f); }
+
+        if (InfoController.instance != null) { InfoController.instance.loadingCircle.SetActive(false); }
+        arObjectRoot.SetActive(true);
+		
+		if (ARController.instance != null)
+        {
+            Vector2 touchPosition = ToolsController.instance.GetTouchPosition();
+            Vector3 hitPosition = mainCamera.transform.position + mainCamera.transform.forward * 1;
+            if (ARController.instance != null && ARController.instance.RaycastHit(touchPosition, out hitPosition))
+            {
+
+            }
+            else
+            {
+                float dist = 1.0f;
+                Vector3 targetPosition = mainCamera.transform.position + new Vector3(mainCamera.transform.forward.x, 0, mainCamera.transform.forward.z).normalized * dist;
+                targetPosition.y = mainCamera.transform.position.y - 1.4f;
+                hitPosition = targetPosition;
+            }
+
+            arObjectRoot.transform.position = hitPosition;
+        }
+
+        arUI.SetActive(true);
+    }
+
+    public IEnumerator InitBackFacingScreenCoroutine()
+    {
+        yield return StartCoroutine(WebcamController.instance.StartWebcamTextureCoroutine(false));
+        yield return new WaitForSeconds(0.5f);
+
+        /*
+        if (ARController.instance != null && !ARController.instance.arSession.enabled)
+        {
+            ARController.instance.InitARFoundation();
+            yield return new WaitForSeconds(0.5f);
+        }
+        */
+
+        screenObjectRoot.SetActive(true);
+        PlaceScreenObject(2.0f, -0.6f);
+        switchCameraUI.SetActive(false);
+        tutorialUI.SetActive(false);
+        arUI.SetActive(true);
+        if (InfoController.instance != null) { InfoController.instance.loadingCircle.SetActive(false); }
+    }
+
+    public IEnumerator InitFrontFacingCoroutine()
+    {
+        yield return StartCoroutine(WebcamController.instance.StartWebcamTextureCoroutine(true));
+        yield return new WaitForSeconds(0.5f);
+
+        screenObjectRoot.SetActive(true);
+        PlaceScreenObject(2.0f, -0.6f);
+        switchCameraUI.SetActive(false);
+        tutorialUI.SetActive(false);
+        arUI.SetActive(true);
+        if (InfoController.instance != null) { InfoController.instance.loadingCircle.SetActive(false); }
+    }
+
+    public IEnumerator InitFrontFacingARFoundationCoroutine()
+    {
+        if (ARController.instance != null && !ARController.instance.arSession.enabled)
+        {
+            ARController.instance.mainCamera.GetComponent<ARCameraManager>().requestedFacingDirection = CameraFacingDirection.User;
+            ARController.instance.InitARFoundation();
+            yield return new WaitForSeconds(0.5f);
+        }
+
+        tutorialUI.SetActive(false);
+        switchCameraUI.SetActive(false);
+        arUI.SetActive(true);
+        if (InfoController.instance != null) { InfoController.instance.loadingCircle.SetActive(false); }
+    }
+
+    public IEnumerator InitWithoutARControllerCoroutine()
+    {
+        yield return null;
+        tutorialUI.SetActive(false);
+        switchCameraUI.SetActive(false);
+        arUI.SetActive(true);
+        if (InfoController.instance != null) { InfoController.instance.loadingCircle.SetActive(false); }
+    }
+
+    public void PlaceScreenObject(float distInfront, float offsetY)
+    {
+        screenObjectRoot.GetComponentInChildren<LookAt>(true).enabled = false;
+        screenObjectRoot.GetComponentInChildren<LookAt>(true).transform.localEulerAngles = Vector3.zero;
+
+        screenObjectRoot.transform.position = mainCamera.transform.position;
+        screenObjectRoot.transform.eulerAngles = mainCamera.transform.eulerAngles;
+
+        Vector3 forward = new Vector3(mainCamera.transform.forward.x, mainCamera.transform.forward.y, mainCamera.transform.forward.z);
+        Vector3 up = new Vector3(mainCamera.transform.up.x, mainCamera.transform.up.y, mainCamera.transform.up.z);
+        Vector3 pos = mainCamera.transform.position + forward.normalized * distInfront + up * offsetY;
+        screenObject.transform.position = pos;
+    }
+
+    public void SwitchFrontBackFacing()
+    {
+        if (isLoading) return;
+        isLoading = true;
+        StartCoroutine(SwitchFrontBackFacingCoroutine());
+    }
+
+    public IEnumerator SwitchFrontBackFacingCoroutine()
+    {
+        switchCameraUI.SetActive(true);
+        arUI.SetActive(false);
+
+        if (InfoController.instance != null) { InfoController.instance.loadingCircle.SetActive(true); }
+        yield return new WaitForSeconds(0.25f);
+
+        if (cameraARType == CameraARType.FrontFacing)
+        {
+
+            WebcamController.instance.DisablePhotoCamera();
+            yield return new WaitForSeconds(0.5f);
+            cameraARType = cameraARTypeBackFacing;
+        }
+        else
+        {
+
+            WebcamController.instance.DisablePhotoCamera();
+            if (ARController.instance != null && ARController.instance.arSession.enabled) { ARController.instance.StopARSession(); }
+            yield return new WaitForSeconds(0.5f);
+            cameraARType = CameraARType.FrontFacing;
+        }
+
+        yield return StartCoroutine(StartARCoroutine());
+
+        isLoading = false;
+    }
+
+    public void EnablePlacement()
+    {
+        placementEnabled = true;
+    }
+
+    public void Back()
+    {
+        if (tutorialUI.activeInHierarchy)
+        {
+            //InfoController.instance.ShowCommitAbortDialog("STATION VERLASSEN", LanguageController.cancelCurrentStationText, ScanController.instance.CommitCloseStation);
+            CommitClose();
+        }
+        else
+        {
+            CommitBack();
+        }
+    }
+
+    public void CommitClose()
+    {
+        if (isLoading) return;
+        isLoading = true;
+        StartCoroutine(CommitCloseCoroutine());
+    }
+
+    public IEnumerator CommitCloseCoroutine()
+    {
+        if (ARController.instance != null)
+        {
+            ARController.instance.StopARSession();
+            ARController.instance.mainCamera.GetComponent<ARCameraManager>().requestedFacingDirection = CameraFacingDirection.World;
+            ARController.instance.arPlaneManager.gameObject.SetActive(true);
+        }
+        else
+        {
+            print("LoadScene Main");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Main");
+        }
+
+        Reset();
+        if (SiteController.instance != null) { yield return StartCoroutine(SiteController.instance.SwitchToSiteCoroutine("TestFeaturesSite")); }
+
+        isLoading = false;
+    }
+
+    public void CommitBack()
+    {
+        if (isLoading) return;
+        isLoading = true;
+        StartCoroutine(BackCoroutine());
+    }
+
+    public IEnumerator BackCoroutine()
+    {
+        if (InfoController.instance != null) { InfoController.instance.loadingCircle.SetActive(true); }
+        yield return new WaitForSeconds(0.25f);
+
+        Reset();
+
+        if (cameraARType == CameraARType.FrontFacing)
+        {
+            WebcamController.instance.DisablePhotoCamera();
+            yield return new WaitForSeconds(0.5f);
+        }
+        else
+        {
+            WebcamController.instance.DisablePhotoCamera();
+            if (ARController.instance != null && ARController.instance.arSession.enabled) { ARController.instance.StopARSession(); }
+            yield return new WaitForSeconds(0.5f);
+        }
+
+        if (InfoController.instance != null) { InfoController.instance.loadingCircle.SetActive(false); }
+        isLoading = false;
+    }
+
+    public void Reset()
+    {
+        StopCoroutine("StartARCoroutine");
+        if (ScanController.instance != null) { ScanController.instance.DisableScanCoroutine(); }
+        if (MediaCaptureController.instance != null) { MediaCaptureController.instance.Reset(); }
+
+        //placementEnabled = false;
+        //placementInfoARShowed = false;
+        //placementInfoSelfieShowed = false;
+
+        switchCameraUI.SetActive(false);
+        arUI.SetActive(false);
+        tutorialUI.SetActive(true);
+
+        screenObjectRoot.GetComponentInChildren<ZoomObjectHandler>(true).reset();
+        screenObjectRoot.SetActive(false);
+        arObjectRoot.SetActive(false);
+    }
+}

@@ -1,0 +1,662 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10bc198b69dabf94db122f072bd0459e, type: 3}
+  m_Name: PT
+  m_EditorClassIdentifier: 
+  languageName: Portuguese
+  minCharactersToStartOfWord: 2
+  minCharactersToEndOfWord: 3
+  authors: Pedro J. de Rezende & J. Joao Dias Almeida
+  copyright: Copyright (C) 1987, 1994, 1996, 2015 Pedro J. de Rezende, 1996, 2015
+    J. Joao Dias Almeida
+  copyrightNotice: "Redistribution and use in source and binary forms, with or without
+    modification, are permitted provided that the following conditions are met:\r\n\r\n1.
+    Redistributions of source code must retain the above copyright notice, this list
+    of conditions and the following disclaimer.\r\n\r\n2. Redistributions in binary
+    form must reproduce the above copyright notice, this list of conditions and the
+    following disclaimer in the documentation and/or other materials provided with
+    the distribution.\r\n\r\n3. Neither the name of the copyright holder nor the
+    names of its contributors may be used to endorse or promote products derived
+    from this software without specific prior written permission.\r\n\r\nTHIS SOFTWARE
+    IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \u201CAS IS\u201D AND ANY
+    EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+    OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO
+    EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+    INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+    LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+    PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+    WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY
+    OF SUCH DAMAGE."
+  licenseType: BSD 3-clause licence
+  licenseURL: https://opensource.org/licenses/BSD-3-Clause
+  rootTree:
+    patterns:
+    - key: bl
+      bytes: 0102
+    - key: br
+      bytes: 0102
+    - key: ba
+      bytes: 0100
+    - key: be
+      bytes: 0100
+    - key: bi
+      bytes: 0100
+    - key: bo
+      bytes: 0100
+    - key: bu
+      bytes: 0100
+    - key: "b\xE1"
+      bytes: 0100
+    - key: "b\xE2"
+      bytes: 0100
+    - key: "b\xE3"
+      bytes: 0100
+    - key: "b\xE9"
+      bytes: 0100
+    - key: "b\xED"
+      bytes: 0100
+    - key: "b\xF3"
+      bytes: 0100
+    - key: "b\xFA"
+      bytes: 0100
+    - key: "b\xEA"
+      bytes: 0100
+    - key: "b\xF5"
+      bytes: 0100
+    - key: ch
+      bytes: 0102
+    - key: cl
+      bytes: 0102
+    - key: cr
+      bytes: 0102
+    - key: ca
+      bytes: 0100
+    - key: ce
+      bytes: 0100
+    - key: ci
+      bytes: 0100
+    - key: co
+      bytes: 0100
+    - key: cu
+      bytes: 0100
+    - key: "c\xE1"
+      bytes: 0100
+    - key: "c\xE2"
+      bytes: 0100
+    - key: "c\xE3"
+      bytes: 0100
+    - key: "c\xE9"
+      bytes: 0100
+    - key: "c\xED"
+      bytes: 0100
+    - key: "c\xF3"
+      bytes: 0100
+    - key: "c\xFA"
+      bytes: 0100
+    - key: "c\xEA"
+      bytes: 0100
+    - key: "c\xF5"
+      bytes: 0100
+    - key: "\xE7a"
+      bytes: 0100
+    - key: "\xE7e"
+      bytes: 0100
+    - key: "\xE7i"
+      bytes: 0100
+    - key: "\xE7o"
+      bytes: 0100
+    - key: "\xE7u"
+      bytes: 0100
+    - key: "\xE7\xE1"
+      bytes: 0100
+    - key: "\xE7\xE2"
+      bytes: 0100
+    - key: "\xE7\xE3"
+      bytes: 0100
+    - key: "\xE7\xE9"
+      bytes: 0100
+    - key: "\xE7\xED"
+      bytes: 0100
+    - key: "\xE7\xF3"
+      bytes: 0100
+    - key: "\xE7\xFA"
+      bytes: 0100
+    - key: "\xE7\xEA"
+      bytes: 0100
+    - key: "\xE7\xF5"
+      bytes: 0100
+    - key: dl
+      bytes: 0102
+    - key: dr
+      bytes: 0102
+    - key: da
+      bytes: 0100
+    - key: de
+      bytes: 0100
+    - key: di
+      bytes: 0100
+    - key: do
+      bytes: 0100
+    - key: du
+      bytes: 0100
+    - key: "d\xE1"
+      bytes: 0100
+    - key: "d\xE2"
+      bytes: 0100
+    - key: "d\xE3"
+      bytes: 0100
+    - key: "d\xE9"
+      bytes: 0100
+    - key: "d\xED"
+      bytes: 0100
+    - key: "d\xF3"
+      bytes: 0100
+    - key: "d\xFA"
+      bytes: 0100
+    - key: "d\xEA"
+      bytes: 0100
+    - key: "d\xF5"
+      bytes: 0100
+    - key: fl
+      bytes: 0102
+    - key: fr
+      bytes: 0102
+    - key: fa
+      bytes: 0100
+    - key: fe
+      bytes: 0100
+    - key: fi
+      bytes: 0100
+    - key: fo
+      bytes: 0100
+    - key: fu
+      bytes: 0100
+    - key: "f\xE1"
+      bytes: 0100
+    - key: "f\xE2"
+      bytes: 0100
+    - key: "f\xE3"
+      bytes: 0100
+    - key: "f\xE9"
+      bytes: 0100
+    - key: "f\xED"
+      bytes: 0100
+    - key: "f\xF3"
+      bytes: 0100
+    - key: "f\xFA"
+      bytes: 0100
+    - key: "f\xEA"
+      bytes: 0100
+    - key: "f\xF5"
+      bytes: 0100
+    - key: gl
+      bytes: 0102
+    - key: gr
+      bytes: 0102
+    - key: ga
+      bytes: 0100
+    - key: ge
+      bytes: 0100
+    - key: gi
+      bytes: 0100
+    - key: go
+      bytes: 0100
+    - key: gu
+      bytes: 0100
+    - key: gua
+      bytes: 010004
+    - key: gue
+      bytes: 010004
+    - key: gui
+      bytes: 010004
+    - key: guo
+      bytes: 010004
+    - key: "g\xE1"
+      bytes: 0100
+    - key: "g\xE2"
+      bytes: 0100
+    - key: "g\xE3"
+      bytes: 0100
+    - key: "g\xE9"
+      bytes: 0100
+    - key: "g\xED"
+      bytes: 0100
+    - key: "g\xF3"
+      bytes: 0100
+    - key: "g\xFA"
+      bytes: 0100
+    - key: "g\xEA"
+      bytes: 0100
+    - key: "g\xF5"
+      bytes: 0100
+    - key: ja
+      bytes: 0100
+    - key: je
+      bytes: 0100
+    - key: ji
+      bytes: 0100
+    - key: jo
+      bytes: 0100
+    - key: ju
+      bytes: 0100
+    - key: "j\xE1"
+      bytes: 0100
+    - key: "j\xE2"
+      bytes: 0100
+    - key: "j\xE3"
+      bytes: 0100
+    - key: "j\xE9"
+      bytes: 0100
+    - key: "j\xED"
+      bytes: 0100
+    - key: "j\xF3"
+      bytes: 0100
+    - key: "j\xFA"
+      bytes: 0100
+    - key: "j\xEA"
+      bytes: 0100
+    - key: "j\xF5"
+      bytes: 0100
+    - key: kl
+      bytes: 0102
+    - key: kr
+      bytes: 0102
+    - key: ka
+      bytes: 0100
+    - key: ke
+      bytes: 0100
+    - key: ki
+      bytes: 0100
+    - key: ko
+      bytes: 0100
+    - key: ku
+      bytes: 0100
+    - key: "k\xE1"
+      bytes: 0100
+    - key: "k\xE2"
+      bytes: 0100
+    - key: "k\xE3"
+      bytes: 0100
+    - key: "k\xE9"
+      bytes: 0100
+    - key: "k\xED"
+      bytes: 0100
+    - key: "k\xF3"
+      bytes: 0100
+    - key: "k\xFA"
+      bytes: 0100
+    - key: "k\xEA"
+      bytes: 0100
+    - key: "k\xF5"
+      bytes: 0100
+    - key: lh
+      bytes: 0102
+    - key: la
+      bytes: 0100
+    - key: le
+      bytes: 0100
+    - key: li
+      bytes: 0100
+    - key: lo
+      bytes: 0100
+    - key: lu
+      bytes: 0100
+    - key: "l\xE1"
+      bytes: 0100
+    - key: "l\xE2"
+      bytes: 0100
+    - key: "l\xE3"
+      bytes: 0100
+    - key: "l\xE9"
+      bytes: 0100
+    - key: "l\xED"
+      bytes: 0100
+    - key: "l\xF3"
+      bytes: 0100
+    - key: "l\xFA"
+      bytes: 0100
+    - key: "l\xEA"
+      bytes: 0100
+    - key: "l\xF5"
+      bytes: 0100
+    - key: ma
+      bytes: 0100
+    - key: me
+      bytes: 0100
+    - key: mi
+      bytes: 0100
+    - key: mo
+      bytes: 0100
+    - key: mu
+      bytes: 0100
+    - key: "m\xE1"
+      bytes: 0100
+    - key: "m\xE2"
+      bytes: 0100
+    - key: "m\xE3"
+      bytes: 0100
+    - key: "m\xE9"
+      bytes: 0100
+    - key: "m\xED"
+      bytes: 0100
+    - key: "m\xF3"
+      bytes: 0100
+    - key: "m\xFA"
+      bytes: 0100
+    - key: "m\xEA"
+      bytes: 0100
+    - key: "m\xF5"
+      bytes: 0100
+    - key: nh
+      bytes: 0102
+    - key: na
+      bytes: 0100
+    - key: ne
+      bytes: 0100
+    - key: ni
+      bytes: 0100
+    - key: no
+      bytes: 0100
+    - key: nu
+      bytes: 0100
+    - key: "n\xE1"
+      bytes: 0100
+    - key: "n\xE2"
+      bytes: 0100
+    - key: "n\xE3"
+      bytes: 0100
+    - key: "n\xE9"
+      bytes: 0100
+    - key: "n\xED"
+      bytes: 0100
+    - key: "n\xF3"
+      bytes: 0100
+    - key: "n\xFA"
+      bytes: 0100
+    - key: "n\xEA"
+      bytes: 0100
+    - key: "n\xF5"
+      bytes: 0100
+    - key: pl
+      bytes: 0102
+    - key: pr
+      bytes: 0102
+    - key: pa
+      bytes: 0100
+    - key: pe
+      bytes: 0100
+    - key: pi
+      bytes: 0100
+    - key: po
+      bytes: 0100
+    - key: pu
+      bytes: 0100
+    - key: "p\xE1"
+      bytes: 0100
+    - key: "p\xE2"
+      bytes: 0100
+    - key: "p\xE3"
+      bytes: 0100
+    - key: "p\xE9"
+      bytes: 0100
+    - key: "p\xED"
+      bytes: 0100
+    - key: "p\xF3"
+      bytes: 0100
+    - key: "p\xFA"
+      bytes: 0100
+    - key: "p\xEA"
+      bytes: 0100
+    - key: "p\xF5"
+      bytes: 0100
+    - key: qua
+      bytes: 010004
+    - key: que
+      bytes: 010004
+    - key: qui
+      bytes: 010004
+    - key: quo
+      bytes: 010004
+    - key: ra
+      bytes: 0100
+    - key: re
+      bytes: 0100
+    - key: ri
+      bytes: 0100
+    - key: ro
+      bytes: 0100
+    - key: ru
+      bytes: 0100
+    - key: "r\xE1"
+      bytes: 0100
+    - key: "r\xE2"
+      bytes: 0100
+    - key: "r\xE3"
+      bytes: 0100
+    - key: "r\xE9"
+      bytes: 0100
+    - key: "r\xED"
+      bytes: 0100
+    - key: "r\xF3"
+      bytes: 0100
+    - key: "r\xFA"
+      bytes: 0100
+    - key: "r\xEA"
+      bytes: 0100
+    - key: "r\xF5"
+      bytes: 0100
+    - key: sa
+      bytes: 0100
+    - key: se
+      bytes: 0100
+    - key: si
+      bytes: 0100
+    - key: so
+      bytes: 0100
+    - key: su
+      bytes: 0100
+    - key: "s\xE1"
+      bytes: 0100
+    - key: "s\xE2"
+      bytes: 0100
+    - key: "s\xE3"
+      bytes: 0100
+    - key: "s\xE9"
+      bytes: 0100
+    - key: "s\xED"
+      bytes: 0100
+    - key: "s\xF3"
+      bytes: 0100
+    - key: "s\xFA"
+      bytes: 0100
+    - key: "s\xEA"
+      bytes: 0100
+    - key: "s\xF5"
+      bytes: 0100
+    - key: tl
+      bytes: 0102
+    - key: tr
+      bytes: 0102
+    - key: ta
+      bytes: 0100
+    - key: te
+      bytes: 0100
+    - key: ti
+      bytes: 0100
+    - key: to
+      bytes: 0100
+    - key: tu
+      bytes: 0100
+    - key: "t\xE1"
+      bytes: 0100
+    - key: "t\xE2"
+      bytes: 0100
+    - key: "t\xE3"
+      bytes: 0100
+    - key: "t\xE9"
+      bytes: 0100
+    - key: "t\xED"
+      bytes: 0100
+    - key: "t\xF3"
+      bytes: 0100
+    - key: "t\xFA"
+      bytes: 0100
+    - key: "t\xEA"
+      bytes: 0100
+    - key: "t\xF5"
+      bytes: 0100
+    - key: vl
+      bytes: 0102
+    - key: vr
+      bytes: 0102
+    - key: va
+      bytes: 0100
+    - key: ve
+      bytes: 0100
+    - key: vi
+      bytes: 0100
+    - key: vo
+      bytes: 0100
+    - key: vu
+      bytes: 0100
+    - key: "v\xE1"
+      bytes: 0100
+    - key: "v\xE2"
+      bytes: 0100
+    - key: "v\xE3"
+      bytes: 0100
+    - key: "v\xE9"
+      bytes: 0100
+    - key: "v\xED"
+      bytes: 0100
+    - key: "v\xF3"
+      bytes: 0100
+    - key: "v\xFA"
+      bytes: 0100
+    - key: "v\xEA"
+      bytes: 0100
+    - key: "v\xF5"
+      bytes: 0100
+    - key: wl
+      bytes: 0102
+    - key: wr
+      bytes: 0102
+    - key: xa
+      bytes: 0100
+    - key: xe
+      bytes: 0100
+    - key: xi
+      bytes: 0100
+    - key: xo
+      bytes: 0100
+    - key: xu
+      bytes: 0100
+    - key: "x\xE1"
+      bytes: 0100
+    - key: "x\xE2"
+      bytes: 0100
+    - key: "x\xE3"
+      bytes: 0100
+    - key: "x\xE9"
+      bytes: 0100
+    - key: "x\xED"
+      bytes: 0100
+    - key: "x\xF3"
+      bytes: 0100
+    - key: "x\xFA"
+      bytes: 0100
+    - key: "x\xEA"
+      bytes: 0100
+    - key: "x\xF5"
+      bytes: 0100
+    - key: za
+      bytes: 0100
+    - key: ze
+      bytes: 0100
+    - key: zi
+      bytes: 0100
+    - key: zo
+      bytes: 0100
+    - key: zu
+      bytes: 0100
+    - key: "z\xE1"
+      bytes: 0100
+    - key: "z\xE2"
+      bytes: 0100
+    - key: "z\xE3"
+      bytes: 0100
+    - key: "z\xE9"
+      bytes: 0100
+    - key: "z\xED"
+      bytes: 0100
+    - key: "z\xF3"
+      bytes: 0100
+    - key: "z\xFA"
+      bytes: 0100
+    - key: "z\xEA"
+      bytes: 0100
+    - key: "z\xF5"
+      bytes: 0100
+    - key: aa
+      bytes: 0003
+    - key: ae
+      bytes: 0003
+    - key: ao
+      bytes: 0003
+    - key: cc
+      bytes: 0003
+    - key: ea
+      bytes: 0003
+    - key: ee
+      bytes: 0003
+    - key: eo
+      bytes: 0003
+    - key: ia
+      bytes: 0003
+    - key: ie
+      bytes: 0003
+    - key: ii
+      bytes: 0003
+    - key: io
+      bytes: 0003
+    - key: "i\xE2"
+      bytes: 0003
+    - key: "i\xEA"
+      bytes: 0003
+    - key: "i\xF4"
+      bytes: 0003
+    - key: oa
+      bytes: 0003
+    - key: oe
+      bytes: 0003
+    - key: oo
+      bytes: 0003
+    - key: rr
+      bytes: 0003
+    - key: ss
+      bytes: 0003
+    - key: ua
+      bytes: 0003
+    - key: ue
+      bytes: 0003
+    - key: uo
+      bytes: 0003
+    - key: uu
+      bytes: 0003
+    - key: '-'
+      bytes: 01
+    exceptions:
+    - key: hardware
+      bytes: 0808080809080808
+    - key: software
+      bytes: 0808080809080808

@@ -1,0 +1,748 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10bc198b69dabf94db122f072bd0459e, type: 3}
+  m_Name: IT
+  m_EditorClassIdentifier: 
+  languageName: Italian
+  minCharactersToStartOfWord: 2
+  minCharactersToEndOfWord: 2
+  authors: Claudio Beccari
+  copyright: Copyright (C) 2008-2011 Claudio Beccari
+  copyrightNotice: "Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files (the \u201CSoftware\u201D),
+    to deal in the Software without restriction, including without limitation the
+    rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is furnished
+    to do so, subject to the following conditions:\r\n\r\nThe above copyright notice
+    and this permission notice shall be included in all copies or substantial portions
+    of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \u201CAS IS\u201D, WITHOUT WARRANTY
+    OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+    OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+    NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+    OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+    IN THE SOFTWARE."
+  licenseType: MIT
+  licenseURL: ' http://opensource.org/licenses/mit-license.php '
+  rootTree:
+    patterns:
+    - key: .apn
+      bytes: 00000302
+    - key: .anti
+      bytes: 000000000001
+    - key: .antimn
+      bytes: 00000000000302
+    - key: .bio
+      bytes: 0000000001
+    - key: .caps
+      bytes: 0000000403
+    - key: .circum
+      bytes: 0000000000000201
+    - key: .contro
+      bytes: 0000000000000001
+    - key: .discine
+      bytes: 0000000203000000
+    - key: .exeu
+      bytes: 0000020100
+    - key: .frank
+      bytes: 00000000000203
+    - key: .free
+      bytes: 000000000003
+    - key: .lipsa
+      bytes: 000000030200
+    - key: .narco
+      bytes: 00000000000001
+    - key: .opto
+      bytes: 000000000001
+    - key: .ortop
+      bytes: 00000000000302
+    - key: .para
+      bytes: 000000000001
+    - key: .phl
+      bytes: 00000002
+    - key: .phr
+      bytes: 00000002
+    - key: .polip
+      bytes: 00000000000302
+    - key: .pre
+      bytes: 0000000001
+    - key: .ps
+      bytes: 000002
+    - key: .reiscr
+      bytes: 00000001020000
+    - key: .share
+      bytes: 00000000020003
+    - key: .transc
+      bytes: 00000000000203
+    - key: .transd
+      bytes: 00000000000203
+    - key: .transl
+      bytes: 00000000000203
+    - key: .transn
+      bytes: 00000000000203
+    - key: .transp
+      bytes: 00000000000203
+    - key: .transr
+      bytes: 00000000000203
+    - key: .transt
+      bytes: 00000000000203
+    - key: .sublu
+      bytes: 000000020300
+    - key: .subr
+      bytes: 0000000203
+    - key: .wagn
+      bytes: 0000000203
+    - key: .welt
+      bytes: 000000000201
+    - key: ''''
+      bytes: 0202
+    - key: aia
+      bytes: 000100
+    - key: aie
+      bytes: 000100
+    - key: aio
+      bytes: 000100
+    - key: aiu
+      bytes: 000100
+    - key: auo
+      bytes: 000100
+    - key: aya
+      bytes: 000100
+    - key: at.
+      bytes: 020000
+    - key: eiu
+      bytes: 000100
+    - key: ew
+      bytes: 0002
+    - key: oia
+      bytes: 000100
+    - key: oie
+      bytes: 000100
+    - key: oio
+      bytes: 000100
+    - key: oiu
+      bytes: 000100
+    - key: b
+      bytes: 01
+    - key: bb
+      bytes: 0200
+    - key: bc
+      bytes: 0200
+    - key: bd
+      bytes: 0200
+    - key: bf
+      bytes: 0200
+    - key: bm
+      bytes: 0200
+    - key: bn
+      bytes: 0200
+    - key: bp
+      bytes: 0200
+    - key: bs
+      bytes: 0200
+    - key: bt
+      bytes: 0200
+    - key: bv
+      bytes: 0200
+    - key: bl
+      bytes: 0002
+    - key: br
+      bytes: 0002
+    - key: b.
+      bytes: 0200
+    - key: b'
+      bytes: 0200
+    - key: c
+      bytes: 01
+    - key: cb
+      bytes: 0200
+    - key: cc
+      bytes: 0200
+    - key: cd
+      bytes: 0200
+    - key: cf
+      bytes: 0200
+    - key: ck
+      bytes: 0200
+    - key: cm
+      bytes: 0200
+    - key: cn
+      bytes: 0200
+    - key: cq
+      bytes: 0200
+    - key: cs
+      bytes: 0200
+    - key: ct
+      bytes: 0200
+    - key: cz
+      bytes: 0200
+    - key: chh
+      bytes: 020000
+    - key: ch
+      bytes: 0002
+    - key: ch.
+      bytes: 020000
+    - key: ch'.
+      bytes: 02000000
+    - key: ch''.
+      bytes: 0200000000
+    - key: chb
+      bytes: 020000
+    - key: chr
+      bytes: 000002
+    - key: chn
+      bytes: 020000
+    - key: cl
+      bytes: 0002
+    - key: cr
+      bytes: 0002
+    - key: c.
+      bytes: 0200
+    - key: c'
+      bytes: 0200
+    - key: .c
+      bytes: 000002
+    - key: d
+      bytes: 01
+    - key: db
+      bytes: 0200
+    - key: dd
+      bytes: 0200
+    - key: dg
+      bytes: 0200
+    - key: dl
+      bytes: 0200
+    - key: dm
+      bytes: 0200
+    - key: dn
+      bytes: 0200
+    - key: dp
+      bytes: 0200
+    - key: dr
+      bytes: 0002
+    - key: ds
+      bytes: 0200
+    - key: dt
+      bytes: 0200
+    - key: dv
+      bytes: 0200
+    - key: dw
+      bytes: 0200
+    - key: d.
+      bytes: 0200
+    - key: d'
+      bytes: 0200
+    - key: .d
+      bytes: 000002
+    - key: f
+      bytes: 01
+    - key: fb
+      bytes: 0200
+    - key: fg
+      bytes: 0200
+    - key: ff
+      bytes: 0200
+    - key: fn
+      bytes: 0200
+    - key: fl
+      bytes: 0002
+    - key: fr
+      bytes: 0002
+    - key: fs
+      bytes: 0200
+    - key: ft
+      bytes: 0200
+    - key: f.
+      bytes: 0200
+    - key: f'
+      bytes: 0200
+    - key: g
+      bytes: 01
+    - key: gb
+      bytes: 0200
+    - key: gd
+      bytes: 0200
+    - key: gf
+      bytes: 0200
+    - key: gg
+      bytes: 0200
+    - key: gh
+      bytes: 0002
+    - key: gl
+      bytes: 0002
+    - key: gm
+      bytes: 0200
+    - key: gn
+      bytes: 0002
+    - key: gp
+      bytes: 0200
+    - key: gr
+      bytes: 0002
+    - key: gs
+      bytes: 0200
+    - key: gt
+      bytes: 0200
+    - key: gv
+      bytes: 0200
+    - key: gw
+      bytes: 0200
+    - key: gz
+      bytes: 0200
+    - key: ght
+      bytes: 020002
+    - key: g.
+      bytes: 0200
+    - key: g'
+      bytes: 0200
+    - key: .h
+      bytes: 000002
+    - key: h
+      bytes: 01
+    - key: hb
+      bytes: 0200
+    - key: hd
+      bytes: 0200
+    - key: hh
+      bytes: 0200
+    - key: hipn
+      bytes: 00000302
+    - key: hl
+      bytes: 0002
+    - key: hm
+      bytes: 0200
+    - key: hn
+      bytes: 0200
+    - key: hr
+      bytes: 0200
+    - key: hv
+      bytes: 0200
+    - key: h.
+      bytes: 0200
+    - key: h'
+      bytes: 0200
+    - key: .j
+      bytes: 000002
+    - key: j
+      bytes: 01
+    - key: j.
+      bytes: 0200
+    - key: j'
+      bytes: 0200
+    - key: .k
+      bytes: 000002
+    - key: k
+      bytes: 01
+    - key: kg
+      bytes: 0200
+    - key: kf
+      bytes: 0200
+    - key: kh
+      bytes: 0002
+    - key: kk
+      bytes: 0200
+    - key: kl
+      bytes: 0002
+    - key: km
+      bytes: 0200
+    - key: kr
+      bytes: 0002
+    - key: ks
+      bytes: 0200
+    - key: kt
+      bytes: 0200
+    - key: k.
+      bytes: 0200
+    - key: k'
+      bytes: 0200
+    - key: l
+      bytes: 01
+    - key: lb
+      bytes: 0200
+    - key: lc
+      bytes: 0200
+    - key: ld
+      bytes: 0200
+    - key: lf
+      bytes: 020302
+    - key: lg
+      bytes: 0200
+    - key: lh
+      bytes: 0002
+    - key: lj
+      bytes: 0002
+    - key: lk
+      bytes: 0200
+    - key: ll
+      bytes: 0200
+    - key: lm
+      bytes: 0200
+    - key: ln
+      bytes: 0200
+    - key: lp
+      bytes: 0200
+    - key: lq
+      bytes: 0200
+    - key: lr
+      bytes: 0200
+    - key: ls
+      bytes: 0200
+    - key: lt
+      bytes: 0200
+    - key: lv
+      bytes: 0200
+    - key: lw
+      bytes: 0200
+    - key: lz
+      bytes: 0200
+    - key: l.
+      bytes: 0200
+    - key: l'.
+      bytes: 020000
+    - key: l''
+      bytes: 020000
+    - key: m
+      bytes: 01
+    - key: mb
+      bytes: 0200
+    - key: mc
+      bytes: 0200
+    - key: mf
+      bytes: 0200
+    - key: ml
+      bytes: 0200
+    - key: mm
+      bytes: 0200
+    - key: mn
+      bytes: 0200
+    - key: mp
+      bytes: 0200
+    - key: mq
+      bytes: 0200
+    - key: mr
+      bytes: 0200
+    - key: ms
+      bytes: 0200
+    - key: mt
+      bytes: 0200
+    - key: mv
+      bytes: 0200
+    - key: mw
+      bytes: 0200
+    - key: m.
+      bytes: 0200
+    - key: m'
+      bytes: 0200
+    - key: n
+      bytes: 01
+    - key: nb
+      bytes: 0200
+    - key: nc
+      bytes: 0200
+    - key: nd
+      bytes: 0200
+    - key: nf
+      bytes: 0200
+    - key: ng
+      bytes: 0200
+    - key: nk
+      bytes: 0200
+    - key: nl
+      bytes: 0200
+    - key: nm
+      bytes: 0200
+    - key: nn
+      bytes: 0200
+    - key: np
+      bytes: 0200
+    - key: nq
+      bytes: 0200
+    - key: nr
+      bytes: 0200
+    - key: ns
+      bytes: 0200
+    - key: nsfer
+      bytes: 0002030000
+    - key: nt
+      bytes: 0200
+    - key: nv
+      bytes: 0200
+    - key: nz
+      bytes: 0200
+    - key: ngn
+      bytes: 000203
+    - key: nheit
+      bytes: 0200000000
+    - key: n.
+      bytes: 0200
+    - key: n'
+      bytes: 0200
+    - key: p
+      bytes: 01
+    - key: pd
+      bytes: 0200
+    - key: ph
+      bytes: 0002
+    - key: pl
+      bytes: 0002
+    - key: pn
+      bytes: 0200
+    - key: pne
+      bytes: 030200
+    - key: pp
+      bytes: 0200
+    - key: pr
+      bytes: 0002
+    - key: ps
+      bytes: 0200
+    - key: psic
+      bytes: 03020000
+    - key: pt
+      bytes: 0200
+    - key: pz
+      bytes: 0200
+    - key: p.
+      bytes: 0200
+    - key: p'
+      bytes: 0200
+    - key: q
+      bytes: 01
+    - key: qq
+      bytes: 0200
+    - key: q.
+      bytes: 0200
+    - key: q'
+      bytes: 0200
+    - key: r
+      bytes: 01
+    - key: rb
+      bytes: 0200
+    - key: rc
+      bytes: 0200
+    - key: rd
+      bytes: 0200
+    - key: rf
+      bytes: 0200
+    - key: rh
+      bytes: 0002
+    - key: rg
+      bytes: 0200
+    - key: rk
+      bytes: 0200
+    - key: rl
+      bytes: 0200
+    - key: rm
+      bytes: 0200
+    - key: rn
+      bytes: 0200
+    - key: rp
+      bytes: 0200
+    - key: rq
+      bytes: 0200
+    - key: rr
+      bytes: 0200
+    - key: rs
+      bytes: 0200
+    - key: rt
+      bytes: 0200
+    - key: rts
+      bytes: 00020203
+    - key: rv
+      bytes: 0200
+    - key: rx
+      bytes: 0200
+    - key: rw
+      bytes: 0200
+    - key: rz
+      bytes: 0200
+    - key: r.
+      bytes: 0200
+    - key: r'
+      bytes: 0200
+    - key: s
+      bytes: 0102
+    - key: shm
+      bytes: 020000
+    - key: sh.
+      bytes: 020000
+    - key: sh'
+      bytes: 020000
+    - key: ss
+      bytes: 0203
+    - key: ssm
+      bytes: 000403
+    - key: spn
+      bytes: 020302
+    - key: stb
+      bytes: 020000
+    - key: stc
+      bytes: 020000
+    - key: std
+      bytes: 020000
+    - key: stf
+      bytes: 020000
+    - key: stg
+      bytes: 020000
+    - key: stm
+      bytes: 020000
+    - key: stn
+      bytes: 020000
+    - key: stp
+      bytes: 020000
+    - key: sts
+      bytes: 020000
+    - key: stt
+      bytes: 020000
+    - key: stv
+      bytes: 020000
+    - key: sz
+      bytes: 0200
+    - key: s.
+      bytes: 0400
+    - key: s'.
+      bytes: 040000
+    - key: s''
+      bytes: 040000
+    - key: .t
+      bytes: 000002
+    - key: t
+      bytes: 01
+    - key: tb
+      bytes: 0200
+    - key: tc
+      bytes: 0200
+    - key: td
+      bytes: 0200
+    - key: tf
+      bytes: 0200
+    - key: tg
+      bytes: 0200
+    - key: th
+      bytes: 0002
+    - key: th.
+      bytes: 020000
+    - key: tl
+      bytes: 0002
+    - key: tm
+      bytes: 0200
+    - key: tn
+      bytes: 0200
+    - key: tp
+      bytes: 0200
+    - key: tr
+      bytes: 0002
+    - key: ts
+      bytes: 0002
+    - key: tsch
+      bytes: 03020000
+    - key: tt
+      bytes: 0200
+    - key: tts
+      bytes: 000203
+    - key: tv
+      bytes: 0200
+    - key: tw
+      bytes: 0200
+    - key: tz
+      bytes: 0002
+    - key: tzk
+      bytes: 020000
+    - key: tzs
+      bytes: 000002
+    - key: t.
+      bytes: 0200
+    - key: t'.
+      bytes: 020000
+    - key: t''
+      bytes: 020000
+    - key: v
+      bytes: 01
+    - key: vc
+      bytes: 0200
+    - key: vl
+      bytes: 0002
+    - key: vr
+      bytes: 0002
+    - key: vv
+      bytes: 0200
+    - key: v.
+      bytes: 0200
+    - key: v'.
+      bytes: 020000
+    - key: v''
+      bytes: 020000
+    - key: w
+      bytes: 01
+    - key: wh
+      bytes: 0002
+    - key: war
+      bytes: 000002
+    - key: wy
+      bytes: 0201
+    - key: w.
+      bytes: 0200
+    - key: w'
+      bytes: 0200
+    - key: x
+      bytes: 01
+    - key: xb
+      bytes: 0200
+    - key: xc
+      bytes: 0200
+    - key: xf
+      bytes: 0200
+    - key: xh
+      bytes: 0200
+    - key: xm
+      bytes: 0200
+    - key: xp
+      bytes: 0200
+    - key: xt
+      bytes: 0200
+    - key: xw
+      bytes: 0200
+    - key: x.
+      bytes: 0200
+    - key: x'
+      bytes: 0200
+    - key: you
+      bytes: 000100
+    - key: yi
+      bytes: 0001
+    - key: z
+      bytes: 01
+    - key: zb
+      bytes: 0200
+    - key: zd
+      bytes: 0200
+    - key: zl
+      bytes: 0200
+    - key: zn
+      bytes: 0200
+    - key: zp
+      bytes: 0200
+    - key: zt
+      bytes: 0200
+    - key: zs
+      bytes: 0200
+    - key: zv
+      bytes: 0200
+    - key: zz
+      bytes: 0200
+    - key: z.
+      bytes: 0200
+    - key: z'.
+      bytes: 020000
+    - key: z''
+      bytes: 020000
+    - key: .z
+      bytes: 000002
+    exceptions: []

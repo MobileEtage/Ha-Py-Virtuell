@@ -1,0 +1,1873 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 1024
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 112000000, guid: e09d707808930004fb95dd7cefb9b508,
+    type: 2}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &162249528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 162249529}
+  - component: {fileID: 162249532}
+  - component: {fileID: 162249531}
+  - component: {fileID: 162249533}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &162249529
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162249528}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 180768414}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 540, y: -71.205}
+  m_SizeDelta: {x: 920, y: 62.41}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &162249531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162249528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Privacy_Description
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 6efc661b0d778474abbb79173db00b7b, type: 2}
+  m_sharedMaterial: {fileID: -3341035069742712805, guid: 6efc661b0d778474abbb79173db00b7b,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4283903488
+  m_fontColor: {r: 0, g: 0.18039216, b: 0.34117648, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 52
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 52
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 10
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &162249532
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162249528}
+  m_CullTransparentMesh: 0
+--- !u!114 &162249533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162249528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3851a832e7e2b54418de7a43221a807b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useLanguage: 1
+  languageTextDefinition: 
+  useLinks: 1
+  minFontSize: 24
+  maxFontSize: 36
+  editorTestHeight: 3
+  toUpper: 0
+  myTextMeshProLabel: {fileID: 0}
+  hyphenationAsset: {fileID: 11400000, guid: 2e50e50cc5afc79418d787b577b16b19, type: 2}
+  myUnityLabel: {fileID: 0}
+  shouldScaleFont: 1
+  limitFontScale: 0
+  maxFontScale: 2
+--- !u!1 &180768413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 180768414}
+  - component: {fileID: 180768417}
+  - component: {fileID: 180768416}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &180768414
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180768413}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1196586171}
+  - {fileID: 162249529}
+  - {fileID: 1316851201}
+  m_Father: {fileID: 391276423}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 227.41}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &180768416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180768413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 80
+    m_Right: 80
+    m_Top: 40
+    m_Bottom: 125
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &180768417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 180768413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!1 &391276422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 391276423}
+  - component: {fileID: 391276427}
+  - component: {fileID: 391276426}
+  - component: {fileID: 391276425}
+  m_Layer: 5
+  m_Name: Viewport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &391276423
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391276422}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 180768414}
+  m_Father: {fileID: 1564739389}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 1}
+--- !u!114 &391276425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391276422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
+--- !u!114 &391276426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391276422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &391276427
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391276422}
+  m_CullTransparentMesh: 1
+--- !u!1 &446356978
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 446356979}
+  - component: {fileID: 446356982}
+  - component: {fileID: 446356981}
+  - component: {fileID: 446356983}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &446356979
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446356978}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1569933959}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -96.90979, y: -269}
+  m_SizeDelta: {x: -352.38, y: 206.3467}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &446356981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446356978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "Datenschutzkonzept f\xFCr die App <nobr>\u201EHa-Py Virtuell\u201C</nobr>"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 7e74164c21cc4d547a0e51f88be4242e, type: 2}
+  m_sharedMaterial: {fileID: -8741283501473897227, guid: 7e74164c21cc4d547a0e51f88be4242e,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4283903488
+  m_fontColor: {r: 0, g: 0.18039216, b: 0.34117648, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 66.9
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 70
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 10
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &446356982
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446356978}
+  m_CullTransparentMesh: 0
+--- !u!114 &446356983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 446356978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3851a832e7e2b54418de7a43221a807b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useLanguage: 1
+  languageTextDefinition: 
+  useLinks: 0
+  minFontSize: 24
+  maxFontSize: 36
+  editorTestHeight: 3
+  toUpper: 0
+  myTextMeshProLabel: {fileID: 0}
+  hyphenationAsset: {fileID: 0}
+  myUnityLabel: {fileID: 0}
+  shouldScaleFont: 1
+  limitFontScale: 0
+  maxFontScale: 2
+--- !u!1 &766695935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 766695936}
+  - component: {fileID: 766695937}
+  - component: {fileID: 766695939}
+  - component: {fileID: 766695938}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &766695936
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766695935}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1569933959}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!223 &766695937
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766695935}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 27
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 2
+  m_TargetDisplay: 0
+--- !u!114 &766695938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766695935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &766695939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766695935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 0.55
+  m_ReferenceResolution: {x: 1080, y: 2337}
+  m_ScreenMatchMode: 1
+  m_MatchWidthOrHeight: 0.5
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!1 &801337290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 801337291}
+  - component: {fileID: 801337294}
+  - component: {fileID: 801337293}
+  - component: {fileID: 801337292}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &801337291
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801337290}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1196586171}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 504.25, y: -33.605}
+  m_SizeDelta: {x: 1008.5, y: 67.21}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &801337292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801337290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3851a832e7e2b54418de7a43221a807b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useLanguage: 1
+  languageTextDefinition: 
+  useLinks: 1
+  minFontSize: 24
+  maxFontSize: 36
+  editorTestHeight: 3
+  toUpper: 0
+  myTextMeshProLabel: {fileID: 0}
+  hyphenationAsset: {fileID: 0}
+  myUnityLabel: {fileID: 0}
+  shouldScaleFont: 1
+  limitFontScale: 0
+  maxFontScale: 2
+--- !u!114 &801337293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801337290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: <link="PrivacySettings"><color=#0000ff><u>Einstellungen</u></color></link>
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 6efc661b0d778474abbb79173db00b7b, type: 2}
+  m_sharedMaterial: {fileID: -3341035069742712805, guid: 6efc661b0d778474abbb79173db00b7b,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4280361249
+  m_fontColor: {r: 0.12941177, g: 0.12941177, b: 0.12941177, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 56
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 56
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 10
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &801337294
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801337290}
+  m_CullTransparentMesh: 0
+--- !u!1001 &956958936
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1569933959}
+    m_Modifications:
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940769, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_Name
+      value: Background
+      objectReference: {fileID: 0}
+    - target: {fileID: 846228946909940769, guid: 0249fb420f1de134f953909bcbe53d47,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0249fb420f1de134f953909bcbe53d47, type: 3}
+--- !u!224 &956958937 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 846228946909940768, guid: 0249fb420f1de134f953909bcbe53d47,
+    type: 3}
+  m_PrefabInstance: {fileID: 956958936}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1168243872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1168243873}
+  - component: {fileID: 1168243876}
+  - component: {fileID: 1168243875}
+  m_Layer: 5
+  m_Name: BackgroundWhite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1168243873
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168243872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1569933959}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1168243875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168243872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.96862745, g: 0.96862745, b: 0.96862745, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1168243876
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1168243872}
+  m_CullTransparentMesh: 1
+--- !u!1 &1196586170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1196586171}
+  - component: {fileID: 1196586173}
+  - component: {fileID: 1196586172}
+  m_Layer: 5
+  m_Name: PrivacySettingsButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1196586171
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196586170}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 801337291}
+  - {fileID: 1601933723}
+  m_Father: {fileID: 180768414}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 584.25, y: -123.604996}
+  m_SizeDelta: {x: 1008.5, y: 167.20999}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1196586172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196586170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8be49bd6a4e40da995aca916cea45d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1196586173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196586170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!1 &1316851200
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1316851201}
+  - component: {fileID: 1316851204}
+  - component: {fileID: 1316851203}
+  - component: {fileID: 1316851202}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1316851201
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316851200}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 180768414}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 540, y: -17978.184}
+  m_SizeDelta: {x: 920, y: 35417.13}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1316851202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316851200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3851a832e7e2b54418de7a43221a807b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useLanguage: 1
+  languageTextDefinition: 
+  useLinks: 1
+  minFontSize: 24
+  maxFontSize: 36
+  editorTestHeight: 3
+  toUpper: 0
+  myTextMeshProLabel: {fileID: 0}
+  hyphenationAsset: {fileID: 11400000, guid: 2e50e50cc5afc79418d787b577b16b19, type: 2}
+  myUnityLabel: {fileID: 0}
+  shouldScaleFont: 1
+  limitFontScale: 0
+  maxFontScale: 2
+--- !u!114 &1316851203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316851200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "<b>Im Folgenden informieren wir \xFCber die Erhebung personenbezogener
+    Daten bei Nutzung unserer App. Personenbezogene Daten sind alle Daten, die auf
+    Sie pers\xF6nlich beziehbar sind, z. B. Name, Adresse, E-Mail-Adressen, Nutzerverhalten.\\nFalls
+    wir f\xFCr einzelne Funktionen unseres Angebots auf beauftragte Dienstleister
+    zur\xFCckgreifen oder Ihre Daten f\xFCr werbliche Zwecke nutzen m\xF6chten, werden
+    wir Sie untenstehend im Detail \xFCber die jeweiligen Vorg\xE4nge informieren.
+    Dabei nennen wir auch die festgelegten Kriterien der Speicherdauer.</b>\\n\\n<b>1.
+    Verantwortlicher</b>\\n\\nLandkreis Hameln-Pyrmont\\nS\xFCntelstra\xDFe 9\\n31785
+    Hameln\\nTelefon: 05151 / 903-0\\nE-Mail: <link=\\\"mailto:landkreis@hameln-pyrmont.de\\\"><u>landkreis@hameln-pyrmont.de</u></link>\\n\\n<b>Datenschutzbeauftragter</b>\\n\\nLeif
+    Erichsen \\nHannoversche Informationstechnologien \u2013 HannIT A\xF6R\\nHildesheimer
+    Stra\xDFe 47\\n30169 Hannover\\nTelefon: 0511 / 70040-321\\nE-Mail: leif.erichsen@hannit.de\\n\\n<b>2.
+    Datenverarbeitung </b>\\n\\n<b>2.1. Im Rahmen des Herunterladens der App</b>\\n\\nWenn
+    Sie unsere App aus dem App-Store oder Google Play-Store herunterladen, werden
+    erforderliche Daten wie Benutzername, E-Mail-Adresse und Kundennummer Ihres App-Kontos,
+    Zeitpunkt des Downloads und die individuelle Ger\xE4tekennziffer an den jeweiligen
+    App-Store \xFCbermittelt. Diese \xDCbermittlung findet im Rahmen Ihres Nutzungsverh\xE4ltnisses
+    mit dem jeweiligen App-Store statt, auf das wir keinen Einfluss haben. N\xE4here
+    Informationen hierzu finden Sie in den Datenschutzhinweisen des jeweiligen App-Stores.\\n\\n<b>2.2.
+    Im Rahmen der Nutzung der App</b>\\n\\n<b>2.2.1. Funktionsdaten</b>\\n\\nDurch
+    den Zugriff auf die App werden automatisch (auch ohne Registrierung) sogenannte
+    Nutzungsdaten verarbeitet, die f\xFCr die Bereitstellung der App erforderlich
+    sind. Dies sind z.B. die folgenden Daten:\\n\u2022 Version der App, die Sie nutzen\\n\u2022
+    Version des Betriebssystems Ihres Endger\xE4tes\\n\u2022 Typ Ihres Ger\xE4tes
+    (Smartphone, Tablet, Hersteller, Ger\xE4te-ID)\\n\u2022 das Datum und die Uhrzeit
+    der Abfrage\\n\u2022 die Menge der \xFCbertragenen Daten\\n\u2022 den Netzwerkstatus  
+    \\n\u2022 \xFCbertragene Datenmenge\\n\u2022 IP-Adresse\\n\u2022 Einverst\xE4ndniserkl\xE4rung
+    Standortfreigabe\\n\u2022 Einverst\xE4ndnis Cookie-Banner\\n\u2022 Best\xE4tigung
+    der Kenntnisnahme der Datenschutzerkl\xE4rung\\n\\nDie oben beschriebene Datenverarbeitung
+    erfolgt, um die Funktionalit\xE4t und Sicherheit unserer App zu gew\xE4hrleisten. 
+    Die Rechtsgrundlage f\xFCr diese Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. f)
+    DSGVO; die Datenverarbeitung zur Sicherstellung der Funktionsf\xE4higkeit und
+    Sicherheit der App stellt ein berechtigtes Interesse des Verantwortlichen dar.\\n\\n<b>2.2.2.
+    Zweck und Rechtsgrundlagen der Datenverarbeitung</b>\\n\\nWir erheben und verarbeiten
+    Ihre Daten grunds\xE4tzlich nur, soweit dies f\xFCr die Bereitstellung und den
+    Betrieb unserer App und der in der App enthaltenen Funktionen erforderlich ist.
+    Soweit wir f\xFCr die Verarbeitung der Daten eine Einwilligung der betroffenen
+    Person einholen, ist Art. 6 Abs. 1 lit. a) DSGVO die Rechtsgrundlage. Sofern
+    die Daten in diesem Rahmen au\xDFerhalb der EU bzw. des EWR verarbeitet werden,
+    beachten Sie bitte, dass das Risiko besteht, dass Beh\xF6rden auf die Daten zu
+    Sicherheits- und \xDCberwachungszwecken zugreifen, ohne dass Sie hier\xFCber
+    informiert werden oder Rechtsmittel einlegen k\xF6nnen. Sofern wir Anbieter in
+    unsicheren Drittl\xE4ndern einsetzen und Sie einwilligen, erfolgt die \xDCbermittlung
+    in ein Drittland auf Grundlage von Art. 49 Abs. 1 lit. a DSGVO.\\nBei der Verarbeitung
+    von Daten zur Erf\xFCllung eines Vertrages, dessen Vertragspartei die betroffene
+    Person ist, dient Art. 6 Abs.1 lit. b) DSGVO als Rechtsgrundlage. Dies gilt auch
+    f\xFCr eine Verarbeitung von Daten, die zur Durchf\xFChrung vorvertraglicher
+    Ma\xDFnahmen erforderlich ist.\\nSoweit eine Verarbeitung personenbezogener Daten
+    zur Erf\xFCllung einer rechtlichen Verpflichtung erforderlich ist, der wir unterliegen,
+    ist Art. 6 Abs.1 lit. c) DSGVO die Rechtsgrundlage.\\nWenn die Datenverarbeitung
+    zur Wahrung eines berechtigten Interesses von uns oder eines Dritten erforderlich
+    ist und \xFCberwiegen die Interessen, Grundrechte und Grundfreiheiten des Betroffenen
+    nicht, so dient Art. 6 Abs.1 lit. f) DSGVO als Rechtsgrundlage. Ein berechtigtes
+    Interesse haben wir insbesondere f\xFCr die Verarbeitung solcher Daten, die technisch
+    f\xFCr den Betrieb unserer App erforderlich sind (bitte siehe dazu auch Punkt
+    2.2.1).\\n\\n<b>2.2.3. Empf\xE4nger oder Kategorien von Empf\xE4ngern</b>\\n\\nInnerhalb
+    unserer App erhalten nur Personen Zugang zu Ihren Daten, die diese zur Erledigung
+    der ihnen \xFCbertragenen Aufgaben ben\xF6tigen. Dar\xFCber hinaus k\xF6nnen
+    Dienstleister, die uns bei der Erf\xFCllung unserer Aufgaben unterst\xFCtzen,
+    Zugang zu Ihren Daten erhalten.\\nDies sind z.B. Dienstleister der folgenden
+    Kategorie:\\n\u2022 Hosting-Dienstleister f\xFCr den Betrieb unserer Server\\n\u2022
+    Entwicklungsdienstleister f\xFCr Programmierung, Entwicklung, Wartung und Support
+    von Software-Anwendungen\\n\u2022 Analysedienstleister f\xFCr die Auswertung
+    von Daten und Analyse der Benutzung von elektronischen Medien\\n\\n<b>2.2.4.
+    Dauer der Speicherung</b>\\n\\nIhre Daten werden gel\xF6scht oder gesperrt, sobald
+    der Zweck der Speicherung entf\xE4llt und einer L\xF6schung keine gesetzlichen
+    Aufbewahrungsfristen entgegenstehen. Wir sperren oder l\xF6schen Ihre Daten auch
+    dann, wenn eine durch die einschl\xE4gigen Normen genannte Aufbewahrungsfrist
+    abl\xE4uft, es sei denn, dass eine weitere Speicherung ihrer Daten f\xFCr einen
+    Vertragsschluss oder f\xFCr die Erf\xFCllung eines Vertrags erforderlich ist.\\n\\n<b>2.2.5.
+    App Zugriffsberechtigungen</b>\\n\\nDie App ben\xF6tigt Zugriff\\n\u2022 auf
+    die Netzwerkverbindungen Ihres Ger\xE4tes. Dieses ist notwendig, um die Inhalte
+    der App laden und aktualisieren zu k\xF6nnen.\\n\u2022 auf den Speicher Ihres
+    Ger\xE4tes. Dies ist notwendig, um auf das Fotoalbum zum Speichern von Fotos
+    und Videos zugreifen zu k\xF6nnen.\\n\u2022 auf die Kamera des Telefons. Dieses
+    ist notwendig, um die AR-Funktion nutzen zu k\xF6nnen.\\n\u2022 auf den Standort
+    des Telefons. Dieses ist notwendig, um den Standort auf der Karte anzeigen zu
+    k\xF6nnen.\\n\\n<b>2.2.6. Nutzung von Standortdaten</b>\\n\\nZur Nutzung der
+    Standortdienste m\xFCssen diese in Ihrem mobilen Betriebssystem aktiviert sein.
+    Sobald diese aktiviert sind und die App zum ersten Mal gestartet wird, wird der
+    Zugriff auf die Standortinformationen abgefragt. Die Best\xE4tigung f\xFChrt
+    dazu, dass der App der Zugriff auf Ihre Standortinformationen gestattet ist. 
+    Sie k\xF6nnen den Zugriff der App auf Ihren Standort jederzeit in den entsprechenden
+    Einstellungen Ihres mobilen Endger\xE4ts deaktivieren.\\n\\n<b>2.2.7. Feedbackfunktion</b>\\n\\nWenn
+    Sie uns per E-Mail, Telefon, Telefax oder Kontaktformular kontaktieren, wird
+    Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (z.B.
+    Name, Anfrage, ggf. Mailadresse, Telefonnummer, Faxnummer, Adressdaten) zum Zwecke
+    der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet, Empf\xE4nger
+    dieser Daten sind diejenigen Abteilungen/Mitarbeiter, die Ihre Daten zur Erf\xFCllung
+    Ihrer Anfrage ben\xF6tigen.\\nDie Verarbeitung dieser Daten erfolgt auf Grundlage
+    von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erf\xFCllung eines
+    Vertrags zusammenh\xE4ngt oder zur Durchf\xFChrung vorvertraglicher Ma\xDFnahmen
+    erforderlich ist. In allen \xFCbrigen F\xE4llen beruht die Verarbeitung auf unserem
+    berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen
+    (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung   (Art. 6 Abs. 1 lit.
+    a DSGVO) sofern diese abgefragt wurde.\\nDie von Ihnen an uns per Kontaktanfragen
+    \xFCbersandten Daten verbleiben bei uns, bis Sie uns zur L\xF6schung auffordern,
+    Ihre Einwilligung zur Speicherung widerrufen oder der Zweck f\xFCr die Datenspeicherung
+    entf\xE4llt (z.B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende
+    gesetzliche Bestimmungen \u2013 insbesondere gesetzliche Aufbewahrungsfristen
+    \u2013 bleiben unber\xFChrt.\\n\\n<b>3. Ihre Rechte als betroffene Person</b>\\n\\nBei
+    der Verarbeitung Ihrer personenbezogenen Daten gew\xE4hrt die DSGVO Ihnen als
+    betroffene Person bestimmte Rechte:\\n\u2022 <u>Auskunftsrecht (Art. 15 DSGVO)</u>\\nSie
+    haben das Recht eine Best\xE4tigung dar\xFCber zu verlangen, ob Sie betreffende
+    personenbezogene Daten verarbeitet werden; ist dies der Fall, so haben Sie ein
+    Recht auf Auskunft \xFCber diese personenbezogenen Daten und auf die in Art.
+    15 DSGVO im Einzelnen aufgef\xFChrten Informationen.\\n\u2022 <u>Recht auf Berichtigung
+    (Art. 16 DSGVO)</u>\\nSie haben das Recht, unverz\xFCglich die Berichtigung Sie
+    betreffender unrichtiger personenbezogener Daten und ggf. die Vervollst\xE4ndigung
+    unvollst\xE4ndiger Daten zu verlangen.\\n\u2022 <u>Recht auf L\xF6schung (Art.
+    17 DSGVO)</u>\\nSie haben das Recht, zu verlangen, dass Sie betreffende personenbezogene
+    Daten unverz\xFCglich gel\xF6scht werden, sofern einer der in Art. 17 DSGVO im
+    Einzelnen aufgef\xFChrten Gr\xFCnde zutrifft.\\n\u2022 <u>Recht auf Einschr\xE4nkung
+    der Verarbeitung (Art. 18 DSGVO)</u>\\nSie haben das Recht, die Einschr\xE4nkung
+    der Verarbeitung zu verlangen, wenn eine der in Art. 18 DSGVO aufgef\xFChrten
+    Voraussetzungen gegeben ist, z. B. wenn Sie Widerspruch gegen die Verarbeitung
+    eingelegt haben, f\xFCr die Dauer der Pr\xFCfung durch den Verantwortlichen.\\n\u2022
+    <u>Recht auf Daten\xFCbertragbarkeit (Art. 20 DSGVO)</u>\\nIn bestimmten F\xE4llen,
+    die in Art. 20 DSGVO im Einzelnen aufgef\xFChrt sind, haben Sie das Recht, die
+    Sie betreffenden personenbezogenen Daten in einem strukturierten, g\xE4ngigen
+    und maschinenlesbaren Format zu erhalten bzw. die \xDCbermittlung dieser Daten
+    an einen Dritten zu verlangen.\\n\u2022 <u>Widerrufsrecht (Art. 7 DSGVO)</u>\\nSofern
+    die Verarbeitung von Daten auf Grundlage Ihrer Einwilligung erfolgt, sind Sie
+    nach Art. 7 Abs. 3 DSGVO berechtigt, die Einwilligung in die Verwendung Ihrer
+    personenbezogenen Daten jederzeit zu widerrufen. Bitte beachten Sie, dass der
+    Widerruf erst f\xFCr die Zukunft wirkt. Verarbeitungen, die vor dem Widerruf
+    erfolgt sind, sind davon nicht betroffen.\\n\u2022 <u>Widerspruchsrecht (Art.
+    21 DSGVO)</u>\\nWerden Daten auf Grundlage von Art. 6 Abs. 1 S. 1 lit. f DSGVO
+    (Datenverarbeitung zur Wahrung berechtigter Interessen) oder auf Grundlage von
+    Art. 6 Abs. 1 S. 1 lit. e DSGVO (Datenverarbeitung zur Wahrung \xF6ffentlichen
+    Interesse oder in Aus\xFCbung \xF6ffentlicher Gewalt) erhoben, steht Ihnen das
+    Recht zu, aus Gr\xFCnden, die sich aus Ihrer besonderen Situation ergeben, jederzeit
+    gegen die Verarbeitung Widerspruch einzulegen. Wir verarbeiten die personenbezogenen
+    Daten dann nicht mehr, es sei denn, es liegen nachweisbar zwingende schutzw\xFCrdige
+    Gr\xFCnde f\xFCr die Verarbeitung vor, die gegen\xFCber Ihren Interessen, Rechten
+    und Freiheiten \xFCberwiegen, oder die Verarbeitung dient der Geltendmachung,
+    Aus\xFCbung oder Verteidigung von Rechtsanspr\xFCchen.\\n\u2022 <u>Beschwerderecht
+    bei einer Aufsichtsbeh\xF6rde (Art. 77 DSGVO)</u>\\nSie haben gem. Art. 77 DSGVO
+    das Recht auf Beschwerde bei einer Aufsichtsbeh\xF6rde, wenn Sie der Ansicht
+    sind, dass die Verarbeitung der Sie betreffenden Daten gegen datenschutzrechtliche
+    Bestimmungen verst\xF6\xDFt. Das Beschwerderecht kann insbesondere bei einer
+    Aufsichtsbeh\xF6rde in dem Mitgliedstaat Ihres gew\xF6hnlichen Aufenthaltsorts,
+    Ihres Arbeitsplatzes oder des Orts des mutma\xDFlichen Versto\xDFes geltend gemacht
+    werden.\\n\\n<u>Geltendmachung Ihrer Rechte</u>\\nSofern vorstehend nichts anderes
+    beschrieben wurde, wenden Sie sich zur Geltendmachung Ihrer Betroffenenrechte
+    bitte an die unter Ziff. 1 genannte Stelle.\\n\\n<b>4. Geplante Daten\xFCbermittlung
+    in ein Drittland</b>\\n\\nSofern wir Daten in einem Drittland (d.h., au\xDFerhalb
+    der Europ\xE4ischen Union (EU), des Europ\xE4ischen Wirtschaftsraums (EWR)) verarbeiten
+    oder die Verarbeitung im Rahmen der Inanspruchnahme von Diensten Dritter oder
+    der Offenlegung bzw. \xDCbermittlung von Daten an andere Personen, Stellen oder
+    Unternehmen stattfindet, erfolgt dies nur im Einklang mit den gesetzlichen Vorgaben.\\nVorbehaltlich
+    ausdr\xFCcklicher Einwilligung oder vertraglich oder gesetzlich erforderlicher
+    \xDCbermittlung verarbeiten oder lassen wir die Daten nur in Drittl\xE4ndern
+    mit einem anerkannten Datenschutzniveau, vertraglichen Verpflichtung durch sogenannte
+    Standardschutzklauseln der EU-Kommission, beim Vorliegen von Zertifizierungen
+    oder verbindlicher internen Datenschutzvorschriften verarbeiten. (Art. 44 bis
+    49 DSGVO)\\n\\n<b>5. Automatisierte Entscheidungsfindungen einschlie\xDFlich
+    Profiling</b>\\n\\nZur Begr\xFCndung und Durchf\xFChrung der Gesch\xE4ftsbeziehung
+    nutzen wir grunds\xE4tzlich keine ausschlie\xDFlich automatisierte Entscheidungsfindung
+    im Sinne des Art. 22 DSGVO.\\n\\n<b>6. Google Firebase Crashlytics</b>\\n\\nWir
+    setzen die Technologie Firebase Crashlytics von Google Ireland Limited, Gordon
+    House, Barrow Street, Dublin 4, Irland (\u201EGoogle\u201D) ein. Firebase Crashlytics
+    ist Teil der Google Cloud Platform. Firebase Crashlytics dient der Stabilit\xE4t
+    und Verbesserung der App. Dabei werden Informationen \xFCber das verwendete Ger\xE4te
+    und die Nutzung unserer App gesammelt (z. B. der Zeitstempel, wann die App gestartet
+    wurde und wann ein Absturz aufgetreten ist), die es uns erm\xF6glichen, Probleme
+    zu diagnostizieren und zu l\xF6sen.\\nDabei werden sogenannte \u201Ecrash_reports\u201C
+    generiert, die nur Informationen \xFCber Probleme und Crashes erhalten. Wir nutzen
+    Crashlytics zu dem Zweck, eine funktionsf\xE4hige mobile App bereitzustellen
+    und Stabilit\xE4tsprobleme zu beheben. Die Daten werden grundlegend anonymisiert
+    ausgewertet. \\nGoogle Firebase wird grunds\xE4tzlich nur mit Ihrer freiwilligen
+    Einwilligung gestartet, Rechtsgrundlage ist daher Art. 6 (1) lit. a DSGVO. Sie
+    k\xF6nnen jederzeit Ihre Einwilligung widerrufen. Durch den Widerruf der Einwilligung
+    wird die Rechtm\xE4\xDFigkeit der aufgrund der Einwilligung bis zum Widerruf
+    erfolgten Verarbeitung nicht ber\xFChrt. Den Widerruf k\xF6nnen Sie genau so
+    einfach, wie die Einwilligung selbst, innerhalb der mobilen App erkl\xE4ren.\\nGoogle
+    Firebase nutzt f\xFCr diese Leistungen nach unserer Wahl Server innerhalb der
+    EU. Die Daten werden nach 90 Tagen automatisiert gel\xF6scht. N\xE4here Details
+    zu den verarbeiteten Daten finden Sie <link=\\\"https://firebase.google.com/support/privacy?hl=de\\\"><u>hier</u></link>.
+    \\nSie k\xF6nnen jederzeit dieser Verarbeitung aus Gr\xFCnden, die sich aus Ihrer
+    besonderen Situation ergeben, widersprechen.\\n\\n<b>7. Google Analytics for
+    Firebase</b>\\n\\nWir setzen die Technologie Google Analytics for Firebase von
+    Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland (\u201EGoogle\u201D)
+    ein. Google Analytics for Firebase erm\xF6glicht die Analyse der Nutzung unseres
+    Angebots.\\nDamit werden Informationen \xFCber die Benutzung unserer mobilen
+    App erfasst, an Google \xFCbertragen und dort gespeichert. Dazu werden Ger\xE4teinformationen,
+    Informationen zur verwendeten App, Daten zur Nutzung der App, Standortdaten,
+    User ID und Informationen zu einzelnen Anfragen innerhalb der App (Events) verarbeitet.
+    Die Daten werden verwendet, um das Nutzerverhalten zu analysieren und basierend
+    auf den Ergebnissen Entscheidungen bez\xFCglich der Produkt- und Marketingoptimierung
+    zu treffen. Google Analytics for Firebase wird grunds\xE4tzlich nur mit Ihrer
+    freiwilligen Einwilligung gestartet, Rechtsgrundlage ist daher Art. 6 (1) lit.
+    a DSGVO. Sie k\xF6nnen jederzeit Ihre Einwilligung widerrufen. Durch den Widerruf
+    der Einwilligung wird die Rechtm\xE4\xDFigkeit der aufgrund der Einwilligung
+    bis zum Widerruf erfolgten Verarbeitung nicht ber\xFChrt. Den Widerruf k\xF6nnen
+    Sie genau so einfach, wie die Einwilligung selbst, innerhalb der mobilen App
+    erkl\xE4ren.\\n\\n<b>8. Kontakt</b>\\nSollten Sie Fragen und Anregungen zu dieser
+    Datenschutzerkl\xE4rung haben, wenden Sie sich bitte an unter Ziff. 1 angegebene
+    Kontaktadresse.\\n\\n<b>9. Aktualisierung unserer Datenschutzrichtlinien</b>\\nDie
+    laufende technische Weiterentwicklung im Bereich der IT-Technologie und des Internets
+    bedingt auch eine Anpassung der bestehenden Datenschutzerkl\xE4rung. Wir behalten
+    uns daher das Recht vor, Erg\xE4nzungen oder \xC4nderungen an der vorliegenden
+    Datenschutzerkl\xE4rung vorzunehmen.\\n\\n\\n\\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 6efc661b0d778474abbb79173db00b7b, type: 2}
+  m_sharedMaterial: {fileID: -3341035069742712805, guid: 6efc661b0d778474abbb79173db00b7b,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4283903488
+  m_fontColor: {r: 0, g: 0.18039216, b: 0.34117648, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 52
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 18
+  m_fontSizeMax: 52
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 10
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 1
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1316851204
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316851200}
+  m_CullTransparentMesh: 0
+--- !u!1 &1564739388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1564739389}
+  - component: {fileID: 1564739393}
+  - component: {fileID: 1564739392}
+  - component: {fileID: 1564739391}
+  m_Layer: 5
+  m_Name: Scroll View
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1564739389
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564739388}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 391276423}
+  m_Father: {fileID: 1569933959}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -186.09}
+  m_SizeDelta: {x: 0, y: -372.17}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1564739391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564739388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 180768414}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 391276423}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 2
+  m_VerticalScrollbarVisibility: 2
+  m_HorizontalScrollbarSpacing: -3
+  m_VerticalScrollbarSpacing: -3
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1564739392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564739388}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1564739393
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564739388}
+  m_CullTransparentMesh: 1
+--- !u!1 &1569933958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1569933959}
+  m_Layer: 5
+  m_Name: PrivacySite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1569933959
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569933958}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 956958937}
+  - {fileID: 1168243873}
+  - {fileID: 446356979}
+  - {fileID: 1564739389}
+  - {fileID: 1952509493}
+  m_Father: {fileID: 766695936}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1601933722
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1601933723}
+  - component: {fileID: 1601933724}
+  m_Layer: 5
+  m_Name: Separator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1601933723
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601933722}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1196586171}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 504.25, y: -117.21}
+  m_SizeDelta: {x: 1008.5, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1601933724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601933722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: 100
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!1001 &1952509492
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1569933959}
+    m_Modifications:
+    - target: {fileID: 3508153001757504480, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110052, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_Name
+      value: MenuButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -148.09961
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -209
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3508153001928110054, guid: bb4aa7b7230735e42ae555a02cf23f89, type: 3}
+    - {fileID: 3508153000333670972, guid: bb4aa7b7230735e42ae555a02cf23f89, type: 3}
+    - {fileID: 3508153001757504481, guid: bb4aa7b7230735e42ae555a02cf23f89, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bb4aa7b7230735e42ae555a02cf23f89, type: 3}
+--- !u!224 &1952509493 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 3508153001928110053, guid: bb4aa7b7230735e42ae555a02cf23f89,
+    type: 3}
+  m_PrefabInstance: {fileID: 1952509492}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 766695936}

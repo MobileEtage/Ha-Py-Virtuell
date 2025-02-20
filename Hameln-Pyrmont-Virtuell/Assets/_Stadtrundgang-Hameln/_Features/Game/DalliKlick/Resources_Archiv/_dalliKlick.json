@@ -1,0 +1,216 @@
+{
+	"images": [{
+			"id": "Buchfink",
+			"title": "Buchfink",
+			"article": "ein",
+			"description": "Sein Name verrät schon, dass dieser kleine Vogel sich gern von den Früchten der Buchen ernährt, aber auch von Samen und kleinen Insekten. Der Buchfink ist einer der häufigsten Vögel unserer Wälder.",
+			"question": "Welche Vogelart versteckt sich hier?",
+			"imageURL": "https://app-etagen.die-etagen.de/Stadtrundgang/Osnabrueck/Data/DalliKlick/Vogel-nr_1_Buchfink_2.png",
+			"imageSolutionURL": "https://app-etagen.die-etagen.de/Stadtrundgang/Osnabrueck/Data/DalliKlick/Vogel-nr_1_Buchfink_1.png",
+			"imagesPath": ["Vogel/Buchfink/Vogel nr_1_Buchfink_2", "Vogel/Buchfink/Vogel nr_1_Buchfink_3"],
+			"imageSolutionPath": "Vogel/Buchfink/Vogel nr_1_Buchfink_1",
+			"maskPath": "",
+			"answers": [{
+					"name": "Buchfink"
+				},
+				{
+					"name": "Rotkehlchen"
+				},
+				{
+					"name": "Blaumeise"
+				},
+				{
+					"name": "Hausrot\u00ADschwanz"
+				}
+			]
+		},
+		{
+			"id": "Buntspecht",
+			"title": "Buntspecht",
+			"article": "ein",
+			"description": "Der Buntspecht wird auch der Zimmermann des Waldes genannt. Er baut mehr Baumhöhlen als er selbst bewohnt und schafft so für andere Waldbewohner Wohnraum.",
+			"question": "Welche Vogelart versteckt sich hier?",
+			"imagesPath": ["Vogel/Buntspecht/Vogel nr_2_Buntspecht_2", "Vogel/Buntspecht/Vogel nr_2_Buntspecht_3"],
+			"imageSolutionPath": "Vogel/Buntspecht/Vogel nr_2_Buntspecht_1",
+			"maskPath": "",
+			"answers": [{
+					"name": "Buntspecht"
+				},
+				{
+					"name": "Schwarzspecht"
+				},
+				{
+					"name": "Grünspecht"
+				},
+				{
+					"name": "Mittelspecht"
+				}
+			]
+		},
+		{
+			"id": "Wintergoldhähnchen",
+			"title": "Wintergoldhähnchen",
+			"article": "ein",
+			"description": "Das Wintergoldhähnchen ist mit 7 g Gewicht der kleinste Zugvogel Europas. Es kann wie ein Kolibri auf der Stelle fliegen. Das Wintergoldhähnchen lebt vorwiegend in Nadelgehölzen.",
+			"question": "Welche Vogelart versteckt sich hier?",
+			"imagesPath": ["Vogel/Wintergoldhaehnchen/Vogel nr_3_Wintergoldhaenchen_2", "Vogel/Wintergoldhaehnchen/Vogel nr_3_Wintergoldhaenchen_3"],
+			"imageSolutionPath": "Vogel/Wintergoldhaehnchen/Vogel nr_3_Wintergoldhaenchen_1",
+			"maskPath": "",
+			"answers": [{
+					"name": "Wintergold\u00ADhähnchen"
+				},
+				{
+					"name": "Zaunkönig"
+				},
+				{
+					"name": "Bachstelze"
+				},
+				{
+					"name": "Haussperling"
+				}
+			]
+		},
+		{
+			"id": "Eichelhaeher",
+			"title": "Eichelhäher",
+			"article": "ein",
+			"description": "Mit seinem markanten Ruf warnt der Eichelhöher die Waldbewohner vor Feinden. Er frisst gern Bucheckern, Nüsse und Eicheln und legt daraus auch seine Wintervorräte an, die er manchmal nicht wiederfindet. Er trägt so zur Verbreitung von Gehölzen im Wald bei. ",
+			"question": "Welche Vogelart versteckt sich hier?",
+			"imageURL": "https://app-etagen.die-etagen.de/Stadtrundgang/Osnabrueck/Data/DalliKlick/Vogel-nr_4_Eichelhaeher_2.png",
+			"imageSolutionURL": "https://app-etagen.die-etagen.de/Stadtrundgang/Osnabrueck/Data/DalliKlick/Vogel-nr_4_Eichelhaeher_1.png",
+			"imagesPath": ["Vogel/Eichelhaeher/Vogel nr_4_Eichelhaeher_2", "Vogel/Eichelhaeher/Vogel nr_4_Eichelhaeher_3"],
+			"imageSolutionPath": "Vogel/Eichelhaeher/Vogel nr_4_Eichelhaeher_1",
+			"maskPath": "",
+			"answers": [{
+					"name": "Eichelhäher"
+				},
+				{
+					"name": "Ringeltaube"
+				},
+				{
+					"name": "Dohle"
+				},
+				{
+					"name": "Teichhuhn"
+				}
+			]
+		},
+		{
+			"id": "Siebenschläfer",
+			"title": "Siebenschläfer",
+			"article": "ein",
+			"description": "Seinen Namen bekommt dies kleine nachtaktive Nagetier, das zur Familie der Hörnchen gehört, von der Tatsache, dass es ca. 7 Monate Winterschlaf hält. Siebenschläfer leben in Ihrer aktiven, wachen Zeit z. B. in leeren Spechthöhlen und ernähren sich von Bucheckern, Eicheln, Kastanien, Knospen und Früchten.",
+			"question": "Welches kleine Säugetier, das im Wald lebt versteckt sich hier?",
+			"imagesPath": ["Saeugetier/Siebenschlaefer/Saeugetier nr_1_Siebenschlaefer_2", "Saeugetier/Siebenschlaefer/Saeugetier nr_1_Siebenschlaefer_3"],
+			"imageSolutionPath": "Saeugetier/Siebenschlaefer/Saeugetier nr_1_Siebenschlaefer_1",
+			"maskPath": "",
+			"answers": [{
+					"name": "Siebenschläfer"
+				},
+				{
+					"name": "Baummarder"
+				},
+				{
+					"name": "Eichhörnchen"
+				},
+				{
+					"name": "Iltis"
+				}
+			]
+		},
+		{
+			"id": "Fuchs",
+			"title": "Fuchs",
+			"article": "ein",
+			"description": "Der Rotfuchs ist ein hundeartiges Raubtier, das für seine hohe Intelligenz bekannt ist. Sein Geruchssinn ist 400 mal besser als der des Menschen. Füchse sind überwiegend nachtaktiv und können sich hervorragend an alle Lebensräume anpassen, wo sie genug Nahrung finden.",
+			"question": "Welches Raubtier versteckt sich hier?",
+			"imagesPath": ["Saeugetier/Fuchs/Saeugetier nr_2_Fuchs_2", "Saeugetier/Fuchs/Saeugetier nr_2_Fuchs_3"],
+			"imageSolutionPath": "Saeugetier/Fuchs/Saeugetier nr_2_Fuchs_1",
+			"maskPath": "",
+			"answers": [{
+					"name": "Fuchs"
+				},
+				{
+					"name": "Dachs"
+				},
+				{
+					"name": "Waschbär"
+				},
+				{
+					"name": "Steinmarder"
+				}
+			]
+		},
+		{
+			"id": "Rehbock",
+			"title": "Rehbock",
+			"article": "ein",
+			"description": "Rehe gehören zur großen Familie der Hirsche. Das Geweih der männlichen Rehe, der Böcke, wird als Gehörn bezeichnet. Rehe sind deutlich kleiner als Dam- und Rothirsche.",
+			"question": "Welcher Geweihträger versteckt sich hier?",
+			"imagesPath": ["Saeugetier/Reh/Saeugetier nr_3_Rehbock_2", "Saeugetier/Reh/Saeugetier nr_3_Rehbock_3"],
+			"imageSolutionPath": "Saeugetier/Reh/Saeugetier nr_3_Rehbock_1",
+			"maskPath": "",
+			"answers": [{
+					"name": "Rehbock"
+				},
+				{
+					"name": "Damhirsch"
+				},
+				{
+					"name": "Rothirsch"
+				},
+				{
+					"name": "Muffel"
+				}
+			]
+		},
+		{
+			"id": "Douglasie",
+			"title": "Douglasie",
+			"article": "eine",
+			"description": "Die ursprüngliche Heimat der Douglasie sind die küstennahen Gebirge Nordamerikas. Die zerriebenen Nadeln duften nach Orangen und Zitronen. Ältere Bäume fallen durch die korkartige, grob rissige Rinde auf.",
+			"question": "Zu welchem Baum gehört diese Rinde?",
+			"imagesPath": ["Rinde/Douglasie/Rinde nr_1_Douglasie_2", "Rinde/Douglasie/Rinde nr_1_Douglasie_3"],
+			"imageSolutionPath": "Rinde/Douglasie/Rinde nr_1_Douglasie_1",
+			"maskPath": "",
+			"answers": [{
+					"name": "Douglasie"
+				},
+				{
+					"name": "Tanne"
+				},
+				{
+					"name": "Lärche"
+				},
+				{
+					"name": "Fichte"
+				}
+			]
+		},
+		{
+			"id": "Rosskastanie",
+			"title": "Rosskastanie",
+			"article": "eine",
+			"description": "Rosskastanien sind leicht an ihren handförmig geteilten Blättern, den auffallenden weiß- gelben Blüten und den kugeligen braunen Früchten zu erkennen. Rosskastanienbäume mit ihren breiten Kronen als Schattenspender pflanzte man gern über Erdkellern an.",
+			"question": "Zu welchem Baum gehört diese Frucht?",
+			"imageURL": "https://app-etagen.die-etagen.de/Stadtrundgang/Osnabrueck/Data/DalliKlick/Baumfruechte-nr_1_Rosskastanie_2.png",
+			"imageSolutionURL": "https://app-etagen.die-etagen.de/Stadtrundgang/Osnabrueck/Data/DalliKlick/Baumfruechte-nr_1_Rosskastanie_1.png",
+			"imagesPath": ["Baumfruechte/Rosskastanie/Baumfruechte nr_1_Rosskastanie_2", "Baumfruechte/Rosskastanie/Baumfruechte nr_1_Rosskastanie_3"],
+			"imageSolutionPath": "Baumfruechte/Rosskastanie/Baumfruechte nr_1_Rosskastanie_1",
+			"maskPath": "",
+			"answers": [{
+					"name": "Rosskastanie"
+				},
+				{
+					"name": "Buchecker"
+				},
+				{
+					"name": "Eichel"
+				},
+				{
+					"name": "Esskastanie"
+				}
+			]
+		}
+	]
+}

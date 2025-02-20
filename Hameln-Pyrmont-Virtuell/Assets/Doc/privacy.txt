@@ -1,0 +1,156 @@
+
+
+--- Banner ---
+v1
+
+Werte Nutzer:innen!
+
+<margin=1em>• Wir erfassen keine personenbezogenen Daten.</margin><line-height=150%>\n</line-height><margin=1em>• Wir kennen weder Deine E-Mail-Adresse noch Deine Telefonnummer.</margin><line-height=150%>\n</line-height><margin=1em>• Wir greifen auch nicht auf Deine Kontakte zu.</margin>
+
+Einige sehr nützliche Funktionen der App benötigen eine Freigabe Deiner Gerätefunktionen Standort, Kamera, Mikrofon und Fotospeicher. Entscheide selbst!
+
+Aus rein technischen und statistischen Gründen nutzen wir die Dienste Google Analytics für Firebase und Firebase Crashlytics. Auf anonymisierter Ebene (!) wird erfasst, ob unsere App gut angenommen wird und einwandfrei funktioniert.
+Mehr dazu in der <b><link="Privacy"><u>Datenschutzerklärung</u></link></b>.
+
+v2
+
+Liebe Nutzer:in!\nZum Zweck der Analyse der Nutzung und zur Verbesserung der Stabilität unserer App verwenden wir die beiden Dienste Google Analytics für Firebase und Firebase Crashlytics. Bei der Nutzung dieser Dienste werden Cookies auf Deinem Endgerät gesetzt.\n\n<b>Hinweis auf Verarbeitung Deiner in dieser App erhobenen Daten in den USA durch Google:</b>\nIndem Du auf "Okay, Verstanden" klickst, willigst Du zugleich gem. Art. 49 Abs. 1 S. 1 lit. a DSGVO ein, dass Deine Daten in den USA verarbeitet werden. Die USA werden vom Europäischen Gerichtshof als ein Land mit einem nach EU-Standards unzureichendem Datenschutzniveau eingeschätzt. Es besteht insbesondere das Risiko, dass Deine Daten durch US-Behörden, zu Kontroll- und zu Überwachungszwecken, möglicherweise auch ohne Rechtsbehelfsmöglichkeiten, verarbeitet werden können. Wenn Du auf "Weiter ohne Dienste" klickst, findet die vorgehend beschriebene Übermittlung nicht statt.\n\nMit Deiner Einstellung willigst Du in die oben beschriebenen Vorgänge ein. Du kannst die Einwilligung mit Wirkung für die Zukunft widerrufen.\nMehr Informationen findest Du in unserer <link="Privacy"><u>Datenschutzerklärung</u></link>.
+
+
+--- Privacy ---
+
+<b>Im Folgenden informieren wir über die Erhebung personenbezogener Daten bei Nutzung unserer App. Personenbezogene Daten sind alle Daten, die auf Sie persönlich beziehbar sind, z. B. Name, Adresse, E-Mail-Adressen, Nutzerverhalten.
+Falls wir für einzelne Funktionen unseres Angebots auf beauftragte Dienstleister zurückgreifen oder Ihre Daten für werbliche Zwecke nutzen möchten, werden wir Sie untenstehend im Detail über die jeweiligen Vorgänge informieren. Dabei nennen wir auch die festgelegten Kriterien der Speicherdauer.</b>
+
+<b>1. Verantwortlicher</b>
+
+Landkreis Hameln-Pyrmont
+Süntelstraße 9
+31785 Hameln
+Telefon: 05151 / 903-0
+E-Mail: <link="mailto:landkreis@hameln-pyrmont.de"><u>landkreis@hameln-pyrmont.de</u></link>
+
+<b>Datenschutzbeauftragter</b>
+
+Leif Erichsen 
+Hannoversche Informationstechnologien – HannIT AöR
+Hildesheimer Straße 47
+30169 Hannover
+Telefon: 0511 / 70040-321
+E-Mail: leif.erichsen@hannit.de
+
+<b>2. Datenverarbeitung </b>
+
+<b>2.1. Im Rahmen des Herunterladens der App</b>
+
+Wenn Sie unsere App aus dem App-Store oder Google Play-Store herunterladen, werden erforderliche Daten wie Benutzername, E-Mail-Adresse und Kundennummer Ihres App-Kontos, Zeitpunkt des Downloads und die individuelle Gerätekennziffer an den jeweiligen App-Store übermittelt. Diese Übermittlung findet im Rahmen Ihres Nutzungsverhältnisses mit dem jeweiligen App-Store statt, auf das wir keinen Einfluss haben. Nähere Informationen hierzu finden Sie in den Datenschutzhinweisen des jeweiligen App-Stores.
+
+<b>2.2. Im Rahmen der Nutzung der App</b>
+
+<b>2.2.1. Funktionsdaten</b>
+
+Durch den Zugriff auf die App werden automatisch (auch ohne Registrierung) sogenannte Nutzungsdaten verarbeitet, die für die Bereitstellung der App erforderlich sind. Dies sind z.B. die folgenden Daten:
+• Version der App, die Sie nutzen
+• Version des Betriebssystems Ihres Endgerätes
+• Typ Ihres Gerätes (Smartphone, Tablet, Hersteller, Geräte-ID)
+• das Datum und die Uhrzeit der Abfrage
+• die Menge der übertragenen Daten
+• den Netzwerkstatus   
+• übertragene Datenmenge
+• IP-Adresse
+• Einverständniserklärung Standortfreigabe
+• Einverständnis Cookie-Banner
+• Bestätigung der Kenntnisnahme der Datenschutzerklärung
+
+Die oben beschriebene Datenverarbeitung erfolgt, um die Funktionalität und Sicherheit unserer App zu gewährleisten.  Die Rechtsgrundlage für diese Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. f) DSGVO; die Datenverarbeitung zur Sicherstellung der Funktionsfähigkeit und Sicherheit der App stellt ein berechtigtes Interesse des Verantwortlichen dar.
+
+<b>2.2.2. Zweck und Rechtsgrundlagen der Datenverarbeitung</b>
+
+Wir erheben und verarbeiten Ihre Daten grundsätzlich nur, soweit dies für die Bereitstellung und den Betrieb unserer App und der in der App enthaltenen Funktionen erforderlich ist. Soweit wir für die Verarbeitung der Daten eine Einwilligung der betroffenen Person einholen, ist Art. 6 Abs. 1 lit. a) DSGVO die Rechtsgrundlage. Sofern die Daten in diesem Rahmen außerhalb der EU bzw. des EWR verarbeitet werden, beachten Sie bitte, dass das Risiko besteht, dass Behörden auf die Daten zu Sicherheits- und Überwachungszwecken zugreifen, ohne dass Sie hierüber informiert werden oder Rechtsmittel einlegen können. Sofern wir Anbieter in unsicheren Drittländern einsetzen und Sie einwilligen, erfolgt die Übermittlung in ein Drittland auf Grundlage von Art. 49 Abs. 1 lit. a DSGVO.
+Bei der Verarbeitung von Daten zur Erfüllung eines Vertrages, dessen Vertragspartei die betroffene Person ist, dient Art. 6 Abs.1 lit. b) DSGVO als Rechtsgrundlage. Dies gilt auch für eine Verarbeitung von Daten, die zur Durchführung vorvertraglicher Maßnahmen erforderlich ist.
+Soweit eine Verarbeitung personenbezogener Daten zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, der wir unterliegen, ist Art. 6 Abs.1 lit. c) DSGVO die Rechtsgrundlage.
+Wenn die Datenverarbeitung zur Wahrung eines berechtigten Interesses von uns oder eines Dritten erforderlich ist und überwiegen die Interessen, Grundrechte und Grundfreiheiten des Betroffenen nicht, so dient Art. 6 Abs.1 lit. f) DSGVO als Rechtsgrundlage. Ein berechtigtes Interesse haben wir insbesondere für die Verarbeitung solcher Daten, die technisch für den Betrieb unserer App erforderlich sind (bitte siehe dazu auch Punkt 2.2.1).
+
+<b>2.2.3. Empfänger oder Kategorien von Empfängern</b>
+
+Innerhalb unserer App erhalten nur Personen Zugang zu Ihren Daten, die diese zur Erledigung der ihnen übertragenen Aufgaben benötigen. Darüber hinaus können Dienstleister, die uns bei der Erfüllung unserer Aufgaben unterstützen, Zugang zu Ihren Daten erhalten.
+Dies sind z.B. Dienstleister der folgenden Kategorie:
+• Hosting-Dienstleister für den Betrieb unserer Server
+• Entwicklungsdienstleister für Programmierung, Entwicklung, Wartung und Support von Software-Anwendungen
+• Analysedienstleister für die Auswertung von Daten und Analyse der Benutzung von elektronischen Medien
+
+<b>2.2.4. Dauer der Speicherung</b>
+
+Ihre Daten werden gelöscht oder gesperrt, sobald der Zweck der Speicherung entfällt und einer Löschung keine gesetzlichen Aufbewahrungsfristen entgegenstehen. Wir sperren oder löschen Ihre Daten auch dann, wenn eine durch die einschlägigen Normen genannte Aufbewahrungsfrist abläuft, es sei denn, dass eine weitere Speicherung ihrer Daten für einen Vertragsschluss oder für die Erfüllung eines Vertrags erforderlich ist.
+
+<b>2.2.5. App Zugriffsberechtigungen</b>
+
+Die App benötigt Zugriff
+• auf die Netzwerkverbindungen Ihres Gerätes. Dieses ist notwendig, um die Inhalte der App laden und aktualisieren zu können.
+• auf den Speicher Ihres Gerätes. Dies ist notwendig, um auf das Fotoalbum zum Speichern von Fotos und Videos zugreifen zu können.
+• auf die Kamera des Telefons. Dieses ist notwendig, um die AR-Funktion nutzen zu können.
+• auf den Standort des Telefons. Dieses ist notwendig, um den Standort auf der Karte anzeigen zu können.
+
+<b>2.2.6. Nutzung von Standortdaten</b>
+
+Zur Nutzung der Standortdienste müssen diese in Ihrem mobilen Betriebssystem aktiviert sein. Sobald diese aktiviert sind und die App zum ersten Mal gestartet wird, wird der Zugriff auf die Standortinformationen abgefragt. Die Bestätigung führt dazu, dass der App der Zugriff auf Ihre Standortinformationen gestattet ist.  Sie können den Zugriff der App auf Ihren Standort jederzeit in den entsprechenden Einstellungen Ihres mobilen Endgeräts deaktivieren.
+
+<b>2.2.7. Feedbackfunktion</b>
+
+Wenn Sie uns per E-Mail, Telefon, Telefax oder Kontaktformular kontaktieren, wird Ihre Anfrage inklusive aller daraus hervorgehenden personenbezogenen Daten (z.B. Name, Anfrage, ggf. Mailadresse, Telefonnummer, Faxnummer, Adressdaten) zum Zwecke der Bearbeitung Ihres Anliegens bei uns gespeichert und verarbeitet, Empfänger dieser Daten sind diejenigen Abteilungen/Mitarbeiter, die Ihre Daten zur Erfüllung Ihrer Anfrage benötigen.
+Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines Vertrags zusammenhängt oder zur Durchführung vorvertraglicher Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die Verarbeitung auf unserem berechtigten Interesse an der effektiven Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f DSGVO) oder auf Ihrer Einwilligung   (Art. 6 Abs. 1 lit. a DSGVO) sofern diese abgefragt wurde.
+Die von Ihnen an uns per Kontaktanfragen übersandten Daten verbleiben bei uns, bis Sie uns zur Löschung auffordern, Ihre Einwilligung zur Speicherung widerrufen oder der Zweck für die Datenspeicherung entfällt (z.B. nach abgeschlossener Bearbeitung Ihres Anliegens). Zwingende gesetzliche Bestimmungen – insbesondere gesetzliche Aufbewahrungsfristen – bleiben unberührt.
+
+<b>3. Ihre Rechte als betroffene Person</b>
+
+Bei der Verarbeitung Ihrer personenbezogenen Daten gewährt die DSGVO Ihnen als betroffene Person bestimmte Rechte:
+• <u>Auskunftsrecht (Art. 15 DSGVO)</u>
+Sie haben das Recht eine Bestätigung darüber zu verlangen, ob Sie betreffende personenbezogene Daten verarbeitet werden; ist dies der Fall, so haben Sie ein Recht auf Auskunft über diese personenbezogenen Daten und auf die in Art. 15 DSGVO im Einzelnen aufgeführten Informationen.
+• <u>Recht auf Berichtigung (Art. 16 DSGVO)</u>
+Sie haben das Recht, unverzüglich die Berichtigung Sie betreffender unrichtiger personenbezogener Daten und ggf. die Vervollständigung unvollständiger Daten zu verlangen.
+• <u>Recht auf Löschung (Art. 17 DSGVO)</u>
+Sie haben das Recht, zu verlangen, dass Sie betreffende personenbezogene Daten unverzüglich gelöscht werden, sofern einer der in Art. 17 DSGVO im Einzelnen aufgeführten Gründe zutrifft.
+• <u>Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)</u>
+Sie haben das Recht, die Einschränkung der Verarbeitung zu verlangen, wenn eine der in Art. 18 DSGVO aufgeführten Voraussetzungen gegeben ist, z. B. wenn Sie Widerspruch gegen die Verarbeitung eingelegt haben, für die Dauer der Prüfung durch den Verantwortlichen.
+• <u>Recht auf Datenübertragbarkeit (Art. 20 DSGVO)</u>
+In bestimmten Fällen, die in Art. 20 DSGVO im Einzelnen aufgeführt sind, haben Sie das Recht, die Sie betreffenden personenbezogenen Daten in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten bzw. die Übermittlung dieser Daten an einen Dritten zu verlangen.
+• <u>Widerrufsrecht (Art. 7 DSGVO)</u>
+Sofern die Verarbeitung von Daten auf Grundlage Ihrer Einwilligung erfolgt, sind Sie nach Art. 7 Abs. 3 DSGVO berechtigt, die Einwilligung in die Verwendung Ihrer personenbezogenen Daten jederzeit zu widerrufen. Bitte beachten Sie, dass der Widerruf erst für die Zukunft wirkt. Verarbeitungen, die vor dem Widerruf erfolgt sind, sind davon nicht betroffen.
+• <u>Widerspruchsrecht (Art. 21 DSGVO)</u>
+Werden Daten auf Grundlage von Art. 6 Abs. 1 S. 1 lit. f DSGVO (Datenverarbeitung zur Wahrung berechtigter Interessen) oder auf Grundlage von Art. 6 Abs. 1 S. 1 lit. e DSGVO (Datenverarbeitung zur Wahrung öffentlichen Interesse oder in Ausübung öffentlicher Gewalt) erhoben, steht Ihnen das Recht zu, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung Widerspruch einzulegen. Wir verarbeiten die personenbezogenen Daten dann nicht mehr, es sei denn, es liegen nachweisbar zwingende schutzwürdige Gründe für die Verarbeitung vor, die gegenüber Ihren Interessen, Rechten und Freiheiten überwiegen, oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.
+• <u>Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO)</u>
+Sie haben gem. Art. 77 DSGVO das Recht auf Beschwerde bei einer Aufsichtsbehörde, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden Daten gegen datenschutzrechtliche Bestimmungen verstößt. Das Beschwerderecht kann insbesondere bei einer Aufsichtsbehörde in dem Mitgliedstaat Ihres gewöhnlichen Aufenthaltsorts, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes geltend gemacht werden.
+
+<u>Geltendmachung Ihrer Rechte</u>
+Sofern vorstehend nichts anderes beschrieben wurde, wenden Sie sich zur Geltendmachung Ihrer Betroffenenrechte bitte an die unter Ziff. 1 genannte Stelle.
+
+<b>4. Geplante Datenübermittlung in ein Drittland</b>
+
+Sofern wir Daten in einem Drittland (d.h., außerhalb der Europäischen Union (EU), des Europäischen Wirtschaftsraums (EWR)) verarbeiten oder die Verarbeitung im Rahmen der Inanspruchnahme von Diensten Dritter oder der Offenlegung bzw. Übermittlung von Daten an andere Personen, Stellen oder Unternehmen stattfindet, erfolgt dies nur im Einklang mit den gesetzlichen Vorgaben.
+Vorbehaltlich ausdrücklicher Einwilligung oder vertraglich oder gesetzlich erforderlicher Übermittlung verarbeiten oder lassen wir die Daten nur in Drittländern mit einem anerkannten Datenschutzniveau, vertraglichen Verpflichtung durch sogenannte Standardschutzklauseln der EU-Kommission, beim Vorliegen von Zertifizierungen oder verbindlicher internen Datenschutzvorschriften verarbeiten. (Art. 44 bis 49 DSGVO)
+
+<b>5. Automatisierte Entscheidungsfindungen einschließlich Profiling</b>
+
+Zur Begründung und Durchführung der Geschäftsbeziehung nutzen wir grundsätzlich keine ausschließlich automatisierte Entscheidungsfindung im Sinne des Art. 22 DSGVO.
+
+<b>6. Google Firebase Crashlytics</b>
+
+Wir setzen die Technologie Firebase Crashlytics von Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland („Google”) ein. Firebase Crashlytics ist Teil der Google Cloud Platform. Firebase Crashlytics dient der Stabilität und Verbesserung der App. Dabei werden Informationen über das verwendete Geräte und die Nutzung unserer App gesammelt (z. B. der Zeitstempel, wann die App gestartet wurde und wann ein Absturz aufgetreten ist), die es uns ermöglichen, Probleme zu diagnostizieren und zu lösen.
+Dabei werden sogenannte „crash_reports“ generiert, die nur Informationen über Probleme und Crashes erhalten. Wir nutzen Crashlytics zu dem Zweck, eine funktionsfähige mobile App bereitzustellen und Stabilitätsprobleme zu beheben. Die Daten werden grundlegend anonymisiert ausgewertet. 
+Google Firebase wird grundsätzlich nur mit Ihrer freiwilligen Einwilligung gestartet, Rechtsgrundlage ist daher Art. 6 (1) lit. a DSGVO. Sie können jederzeit Ihre Einwilligung widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt. Den Widerruf können Sie genau so einfach, wie die Einwilligung selbst, innerhalb der mobilen App erklären.
+Google Firebase nutzt für diese Leistungen nach unserer Wahl Server innerhalb der EU. Die Daten werden nach 90 Tagen automatisiert gelöscht. Nähere Details zu den verarbeiteten Daten finden Sie <link="https://firebase.google.com/support/privacy?hl=de"><u>hier</u></link>. 
+Sie können jederzeit dieser Verarbeitung aus Gründen, die sich aus Ihrer besonderen Situation ergeben, widersprechen.
+
+<b>7. Google Analytics for Firebase</b>
+
+Wir setzen die Technologie Google Analytics for Firebase von Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland („Google”) ein. Google Analytics for Firebase ermöglicht die Analyse der Nutzung unseres Angebots.
+Damit werden Informationen über die Benutzung unserer mobilen App erfasst, an Google übertragen und dort gespeichert. Dazu werden Geräteinformationen, Informationen zur verwendeten App, Daten zur Nutzung der App, Standortdaten, User ID und Informationen zu einzelnen Anfragen innerhalb der App (Events) verarbeitet. Die Daten werden verwendet, um das Nutzerverhalten zu analysieren und basierend auf den Ergebnissen Entscheidungen bezüglich der Produkt- und Marketingoptimierung zu treffen. Google Analytics for Firebase wird grundsätzlich nur mit Ihrer freiwilligen Einwilligung gestartet, Rechtsgrundlage ist daher Art. 6 (1) lit. a DSGVO. Sie können jederzeit Ihre Einwilligung widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt. Den Widerruf können Sie genau so einfach, wie die Einwilligung selbst, innerhalb der mobilen App erklären.
+
+<b>8. Kontakt</b>
+Sollten Sie Fragen und Anregungen zu dieser Datenschutzerklärung haben, wenden Sie sich bitte an unter Ziff. 1 angegebene Kontaktadresse.
+
+<b>9. Aktualisierung unserer Datenschutzrichtlinien</b>
+Die laufende technische Weiterentwicklung im Bereich der IT-Technologie und des Internets bedingt auch eine Anpassung der bestehenden Datenschutzerklärung. Wir behalten uns daher das Recht vor, Ergänzungen oder Änderungen an der vorliegenden Datenschutzerklärung vorzunehmen.
+ 
+
+
