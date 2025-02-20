@@ -1,0 +1,23 @@
+
+# Ignore everything
+Hameln-Pyrmont-Virtuell/*
+
+# But not these Unity project files
+!Hameln-Pyrmont-Virtuell/Assets/
+!Hameln-Pyrmont-Virtuell/Packages/
+!Hameln-Pyrmont-Virtuell/ProjectSettings/
+!Hameln-Pyrmont-Virtuell/UserSettings/
+!Hameln-Pyrmont-Virtuell/.vsconfig
+!Hameln-Pyrmont-Virtuell/.editorconfig
+
+# Ignore specific files
+Hameln-Pyrmont-Virtuell/Assets/Resources/config.json
+Hameln-Pyrmont-Virtuell/Assets/Resources/config.json.meta
+Hameln-Pyrmont-Virtuell/Assets/Resources/Mapbox/MapboxConfiguration.txt
+Hameln-Pyrmont-Virtuell/Assets/Resources/Mapbox/MapboxConfiguration.txt.meta
+Hameln-Pyrmont-Virtuell/Assets/Doc/drupal.txt
+Hameln-Pyrmont-Virtuell/Assets/Doc/drupal.txt.meta
+Hameln-Pyrmont-Virtuell/Assets/Doc/notes.txt
+Hameln-Pyrmont-Virtuell/Assets/Doc/notes.txt.meta
+Hameln-Pyrmont-Virtuell/Assets/_Stadtrundgang-Hameln/Keystore/password.txt
+Hameln-Pyrmont-Virtuell/Assets/_Stadtrundgang-Hameln/Keystore/password.txt.meta
