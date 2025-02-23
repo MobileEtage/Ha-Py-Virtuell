@@ -29,7 +29,7 @@ Projektverantwortliche haben das Recht und die Verantwortung, Kommentare, Commit
 Dieser Code of Conduct gilt sowohl innerhalb des Projektraums als auch in öffentlichen Räumen, wenn eine Person das Projekt oder seine Gemeinschaft vertritt. Beispiele für die Vertretung des Projekts oder der Gemeinschaft umfassen die Verwendung einer offiziellen Projekt-E-Mail-Adresse, das Posten über ein offizielles Social Media-Konto oder das Handeln als ernannter Vertreter bei einer Online- oder Offline-Veranstaltung.
 
 ## Durchsetzung
-Fälle von missbräuchlichem, belästigendem oder anderweitig inakzeptablem Verhalten können dem Projektteam gemeldet werden, indem Sie [EMAIL-ADRESSE EINFÜGEN] kontaktieren. Alle Beschwerden werden überprüft und untersucht und werden zu einer Antwort führen, die als notwendig und angemessen an den Umständen angesehen wird. Das Projektteam ist verpflichtet, Vertraulichkeit in Bezug auf den Reporter eines Vorfalls zu wahren.
+Fälle von missbräuchlichem, belästigendem oder anderweitig inakzeptablem Verhalten können dem Projektteam gemeldet werden, indem Sie [smartcity@hameln-pyrmont.de](mailto:smartcity@hameln-pyrmont.de) kontaktieren. Alle Beschwerden werden überprüft und untersucht und werden zu einer Antwort führen, die als notwendig und angemessen an den Umständen angesehen wird. Das Projektteam ist verpflichtet, Vertraulichkeit in Bezug auf den Reporter eines Vorfalls zu wahren.
 
 ## Attribution
 Dieser Code of Conduct ist angepasst von [Contributor Covenant](https://www.contributor-covenant.org), Version 1.4, verfügbar unter [https://www.contributor-covenant.org/version/1/4/code-of-conduct.html](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html).

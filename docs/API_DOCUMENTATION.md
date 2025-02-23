@@ -74,5 +74,5 @@ id: ID der Station
 Es gibt derzeit keine Beschränkungen für die Häufigkeit der API-Anfragen.
 
 ## Kontakt
-Für weitere Fragen zur API kontaktieren Sie bitte [info@ha-py-virtuell.de](mailto:info@ha-py-virtuell.de).
+Für weitere Fragen zur API kontaktieren Sie bitte [smartcity@hameln-pyrmont.de](mailto:smartcity@hameln-pyrmont.de).
 

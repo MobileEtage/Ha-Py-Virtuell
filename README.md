@@ -34,8 +34,10 @@ Wir freuen uns über Beiträge von der Community. Bitte lesen Sie [CODE-OF-CONDU
 Dieses Projekt ist unter der MIT Lizenz lizenziert - siehe die [LICENSE.md](LICENSE.md) Datei für Details.
 
 ## Kontakt
-- **Karen Hehnke** - Projektmanager - [info@expo-etage.de](mailto:info@expo-etage.de)
-- **Projektseite**: [www.expo-etage.de](http://www.expo-etage.de)
+- **Projektumsetzung**: Mobile-Etage GmbH / Expo-Etage
+- **Projektmanager**: Karen Hehnke, [info@expo-etage.de](mailto:info@expo-etage.de)
+- **Programmierung**: [developer@mobile-etage.de](mailto:developer@mobile-etage.de)
+- **Marketing**: [www.mobile-etage.de](https://mobile-etage.de/) und [www.expo-etage.de](https://www.expo-etage.de/)
 
 ## Anerkennungen
 - **Technische Universität Chemnitz** - Forschungsunterstützung

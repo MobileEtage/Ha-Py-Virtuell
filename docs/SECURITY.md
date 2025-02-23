@@ -7,7 +7,7 @@ Die Sicherheit unseres Projekts ist uns sehr wichtig. Wenn Sie eine Sicherheitsl
 
 ### Vorgehensweise
 
-1. **Kontaktieren Sie uns direkt**: Senden Sie uns eine E-Mail an [sicherheit@ha-py-virtuell.de](mailto:sicherheit@ha-py-virtuell.de) mit den Details der Sicherheitslücke. Bitte fügen Sie eine Beschreibung des Problems und, wenn möglich, einen Schritt-für-Schritt-Leitfaden zur Reproduktion der Sicherheitslücke bei.
+1. **Kontaktieren Sie uns direkt**: Senden Sie uns eine E-Mail an [smartcity@hameln-pyrmont.de](mailto:smartcity@hameln-pyrmont.de) mit den Details der Sicherheitslücke. Bitte fügen Sie eine Beschreibung des Problems und, wenn möglich, einen Schritt-für-Schritt-Leitfaden zur Reproduktion der Sicherheitslücke bei.
    
 2. **Warten auf Antwort**: Wir bemühen uns, alle Berichte so schnell wie möglich zu überprüfen und Ihnen eine Rückmeldung zu geben, wie und wann eine Lösung erfolgen wird. Wir bitten um Geduld, während wir an einer Lösung arbeiten.
 

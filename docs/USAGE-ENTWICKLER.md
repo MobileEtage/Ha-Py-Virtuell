@@ -27,7 +27,7 @@ config.json:
 
 Die API nutzt eine Authentifizierung, um den Zugriff auf die Daten zu kontrollieren und sicherzustellen, dass nur autorisierte Nutzer Zugang zu den Ressourcen haben. 
 
-Für weitere Fragen zur API kontaktieren Sie bitte [info@ha-py-virtuell.de](mailto:info@ha-py-virtuell.de).
+Für weitere Fragen zur API kontaktieren Sie bitte [smartcity@hameln-pyrmont.de](mailto:smartcity@hameln-pyrmont.de).
 
 ## Entwicklung und Erweiterung
 
