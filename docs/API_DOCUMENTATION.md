@@ -7,7 +7,7 @@ Diese Dokumentation beschreibt die Schnittstellen für die Ha-Py Virtuell API, d
 ## Basis-URL
 
 Die API ist zugänglich über:
-[https://hameln.stadtrundgang.dev.hob-by-horse.de/api/](https://hameln.stadtrundgang.dev.hob-by-horse.de/api/)
+[https://hameln.stadtrundgang.dev.hob-by-horse.de/](https://hameln.stadtrundgang.dev.hob-by-horse.de/user/login)
 
 
 ## Authentifizierung
