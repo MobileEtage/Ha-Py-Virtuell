@@ -10,8 +10,8 @@
         "latitude": 52.167844,
         "longitude": 9.438546,
         "mapNumber": "A",
-        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/avatarGuide_1733233716.png",
-        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/avatarGuide_1733233712.png",
+        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Station-Ac_Listenbild_256_x_256_1737473087.jpg",
+        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Station-Ae_Standortbild_1024_x_768_1737473071.jpg",
         "features": [
             {
                 "id": "info",
@@ -19,7 +19,7 @@
                     "de": "Geschichte wird lebendig"
                 },
                 "description": {
-                    "de": "Reihe vorn: Karen Hehnke, Janine A. Dechant, Hermann Wessling, Rosemarie Hecht-Heine, Anika John, Lauritz Drechsler\u00a0\nReihe hinten: Peter Nehmann, Reiner Ebling, Wieland Kramer, Ullrich Schneider\n\nBeteiligte Institutionen:\n- Forum Glas e.V.\n- Prometheus Verlag (Der Glasfreund)\n- Landkreis Hameln-Pyrmont\n- Stadt Bad M\u00fcnder\n- Senioren-Domizil Klein S\u00fcntel\n- Expo-Etage, Mobile-Etage GmbH\n\nDie Entwicklung der virtuellen Tour \u0022Ehemalige Glash\u00fctte\u0022 wurde gef\u00f6rdert durch die VGH-Stiftung und das Nieders\u00e4chsische Landesamt f\u00fcr Denkmalpflege (NLD). Als Teil der App \u0022Ha-Py Virtuell\u0022 profitiert sie von Bundesmittel des Projekts \u0022Smart City\u0022, an dem der Landkreis Hameln-Pyrmont\u00a0teilnimmt, um eine \u00f6konomisch, \u00f6kologisch und sozial nachhaltige Kommune oder Region zu schaffen."
+                    "de": "Reihe vorn: Karen Hehnke, Janine A. Dechant, Hermann Wessling, Rosemarie Hecht-Heine, Anika John, Lauritz Drechsler\u00a0\nReihe hinten: Peter Nehmann, Reiner Ebling, Wieland Kramer, Ullrich Schneider\n\nBeteiligte Institutionen:\n- Forum Glas e.V.\n- Prometheus Verlag (Der Glasfreund)\n- Landkreis Hameln-Pyrmont\n- Stadt Bad M\u00fcnder\n- Senioren-Domizil Klein S\u00fcntel\n- Expo-Etage, Mobile-Etage GmbH\n\nDie App \u0027Ha-Py Virtuell\u0027 wurde im Rahmen des F\u00f6rderprogramms \u0027Smart City made in Germany \u0027 durch den Landkreis Hameln-Pyrmont realisiert. Die virtuelle Tour \u0027Auf den Spuren unserer Glasmacher\u0027 als Teil der App wurde zus\u00e4tzlich von der VGH-Stiftung gef\u00f6rdert.\u003Cp\u003EMit der App kann die reale Umgebung durch digitale Inhalte wie 3D-Objekte \u00fcber ein Smartphone erg\u00e4nzt werden. Dadurch werden Informationen, historische Ereignisse oder ganze Geb\u00e4ude lebendig und interaktiv erlebbar. Dies tr\u00e4gt zu einer niederschwelligen, spielerischen und anschaulichen Wissensvermittlung bei.\u00a0"
                 },
                 "subTitle": {
                     "de": "Gemeinsam und mit viel Engagement setzte dieses bunte Team die virtuelle Tour \u0022Ehemalige Glash\u00fctte\u0022 um. Die Idee: Mit modernen Medien die Geschichte der Region spannend pr\u00e4sentieren."
@@ -51,152 +51,131 @@
                         "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-VGH-Stiftung_1736033684.png"
                     },
                     {
-                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-Niedersa__chsische-DPF_1736033703.png"
-                    },
-                    {
                         "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-Smart-City_1736033721.png"
                     }
                 ]
             },
             {
-                "id": "video",
-                "infoImage": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/4_1734547792.png",
-                "infoTitle": {
-                    "de": "Testtitel"
-                },
-                "infoDescription": {
-                    "de": "Testbeschreibung, Testbeschreibung, Testbeschreibung, Testbeschreibung, Testbeschreibung"
-                },
-                "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Testsequenz_fixed-ratio-recoded_1735647058.mp4"
-            },
-            {
-                "id": "audio",
-                "infoImage": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/4_1734515111.png",
-                "infoTitle": {
-                    "de": "Audio-Test"
-                },
-                "infoDescription": {
-                    "de": "Test-Beschreibungstext. Hier ein Beschreibungstext."
-                },
-                "audios": [
-                    {
-                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Testtext-1_-_luvvoice.com-20241218-d29gvO_1734515178.mp3",
-                        "play_button": {
-                            "de": "Wiedergabe"
-                        },
-                        "title": {
-                            "de": "Nochmal Titel"
-                        },
-                        "description": {
-                            "de": "Nochmal Beschreibung"
-                        }
-                    }
-                ]
-            },
-            {
-                "id": "game",
-                "type": "dalliKlick",
-                "gameIds": [
-                    "bilderr\u00e4tsel-gruene-flasche-etc"
-                ]
-            }
-        ]
-    },
-    {
-        "id": "glashuette1",
-        "title": {
-            "de": "Der Rauchgaskegel"
-        },
-        "titleOverview": {
-            "de": "Der Rauchgaskegel"
-        },
-        "latitude": 52.167763,
-        "longitude": 9.439194,
-        "mapNumber": "01",
-        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Rauchgaskegel_1733236409.png",
-        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/glashuette-location_1733236387.jpg",
-        "features": [
-            {
-                "id": "info",
-                "title": {
-                    "de": "Der Rauchgaskegel"
-                },
-                "description": {
-                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. FORUM.GLAS Bad M\u00fcnder at vero eos et accusam et justo duo dolores et ea rebum. (=\u003E 234 LZ)"
-                },
-                "subTitle": {
-                    "de": "Hier ein optionaler Untertitel, von dem wir jetzt alle wissen wollen, wie er aussieht, wenn man ihn setzt. =\u003E 106 Zeichen mit Leerzeichen (=\u003E 106 LZ)"
-                },
-                "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/2016_-_Gesamtansicht_entzerrt_1024px_Q-60_1734556767.jpg"
-            },
-            {
                 "id": "gallery",
                 "images": [
                     {
-                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Ausgrabung-2015_Q-60_1734549394.jpg",
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/001-Glashu__tte_Klein_Su__ntel_Herrenhaus_1738332676.jpg",
                         "description": {
-                            "de": "Erste Grabungskampagne unter der Leitung von Roland Wessling und Studierenden der Cranfield University (UK)"
+                            "de": "Klein S\u00fcntel: Das im 18. Jahrhundert zu einem Wohnhaus der Glash\u00fcttenbesitzer umgebaute Fachwerkgeb\u00e4ude war urspr\u00fcnglich ein H\u00fcttengeb\u00e4ude. Um 1820 wurde wenige Meter entfernt eine neue Glash\u00fctte mit kreisrundem Grundriss und einem Rauchgaskegel errichtet."
                         }
                     },
                     {
-                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Siegelfunde_72dpi_Q-60_1734549533.jpg",
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/002-Glashu__tte_Steinkrug-1850_1738332796.jpg",
                         "description": {
-                            "de": "Flaschensiegelfunde des 18. und 19. Jahrhunderts auf dem Grabungsgel\u00e4nde Klein S\u00fcntel"
+                            "de": "Die Glash\u00fctte \u0022Steinkrug\u0022 am Deister auf einer kolorierten Lithographie aus der Zeit um 1850 mit dem markanten Rauchgaskegel."
                         }
                     },
                     {
-                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Grabung-Steppuhn-2016_Q-60_1734549586.jpg",
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/003-Glashu__tte_Steinkrug-1900_1738332872.jpg",
                         "description": {
-                            "de": "Freigelegte Fundamente der Glash\u00fctte Klein S\u00fcntel unter der Leitung des Arch\u00e4ologen Dr. Peter Steppuhn (\u2020)"
+                            "de": "Die Glash\u00fctte \u0022Steinkrug\u0022 auf einer Fotografie aus der der Zeit um 1900 mit einem nachtr\u00e4glich errichteten, nicht mehr erhaltenen etwa acht Meter hohen Kaminaufsatz auf dem Rauchgaskegel."
                         }
                     },
                     {
-                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Drohnen-Aufnahme_Q-60_1734549629.jpg",
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/004-Glashu_____tte-Gernheim-ALTERNATIVE_1739787614.jpg",
                         "description": {
-                            "de": "Drohen-Aufnahme des freigelegten Grundrisses der Glash\u00fctte Klein S\u00fcntel mit Sch\u00fcrkan\u00e4len (blau) und Anbauten (gelb)"
+                            "de": "Glash\u00fctte Gernheim: Der Rauchgaskegel aus dem Jahre 1826 wurde restauriert. Glasmacher und Glask\u00fcnstler arbeiten jetzt an einem modernen Schmelzofen unter den Augen der Besucher."
+                        },
+                        "copyright": "Von Tsungam - Eigenes Werk, CC BY-SA 4.0"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/005-Glashu_____tte-Obernkirchen_1800_1739787760.jpg",
+                        "description": {
+                            "de": "Glash\u00fctte Obernkirchen: Zustand um 1800. Gem\u00e4lde des Bremer Landschaftsmalers Johann Christian Lebrecht Grabau (1810-1874) nach einer \u00e4lteren Vorlage. Signiert und datiert 1873. Privatbesitz\/Museum Rinteln."
                         }
                     },
                     {
-                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Schu__rgang_72dpi_Q-60_1734549684.jpg",
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/006-Glashu_____tte-Obernkirchen_1850_1739787810.jpg",
                         "description": {
-                            "de": "Freigelegter Sch\u00fcrgang mit sp\u00e4terer Teilvermauerung"
+                            "de": "Glash\u00fctte Obernkirchen: Kolorierte Lithographie aus der Zeit um 1850 mit zwei Rauchgaskegeln."
                         }
                     },
                     {
-                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Museum_Bad_Mu__nder_Q-60_1734549783.jpg",
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/007-Glashu_____tte-Obernkirchen_1900_1739787885.jpg",
                         "description": {
-                            "de": "Grabungsdokumentation im Museum Wettbergscher Adelshof in Bad M\u00fcnder, realisiert mit Unterst\u00fctzung von FORUM.GLAS Bad M\u00fcnder\u00a0"
+                            "de": "Glash\u00fctte Obernkirchen: Ansicht auf einer Postkarte von 1905 mit altem Rauchgaskegel."
                         }
                     },
                     {
-                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Grabungshelfer_72dpi_Zuschnitt_1734549823.jpg",
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/008-Glashu_____tte-Osterwald-1850_kl_1739787955.jpg",
                         "description": {
-                            "de": "Grabungshelfer auf der Glash\u00fctte Klein S\u00fcntel"
+                            "de": "Glash\u00fctte Osterwald: Aquarell aus der 1. H\u00e4lfte des 19. Jahrhunderts. Die H\u00fctte wurde 1701 in Betrieb genommen und 1887 stillgelegt. Im Hintergrund das in den 1820er-Jahren errichtete Herrenhaus."
                         }
                     },
                     {
-                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Sicherungsarbeiten_72dpi_Q-60_1734549940.jpg",
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/009-Glashu_____tte-Osterwald-Herrhaus_1739788012.jpg",
                         "description": {
-                            "de": "Sicherungs- und Restaurierungsarbeiten an der Grabungsstelle"
+                            "de": "Glash\u00fctte Osterwald: Herrenhaus aus dem fr\u00fchen 19. Jahrhundert. Die Glash\u00fctte befand sich am linken Bildrand."
                         }
                     },
                     {
-                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Grabungsbefunde_Q-60_1734549984.jpg",
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/010-Glashu_____tte-Osterwald-1925_1739788097.jpg",
                         "description": {
-                            "de": "Fundmaterial auf dem Grabungsgel\u00e4nde Klein S\u00fcntel"
+                            "de": "Um 1850 erhielt Osterwald eine zweite Glash\u00fctte in der \u0022S\u00fcmpelbreite\u0022. Trotz umfassender Modernisierung durch die \u0022Aktiengesellschaft f\u00fcr Glasindustrie vormals Friedrich Siemens\u0022 und Einbau eines leistungsstarken Wannenofens schlossen die H\u00fctte und das zugeh\u00f6rige Kohlenbergwerk 1927 im Zuge der Weltwirtschaftskrise."
                         }
                     },
                     {
-                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Grabungsfla__che-2016-Q-60_1734550039.jpg",
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/011-Glashu_____tte-Osterwald-1900_1739788151.jpg",
                         "description": {
-                            "de": "Grabungsareal 2016"
+                            "de": "Glash\u00fctte Osterwald: Glasarbeiter:innen bei der Konfektionierung von Weinflaschen. Um 1900."
                         }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/012-Glashu_____tte_Wendtho_____he_1739788201.jpg",
+                        "description": {
+                            "de": "Glash\u00fctte Wendth\u00f6he bei Stadthagen. Kolorierte Lithographie aus der Zeit um 1850."
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/013-Herrenhaus-Glashu_____tte-Schorborn_1739788262.jpg",
+                        "description": {
+                            "de": "Glash\u00fctte Schorborn (Lkr. Holzminden): Das nach 1844 errichtete Herrenhaus."
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/014b-Vitrine_Sammlung_Albert_Schwiezer_-_Foto_Frank_Mu_____ller_144915__2__1739788325.jpg",
+                        "description": {
+                            "de": "Ausstellung im Stadtmuseum Bad M\u00fcnder mit Gl\u00e4sern, die vor \u00fcber 200 Jahren in der Glash\u00fctte Klein S\u00fcntel oder anderen Betrieben in der Region hergestellt worden sind. Sie stammen aus dem Nachlass des bedeutendsten deutschen Gebrauchsglassammlers Albert Schwiezer."
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/015a-Moderne-Glasproduktion-1_1739788461.jpg",
+                        "description": {
+                            "de": "Die Weserregion ist auch heute noch eine sehr bedeutende Glasregion mit sechs hochmodernen Beh\u00e4lterglash\u00fctten, f\u00fcnf davon international vernetzt."
+                        },
+                        "copyright": "Foto: Ardagh Glass"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/2019-02-14_funde_screen-4_1739786511.jpg",
+                        "description": {
+                            "de": "Seit dem Mittelalter gab es im Weserbergland diverse Glash\u00fctten."
+                        },
+                        "copyright": "Forum Glas e.V."
                     }
                 ]
             },
             {
-                "id": "panorama",
-                "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/360_Grad_4096_2048_750KB_1733236452.jpg"
+                "id": "audio",
+                "infoImage": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/audio_1737155406.png",
+                "infoTitle": {
+                    "de": "Weserglash\u00fctten - Kulturgeschichte vor Ort"
+                },
+                "infoDescription": {
+                    "de": "Zur \u00a0historischen und gegenw\u00e4rtigen Bedeutung der Glash\u00fctten im Weserraum."
+                },
+                "audios": [
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Weserglashu__tten_1737155610.mp3",
+                        "play_button": {
+                            "de": "Wiedergabe"
+                        }
+                    }
+                ]
             },
             {
                 "id": "game",
@@ -206,89 +185,442 @@
         ]
     },
     {
-        "id": "glashuette2",
+        "id": "glashuette1",
         "title": {
-            "de": "Fokus Sch\u00fcrgang Nord"
+            "de": "Feuer und Sand"
         },
         "titleOverview": {
-            "de": "Fokus Sch\u00fcrgang Nord"
+            "de": "Feuer und Sand"
         },
-        "latitude": 52.167871,
-        "longitude": 9.439361,
-        "mapNumber": "02",
-        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Rauchgaskegel_1733236883.png",
-        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/glashuette-location_1733236837.jpg",
+        "latitude": 52.167763,
+        "longitude": 9.439194,
+        "mapNumber": "01",
+        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Station-1a_Listenbild_256_x_256_1736383443.jpg",
+        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Station-1a_Standortbild_1024_x_768_1736383484.jpg",
         "features": [
             {
                 "id": "info",
                 "title": {
-                    "de": "Fokus Sch\u00fcrgang Nord"
+                    "de": "Die Herstellung von Glas"
                 },
                 "description": {
-                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-                }
+                    "de": "\u00dcber viele Jahrhunderte durften venezianischen Glasmacher die Insel Murano bei Todesstrafe nicht verlassen. Nur so glaubte die Lagunenstadt, ihr Glasmonopol sichern zu k\u00f6nnen. Die Erben der Glash\u00fctte am Osterwald gaben das \u201eArkanum\u201c der Glasherstellung im Jahre 1768 nur gegen eine ordentliche finanzielle Entsch\u00e4digung an die Nachfolger heraus. Selbst die Urspr\u00fcnge der Glasherstellung im vorderen Orient sind eher von Vermutungen als von Erkenntnissen bestimmt.\u003Cp\u003EDem Mythos Glas steht ein eigentlich simpler Produktionsvorgang gegen\u00fcber: Man erhitzt Sand \u2013 chemisch Siliziumoxid \u2013 auf 1.628 Grad Celsius und es entsteht eine durchsichtige, z\u00e4hfl\u00fcssige Substanz: das Glas. Wegen der hohen Schmelztemperatur setzen Glasmacher Stoffe wie Soda (Natriumkarbonat), Holzasche (Kaliumkarbonat) oder Blei hinzu, damit der Schmelzpunkt um einige hundert Grad absinkt. Diese Zusatzstoffe nennt der Fachmann Flussmittel. Auch der Zusatz von Altglas verbessert die Schmelze und verringert den Energieaufwand bei der Glasherstellung. Altglas-Recycling geh\u00f6rt seit Jahrhunderten zur Glasherstellung und ist keine Erfindung moderner Umwelt- und Ressourcenverantwortung.\u003Cp\u003EDurch Metalle l\u00e4sst sich Glas farblich einf\u00e4rben, Mangan macht Glas farblos. Mit Gold oder Kupfer wird Glas rot. Kobalt f\u00e4rbt Glas blau. Im Gegensatz zu den Ausgangsstoffen besteht Glas nicht aus Kristallen. Es hat eine amorphe (formlose) Struktur. Reines Glas reflektiert kein Licht und ist deshalb durchsichtig.\u003Cp\u003EDer immense Holzbedarf der Glash\u00fctten sorgte daf\u00fcr, dass sich Glasmacher vor allem in waldreichen Gebieten ansiedelten. Vielfach wurden ihnen entlegene Gegenden zugewiesen, deren Holzvorr\u00e4te sonst nicht nutzbar waren. In England, Norddeutschland sowie in Sachsen sorgten die Glash\u00fctten auch gezielt f\u00fcr eine Rodung der W\u00e4lder und die anschlie\u00dfende landwirtschaftliche Nutzung. Zur Mitte des 19. Jahrhunderts wurde Holz knapp und teuer. Nicht nur weil die Glash\u00fctten viel Holz verbrauchten. Auch andere Wirtschaftszweige sowie der Haus- und Schiffbau hatten die nat\u00fcrlichen Ressourcen ersch\u00f6pft.\u003Cp\u003EIm Weserbergland hatten Glash\u00fctten schon fr\u00fch die Energieressource Kohle f\u00fcr sich entdeckt. Vorreiter war wahrscheinlich die um 1620 gegr\u00fcndete erste Glash\u00fctte in Klein S\u00fcntel, 1701 folgte die Glash\u00fctte am Osterwald, in den 1730er-Jahren Rinteln. Anfang des 19. Jahrhunderts entstanden H\u00fctten mit Kohlefeuerung in Gernheim bei Minden, in Obernkirchen und Steinkrug am Deister sowie etwas sp\u00e4ter in Bad M\u00fcnder.\u00a0"
+                },
+                "subTitle": {
+                    "de": "Wer regelm\u00e4\u00dfig entleerte Flaschen zum Altglas-Container bringt, leistet einen nachhaltigen Beitrag zum Recycling eines wichtigen Rohstoffes. Die Herstellung von Glas hat dagegen viel von seinen jahrhundertelang geh\u00fcteten Geheimnissen und damit auch an Wertsch\u00e4tzung und Aufmerksamkeit verloren."
+                },
+                "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glasbla__ser_Q60_1737150531.jpg"
             },
             {
-                "id": "panorama",
-                "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/360_Grad_4096_2048_750KB_1733236923.jpg"
+                "id": "gallery",
+                "images": [
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Agricola_Q60_1737150679.jpg",
+                        "description": {
+                            "de": "Fr\u00fche Glasproduktion: Ansicht eines kuppelf\u00f6rmigen Glasofens mit mehreren Glasmachern bei der Arbeit"
+                        },
+                        "copyright": "Georg Agricola, Zw\u00f6lf B\u00fccher vom Berg- und H\u00fcttenwesen"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/Lageplan_Klein_S__ntel_um_1820_1739786760.jpg",
+                        "description": {
+                            "de": "Dieser historische Lageplan von 1820 zeigt die Gegend um Klein S\u00fcntel und die Glash\u00fctte."
+                        },
+                        "copyright": "Nieders\u00e4chsisches Hauptstaatsarchiv Hannover (Hann. 76a Nr. 2748\/1)"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glas_Weserbergland-01_Q60_1737406063.jpg",
+                        "description": {
+                            "de": "\u003Cp class=\u0022MsoNormal\u0022\u003EHannoversche Bouteille letztes Viertel 18. Jahrhundert mit Schriftzeichen S (S\u00fcntel) und Siegel in der Flaschenwandung"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glas_Weserbergland-02_Q60_1737406125.jpg",
+                        "description": {
+                            "de": "Getr\u00e4nkeflasche mit Siegel, Klein S\u00fcntel um 1871. Siegel mit preu\u00dfischem Adler und der Umschrift: AM KL(einen) S\u00dcNTEL b(ei) Hameln, 1 LTR"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glas_Weserbergland-03_Q60_1737406179.jpg",
+                        "description": {
+                            "de": "Abendmahlskelch mit Ptene aus der Ev.-luth. Pfarrkirche St. Johannes Bapt. in Br\u00fcnnighausen. Blaues Glas mit Goldgirlanden und Goldrand um 1800. Glash\u00fctte Osterwald"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glas_Weserbergland-04_Q60_1737406270.jpg",
+                        "description": {
+                            "de": "Pokal mit Spruchband und Facettenschliff. Glash\u00fctte Osterwald um 1770"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glas_Weserbergland-05_Q60_1737406310.jpg",
+                        "description": {
+                            "de": "Schnapsgl\u00e4ser, sogenannte \u0022Wachtmeister\u0022 mit blauem Rand. Weserbergland um 1800"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glas_Weserbergland-06_Q60_1737406354.jpg",
+                        "description": {
+                            "de": "\u003Cp class=\u0022MsoNormal\u0022\u003EEmailbemalte Schnapsflasche von 1791. Glash\u00fctte Schorborn (Lkr. Holzminden)"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glas_Weserbergland-07_Q60_1737406402.jpg",
+                        "description": {
+                            "de": "\u003Cp class=\u0022MsoNormal\u0022\u003EHerzkelche mit dem Wappen der Familie Rechenberg. Um 1750, Glash\u00fctte Osterwald"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glas_Weserbergland-08_Q60_1737406442.jpg",
+                        "description": {
+                            "de": "\u003Cp class=\u0022MsoNormal\u0022\u003EPokal mit einer Darstellung der vier Jahreszeiten, etwa 1770, Glash\u00fctte Osterwald"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "audio",
+                "infoImage": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/audio_1737157163.png",
+                "infoTitle": {
+                    "de": "Der Energiehunger der Glash\u00fctten"
+                },
+                "infoDescription": {
+                    "de": "\u003Cp data-pm-slice=\u00221 1 []\u0022\u003EF\u00fcr die Glasherstellung diente urspr\u00fcnglich Holz und sp\u00e4ter Kohle, dann Gas als Brennstoff. H\u00f6re mehr \u00fcber die technologische Entwicklungsgeschichte der Glasproduktion."
+                },
+                "audios": [
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Energiehunger_kl_1737152463.mp3"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "glashuette2",
+        "title": {
+            "de": "Rekonstruktion"
+        },
+        "titleOverview": {
+            "de": "Rekonstruktion"
+        },
+        "latitude": 52.167871,
+        "longitude": 9.439361,
+        "mapNumber": "02",
+        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Station-2e_Listenbild_256_x_256_1736384026.jpg",
+        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Station-2a_Standortbild_1024_x_768_1736384041.jpg",
+        "features": [
+            {
+                "id": "info",
+                "title": {
+                    "de": "Rekonstruktion - \nVerstehen, was war"
+                },
+                "description": {
+                    "de": "Johann Eduard Hentig aus Wolfenb\u00fcttel hatte einige Jahre als Kaufmann in England gearbeitet, ehe er sich 1814\/15 in Hameln niederlie\u00df. Hentig \u00fcbernahm das Kohlebergwerk und die Glash\u00fctte Klein S\u00fcntel vom Bruder seiner Frau Dorothea. Da Hentig bereits 1826 verstarb, ist unklar, ob er seine wahrscheinlich aus England mitgebrachten Kenntnisse \u00fcber den Bau und Betrieb einer modernen Glash\u00fctte noch pers\u00f6nlich umsetzen konnte oder die Neukonzeption von seiner Witwe vollendet wurde, die bis 1846 die Leitung der Glash\u00fctte \u00fcbernahm. Unzweifelhaft ist aber, dass die im Rahmen der arch\u00e4ologischen Grabungen freigelegten Fundamente der Glash\u00fctte gr\u00f6\u00dftenteils zur Zeit der Hentigs um 1825 entstanden.\u003Cp\u003EZwischen Minden an der Weser und dem Deister wurden damals nahezu zeitgleich etwa ein halbes Dutzend Glash\u00fctten nach englischem Vorbild errichtet. Diese Anlagen unterschieden sich in ihrer Bauweise deutlich von den im traditionellen Holzfachwerkstil errichten H\u00fctten in der Region, die \u00fcberwiegend Holz als Brennstoff einsetzten.\u003Cp\u003EDie neuen Glash\u00fctten hatten einen kreisrunden Grundriss. Im Zentrum stand der Schmelzofen. Die H\u00fctten wurden mit Kohle aus den regionalen Bergwerken versorgt. Der schwer entflammbare neue Brennstoff ben\u00f6tigte viel Frischluft, um die notwendige W\u00e4rme zu erzeugen. Deshalb wurden unter dem Boden der Anlage kreuzf\u00f6rmig vier Sch\u00fcrkan\u00e4le angelegt. Die Frischluft durchstr\u00f6mte die mannshohen Kan\u00e4le und wurde dabei von der das Mauerwerk durchdringende W\u00e4rme des Feuers vorgew\u00e4rmt, was die Verbrennung deutlich verbesserte. \u00a0\u003Cp\u003EDoch das reichte nicht aus, um die f\u00fcr die Glasschmelze notwendigen Temperaturen von bis zu 1.200 Grad zu erreichen. In dem aus massiven Natursteinen oder gebrannten Ziegeln errichteten Rauchgaskegel sammelten sich die hei\u00dfen Rauchgase und verhinderten unerw\u00fcnschte W\u00e4rmeverluste. Erst das perfekte Zusammenspiel von Kohle, einer gro\u00dfen Menge an vorgew\u00e4rmter Frischluft und dem W\u00e4rmeschutz des Rauchgaskegels erm\u00f6glichten die Glasschmelze bei den erforderlichen extrem hohen Temperaturen.\u003Cp\u003EUm 1860 erneuerte und verbesserte der Sohn des Ehepaars Hentig, Gustav, die Feuerung der H\u00fctte in Klein S\u00fcntel. Im neuen Ofen wurde die Kohle nicht einfach auf einem Eisenrost verbrannt. Ein Teil des Brennstoffs wurde zun\u00e4chst in ein Brenngas umgewandelt und anschlie\u00dfend im Ofenraum verbrannt. Die Verkokung der Kohle und die Gaserzeugung ben\u00f6tigten deutlich weniger Frischluft als die reine Rostfeuerung. Deshalb wurden die \u00d6ffnungen der Sch\u00fcrkan\u00e4le teilweise vermauert. Auch der Rauchgaskegel mit seiner komplizierten Betriebsweise wurde nicht mehr ben\u00f6tigt. Gustav Hentig lie\u00df deshalb den massiven Rauchgaskegel bis auf die Grundmauern abtragen und ersetzte ihn durch ein nicht genau bekanntes Geb\u00e4ude. An den anderen H\u00fcttenstandorten mit Rauchgaskegeln blieben die Bauwerke entweder ungenutzt stehen oder wurden in Lagerh\u00e4user umgewandelt.\u003Cp\u003ERauchgaskegel waren im Zeitraum zwischen 1820 und 1850 nicht nur Teil einer modernen und leistungsstarken Glash\u00fctte. Rauchgaskegel bildeten auch weithin sichtbare Landmarken. Sie signalisierten den Beginn der industriellen Revolution und die \u00dcberwindung der bis ins Mittelalter zur\u00fcckreichenden Produktionsweisen. Durch die Tour \u201eAuf den Spuren unserer Glasmacher\u201c im Rahmen AR-Projekts des Landkreises Hameln-Pyrmont wird der Rauchgaskegel der Glash\u00fctte Klein S\u00fcntel wieder sichtbar. Die umfangreichen Zusatzinformationen machen ein St\u00fcck fast vergessener regionale Industriegeschichte erfahrbar."
+                },
+                "subTitle": {
+                    "de": "Die virtuelle Wiederherstellung des Rauchgaskegels der Glash\u00fctte Klein S\u00fcntel."
+                },
+                "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/2025-Schu__rkanal-Schema_1737157709.png"
+            },
+            {
+                "id": "gallery",
+                "images": [
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Ausgrabung-2015_Q-60_1737039220.jpg",
+                        "description": {
+                            "de": "Erste Grabungskampagne unter der Leitung von Roland Wessling und Studierenden der Cranfield University (UK)"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V."
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Siegelfunde_72dpi_Q-60_1737039299.jpg",
+                        "description": {
+                            "de": "Flaschensiegelfunde des 18. und 19. Jahrhunderts auf dem Grabungsgel\u00e4nde Klein S\u00fcntel"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V."
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Grabung-Steppuhn-2016_Q-60_1737039330.jpg",
+                        "description": {
+                            "de": "Freigelegte Fundamente der Glash\u00fctte Klein S\u00fcntel unter der Leitung des Arch\u00e4ologen Dr. Peter Steppuhn (\u2020)"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V."
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Drohnen-Aufnahme_Q-60_1737039376.jpg",
+                        "description": {
+                            "de": "Drohen-Aufnahme des freigelegten Grundrisses der Glash\u00fctte Klein S\u00fcntel mit Sch\u00fcrkan\u00e4len (blau) und Anbauten (gelb)"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V."
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Schu__rgang_72dpi_Q-60_1737039438.jpg",
+                        "description": {
+                            "de": "Freigelegter Sch\u00fcrgang mit sp\u00e4terer Teilvermauerung"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V."
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Museum_Bad_Mu__nder_Q-60_1737039574.jpg",
+                        "description": {
+                            "de": "Grabungsdokumentation im Museum Wettbergscher Adelshof in Bad M\u00fcnder, realisiert mit Unterst\u00fctzung von FORUM.GLAS Bad M\u00fcnder"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V."
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Grabungshelfer_72dpi_Zuschnitt_1737039697.jpg",
+                        "description": {
+                            "de": "Grabungshelfer auf der Glash\u00fctte Klein S\u00fcntel"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V."
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Sicherungsarbeiten_72dpi_Q-60_1737039734.jpg",
+                        "description": {
+                            "de": "Sicherungs- und Restaurierungsarbeiten an der Grabungsstelle"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V."
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Grabungsbefunde_Q-60_1737039767.jpg",
+                        "description": {
+                            "de": "Fundmaterial auf dem Grabungsgel\u00e4nde Klein S\u00fcntel"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V."
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Grabungsfla__che-2016-Q-60_1737039803.jpg",
+                        "description": {
+                            "de": "Grabungsareal 2016"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V."
+                    }
+                ]
+            },
+            {
+                "id": "video",
+                "infoImage": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/play_1738745074.png",
+                "infoTitle": {
+                    "de": "Drohnenflug - Blicke von oben"
+                },
+                "infoDescription": {
+                    "de": "Wir kreisen \u00fcber die Grabungsstelle in Klein S\u00fcntel! (Aufnahme des Nieders\u00e4chsischen Landesamts f\u00fcr Denkmalpflege, 2016)."
+                },
+                "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-02\/Drohnenflug-Full-HD-komprimiert_1738744823.mp4"
+            },
+            {
+                "id": "game",
+                "type": "dalliKlick",
+                "gameIds": [
+                    "bilderraetsel-rekonstruktion",
+                    "bilderraetsel-rekonstruktion-2",
+                    "bilderraetsel-rekonstruktion-3"
+                ]
             }
         ]
     },
     {
         "id": "glashuette3",
         "title": {
-            "de": "Fokus Anbau"
+            "de": "Von Beruf Glasmacher"
         },
         "titleOverview": {
-            "de": "Fokus Anbau"
+            "de": "Von Beruf Glasmacher"
         },
         "latitude": 52.167827,
         "longitude": 9.439404,
         "mapNumber": "03",
-        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Rauchgaskegel_1733236999.png",
-        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/glashuette-location_1733236995.jpg",
+        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Station-3d_Listenbild_256_x_256_1736384146.jpg",
+        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Station-3a_Standortbild_1024_x_768_1736384115.jpg",
         "features": [
             {
                 "id": "info",
                 "title": {
-                    "de": "Fokus Anbau"
+                    "de": "Glasmachen ist ein unendlich Kreuz"
                 },
                 "description": {
-                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-                }
+                    "de": "Zun\u00e4chst m\u00fcssen die Sch\u00fcrer den Ofen anheizen. Bis zur Mitte des 19. Jahrhunderts ist Holz der am weitesten verbreitete Brennstoff. Nur in England und im Weserbergland nutzen die Glasmacher schon im 17. und 18. Jahrhundert Kohle. Bei Temperaturen von etwa 1.200 Grad schmelzen die von den Gemengemachern sorgf\u00e4ltig zusammengemischten Rohstoffe Sand, Kalk und Asche in t\u00f6nernen Gef\u00e4\u00dfen, den Hafen. Der Schmelzprozess dauert mehrere Tage und verschlingt Unmengen an Brennstoff. Ist die Glasmasse fertig, rufen die Sch\u00fcrer die Glasmacher zum Ofen, egal zu welcher Tageszeit oder Wochentag.\u00a0\u003Cp\u003EDer Glasmeister greift zum wichtigsten Werkzeug, der Glasmacherpfeife. Mit dem bis zu zwei Meter langen Eisenrohr entnimmt der Meister dem Hafen genau die Menge an z\u00e4hfl\u00fcssiger Glasmasse, die er f\u00fcr sein geplantes Werkst\u00fcck ben\u00f6tigt. Mit einem kr\u00e4ftigen Luftsto\u00df in die Pfeife entsteht eine Kugel. Diese ersten Arbeitsschritte kann auch ein Vorbl\u00e4ser \u00fcbernehmen. Mittels Scheren, Messern und l\u00f6ffelartigen Werkzeugen formt der Meister dann das gew\u00fcnschte Objekt: ein Glas, ein Krug, ein Becher oder eine Flasche.\u00a0\u003Cp\u003EDa die meisten Glasobjekte eine \u00d6ffnung haben, muss der obere Teil des Werkst\u00fccks abgetrennt werden. Damit das Glas nicht zu Boden f\u00e4llt, wird am verbleibenden Rest ein Hefteisen angesetzt. Dazu braucht der Meister eine Hilfskraft. Das am Hefteisen haftende Glas wird jetzt fertiggestellt. Dazu muss es st\u00e4ndig gedreht und mehrmals wieder erw\u00e4rmt werden. Es werden gegebenenfalls Henkel, T\u00fcllen oder Verzierungen angebracht. Dann wird das Glas vom Hefteisen abgetrennt und vorsichtig abgesetzt. Jetzt bringen es Hilfskr\u00e4fte, meist Kinder oder Jugendliche zum K\u00fchlofen, wo sich das noch immer sehr hei\u00dfe Glas langsam abk\u00fchlen kann.\u00a0\u003Cp\u003EDie Bezahlung der Glasmeister erfolgt seit Jahrhunderten nach dem Prinzip des \u201eH\u00fcttenhundert\u201c. Vor Arbeitsbeginn wird festgelegt, wie viele Gl\u00e4ser ein H\u00fcttenhundert bilden. Das k\u00f6nnen bis zu 200 Flaschen, 40 bis 50 Trinkgl\u00e4ser oder nur einige wenige gro\u00dfe Pokale sein. F\u00fcr ein H\u00fcttenhundert wird zwischen Glasmeister und H\u00fcttenbesitzer ein fester Lohn vereinbart. Das Glasmeister muss von diesem Betrag noch seine Hilfskr\u00e4fte bezahlen, das Werkzeug in Ordnung halten und das Bier f\u00fcr sich und seine Mitarbeiter bereitstellen. Nur mit mehreren Litern Bier pro Tag und Person, kann der Fl\u00fcssigkeitsverlust in der hei\u00dfen H\u00fctte und der Energieverlust durch die anstrengende Arbeit ausgeglichen werden.\u003Cp\u003EBesonders anstrengend ist die Herstellung von mehreren Hundert Flaschen pro Tag. Es dauert nur wenige Sekunden, um eine Flasche im Mundblasverfahren herzustellen. Der Meister bl\u00e4st die an der Pfeife h\u00e4ngende Glasmenge dazu in eine zweiteilige h\u00f6lzerne Form. Ein Junge muss die Form bereithalten, \u00f6ffnen, damit der Meister die Flasche herausnehmen konnte, und immer wieder w\u00e4ssern. Ohne die st\u00e4ndige W\u00e4sserung w\u00fcrde die Holzform durch die hei\u00dfe Glasmasse entz\u00fcndet und zerst\u00f6rt. Die Flaschenherstellung war der erste Arbeitsbereich in Glash\u00fctten, der automatisiert wurde. Eine Flaschenblasmaschine kann mehre Tausend Flaschen pro Tag produzieren. Doch die zuerst um 1900 in den USA entwickelten Maschinen waren teuer und nur kapitalkr\u00e4ftige H\u00fcttenbesitzer konnten sie sich leisten. So wurden noch bis weit ins 20. Jahrhundert Flaschen im Mundblasverfahren hergestellt.\u00a0\u003Cp\u003ESch\u00fcrer, Gemengemacher und Glasmeister ben\u00f6tigten zahlreiche Hilfskr\u00e4fte. Meist wurden Familienangeh\u00f6rige besch\u00e4ftigt, um die wirtschaftliche Situation der Glasmacherfamilie abzusichern. Quellen berichten, dass bereits Dreij\u00e4hrige in den Glash\u00fctten t\u00e4tig waren."
+                },
+                "subTitle": {
+                    "de": "Glasmacher bezeichnen ihre Arbeit als \u201eunendlich Kreuz\u201c. Glasmacher sind bei ihrer T\u00e4tigkeit hohen k\u00f6rperlichen Anstrengungen und Belastungen ausgesetzt. Das gilt trotz moderner Technik und Automatisierung bis heute, vor allem aber f\u00fcr die zur\u00fcckliegenden Jahrhunderte."
+                },
+                "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glasmacherzeichen_Q60_3_1737251250.jpg"
             },
             {
-                "id": "panorama",
-                "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/360_Grad_4096_2048_750KB_1733237017.jpg"
+                "id": "gallery",
+                "images": [
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Histor.-Darstellung-ehemalige-Glashuette-Aeule-C-Dominik-Siegwart-960x640_1737159827.jpg",
+                        "description": {
+                            "de": "So arbeiteten die Glasbl\u00e4ser einst in der ehemaligen Glash\u00fctte in \u00c4ule."
+                        },
+                        "copyright": "Glash\u00fctte \u00c4ule \/ Aeule, S. 70 ff.; Sage vom verirrten Wanderburschen in der H\u00f6lle"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glasmacherwerkzeug-01_Q60_1737404906.jpg",
+                        "description": {
+                            "de": "Glasmacher benutzten oft einfache Werkzeuge zum Formen von Gl\u00e4sern: Scheren, Holzbretter, Zangen"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glasmacherwerkzeug-02_Q60_1737404961.jpg",
+                        "description": {
+                            "de": "Mit einfachen Scheren aus Eisen wird das hei\u00dfe z\u00e4hfl\u00fcssige Glas geschnitten.\u00a0"
+                        },
+                        "copyright": "Bildquelle: Glasmuseum Bad Driburg"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glasmacherwerkzeug-03_Q60_1737405029.jpg",
+                        "description": {
+                            "de": "Mit einfachen Scheren aus Eisen wird das hei\u00dfe z\u00e4hfl\u00fcssige Glas geschnitten.\u00a0"
+                        },
+                        "copyright": "Bildquelle: Glasmuseum Bad Driburg"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glasmacherwerkzeug-04_Q60_1737405219.jpg",
+                        "description": {
+                            "de": "Mit h\u00f6lzernen Einblasformen konnten Glasmacher einheitliche Glasobjekte in schneller Folge herstellen. Die Formen mussten immer feucht gehalten werden, sonst wurden sie von der hei\u00dfen Glasmasse zerst\u00f6rt.\u00a0"
+                        },
+                        "copyright": "Bildquelle: Glasmuseum Bad Driburg"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glasmacherwerkzeug-05_Q60_1737405266.jpg",
+                        "description": {
+                            "de": "Zweiteilige Klappform aus Metall."
+                        },
+                        "copyright": "Bildquelle: Museum Obernkirchen"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Glasmacherwerkzeug-06_Q60_1737405288.jpg",
+                        "description": {
+                            "de": "\u003Cp class=\u0022MsoNormal\u0022\u003EMusterkoffer eines Glash\u00e4ndlers Anfang 20. Jahrhunderts. Die Gl\u00e4ser wurden mit Stroh gegen Bruchgefahr gesch\u00fctzt."
+                        },
+                        "copyright": "Bildquelle: Glasmuseum Bad Driburg"
+                    }
+                ]
+            },
+            {
+                "id": "video",
+                "infoImage": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/video_1737159005.png",
+                "infoTitle": {
+                    "de": "Glasmacher Frieder Korff"
+                },
+                "infoDescription": {
+                    "de": "Einer der letzten seines Standes berichtet von der harten Arbeit und seiner Begeisterung f\u00fcr das Material Glas."
+                },
+                "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Frida-Korff-V3_Q-hoch_handbrake_1737482662.mp4"
+            },
+            {
+                "id": "game",
+                "type": "dalliKlick",
+                "gameIds": [
+                    "Bilderraetsel_Werkzeug_Glasmacherpfeife",
+                    "Bilderraetsel_Werkzeug_Hafen",
+                    "Bilderraetsel_Werkzeug_Glasmacherpfeife-2"
+                ]
             }
         ]
     },
     {
         "id": "glashuette4",
         "title": {
-            "de": "Fokus Sch\u00fcrgang Ost"
+            "de": "Sch\u00fcrg\u00e4nge"
         },
         "titleOverview": {
-            "de": "Fokus Sch\u00fcrgang Ost"
+            "de": "Sch\u00fcrg\u00e4nge"
         },
         "latitude": 52.167666,
         "longitude": 9.439639,
         "mapNumber": "04",
-        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Rauchgaskegel_1733237080.png",
-        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/glashuette-location_1733237075.jpg",
+        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Station-4a_Listenbild_256_x_256_1736384545.jpg",
+        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Station-4a_Standortbild_1024_x_768_1736384509.jpg",
         "features": [
             {
                 "id": "info",
                 "title": {
-                    "de": "Fokus Sch\u00fcrgang Ost"
+                    "de": "Sch\u00fcrg\u00e4nge \u2013 \ndie Lunge der Glash\u00fctte"
                 },
                 "description": {
-                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
-                }
+                    "de": "Die am nahegelegenen H\u00fclsenbrink gewonnenen und in der Glash\u00fctte f\u00fcr die Glasschmelze eingesetzten Kohlen ben\u00f6tigen viel sauerstoffhaltige Luft, damit es ein ordentliches Feuer gibt. Erst bei rund 1.400 Grad Celsius wird aus Sand, Kalk und Asche fl\u00fcssiges Glas. Auf dem Weg durch die Sch\u00fcrkan\u00e4le kann sich die Luft erw\u00e4rmen, weil die Steine der Sch\u00fcrkan\u00e4le die W\u00e4rme des Schmelzofens speichern. Das spart Energie. Die fast zehn Meter langen und mannshohen Sch\u00fcrkan\u00e4le sind der Arbeitsplatz der Sch\u00fcrer. Bei unertr\u00e4glicher Hitze und giftigen D\u00e4mpfen m\u00fcssen die Sch\u00fcrer Asche und Schlacke mit langen Eisenhaken unter dem Feuerrost entfernen und nach au\u00dfen ziehen.\u00a0\u003Cp\u003EUm das Jahr 1860 wird in der Glash\u00fctte Klein S\u00fcntel eine neue Feuerungstechnik eingef\u00fchrt: Aus einem Teil der Kohle wird jetzt Gas erzeugt, das im Schmelzofen verbrennt, \u00e4hnlich wie bei einem modernen Gasbackofen. Jetzt braucht man weniger Luft und die \u00d6ffnungen der Sch\u00fcrg\u00e4nge werden teilweise vermauert, was heute noch gut erkennbar ist."
+                },
+                "subTitle": {
+                    "de": "Vier rechtwinklig unter dem Boden der Glash\u00fctte angeordnete Sch\u00fcrg\u00e4nge versorgen den im Zentrum des kreisrunden H\u00fcttengeb\u00e4udes gelegenen Schmelz\u00f6fen mit Luft."
+                },
+                "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/2016-05-15-Grabungshelfer_Gundolf_Kijewski_im_Schu__rkanal_-_Hameln-Pyrmont_Klein_Suentel_FStNr_1_Abb_005_1736976641.jpg"
+            },
+            {
+                "id": "gallery",
+                "images": [
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/2016-05-15-Grabungshelfer_Gundolf_Kijewski_im_Schu__rkanal_-_Hameln-Pyrmont_Klein_Suentel_FStNr_1_Abb_005_1736976691.jpg",
+                        "description": {
+                            "de": "Grabungshelfer Gundolf Kijewski im Schu\u0308rkanal"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V., 2016-05-15"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/2016-05-15-Klein_Suentel_SCHUERKANAL_West-Ost-West-Ost-Mauer-und-Gewoelbe-Blick-gen-Westen_1736976858.jpg",
+                        "description": {
+                            "de": "Der Sch\u00fcrkanal in Ost-West-Richtung mit Blick gen Westen"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V., 2016-05-15"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/2016-08-17-Aktueller-Stand-KLEIN_SUENTEL-001-DJI_0058_1736977067.jpg",
+                        "description": {
+                            "de": "Die Sch\u00fcrg\u00e4nge bilden ein Kreuz und f\u00fchren die Luft zum zentral stehenden Ofen"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V., 2016-08-17"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/2017-08-26-Dr._P._Steppuhn_auf_dem_Grabungsgela__nde_-_Ch._Huppert_IMG_2662_1736977335.jpg",
+                        "description": {
+                            "de": "Grabungsleiter Dr. P. Steppuhn auf dem Grabungsgela\u0308nde"
+                        },
+                        "copyright": "Foto Ch. Huppert, 2017-08-26"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/2017-Dr-P-Steppuhn___Dr._Ch._Leiber__Wieland_Kramer_und_andere_Fachbesucher__auf_dem_Grabungsgela__nde__1736977423.jpg",
+                        "description": {
+                            "de": "Grabungsleiter Dr. P. Steppuhn, Dr. Ch. Leiber, Wieland Kramer und andere Fachbesucher \u00a0auf dem Grabungsgela\u0308nde"
+                        },
+                        "copyright": "Copyright: Forum Glas e.V., 2017"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/2020-12-10-Klein_Su__ntel_Schu__rkanal_Nord_nach_Sanierung_-_Foto_Rainer_Krahl_P1080847_1736977513.JPG",
+                        "description": {
+                            "de": "Der Schu\u0308rkanal Nord nach Sanierung"
+                        },
+                        "copyright": "Foto: Rainer Krahl, 2020-12-10"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/2020-12-10-Klein_Su__ntel_Schu__rkanal_Nord_Seitenansicht_-_Foto_Rainer_Krahl_P1080855_1736977616.JPG",
+                        "description": {
+                            "de": "Der Eingang des Schu\u0308rkanals Nord f\u00fchrt durch einen Anbau, dessen Fundamentmauern auf dem Foto gut erkennbar sind"
+                        },
+                        "copyright": "Foto: Rainer Krahl, 2020-12-10"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/2025-Schu__rkanal-Schema_1737037578.png",
+                        "description": {
+                            "de": "Das aufgeschnittene 3D-Modell des Rauchgaskegels zeigt die Lage der Sch\u00fcrg\u00e4nge unterhalb des Bodenniveaus"
+                        },
+                        "copyright": "Copyright: Expo-Etage Osnabr\u00fcck"
+                    }
+                ]
             },
             {
                 "id": "panorama",
                 "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/360_Grad_4096_2048_750KB_1733237110.jpg"
+            },
+            {
+                "id": "game",
+                "type": "dalliKlick",
+                "gameIds": [
+                    "bilderraetsel-schuergaenge",
+                    "bilderraetsel-schuergaenge-2",
+                    "bilderraetsel-schuergaenge-3"
+                ]
             }
         ]
     }
