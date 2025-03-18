@@ -1,0 +1,43 @@
+[
+    {
+        "id": "rauchgaskegel",
+        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Kegel-2-1024_1736126839.png",
+        "title": {
+            "de": "Ehemalige Glash\u00fctte"
+        },
+        "subTitle": {
+            "de": "Herzlich willkommen!"
+        },
+        "description": {
+            "de": "Diese Tour f\u00fchrt dich durch die\nhistorische Glash\u00fctte in Klein S\u00fcntel.\nZwei Arten der Nutzung sind m\u00f6glich:\n\u003Cb\u003Emit QR-Codes und ortsunabh\u00e4ngig.\u003C\/b\u003E"
+        },
+        "distance": "1,0 km",
+        "duration": "ca. 0.75 h",
+        "stations": [
+            "glasmacher",
+            "glashuette1",
+            "glashuette2",
+            "glashuette3",
+            "glashuette4"
+        ]
+    },
+    {
+        "id": "Tour-2",
+        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Kegel-2-1024_1736124830.png",
+        "title": {
+            "de": " Auf den Spuren der Glasmacher"
+        },
+        "subTitle": {
+            "de": "Herzlich willkommen!"
+        },
+        "description": {
+            "de": "Diese Tour f\u00fchrt dich durch die\nhistorische Glash\u00fctte in Klein S\u00fcntel.\nZwei Arten der Nutzung sind m\u00f6glich:\n\u003Cb\u003Emit QR-Codes und ortsunabh\u00e4ngig.\u003C\/b\u003E"
+        },
+        "distance": "1 km",
+        "duration": "1 Std.",
+        "stations": [
+            "glasmacher",
+            "glashuette1"
+        ]
+    }
+]

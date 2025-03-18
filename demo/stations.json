@@ -1,0 +1,295 @@
+[
+    {
+        "id": "glasmacher",
+        "title": {
+            "de": "Willkommen"
+        },
+        "titleOverview": {
+            "de": "Willkommen"
+        },
+        "latitude": 52.167844,
+        "longitude": 9.438546,
+        "mapNumber": "A",
+        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/avatarGuide_1733233716.png",
+        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/avatarGuide_1733233712.png",
+        "features": [
+            {
+                "id": "info",
+                "title": {
+                    "de": "Geschichte wird lebendig"
+                },
+                "description": {
+                    "de": "Reihe vorn: Karen Hehnke, Janine A. Dechant, Hermann Wessling, Rosemarie Hecht-Heine, Anika John, Lauritz Drechsler\u00a0\nReihe hinten: Peter Nehmann, Reiner Ebling, Wieland Kramer, Ullrich Schneider\n\nBeteiligte Institutionen:\n- Forum Glas e.V.\n- Prometheus Verlag (Der Glasfreund)\n- Landkreis Hameln-Pyrmont\n- Stadt Bad M\u00fcnder\n- Senioren-Domizil Klein S\u00fcntel\n- Expo-Etage, Mobile-Etage GmbH\n\nDie Entwicklung der virtuellen Tour \u0022Ehemalige Glash\u00fctte\u0022 wurde gef\u00f6rdert durch die VGH-Stiftung und das Nieders\u00e4chsische Landesamt f\u00fcr Denkmalpflege (NLD). Als Teil der App \u0022Ha-Py Virtuell\u0022 profitiert sie von Bundesmittel des Projekts \u0022Smart City\u0022, an dem der Landkreis Hameln-Pyrmont\u00a0teilnimmt, um eine \u00f6konomisch, \u00f6kologisch und sozial nachhaltige Kommune oder Region zu schaffen."
+                },
+                "subTitle": {
+                    "de": "Gemeinsam und mit viel Engagement setzte dieses bunte Team die virtuelle Tour \u0022Ehemalige Glash\u00fctte\u0022 um. Die Idee: Mit modernen Medien die Geschichte der Region spannend pr\u00e4sentieren."
+                },
+                "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Team-Rauchgaskegel_1734561147.jpg",
+                "images": [
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-Forum-Glas_1736031149.png"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-Prometheus_1736031489.png"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-Glasfreund-2_1736032402.png"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-Landkreis_1736031258.png"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-Bad-Mu__nder_1736031164.png"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-Senioren-Domizil_1736031564.png"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-Expo-Etage_1736031176.png"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-VGH-Stiftung_1736033684.png"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-Niedersa__chsische-DPF_1736033703.png"
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2025-01\/Logo-Smart-City_1736033721.png"
+                    }
+                ]
+            },
+            {
+                "id": "video",
+                "infoImage": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/4_1734547792.png",
+                "infoTitle": {
+                    "de": "Testtitel"
+                },
+                "infoDescription": {
+                    "de": "Testbeschreibung, Testbeschreibung, Testbeschreibung, Testbeschreibung, Testbeschreibung"
+                },
+                "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Testsequenz_fixed-ratio-recoded_1735647058.mp4"
+            },
+            {
+                "id": "audio",
+                "infoImage": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/4_1734515111.png",
+                "infoTitle": {
+                    "de": "Audio-Test"
+                },
+                "infoDescription": {
+                    "de": "Test-Beschreibungstext. Hier ein Beschreibungstext."
+                },
+                "audios": [
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Testtext-1_-_luvvoice.com-20241218-d29gvO_1734515178.mp3",
+                        "play_button": {
+                            "de": "Wiedergabe"
+                        },
+                        "title": {
+                            "de": "Nochmal Titel"
+                        },
+                        "description": {
+                            "de": "Nochmal Beschreibung"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "game",
+                "type": "dalliKlick",
+                "gameIds": [
+                    "bilderr\u00e4tsel-gruene-flasche-etc"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "glashuette1",
+        "title": {
+            "de": "Der Rauchgaskegel"
+        },
+        "titleOverview": {
+            "de": "Der Rauchgaskegel"
+        },
+        "latitude": 52.167763,
+        "longitude": 9.439194,
+        "mapNumber": "01",
+        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Rauchgaskegel_1733236409.png",
+        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/glashuette-location_1733236387.jpg",
+        "features": [
+            {
+                "id": "info",
+                "title": {
+                    "de": "Der Rauchgaskegel"
+                },
+                "description": {
+                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. FORUM.GLAS Bad M\u00fcnder at vero eos et accusam et justo duo dolores et ea rebum. (=\u003E 234 LZ)"
+                },
+                "subTitle": {
+                    "de": "Hier ein optionaler Untertitel, von dem wir jetzt alle wissen wollen, wie er aussieht, wenn man ihn setzt. =\u003E 106 Zeichen mit Leerzeichen (=\u003E 106 LZ)"
+                },
+                "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/2016_-_Gesamtansicht_entzerrt_1024px_Q-60_1734556767.jpg"
+            },
+            {
+                "id": "gallery",
+                "images": [
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Ausgrabung-2015_Q-60_1734549394.jpg",
+                        "description": {
+                            "de": "Erste Grabungskampagne unter der Leitung von Roland Wessling und Studierenden der Cranfield University (UK)"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Siegelfunde_72dpi_Q-60_1734549533.jpg",
+                        "description": {
+                            "de": "Flaschensiegelfunde des 18. und 19. Jahrhunderts auf dem Grabungsgel\u00e4nde Klein S\u00fcntel"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Grabung-Steppuhn-2016_Q-60_1734549586.jpg",
+                        "description": {
+                            "de": "Freigelegte Fundamente der Glash\u00fctte Klein S\u00fcntel unter der Leitung des Arch\u00e4ologen Dr. Peter Steppuhn (\u2020)"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Drohnen-Aufnahme_Q-60_1734549629.jpg",
+                        "description": {
+                            "de": "Drohen-Aufnahme des freigelegten Grundrisses der Glash\u00fctte Klein S\u00fcntel mit Sch\u00fcrkan\u00e4len (blau) und Anbauten (gelb)"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Schu__rgang_72dpi_Q-60_1734549684.jpg",
+                        "description": {
+                            "de": "Freigelegter Sch\u00fcrgang mit sp\u00e4terer Teilvermauerung"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Museum_Bad_Mu__nder_Q-60_1734549783.jpg",
+                        "description": {
+                            "de": "Grabungsdokumentation im Museum Wettbergscher Adelshof in Bad M\u00fcnder, realisiert mit Unterst\u00fctzung von FORUM.GLAS Bad M\u00fcnder\u00a0"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Grabungshelfer_72dpi_Zuschnitt_1734549823.jpg",
+                        "description": {
+                            "de": "Grabungshelfer auf der Glash\u00fctte Klein S\u00fcntel"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Sicherungsarbeiten_72dpi_Q-60_1734549940.jpg",
+                        "description": {
+                            "de": "Sicherungs- und Restaurierungsarbeiten an der Grabungsstelle"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Grabungsbefunde_Q-60_1734549984.jpg",
+                        "description": {
+                            "de": "Fundmaterial auf dem Grabungsgel\u00e4nde Klein S\u00fcntel"
+                        }
+                    },
+                    {
+                        "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Grabungsfla__che-2016-Q-60_1734550039.jpg",
+                        "description": {
+                            "de": "Grabungsareal 2016"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "panorama",
+                "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/360_Grad_4096_2048_750KB_1733236452.jpg"
+            },
+            {
+                "id": "game",
+                "type": "quiz",
+                "quizId": "fragequiz-glasmachen-in-suentel"
+            }
+        ]
+    },
+    {
+        "id": "glashuette2",
+        "title": {
+            "de": "Fokus Sch\u00fcrgang Nord"
+        },
+        "titleOverview": {
+            "de": "Fokus Sch\u00fcrgang Nord"
+        },
+        "latitude": 52.167871,
+        "longitude": 9.439361,
+        "mapNumber": "02",
+        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Rauchgaskegel_1733236883.png",
+        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/glashuette-location_1733236837.jpg",
+        "features": [
+            {
+                "id": "info",
+                "title": {
+                    "de": "Fokus Sch\u00fcrgang Nord"
+                },
+                "description": {
+                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                }
+            },
+            {
+                "id": "panorama",
+                "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/360_Grad_4096_2048_750KB_1733236923.jpg"
+            }
+        ]
+    },
+    {
+        "id": "glashuette3",
+        "title": {
+            "de": "Fokus Anbau"
+        },
+        "titleOverview": {
+            "de": "Fokus Anbau"
+        },
+        "latitude": 52.167827,
+        "longitude": 9.439404,
+        "mapNumber": "03",
+        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Rauchgaskegel_1733236999.png",
+        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/glashuette-location_1733236995.jpg",
+        "features": [
+            {
+                "id": "info",
+                "title": {
+                    "de": "Fokus Anbau"
+                },
+                "description": {
+                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                }
+            },
+            {
+                "id": "panorama",
+                "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/360_Grad_4096_2048_750KB_1733237017.jpg"
+            }
+        ]
+    },
+    {
+        "id": "glashuette4",
+        "title": {
+            "de": "Fokus Sch\u00fcrgang Ost"
+        },
+        "titleOverview": {
+            "de": "Fokus Sch\u00fcrgang Ost"
+        },
+        "latitude": 52.167666,
+        "longitude": 9.439639,
+        "mapNumber": "04",
+        "imageURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/Rauchgaskegel_1733237080.png",
+        "imageMapURL": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/glashuette-location_1733237075.jpg",
+        "features": [
+            {
+                "id": "info",
+                "title": {
+                    "de": "Fokus Sch\u00fcrgang Ost"
+                },
+                "description": {
+                    "de": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                }
+            },
+            {
+                "id": "panorama",
+                "url": "https:\/\/hameln.stadtrundgang.dev.hob-by-horse.de\/sites\/default\/files\/2024-12\/360_Grad_4096_2048_750KB_1733237110.jpg"
+            }
+        ]
+    }
+]
