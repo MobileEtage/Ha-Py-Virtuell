@@ -10,7 +10,7 @@ Das Projekt Ha-Py Virtuell ist eine interaktive Anwendung, entwickelt mit der Un
 Das Unity-Projekt „Ha-Py Virtuell“ ist das Herzstück der Anwendung und verwaltet die Interaktionen sowie die Darstellung der AR-Inhalte. Die App ist so konfiguriert, dass sie auf verschiedenen Plattformen wie iOS und Android funktioniert, wobei sie eine zentrale Code-Basis verwendet.
 
 ### Entwicklungsprozess
-Entwickelt in Unity, einer plattformübergreifenden Umgebung, ermöglicht das Projekt die Integration von hochwertigen Grafiken, Animationen und physikalischen Effekten, die für AR notwendig sind. Unity unterstützt auch VR, was für zukünftige Erweiterungen des Projekts genutzt werden kann. Die App wurde mit der Version 2022.3.51f1 entwickelt.
+Entwickelt in Unity, einer plattformübergreifenden Umgebung, ermöglicht das Projekt die Integration von hochwertigen Grafiken, Animationen und physikalischen Effekten, die für AR notwendig sind. Unity unterstützt auch VR, was für zukünftige Erweiterungen des Projekts genutzt werden kann. Die App wurde mit Unity Version 2022.3.51f1 unter Nutzung der 'Unity Pro'-Lizenz entwickelt. Das Projekt kann auch mit einer höheren Unity-Version und einer kostenlosen Lizenz geöffnet und bearbeitet werden. Bei der Nutzung der kostenlosen Unity-Lizenz muss der Unity Splash Screen beim Start der App angezeigt werden.
 
 ## Content Management System (CMS)
 
